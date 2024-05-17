@@ -1,0 +1,81 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36ab332c34f57f74a9bbb815e5ac0ade, type: 3}
+  m_Name: Test_Dialog
+  m_EditorClassIdentifier: 
+  identifier: 0
+  dialogue:
+    identifier: E
+    text:
+    - character: {fileID: 11400000, guid: fa6c67bea2df2d44dbe5e8b32b5257e4, type: 2}
+      text: Alo!
+      textBoxSprite: {fileID: -1127959590, guid: be733a9e750418247b0d877ba1b9980d,
+        type: 3}
+      arrowSprite: {fileID: -1244419055, guid: be733a9e750418247b0d877ba1b9980d, type: 3}
+      arrowOffset: {x: -46, y: -36.5}
+      boxOffset: {x: 390, y: 188}
+      boxSize: {x: 128, y: 64}
+      textOffset: {x: -17, y: 5}
+      textSize: {x: 76, y: 44}
+      delayBetweenChars: 0.05
+      afterEvent: {fileID: 11400000, guid: 836b4fc2307e0ff4e9baa3c0cf414529, type: 2}
+    - character: {fileID: 11400000, guid: 5d45e6c200d46224e97ccc4979c60764, type: 2}
+      text: Elo!
+      textBoxSprite: {fileID: -1127959590, guid: be733a9e750418247b0d877ba1b9980d,
+        type: 3}
+      arrowSprite: {fileID: -1244419055, guid: be733a9e750418247b0d877ba1b9980d, type: 3}
+      arrowOffset: {x: -46, y: -36.5}
+      boxOffset: {x: 390, y: 188}
+      boxSize: {x: 128, y: 64}
+      textOffset: {x: -17, y: 5}
+      textSize: {x: 76, y: 44}
+      delayBetweenChars: 0.05
+      afterEvent: {fileID: 0}
+    - character: {fileID: 11400000, guid: 5d45e6c200d46224e97ccc4979c60764, type: 2}
+      text: 215125
+      textBoxSprite: {fileID: -1127959590, guid: be733a9e750418247b0d877ba1b9980d,
+        type: 3}
+      arrowSprite: {fileID: -1244419055, guid: be733a9e750418247b0d877ba1b9980d, type: 3}
+      arrowOffset: {x: -46, y: -36.5}
+      boxOffset: {x: 390, y: 188}
+      boxSize: {x: 128, y: 64}
+      textOffset: {x: -17, y: 5}
+      textSize: {x: 76, y: 44}
+      delayBetweenChars: 0.05
+      afterEvent: {fileID: 0}
+    - character: {fileID: 11400000, guid: 5d45e6c200d46224e97ccc4979c60764, type: 2}
+      text: 235235
+      textBoxSprite: {fileID: -1127959590, guid: be733a9e750418247b0d877ba1b9980d,
+        type: 3}
+      arrowSprite: {fileID: -1244419055, guid: be733a9e750418247b0d877ba1b9980d, type: 3}
+      arrowOffset: {x: -46, y: -36.5}
+      boxOffset: {x: 390, y: 188}
+      boxSize: {x: 128, y: 64}
+      textOffset: {x: -17, y: 5}
+      textSize: {x: 76, y: 44}
+      delayBetweenChars: 0.05
+      afterEvent: {fileID: 0}
+    - character: {fileID: 11400000, guid: 5d45e6c200d46224e97ccc4979c60764, type: 2}
+      text: 25125125
+      textBoxSprite: {fileID: -1127959590, guid: be733a9e750418247b0d877ba1b9980d,
+        type: 3}
+      arrowSprite: {fileID: -1244419055, guid: be733a9e750418247b0d877ba1b9980d, type: 3}
+      arrowOffset: {x: -46, y: -36.5}
+      boxOffset: {x: 390, y: 188}
+      boxSize: {x: 128, y: 64}
+      textOffset: {x: -17, y: 5}
+      textSize: {x: 76, y: 44}
+      delayBetweenChars: 0.05
+      afterEvent: {fileID: 0}
+    arrowDistance: 1
+    mainPlayerOr: {x: 1, y: 0}
+    secondaryPlayerOr: {x: -1, y: 0}

@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a123ff390c33ef45ba3eee4adf1aa96, type: 3}
+  m_Name: GoombaOV
+  m_EditorClassIdentifier: 
+  speed: 0
+  jumpForce: 0
+  canUseHammer: 0
+  hammerUnlocked: 1
+  perks: []
+  ovCollider:
+    radious: 1
+    height: 1
+    offset: {x: 0, y: 1, z: 0}
+  jumpSFX: {fileID: 8300000, guid: 37f991f930d12f843a64d487af7f58ea, type: 3}
+  Visual: {fileID: 2871281364766992670, guid: 09664485faf0888439685d596712b983, type: 3}
+  visualOffset: {x: 0, y: 0, z: 0}
+  animController: {fileID: 9100000, guid: 732eba650951e2243b71c9ceacd8334c, type: 2}
+  normalRadius: 0
+  normalHeight: 0
+  normalCenter: {x: 0, y: 0, z: 0}
+  squishRadius: 0
+  squishHeight: 0
+  squishCenter: {x: 0, y: 0, z: 0}

@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57c8396977328d44d8c736af3c42d771, type: 3}
+  m_Name: Goomba
+  m_EditorClassIdentifier: 
+  identifier: kuribo
+  displayName: Goomba
+  displayDescription: 
+  characterIcon: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+  charaType: 1
+  charaFlags: []
+  startingStats:
+    HEALTH:
+      startValue: 24
+      valueMultiplier: 1
+    ENERGY:
+      startValue: 0
+      valueMultiplier: 0
+    ATTACK:
+      startValue: 0
+      valueMultiplier: 0
+    DEFENSE:
+      startValue: 0
+      valueMultiplier: 0
+    MAGICATTACK:
+      startValue: 0
+      valueMultiplier: 0
+    MAGICDEFENSE:
+      startValue: 0
+      valueMultiplier: 0
+    SPEED:
+      startValue: 0
+      valueMultiplier: 0
+    LUCK:
+      startValue: 0
+      valueMultiplier: 0
+  selfBattle: {fileID: 11400000, guid: efe69d6d1747dc048a6ab00a500b106d, type: 2}
+  selfIA:
+    speed: 6
+  floorYOffset: 8.4
+  mass: 1
+  size: 1.5
+  collider:
+    radious: 1
+    height: 1
+    offset: {x: 0, y: 1, z: 0}
+  OVActor: {fileID: 11400000, guid: f6f59e9b41567a5458f78c07a6458907, type: 2}
+  phyMat: {fileID: 13400000, guid: 77b3aebb189459244a19906ca14d7faf, type: 2}
+  jumpForce: 100
+  selfEncounter: {fileID: 11400000, guid: e84bc5bb06fd2b6439bb203bcd8d7fcf, type: 2}
+  ySquatch: {x: 0, y: 0}
+  xSquatch: {x: 0, y: 0}
+  effectSquatch: 0
+  effectSquatchY: 0
+  selfShadow: {fileID: 2908175051198882846, guid: f3f0c31ea043998419a23a76653c65ea,
+    type: 3}
+  selfShadowOffset: {x: 0, y: 0, z: 0}
+  IATrailPointPrefab: {fileID: 2104450361299720835, guid: f6db2a155deeeb749b4689796411cb96,
+    type: 3}
+  followDistance: 1
+  battleEntrance_VoiceClips:
+    Solo_BattlePrepareVoiceClip: {fileID: 0}
+    Company_BattlePrepareVoiceClip: {fileID: 0}
+    Solo_BattlePrepareVoiceClip_Disadvantage: {fileID: 0}
+    Company_BattlePrepareVoiceClip_Disadvantage: {fileID: 0}
+    Solo_BattlePrepareVoiceClip_Advantage: {fileID: 0}
+    Company_BattlePrepareVoiceClip_Advantage: {fileID: 0}
+  selfLayer: Enemy
+  floorMask:
+    serializedVersion: 2
+    m_Bits: 8192
+  SpeechBubbleSFX: {fileID: 0}
+  SpeechBubbleSkipSFX: {fileID: 0}
+  StompSFX: {fileID: 0}

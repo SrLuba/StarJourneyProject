@@ -1,0 +1,2771 @@
+fileFormatVersion: 2
+guid: 77c7586d21892cd4c8f6a95dd9e4d146
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 1
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: LuigiIdleReference_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 189
+        width: 44
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14c8a83e2fbecbc4fad1992814228c22
+      internalID: -691554771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuigiIdleReference_1
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 189
+        width: 44
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83ba699488b25644880f546c1fffbb84
+      internalID: -83961271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuigiIdleReference_2
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 189
+        width: 44
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1e59774fb696ff4594f4b9562fa34fb
+      internalID: -1994051241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuigiIdleReference_3
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 189
+        width: 44
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43775964d9a6b2e4ea0a8ceac886f56e
+      internalID: -59391165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuigiIdleReference_4
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 189
+        width: 44
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 427a65d76bac26c439aedd7cf239f4c1
+      internalID: -210980614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuigiIdleReference_5
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 189
+        width: 44
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 430ddcee283dd0a479f5057b4f2f9b67
+      internalID: -1197046959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuigiIdleReference_6
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 189
+        width: 44
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b37e2948f16c0142a8dff446574cd5b
+      internalID: -1622664579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuigiIdleReference_7
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 189
+        width: 44
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9da2d660260d5b84f9ec326b6b4d8187
+      internalID: 1121992930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuigiIdleReference_8
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 189
+        width: 44
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae4bcc9001cccde4388849890831da13
+      internalID: -689492171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuigiIdleReference_9
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 189
+        width: 44
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 620ea02306bbf844c8c0df5b9540ccb5
+      internalID: -150739669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuigiIdleReference_10
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 189
+        width: 44
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 166a957a83da98f49b4a63f588c3e710
+      internalID: -106851904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuigiIdleReference_11
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 189
+        width: 44
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2395be9f15d3bad46812cdcd4f098d8d
+      internalID: 1145995569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuigiIdleReference_12
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 189
+        width: 44
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9463e6186f55d3a4fa7f129ae4350c14
+      internalID: -2104282522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuigiIdleReference_13
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 189
+        width: 44
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e19d58fcf58cdc4989c4095fc8c14db
+      internalID: 1201805503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuigiIdleReference_14
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 189
+        width: 44
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f48bf15b716164449af314f66eb7a5d
+      internalID: -743850318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuigiIdleReference_15
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 189
+        width: 44
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3e98b4136e97914b8b4994bb861f06c
+      internalID: 1786161390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuigiIdleReference_16
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 189
+        width: 44
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c729102b0e9dc74f9bda19a43432704
+      internalID: -179460178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuigiIdleReference_17
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 189
+        width: 44
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8797b9e9efe36941bf049e39d596324
+      internalID: -1024355169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuigiIdleReference_18
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 189
+        width: 44
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcb2db35e3295a34a903cb410725bdb3
+      internalID: -1259004201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuigiIdleReference_19
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 189
+        width: 44
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9533bb8d4e10c1346a448fe8bf2a3660
+      internalID: 1687547572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuigiIdleReference_20
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 189
+        width: 44
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec9a95984c0b13043bfb6aa540cb93a9
+      internalID: -1956350495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuigiIdleReference_21
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 189
+        width: 44
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30b7b0ef0e7d8d0409aa4c4c4579e239
+      internalID: 186472667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuigiIdleReference_22
+      rect:
+        serializedVersion: 2
+        x: 1012
+        y: 189
+        width: 44
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 568f072ac7384224b8092fead778b35f
+      internalID: -2138747401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuigiIdleReference_23
+      rect:
+        serializedVersion: 2
+        x: 1058
+        y: 189
+        width: 44
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6f9d3ef44d60cb4b95c92aec040705f
+      internalID: -397595096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuigiIdleReference_24
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 189
+        width: 44
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c3db882dde85904ab8d950ed9296175
+      internalID: 1227887412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuigiIdleReference_25
+      rect:
+        serializedVersion: 2
+        x: 1150
+        y: 189
+        width: 44
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8f2cde96dd880e4ab2be2835664cc94
+      internalID: -82999350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuigiIdleReference_26
+      rect:
+        serializedVersion: 2
+        x: 1196
+        y: 189
+        width: 44
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aed6b5210911df047accc3f9224771b7
+      internalID: -594959573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuigiIdleReference_27
+      rect:
+        serializedVersion: 2
+        x: 1242
+        y: 189
+        width: 44
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46b1171e3facc3246a5b8b1cb06b48d6
+      internalID: 189877362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuigiIdleReference_28
+      rect:
+        serializedVersion: 2
+        x: 1288
+        y: 189
+        width: 44
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26de7ce69fad3d842abdb07fe6b39126
+      internalID: -415224913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuigiIdleReference_29
+      rect:
+        serializedVersion: 2
+        x: 1334
+        y: 189
+        width: 44
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bebca606dfe8604fb93a2228ac636c7
+      internalID: 1368196902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuigiIdleReference_30
+      rect:
+        serializedVersion: 2
+        x: 1380
+        y: 189
+        width: 44
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dbbdf23064370a439baf6f159932daf
+      internalID: 1115140255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuigiIdleReference_31
+      rect:
+        serializedVersion: 2
+        x: 1426
+        y: 189
+        width: 44
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90a167bbd82cd2643ae7e2cd2a15a94d
+      internalID: -1730421923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuigiIdleReference_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 126
+        width: 44
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2da3670552afbce4e8d25669c8bafff9
+      internalID: 715804133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuigiIdleReference_33
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 126
+        width: 44
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2008a360d824034dbf224f007122b74
+      internalID: -964211578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuigiIdleReference_34
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 126
+        width: 44
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dda05a4c6e0c1614885d491edf8914fd
+      internalID: 442319202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuigiIdleReference_35
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 126
+        width: 44
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12c7df848beedaf4da72d7913b202f93
+      internalID: 1334519871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuigiIdleReference_36
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 126
+        width: 44
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7c0c1bf2a966f945be46f385e009ddd
+      internalID: -1001523166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuigiIdleReference_37
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 126
+        width: 44
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 147f68c2635fd134bb1099e7df469a66
+      internalID: 1885490761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuigiIdleReference_38
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 126
+        width: 44
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36e23f1e285c7534484f4a53c5af475a
+      internalID: 662036061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuigiIdleReference_39
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 126
+        width: 44
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e08a839ce0e3e1642a30d7ecef2c2078
+      internalID: -1324647348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuigiIdleReference_40
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 126
+        width: 44
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58681e252d04fc441b7917052bc6a343
+      internalID: -2018293700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuigiIdleReference_41
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 126
+        width: 44
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c35184bf4eb4b04e975d256799c133d
+      internalID: 84648713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuigiIdleReference_42
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 126
+        width: 44
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 113dd70ec7c65fc4e971e08e63caff4c
+      internalID: -117565279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuigiIdleReference_43
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 126
+        width: 44
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2213679b41833ad43b97a5b1474e06da
+      internalID: 1954922453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuigiIdleReference_44
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 126
+        width: 44
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c33202b45308b9c47bffff434609dc38
+      internalID: 1304685774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuigiIdleReference_45
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 126
+        width: 44
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fb9a7d4d64561b47915f7df8ca587a4
+      internalID: 1966245938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuigiIdleReference_46
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 126
+        width: 44
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d98d2df0ab1a4474db1d6c77a96daad8
+      internalID: -480466552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuigiIdleReference_47
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 126
+        width: 44
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d9cdd02549a5944d8f28a7977e15c2e
+      internalID: 717375208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuigiIdleReference_48
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 126
+        width: 44
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c67dc49772b50f49b909e9e3c9b71ef
+      internalID: -255297980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuigiIdleReference_49
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 126
+        width: 44
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1553ef016ad11b4ba8b106804cfc7ad
+      internalID: -1062363337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuigiIdleReference_50
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 126
+        width: 44
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e7e29396d85de449b44413b4b5293a3
+      internalID: 1721302980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuigiIdleReference_51
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 126
+        width: 44
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1216d63a8b22138439d361764c525f74
+      internalID: 1872195678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuigiIdleReference_52
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 126
+        width: 44
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ace2a60f2a077cf44bd1e661df010394
+      internalID: -793284807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuigiIdleReference_53
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 126
+        width: 44
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2e3166232869c544ae1386ff5973e56
+      internalID: -1656478060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuigiIdleReference_54
+      rect:
+        serializedVersion: 2
+        x: 1012
+        y: 126
+        width: 44
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19abfdda382783f4e8d367d95922249d
+      internalID: -1192679107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuigiIdleReference_55
+      rect:
+        serializedVersion: 2
+        x: 1058
+        y: 126
+        width: 44
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93c0cc6fdd0a9c94795b9f340d61221d
+      internalID: -964226093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuigiIdleReference_56
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 126
+        width: 44
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 117dfea070db3ed439815447091617cd
+      internalID: -1187208931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuigiIdleReference_57
+      rect:
+        serializedVersion: 2
+        x: 1150
+        y: 126
+        width: 44
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f760047401f293148b470fe76beef17a
+      internalID: -344572027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuigiIdleReference_58
+      rect:
+        serializedVersion: 2
+        x: 1196
+        y: 126
+        width: 44
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed214d6e27d722c48aed93e5f29e59a1
+      internalID: 1091773107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuigiIdleReference_59
+      rect:
+        serializedVersion: 2
+        x: 1242
+        y: 126
+        width: 44
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a5b480fe6f405545af6c434f4d9e9c8
+      internalID: -1425421215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuigiIdleReference_60
+      rect:
+        serializedVersion: 2
+        x: 1288
+        y: 126
+        width: 44
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 409b2643de9537e468e0d82eb755bd7d
+      internalID: -1758716452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuigiIdleReference_61
+      rect:
+        serializedVersion: 2
+        x: 1334
+        y: 126
+        width: 44
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8a394f1f9058b741baf04cbd0e6f29c
+      internalID: -2019551597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuigiIdleReference_62
+      rect:
+        serializedVersion: 2
+        x: 1380
+        y: 126
+        width: 44
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c615382b23a244b41b9d62ff8c516f3a
+      internalID: -1341797165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuigiIdleReference_63
+      rect:
+        serializedVersion: 2
+        x: 1426
+        y: 126
+        width: 44
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b08a08c24b4b4d245a14ac43e075afab
+      internalID: 1896869276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuigiIdleReference_64
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 63
+        width: 44
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e281ae84e3262884a8925ef5a8be13f4
+      internalID: -1382799280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuigiIdleReference_65
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 63
+        width: 44
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e621cbc1362ad142af35724db9e3d99
+      internalID: 1855796765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuigiIdleReference_66
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 63
+        width: 44
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec588cff9c9f59a48ad5b45bea7a6ac6
+      internalID: -945821711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuigiIdleReference_67
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 63
+        width: 44
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a87776ee02852df41a1418cd37c9a09d
+      internalID: -127877716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuigiIdleReference_68
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 63
+        width: 44
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f6ead95022974f4495e561f5b41b566
+      internalID: -1780564022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuigiIdleReference_69
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 63
+        width: 44
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 364c766d2b8445646bf6e9405695873f
+      internalID: -1230109634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuigiIdleReference_70
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 63
+        width: 44
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 884472f284240504b9047f2361b1fa93
+      internalID: -1182497047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuigiIdleReference_71
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 63
+        width: 44
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbad072e264695548aa2e8497b1688ef
+      internalID: 511973148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuigiIdleReference_72
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 63
+        width: 44
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cd7f1716efbfc646a1b605e9f36dfcb
+      internalID: -412248822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuigiIdleReference_73
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 63
+        width: 44
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f5faa2f8fbc97d4c990e701ed58a95b
+      internalID: 771787175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuigiIdleReference_74
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 63
+        width: 44
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7776ae21b637f1b4889ed21c266ac0b7
+      internalID: -1693657174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuigiIdleReference_75
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 63
+        width: 44
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c0936b011abb6f4dabba9f2e06ff573
+      internalID: -1350051310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuigiIdleReference_76
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 63
+        width: 44
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ee2edcb3274e1a4f9605537d1dc95f8
+      internalID: -515830779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuigiIdleReference_77
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 63
+        width: 44
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ca589acc76671043991000cb7081cc0
+      internalID: 36057448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuigiIdleReference_78
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 63
+        width: 44
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ec70aa477e2c9a42accdfdd68a894f1
+      internalID: 2059130678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuigiIdleReference_79
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 63
+        width: 44
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1eed3ea1899e080408e1327661124492
+      internalID: 1742988971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuigiIdleReference_80
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 63
+        width: 44
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcd6e355816270b4980040a0d64ca98c
+      internalID: -560680937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuigiIdleReference_81
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 63
+        width: 44
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edf095ba8a7ad38478bda566f339cecb
+      internalID: 1538973154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuigiIdleReference_82
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 63
+        width: 44
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec280cbb74ef95740ac0251ddb9e408f
+      internalID: 677526404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuigiIdleReference_83
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 63
+        width: 44
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1d757d97bd5a8a4ab07093f09cc7bf5
+      internalID: 757698033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuigiIdleReference_84
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 63
+        width: 44
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b45e8bb1cb69c043b10873e043e9045
+      internalID: -2061125955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuigiIdleReference_85
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 63
+        width: 44
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5be2e440e97af984eb79f103bd737453
+      internalID: 27575778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuigiIdleReference_86
+      rect:
+        serializedVersion: 2
+        x: 1012
+        y: 63
+        width: 44
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8199dd32c3247424da7fb3febd26052b
+      internalID: -100437858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuigiIdleReference_87
+      rect:
+        serializedVersion: 2
+        x: 1058
+        y: 63
+        width: 44
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daac619950eb5b741bad173578f152e3
+      internalID: -406551666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuigiIdleReference_88
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 63
+        width: 44
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbff7bb8f41a90940b2303fa6db0aec6
+      internalID: -666082624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuigiIdleReference_89
+      rect:
+        serializedVersion: 2
+        x: 1150
+        y: 63
+        width: 44
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41e2428cddc6c2546abc934efe42870a
+      internalID: 1046632616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuigiIdleReference_90
+      rect:
+        serializedVersion: 2
+        x: 1196
+        y: 63
+        width: 44
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a9dbe7223742d747b28781b95cefd07
+      internalID: -1356086650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuigiIdleReference_91
+      rect:
+        serializedVersion: 2
+        x: 1242
+        y: 63
+        width: 44
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a85a0a1ed7b2514c8f41e1778ad1c56
+      internalID: 2088323557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuigiIdleReference_92
+      rect:
+        serializedVersion: 2
+        x: 1288
+        y: 63
+        width: 44
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a41b0ab43e8d9d240895c6bdd213a5e3
+      internalID: 195016292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuigiIdleReference_93
+      rect:
+        serializedVersion: 2
+        x: 1334
+        y: 63
+        width: 44
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 465b856d3dac8c7468ed0f14d408ffe6
+      internalID: 1170004148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuigiIdleReference_94
+      rect:
+        serializedVersion: 2
+        x: 1380
+        y: 63
+        width: 44
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffb9fd9b400f7c94a80f949b84187da3
+      internalID: -685821243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuigiIdleReference_95
+      rect:
+        serializedVersion: 2
+        x: 1426
+        y: 63
+        width: 44
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6c3e95494d6f31428ce7f96c48e22b3
+      internalID: 295313302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuigiIdleReference_96
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 44
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16daaa4af8b203e498db66ad3ef4f056
+      internalID: 1007559732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuigiIdleReference_97
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 0
+        width: 44
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 502533c075ec98f4da89254dcfea5a6e
+      internalID: 984750315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuigiIdleReference_98
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 0
+        width: 44
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a68d9cd7833ed5847913ae60f6b98e7f
+      internalID: 1945244078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuigiIdleReference_99
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 0
+        width: 44
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eec4f0a35a337146b974d7631f6cb64
+      internalID: -1569522618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuigiIdleReference_100
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 0
+        width: 44
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3547ed0d168b9f469292664bc7a2a50
+      internalID: -596409929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuigiIdleReference_101
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 0
+        width: 44
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dca3537a9ec17e641acda3ae466ee89e
+      internalID: -1277088055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuigiIdleReference_102
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 0
+        width: 44
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f592c5a513058845b397a4997cf0816
+      internalID: -1178019080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuigiIdleReference_103
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 0
+        width: 44
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b661e174cee1f6441bbcc1a57795884a
+      internalID: 13138281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuigiIdleReference_104
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 0
+        width: 44
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e8abb48ac7b8b340a222779d2b7e8c3
+      internalID: 263192600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuigiIdleReference_105
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 0
+        width: 44
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 523572f40643f35438e96370bcc90511
+      internalID: -1536714627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuigiIdleReference_106
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 0
+        width: 44
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ba0ac5898a606d48ac13dc004e0b1e1
+      internalID: 894842756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuigiIdleReference_107
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 0
+        width: 44
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7d18558562e4424aa5b63aae0a30fa4
+      internalID: -531120982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuigiIdleReference_108
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 0
+        width: 44
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a3e359948246594f96b4f3581e8db5d
+      internalID: 91061402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuigiIdleReference_109
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 0
+        width: 44
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87679eb278e8e474eb9b608e0796a045
+      internalID: -1399453767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuigiIdleReference_110
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 0
+        width: 44
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0bdd1368dea5bd4aa2a1a2e87943867
+      internalID: 309371552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuigiIdleReference_111
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 0
+        width: 44
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d1bcb49715545744b7bcbc8ea01ffef
+      internalID: -1185514615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuigiIdleReference_112
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 0
+        width: 44
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3a6dd47cbfb0ab408255e1843866c25
+      internalID: 1346883599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuigiIdleReference_113
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 0
+        width: 44
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f17a9efd284fed46bcb481f3a33a19b
+      internalID: -1599548009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuigiIdleReference_114
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 0
+        width: 44
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fab12b3a214eaef4c9cb81b684d2c301
+      internalID: 1424855013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuigiIdleReference_115
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 0
+        width: 44
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 691e0cf61e43c2d44b871ee44b568f3e
+      internalID: 1993295535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuigiIdleReference_116
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 0
+        width: 44
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1051b13697f36f14f8cb669a95404323
+      internalID: 250501942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuigiIdleReference_117
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 0
+        width: 44
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f343def45da86044bf4cbcee1411c00
+      internalID: 532923499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuigiIdleReference_118
+      rect:
+        serializedVersion: 2
+        x: 1012
+        y: 0
+        width: 44
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f0e470b13965f1448ad045ceec8387e
+      internalID: -1685389005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: bdd6503fe21d38146b3be75baf67b8a1
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      LuigiIdleReference_0: -691554771
+      LuigiIdleReference_1: -83961271
+      LuigiIdleReference_10: -106851904
+      LuigiIdleReference_100: -596409929
+      LuigiIdleReference_101: -1277088055
+      LuigiIdleReference_102: -1178019080
+      LuigiIdleReference_103: 13138281
+      LuigiIdleReference_104: 263192600
+      LuigiIdleReference_105: -1536714627
+      LuigiIdleReference_106: 894842756
+      LuigiIdleReference_107: -531120982
+      LuigiIdleReference_108: 91061402
+      LuigiIdleReference_109: -1399453767
+      LuigiIdleReference_11: 1145995569
+      LuigiIdleReference_110: 309371552
+      LuigiIdleReference_111: -1185514615
+      LuigiIdleReference_112: 1346883599
+      LuigiIdleReference_113: -1599548009
+      LuigiIdleReference_114: 1424855013
+      LuigiIdleReference_115: 1993295535
+      LuigiIdleReference_116: 250501942
+      LuigiIdleReference_117: 532923499
+      LuigiIdleReference_118: -1685389005
+      LuigiIdleReference_12: -2104282522
+      LuigiIdleReference_13: 1201805503
+      LuigiIdleReference_14: -743850318
+      LuigiIdleReference_15: 1786161390
+      LuigiIdleReference_16: -179460178
+      LuigiIdleReference_17: -1024355169
+      LuigiIdleReference_18: -1259004201
+      LuigiIdleReference_19: 1687547572
+      LuigiIdleReference_2: -1994051241
+      LuigiIdleReference_20: -1956350495
+      LuigiIdleReference_21: 186472667
+      LuigiIdleReference_22: -2138747401
+      LuigiIdleReference_23: -397595096
+      LuigiIdleReference_24: 1227887412
+      LuigiIdleReference_25: -82999350
+      LuigiIdleReference_26: -594959573
+      LuigiIdleReference_27: 189877362
+      LuigiIdleReference_28: -415224913
+      LuigiIdleReference_29: 1368196902
+      LuigiIdleReference_3: -59391165
+      LuigiIdleReference_30: 1115140255
+      LuigiIdleReference_31: -1730421923
+      LuigiIdleReference_32: 715804133
+      LuigiIdleReference_33: -964211578
+      LuigiIdleReference_34: 442319202
+      LuigiIdleReference_35: 1334519871
+      LuigiIdleReference_36: -1001523166
+      LuigiIdleReference_37: 1885490761
+      LuigiIdleReference_38: 662036061
+      LuigiIdleReference_39: -1324647348
+      LuigiIdleReference_4: -210980614
+      LuigiIdleReference_40: -2018293700
+      LuigiIdleReference_41: 84648713
+      LuigiIdleReference_42: -117565279
+      LuigiIdleReference_43: 1954922453
+      LuigiIdleReference_44: 1304685774
+      LuigiIdleReference_45: 1966245938
+      LuigiIdleReference_46: -480466552
+      LuigiIdleReference_47: 717375208
+      LuigiIdleReference_48: -255297980
+      LuigiIdleReference_49: -1062363337
+      LuigiIdleReference_5: -1197046959
+      LuigiIdleReference_50: 1721302980
+      LuigiIdleReference_51: 1872195678
+      LuigiIdleReference_52: -793284807
+      LuigiIdleReference_53: -1656478060
+      LuigiIdleReference_54: -1192679107
+      LuigiIdleReference_55: -964226093
+      LuigiIdleReference_56: -1187208931
+      LuigiIdleReference_57: -344572027
+      LuigiIdleReference_58: 1091773107
+      LuigiIdleReference_59: -1425421215
+      LuigiIdleReference_6: -1622664579
+      LuigiIdleReference_60: -1758716452
+      LuigiIdleReference_61: -2019551597
+      LuigiIdleReference_62: -1341797165
+      LuigiIdleReference_63: 1896869276
+      LuigiIdleReference_64: -1382799280
+      LuigiIdleReference_65: 1855796765
+      LuigiIdleReference_66: -945821711
+      LuigiIdleReference_67: -127877716
+      LuigiIdleReference_68: -1780564022
+      LuigiIdleReference_69: -1230109634
+      LuigiIdleReference_7: 1121992930
+      LuigiIdleReference_70: -1182497047
+      LuigiIdleReference_71: 511973148
+      LuigiIdleReference_72: -412248822
+      LuigiIdleReference_73: 771787175
+      LuigiIdleReference_74: -1693657174
+      LuigiIdleReference_75: -1350051310
+      LuigiIdleReference_76: -515830779
+      LuigiIdleReference_77: 36057448
+      LuigiIdleReference_78: 2059130678
+      LuigiIdleReference_79: 1742988971
+      LuigiIdleReference_8: -689492171
+      LuigiIdleReference_80: -560680937
+      LuigiIdleReference_81: 1538973154
+      LuigiIdleReference_82: 677526404
+      LuigiIdleReference_83: 757698033
+      LuigiIdleReference_84: -2061125955
+      LuigiIdleReference_85: 27575778
+      LuigiIdleReference_86: -100437858
+      LuigiIdleReference_87: -406551666
+      LuigiIdleReference_88: -666082624
+      LuigiIdleReference_89: 1046632616
+      LuigiIdleReference_9: -150739669
+      LuigiIdleReference_90: -1356086650
+      LuigiIdleReference_91: 2088323557
+      LuigiIdleReference_92: 195016292
+      LuigiIdleReference_93: 1170004148
+      LuigiIdleReference_94: -685821243
+      LuigiIdleReference_95: 295313302
+      LuigiIdleReference_96: 1007559732
+      LuigiIdleReference_97: 984750315
+      LuigiIdleReference_98: 1945244078
+      LuigiIdleReference_99: -1569522618
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,2661 @@
+fileFormatVersion: 2
+guid: 5295d7dd61d69a747b78093f614f6086
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: JumpFallRefereneMario_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 167
+        width: 33
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c046a5be44d87834e8709b3b0d291939
+      internalID: -874546642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpFallRefereneMario_1
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 167
+        width: 33
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f057e3a2e5199645b804acf73d3de6d
+      internalID: 805177906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpFallRefereneMario_2
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 167
+        width: 33
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf76d65130c1bfc42ac6829ab655bbe3
+      internalID: 1690976966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpFallRefereneMario_3
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 167
+        width: 33
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7207a00e9140af0448d1a1c4f56cdafb
+      internalID: -1216095431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpFallRefereneMario_4
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 167
+        width: 33
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0e4e78de01cfce47bb84dd16bb3415f
+      internalID: -1725155772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpFallRefereneMario_5
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 167
+        width: 33
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d86c42cdeb2a4984690bb6e276bad4ae
+      internalID: -1059879682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpFallRefereneMario_6
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 167
+        width: 33
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6d23b98b97174c46aabb27df800e6b5
+      internalID: 528187816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpFallRefereneMario_7
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 167
+        width: 33
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35be96cc35c9e9647a5854fe7c294303
+      internalID: 972126928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpFallRefereneMario_8
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 167
+        width: 33
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bca0422439143b4459682147451f3ecd
+      internalID: 1021326385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpFallRefereneMario_9
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 167
+        width: 33
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cb210d410587554ea8b4adab01feef8
+      internalID: -1214344767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpFallRefereneMario_10
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 167
+        width: 33
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a2f151e919721f4b877f8e3b7594651
+      internalID: -1705370478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpFallRefereneMario_11
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 167
+        width: 33
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e44734bfd268c20438b1ba80c13588a9
+      internalID: -1275280784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpFallRefereneMario_12
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 167
+        width: 33
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3898c81b3d69e84f828ca9d35ec6079
+      internalID: 1567498348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpFallRefereneMario_13
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 167
+        width: 33
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8794f4656a519045bd9d40e8d547d98
+      internalID: 1621038733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpFallRefereneMario_14
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 167
+        width: 33
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b445244d4def5284f835545cf4dd12e0
+      internalID: 1016321759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpFallRefereneMario_15
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 167
+        width: 33
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8fed2822cb1e374fa27d50df46b87ae
+      internalID: -2062915775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpFallRefereneMario_16
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 167
+        width: 33
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e2482cb9cabf42498b2788dcc1dcdf3
+      internalID: 345184683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpFallRefereneMario_17
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 167
+        width: 33
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 408bb46da2ba67a40a0b932db0e0a07b
+      internalID: 990942181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpFallRefereneMario_18
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 167
+        width: 33
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7c671e3f6ee4864a9190c158c3b7363
+      internalID: -1703798549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpFallRefereneMario_19
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 167
+        width: 33
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66bdc1a3643606443bbca4a39c77913e
+      internalID: -1833093386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpFallRefereneMario_20
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 167
+        width: 33
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc18e9001583aa641891c49a21472e47
+      internalID: -331192003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpFallRefereneMario_21
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 167
+        width: 33
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9092846d31d66ba4b9ad51428240a119
+      internalID: -2105708775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpFallRefereneMario_22
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 167
+        width: 33
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0e46bebe2d7fe64f9e4815f3751e56e
+      internalID: 1980768776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpFallRefereneMario_23
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 167
+        width: 33
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d552a3d91459ee540954f3e1cce8b48b
+      internalID: 357887780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpFallRefereneMario_24
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 167
+        width: 33
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d8d729005225de4bb466d71bc8d1862
+      internalID: -777698340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpFallRefereneMario_25
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 167
+        width: 33
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c560042a35daaea4dbe44da87165f6ff
+      internalID: -1997055135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpFallRefereneMario_26
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 167
+        width: 33
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 312cb50c883e86a4f95c546afeec2aac
+      internalID: 1535959315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpFallRefereneMario_27
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 167
+        width: 33
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78cc23c36b58e364b9c09ef70564f3e0
+      internalID: 1909660858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpFallRefereneMario_28
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 167
+        width: 33
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5cf7aab5db402b44a96bfc1bc9ca675
+      internalID: -1139689220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpFallRefereneMario_29
+      rect:
+        serializedVersion: 2
+        x: 1015
+        y: 167
+        width: 33
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d4c4751a8d909c4891c50bd6b952a0f
+      internalID: 414700841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpFallRefereneMario_30
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 167
+        width: 33
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 159c78a89c0dce447a04faaeff997940
+      internalID: 1402828280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpFallRefereneMario_31
+      rect:
+        serializedVersion: 2
+        x: 1085
+        y: 167
+        width: 33
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a95123653405cf4fad014b5c7afffe8
+      internalID: 1054706135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpFallRefereneMario_32
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 167
+        width: 33
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23d5531354bcdf845881af5df1e7db27
+      internalID: 1070049233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpFallRefereneMario_33
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 167
+        width: 33
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56197b3e5617fce49aea46a05ddae611
+      internalID: -303671060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpFallRefereneMario_34
+      rect:
+        serializedVersion: 2
+        x: 1190
+        y: 167
+        width: 33
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a58c4c858dda144184a2d65795575c8
+      internalID: -1383038838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpFallRefereneMario_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 110
+        width: 32
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77f3428bc63de1f4e999fe25a501f02d
+      internalID: -1510118725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpFallRefereneMario_36
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 110
+        width: 32
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb26c4717d7f08d44b476700422dd35f
+      internalID: 1675475025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpFallRefereneMario_37
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 110
+        width: 32
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d88e4a3a68da3de4691f2fa1b9527d19
+      internalID: -47004950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpFallRefereneMario_38
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 110
+        width: 32
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1a91b822b098704091635e79e2fbc23
+      internalID: 1710000752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpFallRefereneMario_39
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 110
+        width: 32
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dd95484a819019418e67375ad28f35b
+      internalID: -1968429726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpFallRefereneMario_40
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 110
+        width: 32
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31bb495412f33484d8a187e027296e03
+      internalID: 1121367877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpFallRefereneMario_41
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 110
+        width: 32
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f05a89d3d0ab784c87e23ac2ae2ab8a
+      internalID: 1986263528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpFallRefereneMario_42
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 110
+        width: 32
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fea7ae9e339708b4aaafbbaef851231d
+      internalID: -196646851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpFallRefereneMario_43
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 110
+        width: 32
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ff07730eca4a5e47b7f71c9aa90e266
+      internalID: 220727095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpFallRefereneMario_44
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 110
+        width: 32
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d04d4008aedf92f409243618f959b283
+      internalID: 1403846036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpFallRefereneMario_45
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 110
+        width: 32
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfea16226f57ddb4b87f6bd3aaf15e78
+      internalID: -320502942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpFallRefereneMario_46
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 110
+        width: 32
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7efa6ffca72336741b069be1e9a7e7fb
+      internalID: 914644434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpFallRefereneMario_47
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 110
+        width: 32
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1381adfdb76f4de42acd4f15630639ff
+      internalID: 129299274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpFallRefereneMario_48
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 110
+        width: 32
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1a1508a17c4ced45a191894df8e07a4
+      internalID: 1386647466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpFallRefereneMario_49
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 110
+        width: 32
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf1712acb6f144c4fb3e44180114ba8d
+      internalID: -575007900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpFallRefereneMario_50
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 110
+        width: 32
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ae80dd13166f0b49ac605ab06eb70e9
+      internalID: 396624999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpFallRefereneMario_51
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 110
+        width: 32
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b918192866ca1514dbfd9aa3c37aae38
+      internalID: 1308678084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpFallRefereneMario_52
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 110
+        width: 32
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9debf30f3677a0542b41cf38a3d960b0
+      internalID: -1032105642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpFallRefereneMario_53
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 110
+        width: 32
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a70b37f8211cca947ae0543c8fbf7cd6
+      internalID: -1803212253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpFallRefereneMario_54
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 110
+        width: 32
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c87f5f61ab57d3c42b94a95dc5c99793
+      internalID: 939662448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpFallRefereneMario_55
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 110
+        width: 32
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c7c2c4c9684aea469b8ec783a69a568
+      internalID: -214870528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpFallRefereneMario_56
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 110
+        width: 32
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2c71ac7c0fa5b14cb0292e80a0a7ed3
+      internalID: 1737439042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpFallRefereneMario_57
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 110
+        width: 32
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fa35327665d15148a01c7b6b13fa5c6
+      internalID: 1410356895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpFallRefereneMario_58
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 110
+        width: 32
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41a0b293c7cbe7a42a0e35e8f7256ab3
+      internalID: 142705933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpFallRefereneMario_59
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 110
+        width: 32
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2baffc5cb1a59ff4284e40e1041cc870
+      internalID: 1904677523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpFallRefereneMario_60
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 110
+        width: 32
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ceefce3b5575a7a4d89bfc16062770c3
+      internalID: -316120872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpFallRefereneMario_61
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 110
+        width: 32
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f9d9b3901d1a3249850fe4bc90cbd09
+      internalID: -1682422948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpFallRefereneMario_62
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 110
+        width: 32
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc9b984feb374d147b801a73ab821eb6
+      internalID: 1629107640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpFallRefereneMario_63
+      rect:
+        serializedVersion: 2
+        x: 952
+        y: 110
+        width: 32
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cc805283cf1e8649be10ddf9cc42f6e
+      internalID: 211404498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpFallRefereneMario_64
+      rect:
+        serializedVersion: 2
+        x: 986
+        y: 110
+        width: 32
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e2489109695fdd49987fda347fdcda6
+      internalID: 901984189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpFallRefereneMario_65
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 110
+        width: 32
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f69bf562b921df4fa10cf1eb3aebeb1
+      internalID: -549869677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpFallRefereneMario_66
+      rect:
+        serializedVersion: 2
+        x: 1054
+        y: 110
+        width: 32
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd01b46dc5cc7014da5909aa26ed2e06
+      internalID: 903383451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpFallRefereneMario_67
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 110
+        width: 32
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49b015359ba26874d9b32414bd4367af
+      internalID: 1522970095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpFallRefereneMario_68
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 110
+        width: 32
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f9a9196918085f40b4e17b761e10338
+      internalID: -653554556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpFallRefereneMario_69
+      rect:
+        serializedVersion: 2
+        x: 1156
+        y: 110
+        width: 32
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc9bf51b75389ba4fa87822beed3349c
+      internalID: 1185034958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpFallRefereneMario_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 56
+        width: 33
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e2c86c4c699e2148bf01d56031562a7
+      internalID: 1384629196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpFallRefereneMario_71
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 56
+        width: 33
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb132bb083ab8b54a83c6151484cbc07
+      internalID: -2143425710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpFallRefereneMario_72
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 56
+        width: 33
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09abc10c12236e54e89c1e316c22904d
+      internalID: -19027375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpFallRefereneMario_73
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 56
+        width: 33
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 201f3ff4d4863024daab6d2dce796807
+      internalID: -1369766046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpFallRefereneMario_74
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 56
+        width: 33
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bae2f74ce532f644aad36b7f15afe525
+      internalID: -1771896198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpFallRefereneMario_75
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 56
+        width: 33
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 523cc56ea5367434e91a073e010a1b71
+      internalID: 615793661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpFallRefereneMario_76
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 56
+        width: 33
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec47193c972bd7b4db89a35918d38e58
+      internalID: 1734752359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpFallRefereneMario_77
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 56
+        width: 33
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfb82ed90f468a8458c68ea1d7706f51
+      internalID: 1047059245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpFallRefereneMario_78
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 56
+        width: 33
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9192dc76b825f75458a40cb865cabbd7
+      internalID: 82682113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpFallRefereneMario_79
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 56
+        width: 33
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 388b6376956139c4eb0c511865e3b3e7
+      internalID: -198521682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpFallRefereneMario_80
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 56
+        width: 33
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c8bd9194292e9140b95d69daa29e889
+      internalID: -749385331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpFallRefereneMario_81
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 56
+        width: 33
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a09879509022a90408eb487bf704ba0c
+      internalID: -39119300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpFallRefereneMario_82
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 56
+        width: 33
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed7a80d25c714a048bdd86eb6f210907
+      internalID: -1753128347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpFallRefereneMario_83
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 56
+        width: 33
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75a319f0bc639914e9d1af8f9636f865
+      internalID: 1384395087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpFallRefereneMario_84
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 56
+        width: 33
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61172b3897c88a14e996f37af67a0008
+      internalID: 1401408270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpFallRefereneMario_85
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 56
+        width: 33
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c11a7ea9c50fe5b468fdc720d7569f1e
+      internalID: 871449347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpFallRefereneMario_86
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 56
+        width: 33
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80c8e99480ed50c4682c68ea35ce544e
+      internalID: -500907395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpFallRefereneMario_87
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 56
+        width: 33
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a826090996f93a648baffc4f773c9b10
+      internalID: 599716764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpFallRefereneMario_88
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 56
+        width: 33
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 906a9901cb4572848bab47e432d4a768
+      internalID: 1177664906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpFallRefereneMario_89
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 56
+        width: 33
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cea3602ce65e7d4da271a77bb510ecf
+      internalID: -583914548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpFallRefereneMario_90
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 56
+        width: 33
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1579ddbf5e07a3418fbf4411decf25f
+      internalID: 1717845084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpFallRefereneMario_91
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 56
+        width: 33
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dd3d28cac760534a9766440368c6a30
+      internalID: 751471441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpFallRefereneMario_92
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 56
+        width: 33
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 475d10ced8642e244bd9f1536eb3b803
+      internalID: -1791412085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpFallRefereneMario_93
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 56
+        width: 33
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03dfc1703d5138d41bc18a6563769de5
+      internalID: -2144812088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpFallRefereneMario_94
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 56
+        width: 33
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24a61beabe037584abf6a797a6d518c9
+      internalID: -395122447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpFallRefereneMario_95
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 56
+        width: 33
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1326dc04ca83964189bb2fb7a6c7a5f
+      internalID: -578825825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpFallRefereneMario_96
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 56
+        width: 33
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91f869988b863f7438da5f008f5b6221
+      internalID: 834512746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpFallRefereneMario_97
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 56
+        width: 33
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: def43ffa40d3da840a0a3ebb00aaaf8c
+      internalID: 2119585013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpFallRefereneMario_98
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 56
+        width: 33
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29a0dc3bce8da434a8614f0f273825ea
+      internalID: 1504203014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpFallRefereneMario_99
+      rect:
+        serializedVersion: 2
+        x: 1015
+        y: 56
+        width: 33
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb3c64a2a4965f04bb1e7210aeb9ed40
+      internalID: -1303816719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpFallRefereneMario_100
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 56
+        width: 33
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5303a6f4b78136418cb8f926aab120d
+      internalID: -1090484562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpFallRefereneMario_101
+      rect:
+        serializedVersion: 2
+        x: 1085
+        y: 56
+        width: 33
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1db3ff7e07ab394c822e3460c9e2963
+      internalID: 328039601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpFallRefereneMario_102
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 56
+        width: 33
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b4ae04508d0644478c0dec0c67611c6
+      internalID: -515177057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpFallRefereneMario_103
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 56
+        width: 33
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e04ad6310a7d7a42ac004042428ea10
+      internalID: -402932092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpFallRefereneMario_104
+      rect:
+        serializedVersion: 2
+        x: 1190
+        y: 56
+        width: 33
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 578b90ddec894db499cb489acb4b2b5d
+      internalID: 689503262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpFallRefereneMario_105
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 36
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a47ca0b180d16934cbb9bdf3b035f4e7
+      internalID: -58679059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpFallRefereneMario_106
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 0
+        width: 36
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af9ba3843d79c7e409846d80cd13c455
+      internalID: 646341765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpFallRefereneMario_107
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 1
+        width: 36
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab40b42b65e4d554c8eb4e6b4560c84b
+      internalID: -2130651860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpFallRefereneMario_108
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 1
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbc83b4469e91914b9c1f9daad439a6f
+      internalID: -185608081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpFallRefereneMario_109
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 1
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2cdb121856441b4aa64c93b05241258
+      internalID: -1873249290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpFallRefereneMario_110
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 1
+        width: 35
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c19a8e82aa6a77048a2489b5296a1ce4
+      internalID: 1533439740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpFallRefereneMario_111
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 1
+        width: 35
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b25e33c3dd67c549b9316f1b58abd77
+      internalID: 1807377494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpFallRefereneMario_112
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 1
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b88ae2c4e4fb26346a23626858ab44ca
+      internalID: 2099244010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpFallRefereneMario_113
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 1
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f0a629c8c7b489408599fc8b152ba72
+      internalID: -514049042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      JumpFallRefereneMario_0: -874546642
+      JumpFallRefereneMario_1: 805177906
+      JumpFallRefereneMario_10: -1705370478
+      JumpFallRefereneMario_100: -1090484562
+      JumpFallRefereneMario_101: 328039601
+      JumpFallRefereneMario_102: -515177057
+      JumpFallRefereneMario_103: -402932092
+      JumpFallRefereneMario_104: 689503262
+      JumpFallRefereneMario_105: -58679059
+      JumpFallRefereneMario_106: 646341765
+      JumpFallRefereneMario_107: -2130651860
+      JumpFallRefereneMario_108: -185608081
+      JumpFallRefereneMario_109: -1873249290
+      JumpFallRefereneMario_11: -1275280784
+      JumpFallRefereneMario_110: 1533439740
+      JumpFallRefereneMario_111: 1807377494
+      JumpFallRefereneMario_112: 2099244010
+      JumpFallRefereneMario_113: -514049042
+      JumpFallRefereneMario_12: 1567498348
+      JumpFallRefereneMario_13: 1621038733
+      JumpFallRefereneMario_14: 1016321759
+      JumpFallRefereneMario_15: -2062915775
+      JumpFallRefereneMario_16: 345184683
+      JumpFallRefereneMario_17: 990942181
+      JumpFallRefereneMario_18: -1703798549
+      JumpFallRefereneMario_19: -1833093386
+      JumpFallRefereneMario_2: 1690976966
+      JumpFallRefereneMario_20: -331192003
+      JumpFallRefereneMario_21: -2105708775
+      JumpFallRefereneMario_22: 1980768776
+      JumpFallRefereneMario_23: 357887780
+      JumpFallRefereneMario_24: -777698340
+      JumpFallRefereneMario_25: -1997055135
+      JumpFallRefereneMario_26: 1535959315
+      JumpFallRefereneMario_27: 1909660858
+      JumpFallRefereneMario_28: -1139689220
+      JumpFallRefereneMario_29: 414700841
+      JumpFallRefereneMario_3: -1216095431
+      JumpFallRefereneMario_30: 1402828280
+      JumpFallRefereneMario_31: 1054706135
+      JumpFallRefereneMario_32: 1070049233
+      JumpFallRefereneMario_33: -303671060
+      JumpFallRefereneMario_34: -1383038838
+      JumpFallRefereneMario_35: -1510118725
+      JumpFallRefereneMario_36: 1675475025
+      JumpFallRefereneMario_37: -47004950
+      JumpFallRefereneMario_38: 1710000752
+      JumpFallRefereneMario_39: -1968429726
+      JumpFallRefereneMario_4: -1725155772
+      JumpFallRefereneMario_40: 1121367877
+      JumpFallRefereneMario_41: 1986263528
+      JumpFallRefereneMario_42: -196646851
+      JumpFallRefereneMario_43: 220727095
+      JumpFallRefereneMario_44: 1403846036
+      JumpFallRefereneMario_45: -320502942
+      JumpFallRefereneMario_46: 914644434
+      JumpFallRefereneMario_47: 129299274
+      JumpFallRefereneMario_48: 1386647466
+      JumpFallRefereneMario_49: -575007900
+      JumpFallRefereneMario_5: -1059879682
+      JumpFallRefereneMario_50: 396624999
+      JumpFallRefereneMario_51: 1308678084
+      JumpFallRefereneMario_52: -1032105642
+      JumpFallRefereneMario_53: -1803212253
+      JumpFallRefereneMario_54: 939662448
+      JumpFallRefereneMario_55: -214870528
+      JumpFallRefereneMario_56: 1737439042
+      JumpFallRefereneMario_57: 1410356895
+      JumpFallRefereneMario_58: 142705933
+      JumpFallRefereneMario_59: 1904677523
+      JumpFallRefereneMario_6: 528187816
+      JumpFallRefereneMario_60: -316120872
+      JumpFallRefereneMario_61: -1682422948
+      JumpFallRefereneMario_62: 1629107640
+      JumpFallRefereneMario_63: 211404498
+      JumpFallRefereneMario_64: 901984189
+      JumpFallRefereneMario_65: -549869677
+      JumpFallRefereneMario_66: 903383451
+      JumpFallRefereneMario_67: 1522970095
+      JumpFallRefereneMario_68: -653554556
+      JumpFallRefereneMario_69: 1185034958
+      JumpFallRefereneMario_7: 972126928
+      JumpFallRefereneMario_70: 1384629196
+      JumpFallRefereneMario_71: -2143425710
+      JumpFallRefereneMario_72: -19027375
+      JumpFallRefereneMario_73: -1369766046
+      JumpFallRefereneMario_74: -1771896198
+      JumpFallRefereneMario_75: 615793661
+      JumpFallRefereneMario_76: 1734752359
+      JumpFallRefereneMario_77: 1047059245
+      JumpFallRefereneMario_78: 82682113
+      JumpFallRefereneMario_79: -198521682
+      JumpFallRefereneMario_8: 1021326385
+      JumpFallRefereneMario_80: -749385331
+      JumpFallRefereneMario_81: -39119300
+      JumpFallRefereneMario_82: -1753128347
+      JumpFallRefereneMario_83: 1384395087
+      JumpFallRefereneMario_84: 1401408270
+      JumpFallRefereneMario_85: 871449347
+      JumpFallRefereneMario_86: -500907395
+      JumpFallRefereneMario_87: 599716764
+      JumpFallRefereneMario_88: 1177664906
+      JumpFallRefereneMario_89: -583914548
+      JumpFallRefereneMario_9: -1214344767
+      JumpFallRefereneMario_90: 1717845084
+      JumpFallRefereneMario_91: 751471441
+      JumpFallRefereneMario_92: -1791412085
+      JumpFallRefereneMario_93: -2144812088
+      JumpFallRefereneMario_94: -395122447
+      JumpFallRefereneMario_95: -578825825
+      JumpFallRefereneMario_96: 834512746
+      JumpFallRefereneMario_97: 2119585013
+      JumpFallRefereneMario_98: 1504203014
+      JumpFallRefereneMario_99: -1303816719
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

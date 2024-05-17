@@ -1,0 +1,207 @@
+# 3ds Max Wavefront OBJ Exporter v0.97b - (c)2007 guruware
+# File Created: 28.02.2020 19:17:40
+
+newmtl wire_255255000
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 1.0000 1.0000 0.0000
+	Kd 1.0000 1.0000 0.0000
+	Ks 0.3500 0.3500 0.3500
+
+newmtl GrassPeachSet04
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka GrassPeachSet04_alb.png
+	map_Kd GrassPeachSet04_alb.png
+	map_d GrassPeachSet04_alb.png
+
+newmtl GrassPeachSet00
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka GrassPeachSet00_alb.png
+	map_Kd GrassPeachSet00_alb.png
+	map_d GrassPeachSet00_alb.png
+
+newmtl GrassPeachSet01
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka GrassPeachSet01_alb.png
+	map_Kd GrassPeachSet01_alb.png
+	map_d GrassPeachSet01_alb.png
+
+newmtl TreeBark01
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka TreeBark01_alb.png
+	map_Kd TreeBark01_alb.png
+	map_d TreeBark01_alb.png
+
+newmtl WoodSlice
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka WoodSlice_alb.png
+	map_Kd WoodSlice_alb.png
+	map_d WoodSlice_alb.png
+
+newmtl RockBase01
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka RockBase00_alb.png
+	map_Kd RockBase00_alb.png
+	map_d RockBase00_alb.png
+
+newmtl TileBaseBrick00
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka TileBaseBrick00_alb.png
+	map_Kd TileBaseBrick00_alb.png
+	map_d TileBaseBrick00_alb.png
+
+newmtl GroundGrassCarpet06
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka GroundGrassCarpet06_alb.png
+	map_Kd GroundGrassCarpet06_alb.png
+	map_d GroundGrassCarpet06_alb.png
+
+newmtl SoillWallStandard03
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka SoillWallStandard03_alb.png
+	map_Kd SoillWallStandard03_alb.png
+	map_d SoillWallStandard03_alb.png
+
+newmtl OUPBM_GroundGrassCarpet00_ShrubberyPlants03
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka GroundGrassCarpet06_alb.png
+	map_Kd GroundGrassCarpet06_alb.png
+	map_d GroundGrassCarpet06_alb.png
+
+newmtl ShrubberyPlants03
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka ShrubberyPlants03_alb.png
+	map_Kd ShrubberyPlants03_alb.png
+	map_d ShrubberyPlants03_alb.png
+
+newmtl FenceWood01
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka FenceWood01_alb.png
+	map_Kd FenceWood01_alb.png
+	map_d FenceWood01_alb.png
+
+newmtl GroundGrassEdge00
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka GroundGrassEdge00_alb.png
+	map_Kd GroundGrassEdge00_alb.png
+	map_d GroundGrassEdge00_alb.png

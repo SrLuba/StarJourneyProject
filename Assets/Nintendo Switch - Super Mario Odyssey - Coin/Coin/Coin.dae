@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asset>
+    <contributor>
+      <authoring_tool>OpenCOLLADA for 3ds Max;  Version: 1.6;  Revision: 68</authoring_tool>
+    </contributor>
+    <created>2019-04-04T17:44:13</created>
+    <modified>2019-04-04T17:44:13</modified>
+    <unit name="inch" meter="0.0254"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_effects>
+    <effect id="BodyMT">
+      <profile_COMMON>
+        <newparam sid="CoinBody00_alb_png-surface">
+          <surface type="2D">
+            <init_from>CoinBody00_alb_png</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="CoinBody00_alb_png-sampler">
+          <sampler2D>
+            <source>CoinBody00_alb_png-surface</source>
+          </sampler2D>
+        </newparam>
+        <newparam sid="CoinBody00_nrm_png-surface">
+          <surface type="2D">
+            <init_from>CoinBody00_nrm_png</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="CoinBody00_nrm_png-sampler">
+          <sampler2D>
+            <source>CoinBody00_nrm_png-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <blinn>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color>0.588 0.588 0.588 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="CoinBody00_alb_png-sampler" texcoord="CHANNEL1"/>
+            </diffuse>
+            <specular>
+              <color>0 0 0 1</color>
+            </specular>
+            <shininess>
+              <float>10</float>
+            </shininess>
+            <reflective>
+              <color>0 0 0 1</color>
+            </reflective>
+            <transparent opaque="A_ONE">
+              <texture texture="CoinBody00_alb_png-sampler" texcoord="CHANNEL1"/>
+            </transparent>
+            <transparency>
+              <float>1</float>
+            </transparency>
+          </blinn>
+          <extra>
+            <technique profile="OpenCOLLADA3dsMax">
+              <bump bumptype="HEIGHTFIELD">
+                <texture texture="CoinBody00_nrm_png-sampler" texcoord="CHANNEL1"/>
+              </bump>
+            </technique>
+          </extra>
+        </technique>
+      </profile_COMMON>
+      <extra>
+        <technique profile="OpenCOLLADA3dsMax">
+          <extended_shader>
+            <opacity_type sid="opacity_type" type="int">0</opacity_type>
+            <falloff_type sid="falloff_type" type="int">0</falloff_type>
+            <falloff sid="falloff" type="float">0</falloff>
+            <index_of_refraction sid="index_of_refraction" type="float">1.5</index_of_refraction>
+            <wire_size sid="wire_size" type="float">1</wire_size>
+            <wire_units sid="wire_units" type="int">0</wire_units>
+            <apply_reflection_dimming sid="apply_reflection_dimming" type="bool">0</apply_reflection_dimming>
+            <dim_level sid="dim_level" type="float">0</dim_level>
+            <reflection_level sid="reflection_level" type="float">3</reflection_level>
+          </extended_shader>
+          <shader>
+            <ambient_diffuse_texture_lock sid="ambient_diffuse_texture_lock" type="bool">1</ambient_diffuse_texture_lock>
+            <ambient_diffuse_lock sid="ambient_diffuse_lock" type="bool">1</ambient_diffuse_lock>
+            <diffuse_specular_lock sid="diffuse_specular_lock" type="bool">0</diffuse_specular_lock>
+            <use_self_illum_color sid="use_self_illum_color" type="bool">0</use_self_illum_color>
+            <self_illumination sid="self_illumination" type="float">0</self_illumination>
+            <specular_level sid="specular_level" type="float">0</specular_level>
+            <soften sid="soften" type="float">0.1</soften>
+          </shader>
+        </technique>
+      </extra>
+    </effect>
+  </library_effects>
+  <library_materials>
+    <material id="BodyMT-material" name="BodyMT">
+      <instance_effect url="#BodyMT"/>
+    </material>
+  </library_materials>
+  <library_geometries>
+    <geometry id="geom-Coin__BodyMT" name="Coin__BodyMT">
+      <mesh>
+        <source id="geom-Coin__BodyMT-positions">
+          <float_array id="geom-Coin__BodyMT-positions-array" count="333">-0.007329048 -8.388809 0 11.13247 -7.728455 41.54036 0 -7.728455 43.00599 -11.13247 -7.728455 41.54036 -0.007329048 -8.388809 0 -21.50629 -7.728451 37.2434 -30.41448 -7.728451 30.40789 -37.24998 -7.728455 21.4997 -41.54694 -7.728454 11.12589 -43.01257 -7.728454 0 -41.54694 -7.728454 -11.12589 -37.24998 -7.728454 -21.4997 -30.41448 -7.728453 -30.40789 -21.50629 -7.728455 -37.2434 -11.13247 -7.728455 -41.54036 0 -7.728455 -43.00599 11.13247 -7.728455 -41.54036 11.13247 -7.728455 41.54036 21.50629 -7.728455 37.2434 30.41448 -7.728453 30.4079 37.24998 -7.728455 21.4997 41.54695 -7.728454 11.12589 43.01257 -7.728454 0 41.54695 -7.728454 -11.12589 37.24998 -7.728454 -21.4997 30.41448 -7.728451 -30.40789 21.50629 -7.728455 -37.2434 11.13247 -7.728455 -41.54036 0 7.728455 43.00599 11.13247 7.728455 41.54036 -0.007329015 8.388809 0 -11.13247 7.728455 41.54036 -21.50629 7.728451 37.2434 -0.007329015 8.388809 0 -30.41448 7.728451 30.40789 -37.24998 7.728454 21.4997 -41.54694 7.728454 11.12589 -43.01257 7.728454 0 -41.54694 7.728454 -11.12589 -37.24998 7.728455 -21.4997 -30.41448 7.728453 -30.4079 -21.50629 7.728455 -37.2434 -11.13247 7.728455 -41.54036 0 7.728455 -43.00599 11.13247 7.728455 -41.54036 21.50629 7.728455 -37.2434 30.41448 7.728453 -30.4079 37.24998 7.728455 -21.4997 41.54695 7.728454 -11.12589 43.01257 7.728454 0 41.54695 7.728454 11.12589 37.24998 7.728454 21.4997 30.41448 7.728453 30.40789 21.50629 7.728455 37.2434 11.13247 7.728455 41.54036 -43.01257 7.728454 0 -43.01257 -7.728454 0 -41.54694 7.728454 11.12589 -41.54694 -7.728454 11.12589 -37.24998 7.728454 21.4997 -37.24998 -7.728455 21.4997 -30.41448 7.728451 30.40789 -30.41448 -7.728451 30.40789 -21.50629 7.728451 37.2434 -21.50629 -7.728451 37.2434 -11.13247 7.728455 41.54036 -11.13247 -7.728455 41.54036 0 7.728455 43.00599 0 -7.728455 43.00599 43.01257 7.728454 0 43.01257 -7.728454 0 41.54695 -7.728454 -11.12589 41.54695 7.728454 -11.12589 37.24998 -7.728454 -21.4997 37.24998 7.728455 -21.4997 30.41448 -7.728451 -30.40789 30.41448 7.728453 -30.4079 21.50629 -7.728455 -37.2434 21.50629 7.728455 -37.2434 11.13247 -7.728455 -41.54036 11.13247 7.728455 -41.54036 0 -7.728455 -43.00599 0 7.728455 -43.00599 0 7.728455 43.00599 0 -7.728455 43.00599 11.13247 -7.728455 41.54036 11.13247 7.728455 41.54036 21.50629 -7.728455 37.2434 21.50629 7.728455 37.2434 30.41448 -7.728453 30.4079 30.41448 7.728453 30.40789 37.24998 -7.728455 21.4997 37.24998 7.728454 21.4997 41.54695 -7.728454 11.12589 41.54695 7.728454 11.12589 43.01257 -7.728454 0 43.01257 7.728454 0 -11.13247 7.728455 -41.54036 0 7.728455 -43.00599 0 -7.728455 -43.00599 -11.13247 -7.728455 -41.54036 -21.50629 7.728455 -37.2434 -21.50629 -7.728455 -37.2434 -30.41448 7.728453 -30.4079 -30.41448 -7.728453 -30.40789 -37.24998 7.728455 -21.4997 -37.24998 -7.728454 -21.4997 -41.54694 7.728454 -11.12589 -41.54694 -7.728454 -11.12589 -43.01257 7.728454 0 -43.01257 -7.728454 0</float_array>
+          <technique_common>
+            <accessor source="#geom-Coin__BodyMT-positions-array" count="111" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="geom-Coin__BodyMT-normals">
+          <float_array id="geom-Coin__BodyMT-normals-array" count="333">0 -1 0 0.002002803 -0.9998756 0.01564094 0.001956789 -0.9998758 0.01564094 -0.002002803 -0.9998757 0.01564094 0 -1 0 -0.007820466 -0.9998751 0.0137335 -0.01182589 -0.9998602 0.01182589 -0.0137335 -0.9998751 0.007820466 -0.01563936 -0.9998701 0.00390984 -0.01564023 -0.9998778 0 -0.01564011 -0.9998701 -0.003910027 -0.01373219 -0.9998751 -0.00781972 -0.01182364 -0.9998602 -0.01182364 -0.007820466 -0.9998751 -0.0137335 -0.002002803 -0.9998757 -0.01564094 -0.007827151 -0.9998751 -0.0137335 -0.007820466 -0.9998751 -0.0137335 0.002002803 -0.9998756 0.01564094 0.001907432 -0.999876 0.01564094 0.001907438 -0.9998788 0.01545025 0.01564097 -0.9998777 0 0.01564097 -0.9998777 0 0.01564023 -0.9998778 0 0.01182534 -0.9998614 -0.01172998 0.01182477 -0.9998602 -0.01182477 0.01182589 -0.9998602 -0.01182589 0.01182589 -0.9998602 -0.01182589 0.01173053 -0.9998612 -0.01182591 0.001956789 0.9998758 0.01564094 0.002002803 0.9998756 0.01564094 0 1 0 -0.002002803 0.9998757 0.01564094 -0.007818974 0.9998751 0.01373088 0 1 0 -0.01182367 0.9998626 0.01163296 -0.01373219 0.9998751 0.00781972 -0.01564011 0.9998701 0.003910027 -0.01564023 0.9998778 0 -0.01563936 0.9998701 -0.00390984 -0.0137335 0.9998751 -0.007820466 -0.01182592 0.9998624 -0.01163518 -0.007820466 0.9998751 -0.0137335 -0.002002803 0.9998757 -0.01564094 0.001956789 0.9998758 -0.01564094 0.002002803 0.9998757 -0.01564094 0.007820466 0.9998751 -0.0137335 0.01182592 0.9998624 -0.01163518 0.0137335 0.9998751 -0.007820466 0.01563936 0.9998701 -0.00390984 0.01564023 0.9998778 0 0.01564011 0.9998701 0.003910027 0.01373219 0.9998751 0.00781972 0.01182364 0.9998602 0.01182364 0.007820466 0.9998751 0.0137335 0.002002803 0.9998756 0.01564094 -1 0 0 -1 0 0 -0.9661367 0 0.2580306 -0.966113 9.53526e-5 0.2581196 -0.8666425 0 0.4989298 -0.8666425 0 0.4989298 -0.7070114 1.90723e-4 0.7072021 -0.7072021 -1.90775e-4 0.7070114 -0.4989298 0 0.8666425 -0.4989298 0 0.8666425 -0.2581196 0 0.966113 -0.2581196 0 0.966113 0 0 1 0 0 1 1 0 0 1 0 0 0.9661367 0 -0.2580306 0.966113 -9.53526e-5 -0.2581196 0.8666425 0 -0.4989298 0.8666425 0 -0.4989298 0.7070114 0 -0.7072021 0.7072021 1.90775e-4 -0.7070114 0.4989298 0 -0.8666425 0.4989298 0 -0.8666425 0.2581196 0 -0.966113 0.2581196 0 -0.966113 0 0 -1 0 0 -1 0 0 1 0 0 1 0.2581196 0 0.966113 0.2581196 0 0.966113 0.4989298 0 0.8666425 0.4989298 0 0.8666425 0.7072021 -1.90775e-4 0.7070114 0.7070114 1.90723e-4 0.7072021 0.8666425 0 0.4989298 0.8666425 0 0.4989298 0.966113 9.53526e-5 0.2581196 0.9661367 0 0.2580306 1 0 0 1 0 0 -0.2581196 0 -0.966113 0 0 -1 0 0 -1 -0.2581196 0 -0.966113 -0.4989298 0 -0.8666425 -0.4989298 0 -0.8666425 -0.7072021 1.90775e-4 -0.7070114 -0.7070114 -1.90723e-4 -0.7072021 -0.8666425 0 -0.4989298 -0.8666425 0 -0.4989298 -0.966113 -9.53526e-5 -0.2581196 -0.9661367 0 -0.2580306 -1 0 0 -1 0 0</float_array>
+          <technique_common>
+            <accessor source="#geom-Coin__BodyMT-normals-array" count="111" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="geom-Coin__BodyMT-map-2">
+          <float_array id="geom-Coin__BodyMT-map-2-array" count="333">1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#geom-Coin__BodyMT-map-2-array" count="111" stride="3">
+              <param name="R" type="float"/>
+              <param name="G" type="float"/>
+              <param name="B" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="geom-Coin__BodyMT-map0">
+          <float_array id="geom-Coin__BodyMT-map0-array" count="333">1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#geom-Coin__BodyMT-map0-array" count="111" stride="3">
+              <param name="R" type="float"/>
+              <param name="G" type="float"/>
+              <param name="B" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="geom-Coin__BodyMT-map1">
+          <float_array id="geom-Coin__BodyMT-map1-array" count="333">0.5619898 0.563714 0 0.4487526 0.9828031 0 0.561059 0.9965515 0 0.672694 0.9814755 0 0.5619898 0.563714 0 0.7765927 0.9384604 0 0.8660411 0.8702373 0 0.9348592 0.7812467 0 0.9783322 0.6775006 0 0.9934844 0.5661708 0 0.9794003 0.4546883 0 0.936965 0.350576 0 0.8690776 0.2610056 0 0.7803464 0.191989 0 0.6768749 0.1483024 0 0.561059 0.1326772 0 0.454139 0.1462882 0 0.4487526 0.9828031 0 0.3412528 0.9373922 0 0.2529183 0.8669566 0 0.1853513 0.7764706 0 0.1434043 0.6716411 0 0.1300069 0.559701 0 0.1460136 0.4481575 0 0.1902495 0.3445182 0 0.2597391 0.2558786 0 0.349752 0.1882353 0 0.454139 0.1462882 0 0.561059 0.9965515 0 0.4487526 0.9828031 0 0.5619898 0.563714 0 0.672694 0.9814755 0 0.7765927 0.9384604 0 0.5619898 0.563714 0 0.8660411 0.8702373 0 0.9348592 0.7812467 0 0.9783322 0.6775006 0 0.9934844 0.5661708 0 0.9794003 0.4546883 0 0.936965 0.350576 0 0.8690776 0.2610056 0 0.7803464 0.191989 0 0.6768749 0.1483024 0 0.561059 0.1326772 0 0.454139 0.1462882 0 0.349752 0.1882353 0 0.2597391 0.2558786 0 0.1902495 0.3445182 0 0.1460136 0.4481575 0 0.1300069 0.559701 0 0.1434043 0.6716411 0 0.1853513 0.7764706 0 0.2529183 0.8669566 0 0.3412528 0.9373922 0 0.4487526 0.9828031 0 0.7385672 0.12224 0 0.7385672 0.006729245 0 0.6171817 0.12224 0 0.6171817 0.006729245 0 0.4957046 0.12224 0 0.4957046 0.006729245 0 0.3742428 0.12224 0 0.3742428 0.006729245 0 0.2527657 0.12224 0 0.2527657 0.006729245 0 0.1313039 0.12224 0 0.1313039 0.006729245 0 0.009842069 0.12224 0 0.009842069 0.006729245 0 0.7385672 0.12224 0 0.7385672 0.006729245 0 0.6171817 0.006729245 0 0.6171817 0.12224 0 0.4957046 0.006729245 0 0.4957046 0.12224 0 0.3742428 0.006729245 0 0.3742428 0.12224 0 0.2527657 0.006729245 0 0.2527657 0.12224 0 0.1313039 0.006729245 0 0.1313039 0.12224 0 0.009842069 0.006729245 0 0.009842069 0.12224 0 0.009842069 0.12224 0 0.009842069 0.006729245 0 0.1313039 0.006729245 0 0.1313039 0.12224 0 0.2527657 0.006729245 0 0.2527657 0.12224 0 0.3742428 0.006729245 0 0.3742428 0.12224 0 0.4957046 0.006729245 0 0.4957046 0.12224 0 0.6171817 0.006729245 0 0.6171817 0.12224 0 0.7385672 0.006729245 0 0.7385672 0.12224 0 0.1313039 0.12224 0 0.009842069 0.12224 0 0.009842069 0.006729245 0 0.1313039 0.006729245 0 0.2527657 0.12224 0 0.2527657 0.006729245 0 0.3742428 0.12224 0 0.3742428 0.006729245 0 0.4957046 0.12224 0 0.4957046 0.006729245 0 0.6171817 0.12224 0 0.6171817 0.006729245 0 0.7385672 0.12224 0 0.7385672 0.006729245 0</float_array>
+          <technique_common>
+            <accessor source="#geom-Coin__BodyMT-map1-array" count="111" stride="3">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+              <param name="P" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="geom-Coin__BodyMT-vertices">
+          <input semantic="POSITION" source="#geom-Coin__BodyMT-positions"/>
+        </vertices>
+        <triangles material="BodyMT" count="96">
+          <input semantic="VERTEX" source="#geom-Coin__BodyMT-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#geom-Coin__BodyMT-normals" offset="1"/>
+          <input semantic="COLOR" source="#geom-Coin__BodyMT-map0" offset="2" set="0"/>
+          <input semantic="TEXCOORD" source="#geom-Coin__BodyMT-map1" offset="3" set="0"/>
+          <p>0 0 0 0 1 1 1 1 2 2 2 2 3 3 3 3 0 0 0 0 2 2 2 2 4 4 4 4 3 3 3 3 5 5 5 5 4 4 4 4 5 5 5 5 6 6 6 6 4 4 4 4 6 6 6 6 7 7 7 7 4 4 4 4 7 7 7 7 8 8 8 8 4 4 4 4 8 8 8 8 9 9 9 9 4 4 4 4 9 9 9 9 10 10 10 10 4 4 4 4 10 10 10 10 11 11 11 11 4 4 4 4 11 11 11 11 12 12 12 12 4 4 4 4 12 12 12 12 13 13 13 13 4 4 4 4 13 13 13 13 14 14 14 14 4 4 4 4 14 14 14 14 15 15 15 15 4 4 4 4 15 15 15 15 16 16 16 16 17 17 17 17 4 4 4 4 18 18 18 18 18 18 18 18 4 4 4 4 19 19 19 19 19 19 19 19 4 4 4 4 20 20 20 20 20 20 20 20 4 4 4 4 21 21 21 21 21 21 21 21 4 4 4 4 22 22 22 22 22 22 22 22 4 4 4 4 23 23 23 23 23 23 23 23 4 4 4 4 24 24 24 24 24 24 24 24 4 4 4 4 25 25 25 25 25 25 25 25 4 4 4 4 26 26 26 26 26 26 26 26 4 4 4 4 27 27 27 27 28 28 28 28 29 29 29 29 30 30 30 30 31 31 31 31 28 28 28 28 30 30 30 30 32 32 32 32 31 31 31 31 33 33 33 33 34 34 34 34 32 32 32 32 33 33 33 33 35 35 35 35 34 34 34 34 33 33 33 33 36 36 36 36 35 35 35 35 33 33 33 33 37 37 37 37 36 36 36 36 33 33 33 33 38 38 38 38 37 37 37 37 33 33 33 33 39 39 39 39 38 38 38 38 33 33 33 33 40 40 40 40 39 39 39 39 33 33 33 33 41 41 41 41 40 40 40 40 33 33 33 33 41 41 41 41 33 33 33 33 42 42 42 42 42 42 42 42 33 33 33 33 43 43 43 43 43 43 43 43 33 33 33 33 44 44 44 44 44 44 44 44 33 33 33 33 45 45 45 45 45 45 45 45 33 33 33 33 46 46 46 46 46 46 46 46 33 33 33 33 47 47 47 47 47 47 47 47 33 33 33 33 48 48 48 48 48 48 48 48 33 33 33 33 49 49 49 49 33 33 33 33 50 50 50 50 49 49 49 49 33 33 33 33 51 51 51 51 50 50 50 50 33 33 33 33 52 52 52 52 51 51 51 51 33 33 33 33 53 53 53 53 52 52 52 52 33 33 33 33 54 54 54 54 53 53 53 53 55 55 55 55 56 56 56 56 57 57 57 57 56 56 56 56 58 58 58 58 57 57 57 57 57 57 57 57 58 58 58 58 59 59 59 59 58 58 58 58 60 60 60 60 59 59 59 59 59 59 59 59 60 60 60 60 61 61 61 61 60 60 60 60 62 62 62 62 61 61 61 61 61 61 61 61 62 62 62 62 63 63 63 63 62 62 62 62 64 64 64 64 63 63 63 63 63 63 63 63 64 64 64 64 65 65 65 65 64 64 64 64 66 66 66 66 65 65 65 65 65 65 65 65 66 66 66 66 67 67 67 67 66 66 66 66 68 68 68 68 67 67 67 67 69 69 69 69 70 70 70 70 71 71 71 71 72 72 72 72 69 69 69 69 71 71 71 71 72 72 72 72 71 71 71 71 73 73 73 73 74 74 74 74 72 72 72 72 73 73 73 73 74 74 74 74 73 73 73 73 75 75 75 75 76 76 76 76 74 74 74 74 75 75 75 75 76 76 76 76 75 75 75 75 77 77 77 77 78 78 78 78 76 76 76 76 77 77 77 77 78 78 78 78 77 77 77 77 79 79 79 79 78 78 78 78 79 79 79 79 80 80 80 80 79 79 79 79 81 81 81 81 80 80 80 80 80 80 80 80 81 81 81 81 82 82 82 82 83 83 83 83 84 84 84 84 85 85 85 85 86 86 86 86 83 83 83 83 85 85 85 85 86 86 86 86 85 85 85 85 87 87 87 87 88 88 88 88 86 86 86 86 87 87 87 87 88 88 88 88 87 87 87 87 89 89 89 89 90 90 90 90 88 88 88 88 89 89 89 89 90 90 90 90 89 89 89 89 91 91 91 91 92 92 92 92 90 90 90 90 91 91 91 91 92 92 92 92 91 91 91 91 93 93 93 93 94 94 94 94 92 92 92 92 93 93 93 93 94 94 94 94 93 93 93 93 95 95 95 95 96 96 96 96 94 94 94 94 95 95 95 95 97 97 97 97 98 98 98 98 99 99 99 99 100 100 100 100 97 97 97 97 99 99 99 99 101 101 101 101 97 97 97 97 100 100 100 100 101 101 101 101 100 100 100 100 102 102 102 102 101 101 101 101 102 102 102 102 103 103 103 103 102 102 102 102 104 104 104 104 103 103 103 103 103 103 103 103 104 104 104 104 105 105 105 105 104 104 104 104 106 106 106 106 105 105 105 105 105 105 105 105 106 106 106 106 107 107 107 107 106 106 106 106 108 108 108 108 107 107 107 107 107 107 107 107 108 108 108 108 109 109 109 109 108 108 108 108 110 110 110 110 109 109 109 109</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_controllers>
+    <controller id="geom-Coin__BodyMT-skin1">
+      <skin source="#geom-Coin__BodyMT">
+        <bind_shape_matrix>0.97 0 0 0 0 0.97 0 0 0 0 0.97 0 0 0 0 1</bind_shape_matrix>
+        <source id="geom-Coin__BodyMT-skin1-joints">
+          <Name_array id="geom-Coin__BodyMT-skin1-joints-array" count="1">joint0</Name_array>
+          <technique_common>
+            <accessor source="#geom-Coin__BodyMT-skin1-joints-array" count="1" stride="1">
+              <param name="JOINT" type="name"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="geom-Coin__BodyMT-skin1-bind_poses">
+          <float_array id="geom-Coin__BodyMT-skin1-bind_poses-array" count="16">1.030928 0 0 0 0 0 1.030928 0 0 -1.030928 0 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#geom-Coin__BodyMT-skin1-bind_poses-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="geom-Coin__BodyMT-skin1-weights">
+          <float_array id="geom-Coin__BodyMT-skin1-weights-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#geom-Coin__BodyMT-skin1-weights-array" count="1" stride="1">
+              <param name="WEIGHT" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#geom-Coin__BodyMT-skin1-joints"/>
+          <input semantic="INV_BIND_MATRIX" source="#geom-Coin__BodyMT-skin1-bind_poses"/>
+        </joints>
+        <vertex_weights count="111">
+          <input semantic="JOINT" source="#geom-Coin__BodyMT-skin1-joints" offset="0"/>
+          <input semantic="WEIGHT" source="#geom-Coin__BodyMT-skin1-weights" offset="1"/>
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1</vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</v>
+        </vertex_weights>
+      </skin>
+    </controller>
+  </library_controllers>
+  <library_lights>
+    <light id="EnvironmentAmbientLight" name="EnvironmentAmbientLight">
+      <technique_common>
+        <ambient>
+          <color>0 0 0</color>
+        </ambient>
+      </technique_common>
+    </light>
+  </library_lights>
+  <library_images>
+    <image id="CoinBody00_alb_png">
+      <init_from>./Textures/CoinBody00_alb.png</init_from>
+    </image>
+    <image id="CoinBody00_nrm_png">
+      <init_from>./Textures/CoinBody00_nrm.png</init_from>
+    </image>
+  </library_images>
+  <library_visual_scenes>
+    <visual_scene id="MaxScene">
+      <node name="EnvironmentAmbientLight">
+        <instance_light url="#EnvironmentAmbientLight"/>
+      </node>
+      <node id="node-AllRoot" name="AllRoot">
+        <rotate>-1 0 0 -90</rotate>
+        <node id="node-Coin" name="Coin" sid="joint0" type="JOINT">
+          <scale>0.97 0.97 0.97</scale>
+          <extra>
+            <technique profile="OpenCOLLADA">
+              <cast_shadows sid="cast_shadows" type="bool">1</cast_shadows>
+              <receive_shadows sid="receive_shadows" type="bool">1</receive_shadows>
+              <primary_visibility sid="primary_visibility" type="bool">1</primary_visibility>
+              <secondary_visibility sid="secondary_visibility" type="bool">1</secondary_visibility>
+            </technique>
+          </extra>
+        </node>
+        <extra>
+          <technique profile="OpenCOLLADA">
+            <cast_shadows sid="cast_shadows" type="bool">1</cast_shadows>
+            <receive_shadows sid="receive_shadows" type="bool">1</receive_shadows>
+            <primary_visibility sid="primary_visibility" type="bool">1</primary_visibility>
+            <secondary_visibility sid="secondary_visibility" type="bool">1</secondary_visibility>
+          </technique>
+        </extra>
+      </node>
+      <node id="node-Coin__BodyMT" name="Coin__BodyMT">
+        <instance_controller url="#geom-Coin__BodyMT-skin1">
+          <skeleton>#node-Coin</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="BodyMT" target="#BodyMT-material">
+                <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="0"/>
+                <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="0"/>
+                <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+        <extra>
+          <technique profile="OpenCOLLADA">
+            <cast_shadows sid="cast_shadows" type="bool">1</cast_shadows>
+            <receive_shadows sid="receive_shadows" type="bool">1</receive_shadows>
+            <primary_visibility sid="primary_visibility" type="bool">1</primary_visibility>
+            <secondary_visibility sid="secondary_visibility" type="bool">1</secondary_visibility>
+          </technique>
+        </extra>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#MaxScene"/>
+  </scene>
+</COLLADA>

@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c1e40198d333b1448b613d3a5253590, type: 3}
+  m_Name: GoombaB
+  m_EditorClassIdentifier: 
+  Visual: {fileID: 2871281364766992670, guid: 09664485faf0888439685d596712b983, type: 3}
+  selfShadow: {fileID: 2908175051198882846, guid: f3f0c31ea043998419a23a76653c65ea,
+    type: 3}
+  selfShadowOffset: {x: 0, y: 0.1, z: 0}
+  visualOffset: {x: 0, y: 0, z: 0}
+  eulerAngleOffset: {x: 0, y: -145, z: 0}
+  VisualAnimator: {fileID: 9100000, guid: d27a16384bf66d34184cb974972af7b9, type: 2}
+  spawnInfo:
+    random: 1
+    min: {x: 22, y: -2}
+    max: {x: 30, y: 6}
+  floorY: 8.4

@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57c8396977328d44d8c736af3c42d771, type: 3}
+  m_Name: Starlow
+  m_EditorClassIdentifier: 
+  identifier: starlow
+  displayName: Starlow
+  displayDescription: 
+  characterIcon: {fileID: -1643565968, guid: c191cb0d19926bf40a948e0c2a4e42c5, type: 3}
+  charaType: 0
+  charaFlags: []
+  startingStats:
+    HEALTH:
+      startValue: 24
+      valueMultiplier: 1
+    ENERGY:
+      startValue: 0
+      valueMultiplier: 0
+    ATTACK:
+      startValue: 0
+      valueMultiplier: 0
+    DEFENSE:
+      startValue: 0
+      valueMultiplier: 0
+    MAGICATTACK:
+      startValue: 0
+      valueMultiplier: 0
+    MAGICDEFENSE:
+      startValue: 0
+      valueMultiplier: 0
+    SPEED:
+      startValue: 0
+      valueMultiplier: 0
+    LUCK:
+      startValue: 0
+      valueMultiplier: 0
+  selfBattle: {fileID: 0}
+  selfIA:
+    speed: 0
+  floorYOffset: 0
+  mass: 1
+  size: 1
+  collider:
+    radious: 0
+    height: 0
+    offset: {x: 0, y: 0, z: 0}
+  OVActor: {fileID: 0}
+  phyMat: {fileID: 0}
+  jumpForce: 100
+  selfEncounter: {fileID: 0}
+  ySquatch: {x: 0, y: 0}
+  xSquatch: {x: 0, y: 0}
+  effectSquatch: 0
+  effectSquatchY: 0
+  selfShadow: {fileID: 0}
+  selfShadowOffset: {x: 0, y: 0, z: 0}
+  IATrailPointPrefab: {fileID: 0}
+  followDistance: 0
+  selfLayer: 
+  floorMask:
+    serializedVersion: 2
+    m_Bits: 0
+  SpeechBubbleSFX: {fileID: 8300000, guid: 051f4a8b870db7344b99bcb3bfc27cc3, type: 3}
+  SpeechBubbleSkipSFX: {fileID: 8300000, guid: 7d96173b594934e43af09e95b15852f1, type: 3}

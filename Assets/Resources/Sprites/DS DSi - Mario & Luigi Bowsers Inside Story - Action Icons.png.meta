@@ -1,0 +1,1253 @@
+fileFormatVersion: 2
+guid: d2b43b2104fe3a943842b9e76db82e93
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Action Icons_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 152
+        width: 32
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 651f85455b2802a49b04e00d2b7449dc
+      internalID: -1835040660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Action Icons_1
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 152
+        width: 32
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cf7e5a4ee6e8ba49a5cb40f487c1caa
+      internalID: -1057260922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Action Icons_2
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 146
+        width: 53
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab9858ccfc2931f47a127ef03369d734
+      internalID: 103531925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Action Icons_3
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 146
+        width: 51
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b63536ba1a2e5c0468a086169206eb4c
+      internalID: -813051495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Action Icons_4
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 170
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adec4afece9845c448048fb3b76765df
+      internalID: -364985471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Action Icons_5
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 170
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaf21e1a7358b664c80e42e8267b8443
+      internalID: -1676844517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Action Icons_6
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 146
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e29ab3db7de4faf4ab4cced9c162414d
+      internalID: -931774505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Action Icons_7
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 146
+        width: 22
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afa2ab4903fe82f47b16e3251bbc4d3d
+      internalID: 2097998968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Action Icons_8
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 147
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68d793f941e8d1d45a3dada860bcac2d
+      internalID: -159131187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Action Icons_9
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 147
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6363232c8c19d54b93b639f7addb0be
+      internalID: -384135105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Action Icons_10
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 146
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe069cfe9fb73184b8d10731e3a71f9e
+      internalID: 1534576123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Action Icons_11
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 146
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ead236c31d2a754e9306ccfe8ff7059
+      internalID: 183168662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Action Icons_12
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 90
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03302f5a98e896141af5383f87dc9ff5
+      internalID: -1243470900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Action Icons_13
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 90
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65b0d650f3f5cf54fa2889a76d71e19d
+      internalID: -474320884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Action Icons_14
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 90
+        width: 30
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8546f619c62b29045a999e5542d6e9db
+      internalID: -598828919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Action Icons_15
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 90
+        width: 24
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9332fb9f3c57984eac9cabe8b552ac9
+      internalID: 562482685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Action Icons_16
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 90
+        width: 24
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61b4d9581c0b00e40a804c436f4f8984
+      internalID: 114523297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Action Icons_17
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 114
+        width: 18
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d992c6f4954674a4d94d4efb034d1b9f
+      internalID: 235296681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Action Icons_18
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 94
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01392d94cc65a204fab6b4e64d9ce146
+      internalID: 981566643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Action Icons_19
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 95
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dcb076438f8c5e43ab61b743d524e2a
+      internalID: -1645666522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Action Icons_20
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 92
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ff6592a0b67f4d41a460241422b51d2
+      internalID: 1847917912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Action Icons_21
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 92
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 576e9d0bae8b3744b9eab53ac3c699a2
+      internalID: -476630840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Action Icons_22
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 92
+        width: 21
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6ab2d1baca6aac46a319e5f573a44f6
+      internalID: -146305757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Action Icons_23
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 36
+        width: 29
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 780037d076b5a62438eb1665e92de92b
+      internalID: -745727907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Action Icons_24
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 34
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcb3ba58370f9794f93e4023ee6aac41
+      internalID: 179144717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Action Icons_25
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 34
+        width: 36
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 808ab64c80a43514d9e352339d4f2d08
+      internalID: 1078567168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Action Icons_26
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 34
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30aaf725cff9b524c868750ff29996b5
+      internalID: 1303863000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Action Icons_27
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 34
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 537ecd06b24fe7844b486000c8302f14
+      internalID: -1759667678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Action Icons_28
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 35
+        width: 31
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca801f09ec838964dba685a87b6d7e00
+      internalID: 1832986172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Action Icons_29
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 36
+        width: 31
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30e1787c9fd5fa84ca1a3fa48f1074fd
+      internalID: 402644122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Action Icons_30
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 58
+        width: 18
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24707da24140ad74899ad24ab880e0ae
+      internalID: 835400221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Action Icons_31
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 38
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 161118fdbf4e83942bf810077a597995
+      internalID: -1401018981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Action Icons_32
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 39
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41d36c5cd9819e34baba12121d0b0471
+      internalID: 2124509127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Action Icons_33
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 36
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c84e009ce2d6a284395ce4223dffc9af
+      internalID: 169734422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Action Icons_34
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 36
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3d570cf1bf926440b193be37764375f
+      internalID: 1644970105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Action Icons_35
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 36
+        width: 21
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57c3a819420e4b74b94d60bdfbb8aea3
+      internalID: 923078013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Action Icons_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 11
+        width: 38
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e8cdc03f9c2cea4f8ad0dbffbf7f3b3
+      internalID: -807101762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Action Icons_37
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 11
+        width: 29
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47002401a632b95479393bd139d33e26
+      internalID: -1630793410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Action Icons_38
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 12
+        width: 41
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 954bfc219362299439ecb1b3c38b68ff
+      internalID: -2072101457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Action Icons_39
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 12
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fe1c067ce8e8ba4c909e490022697db
+      internalID: -1659839176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Action Icons_40
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 12
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ce971c43cd012049b2fe0e104adc6df
+      internalID: 2090981447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Action Icons_41
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 11
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c3656867ff43dd418374fa665ec0e51
+      internalID: -1923109431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Action Icons_42
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 11
+        width: 18
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d7f7f450320cf841bfc9dfbdb58c9cc
+      internalID: 1758736317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Action Icons_43
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 11
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92a1ff4ab86dab74296ace27856084dd
+      internalID: 599114844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Action Icons_44
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 11
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 249e9320ad13510409d82c212d0bbf2e
+      internalID: 600680706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Action Icons_45
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 11
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 934ba4e7783b82849a8b364f66669ae1
+      internalID: -258692527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Action Icons_46
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 11
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cb7845d364cb9c48898bfc01dda89e5
+      internalID: 694966866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Action Icons_47
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 11
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 872effad558f4a34fb39ae43edd6b86b
+      internalID: -176167424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Action Icons_48
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 11
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21618919980ff594e88ed3be51c7db56
+      internalID: -792197152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Action Icons_49
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 11
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4ff2398c05587b4286d06d006aefb1a
+      internalID: 56851905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 2be1d970934335f419cb5b576cf15134
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      DS DSi - Mario & Luigi Bowsers Inside Story - Action Icons_0: -1835040660
+      DS DSi - Mario & Luigi Bowsers Inside Story - Action Icons_1: -1057260922
+      DS DSi - Mario & Luigi Bowsers Inside Story - Action Icons_10: 1534576123
+      DS DSi - Mario & Luigi Bowsers Inside Story - Action Icons_11: 183168662
+      DS DSi - Mario & Luigi Bowsers Inside Story - Action Icons_12: -1243470900
+      DS DSi - Mario & Luigi Bowsers Inside Story - Action Icons_13: -474320884
+      DS DSi - Mario & Luigi Bowsers Inside Story - Action Icons_14: -598828919
+      DS DSi - Mario & Luigi Bowsers Inside Story - Action Icons_15: 562482685
+      DS DSi - Mario & Luigi Bowsers Inside Story - Action Icons_16: 114523297
+      DS DSi - Mario & Luigi Bowsers Inside Story - Action Icons_17: 235296681
+      DS DSi - Mario & Luigi Bowsers Inside Story - Action Icons_18: 981566643
+      DS DSi - Mario & Luigi Bowsers Inside Story - Action Icons_19: -1645666522
+      DS DSi - Mario & Luigi Bowsers Inside Story - Action Icons_2: 103531925
+      DS DSi - Mario & Luigi Bowsers Inside Story - Action Icons_20: 1847917912
+      DS DSi - Mario & Luigi Bowsers Inside Story - Action Icons_21: -476630840
+      DS DSi - Mario & Luigi Bowsers Inside Story - Action Icons_22: -146305757
+      DS DSi - Mario & Luigi Bowsers Inside Story - Action Icons_23: -745727907
+      DS DSi - Mario & Luigi Bowsers Inside Story - Action Icons_24: 179144717
+      DS DSi - Mario & Luigi Bowsers Inside Story - Action Icons_25: 1078567168
+      DS DSi - Mario & Luigi Bowsers Inside Story - Action Icons_26: 1303863000
+      DS DSi - Mario & Luigi Bowsers Inside Story - Action Icons_27: -1759667678
+      DS DSi - Mario & Luigi Bowsers Inside Story - Action Icons_28: 1832986172
+      DS DSi - Mario & Luigi Bowsers Inside Story - Action Icons_29: 402644122
+      DS DSi - Mario & Luigi Bowsers Inside Story - Action Icons_3: -813051495
+      DS DSi - Mario & Luigi Bowsers Inside Story - Action Icons_30: 835400221
+      DS DSi - Mario & Luigi Bowsers Inside Story - Action Icons_31: -1401018981
+      DS DSi - Mario & Luigi Bowsers Inside Story - Action Icons_32: 2124509127
+      DS DSi - Mario & Luigi Bowsers Inside Story - Action Icons_33: 169734422
+      DS DSi - Mario & Luigi Bowsers Inside Story - Action Icons_34: 1644970105
+      DS DSi - Mario & Luigi Bowsers Inside Story - Action Icons_35: 923078013
+      DS DSi - Mario & Luigi Bowsers Inside Story - Action Icons_36: -807101762
+      DS DSi - Mario & Luigi Bowsers Inside Story - Action Icons_37: -1630793410
+      DS DSi - Mario & Luigi Bowsers Inside Story - Action Icons_38: -2072101457
+      DS DSi - Mario & Luigi Bowsers Inside Story - Action Icons_39: -1659839176
+      DS DSi - Mario & Luigi Bowsers Inside Story - Action Icons_4: -364985471
+      DS DSi - Mario & Luigi Bowsers Inside Story - Action Icons_40: 2090981447
+      DS DSi - Mario & Luigi Bowsers Inside Story - Action Icons_41: -1923109431
+      DS DSi - Mario & Luigi Bowsers Inside Story - Action Icons_42: 1758736317
+      DS DSi - Mario & Luigi Bowsers Inside Story - Action Icons_43: 599114844
+      DS DSi - Mario & Luigi Bowsers Inside Story - Action Icons_44: 600680706
+      DS DSi - Mario & Luigi Bowsers Inside Story - Action Icons_45: -258692527
+      DS DSi - Mario & Luigi Bowsers Inside Story - Action Icons_46: 694966866
+      DS DSi - Mario & Luigi Bowsers Inside Story - Action Icons_47: -176167424
+      DS DSi - Mario & Luigi Bowsers Inside Story - Action Icons_48: -792197152
+      DS DSi - Mario & Luigi Bowsers Inside Story - Action Icons_49: 56851905
+      DS DSi - Mario & Luigi Bowsers Inside Story - Action Icons_5: -1676844517
+      DS DSi - Mario & Luigi Bowsers Inside Story - Action Icons_6: -931774505
+      DS DSi - Mario & Luigi Bowsers Inside Story - Action Icons_7: 2097998968
+      DS DSi - Mario & Luigi Bowsers Inside Story - Action Icons_8: -159131187
+      DS DSi - Mario & Luigi Bowsers Inside Story - Action Icons_9: -384135105
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

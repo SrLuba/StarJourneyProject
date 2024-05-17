@@ -1,0 +1,3541 @@
+fileFormatVersion: 2
+guid: c191cb0d19926bf40a948e0c2a4e42c5
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 1
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MarioIdleReference_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 227
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a2a46d96a8d5194f906d32fad2768f4
+      internalID: 2032658503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarioIdleReference_1
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 227
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39335af21628be74997a4f9b63c7e365
+      internalID: 1038580205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarioIdleReference_2
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 227
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8851e9187d6c87d4bbac50cc0e916016
+      internalID: 1144450440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarioIdleReference_3
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 227
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99d867f2328650b47a6ddd21c26b7602
+      internalID: 856246361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarioIdleReference_4
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 227
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c221360378e5ed34783cdee9408415b7
+      internalID: -1926239204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarioIdleReference_5
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 227
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4cf5cdd01bbc7b488452534520f3a51
+      internalID: 421958091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarioIdleReference_6
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 227
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a80e4b9d6fcf50943883f54494bd2a7e
+      internalID: 1140900210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarioIdleReference_7
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 227
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af874a0d60d578841bf0f92b165206a1
+      internalID: -1643565968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarioIdleReference_8
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 227
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a92ace3c93107454199f9129faa269e8
+      internalID: 35457865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarioIdleReference_9
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 227
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a38690cfef74d1843b074ed0ba1546e3
+      internalID: -1713870520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarioIdleReference_10
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 227
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a48b2618c195f6d4a9e8fb3a35fd829f
+      internalID: -1867612801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarioIdleReference_11
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 227
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b95b20b7936510429ac0417ce36464c
+      internalID: 1139114541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarioIdleReference_12
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 227
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1dd83735ca76ed43815171920596b39
+      internalID: 1258468508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarioIdleReference_13
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 227
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 944a33cecca33d14aba7c6c521a2f771
+      internalID: 472093569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarioIdleReference_14
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 227
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a55c374314dd63408344ed520131fd4
+      internalID: 773871367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarioIdleReference_15
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 227
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc351301c7840c94db0d2a7ceeff33b7
+      internalID: 779497042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarioIdleReference_16
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 227
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44e1db6911cd5894f8cb9a613b8a893b
+      internalID: -1743838491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarioIdleReference_17
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 227
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3e951134981ee14d98631ce260f228f
+      internalID: 487842563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarioIdleReference_18
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 227
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc903a0fc7264e7489353c7a6dac937e
+      internalID: -303128818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarioIdleReference_19
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 227
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fba2025e98df75848b33fafae785e5c9
+      internalID: 286550332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarioIdleReference_20
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 227
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 866633e140f56a04c99c48934bf6ac03
+      internalID: 1400279284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarioIdleReference_21
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 227
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70f163cea0742ce4e8db52e146331eb4
+      internalID: 953082259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarioIdleReference_22
+      rect:
+        serializedVersion: 2
+        x: 1012
+        y: 227
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d704c906989374347ab191aad97bfe77
+      internalID: 783624534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarioIdleReference_23
+      rect:
+        serializedVersion: 2
+        x: 1058
+        y: 227
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd6f3cabe10334446afc9b1a86c1a317
+      internalID: 984753991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarioIdleReference_24
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 227
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c1e1de8ab5ac4d42bb5e1c8ba2a2441
+      internalID: 1766435627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarioIdleReference_25
+      rect:
+        serializedVersion: 2
+        x: 1150
+        y: 227
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b59a87d992a0d9649847cac178159706
+      internalID: -1273763380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarioIdleReference_26
+      rect:
+        serializedVersion: 2
+        x: 1196
+        y: 227
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5889d7fdd26c17a43b2b2cd346309251
+      internalID: -1011936921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarioIdleReference_27
+      rect:
+        serializedVersion: 2
+        x: 1242
+        y: 227
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f401012bbea40004dac71bcac3fafa6b
+      internalID: -750537955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarioIdleReference_28
+      rect:
+        serializedVersion: 2
+        x: 1288
+        y: 227
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1534ace2f40cf7b45a90b9220c5b5aa9
+      internalID: -1374956925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarioIdleReference_29
+      rect:
+        serializedVersion: 2
+        x: 1334
+        y: 227
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca002d9f2b8b3d54f80f0a701fdc4cdc
+      internalID: -766888300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarioIdleReference_30
+      rect:
+        serializedVersion: 2
+        x: 1380
+        y: 227
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a94ee65e210f9554cbc876b0b1f80dff
+      internalID: -1829094313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarioIdleReference_31
+      rect:
+        serializedVersion: 2
+        x: 1426
+        y: 227
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77bd719a2d672284a8ec83d2f4905fc1
+      internalID: -210400372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarioIdleReference_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 170
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a11d0d8d70730d148b3de7d97f15dc69
+      internalID: 1150941474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarioIdleReference_33
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 170
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81c4b636506eaf1489b606becb6f151e
+      internalID: 1206762801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarioIdleReference_34
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 170
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a00476086441fb64087ba63421d1f2eb
+      internalID: -802109962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarioIdleReference_35
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 170
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62b14556c81751e409dcd5f10d8a0202
+      internalID: -376101198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarioIdleReference_36
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 170
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b7da8c9c93aff84a8b7fbfda6133b48
+      internalID: -1052043823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarioIdleReference_37
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 170
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 472e94ca3b2c76f42973cfea8ecd5ca0
+      internalID: 1168678221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarioIdleReference_38
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 170
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42dd0e4f8f3bf6744a8e42500e591116
+      internalID: 1878378328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarioIdleReference_39
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 170
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3e309631207a954c94f8c3cadd8bd1e
+      internalID: 640077732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarioIdleReference_40
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 170
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c8c138eb05ec3641bd99b0ca18b9a9b
+      internalID: 876450428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarioIdleReference_41
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 170
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 100fe5bb9ae17684bae17346225961e2
+      internalID: 144797137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarioIdleReference_42
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 170
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 216a47ac33354e742a962c97eaf77cb5
+      internalID: -653511467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarioIdleReference_43
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 170
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c9d031bc5157b840b2d08b80d838304
+      internalID: -1162818523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarioIdleReference_44
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 170
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff30a5fac5adfa04898ccf8d200b43d8
+      internalID: 1390806717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarioIdleReference_45
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 170
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1aeedbfd59f32c4b8f36bac7665c4ca
+      internalID: 229121123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarioIdleReference_46
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 170
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50811b90191d64c4dac837b463126f3b
+      internalID: 1876658735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarioIdleReference_47
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 170
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 476e2c26d596b0b4d9eb9360eb55b186
+      internalID: -1742420058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarioIdleReference_48
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 170
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 433ca6947f52b844aa570b4a6cfb22de
+      internalID: -653197249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarioIdleReference_49
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 170
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1f5bbf3c3f050d4fa3e161b230b5985
+      internalID: -858861212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarioIdleReference_50
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 170
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 204ffe4b2a3ddf54f92de3d79ba4ad13
+      internalID: -2069274334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarioIdleReference_51
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 170
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd2b35aa3daf7e54e8c7bf9467f1815b
+      internalID: -61864868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarioIdleReference_52
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 170
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42950dcdabe63eb42bc00db59df04318
+      internalID: 1594302477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarioIdleReference_53
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 170
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4103a19a9b19e894a8aa95256509c152
+      internalID: -1470177119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarioIdleReference_54
+      rect:
+        serializedVersion: 2
+        x: 1012
+        y: 170
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ff089794f858d24a9f0a28ff4bbef77
+      internalID: -1313593318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarioIdleReference_55
+      rect:
+        serializedVersion: 2
+        x: 1058
+        y: 170
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaafe9f333550534da04fcf7f5f7d4a9
+      internalID: -1489443089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarioIdleReference_56
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 170
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df3a0d6eb91fd644c8dfb543d5c0619b
+      internalID: 447505411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarioIdleReference_57
+      rect:
+        serializedVersion: 2
+        x: 1150
+        y: 170
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 820a4ca9665e43b49b64f676d16f712e
+      internalID: -755753474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarioIdleReference_58
+      rect:
+        serializedVersion: 2
+        x: 1196
+        y: 170
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e591922a2aa2aa40ad5db653a9247d1
+      internalID: -327517863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarioIdleReference_59
+      rect:
+        serializedVersion: 2
+        x: 1242
+        y: 170
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85d786d5c28e580458b0038806113e7c
+      internalID: 1919018541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarioIdleReference_60
+      rect:
+        serializedVersion: 2
+        x: 1288
+        y: 170
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0de11c9030069ee4d8ba77cf8d4de33e
+      internalID: -760632854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarioIdleReference_61
+      rect:
+        serializedVersion: 2
+        x: 1334
+        y: 170
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 648498087b3139c42bb683cb43233e3d
+      internalID: -798623905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarioIdleReference_62
+      rect:
+        serializedVersion: 2
+        x: 1380
+        y: 170
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e630a7ebb4cc9a64e921f744d18bb81f
+      internalID: 1209814374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarioIdleReference_63
+      rect:
+        serializedVersion: 2
+        x: 1426
+        y: 170
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6316b764a77f5dd41a3fef26565193cd
+      internalID: 1323691444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarioIdleReference_64
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 113
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7b820595099bb9479a6c5aa190baeae
+      internalID: 1003848257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarioIdleReference_65
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 113
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74939b56027f1e04f83850af03e3861d
+      internalID: -1424945664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarioIdleReference_66
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 113
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46cfd70268e078a4387898c290bf70ec
+      internalID: 1009853020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarioIdleReference_67
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 113
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2b82efa567f815418c058180f45a3fe
+      internalID: 211650967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarioIdleReference_68
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 113
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d55e8e9e640e2944a1d5afaf664e3e1
+      internalID: -1005178467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarioIdleReference_69
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 113
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5162bbe49a87b0248991977fb127d4a7
+      internalID: -1456619941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarioIdleReference_70
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 113
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93f34efabf09b034f859f6e09342013f
+      internalID: -274922164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarioIdleReference_71
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 113
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d32143285e385894f8e7571e7bfc0487
+      internalID: 1693131984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarioIdleReference_72
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 113
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33f8164685262ef40b30d063a6948a49
+      internalID: 1864215933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarioIdleReference_73
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 113
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab38a99d6ad613c47a3ab07353d99365
+      internalID: -919088206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarioIdleReference_74
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 113
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ef99ddfb46ee9b41858951876c3c625
+      internalID: -1792346180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarioIdleReference_75
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 113
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8f586f1aa20534439b13d73551e2d09
+      internalID: -548529636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarioIdleReference_76
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 113
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c24e3daf5a664eb4d8c7bb94c40a65a4
+      internalID: -1999799964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarioIdleReference_77
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 113
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bc3d91d771ae3d41b6b78d96e56242b
+      internalID: 426694385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarioIdleReference_78
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 113
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9033cfd8e239887458b0c17acccf80c8
+      internalID: -75479650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarioIdleReference_79
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 113
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80f8e9117f213604c9331420f237662f
+      internalID: 1928753260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarioIdleReference_80
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 113
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27b31c42be949f745aed8ccbe2ff9b39
+      internalID: 1961818822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarioIdleReference_81
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 113
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5993cbcfda008ac449924100429df5ae
+      internalID: -2008753636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarioIdleReference_82
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 113
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97d2f3ef4f736234fb12ea33b61c1183
+      internalID: -1082350383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarioIdleReference_83
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 113
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db6dd9a2de9c9ea42821954eb59bf7e4
+      internalID: 452756469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarioIdleReference_84
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 113
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3b8a1f79282fd744879a6b620250ad6
+      internalID: -1064071203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarioIdleReference_85
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 113
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2e44885bd9557645a38c258b3f08461
+      internalID: 415045560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarioIdleReference_86
+      rect:
+        serializedVersion: 2
+        x: 1012
+        y: 113
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69a86bcc0f2da0d4d913e14c57e3c60a
+      internalID: 1662031482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarioIdleReference_87
+      rect:
+        serializedVersion: 2
+        x: 1058
+        y: 113
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25ea4b2da3aca724da766784a4e8374c
+      internalID: 91657107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarioIdleReference_88
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 113
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16ae1e58d2e71ea48900300bbbc32e66
+      internalID: 629077827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarioIdleReference_89
+      rect:
+        serializedVersion: 2
+        x: 1150
+        y: 113
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c07657235978d04fb854769da9ba5eb
+      internalID: 2135575725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarioIdleReference_90
+      rect:
+        serializedVersion: 2
+        x: 1196
+        y: 113
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44444b43a1f83cd42903a471663c724f
+      internalID: 926112082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarioIdleReference_91
+      rect:
+        serializedVersion: 2
+        x: 1242
+        y: 113
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 801bd3e5d081c9e44a773d76b9cd3d36
+      internalID: 643522906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarioIdleReference_92
+      rect:
+        serializedVersion: 2
+        x: 1288
+        y: 113
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7201fb847058c544d9890285a62cea1a
+      internalID: -236957833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarioIdleReference_93
+      rect:
+        serializedVersion: 2
+        x: 1334
+        y: 113
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83f88953e0c0e724eab02db11bd05854
+      internalID: 1279792385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarioIdleReference_94
+      rect:
+        serializedVersion: 2
+        x: 1380
+        y: 113
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a226ace73bb4bf94c9128f152a3d7a3a
+      internalID: -721538449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarioIdleReference_95
+      rect:
+        serializedVersion: 2
+        x: 1426
+        y: 113
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 845581548252cdc49b69cd1b90aaa6d8
+      internalID: 71941996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarioIdleReference_96
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 56
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0ba836790cb0e24aa9daadee4f046d8
+      internalID: -2002980134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarioIdleReference_97
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 56
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee09289aa29020341a14db922992e673
+      internalID: -2023347749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarioIdleReference_98
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 56
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e576cab3a5c521469f3fa5d6b9fa62a
+      internalID: 1499721743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarioIdleReference_99
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 56
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40168fbc05d910c40b85af0cb197dda7
+      internalID: 2006788687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarioIdleReference_100
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 56
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02b95df2b9d5e4a449aa7da2e1fdf0fa
+      internalID: 2078236017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarioIdleReference_101
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 56
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 856162ccecf36994aadeb5b5ad6efbd5
+      internalID: -1913648802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarioIdleReference_102
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 56
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdb2e411f638e564e97ce2c83af6587d
+      internalID: 575804166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarioIdleReference_103
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 56
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff7915fde93786647af1d05c17df8d7a
+      internalID: 1977423655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarioIdleReference_104
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 56
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7859f6e482375d47b45f12862587620
+      internalID: -860224429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarioIdleReference_105
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 56
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53989c6a0b03b6f44a23be3ecda0fbc8
+      internalID: -2064057911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarioIdleReference_106
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 56
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: deab82cc22cbc7d40aef89b6effd785d
+      internalID: -1403931075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarioIdleReference_107
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 56
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c9508c073fbaab4796f8ae955b2e32c
+      internalID: -163623922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarioIdleReference_108
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 56
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf47412ffbd2b1649abd819a3b7aeca5
+      internalID: -958594987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarioIdleReference_109
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 56
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef39bbae9b1bb3d4f9a2fd0722569d77
+      internalID: -365376642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarioIdleReference_110
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 56
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ec139b8f79176e48a13ca3627715cc6
+      internalID: 1622312304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarioIdleReference_111
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 56
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08f78ab94cfd7b74298420eb9bf324d2
+      internalID: -590936041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarioIdleReference_112
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 56
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f29bb486ade78747843f57185d0b14b
+      internalID: -1452312200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarioIdleReference_113
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 56
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81f543e6d2fab17429b27eb4d03c698f
+      internalID: -115808342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarioIdleReference_114
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 56
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f641ca708f04619498a0bfc6f0357d69
+      internalID: -1117600751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarioIdleReference_115
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 56
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 729ec5c3250702943b11feceafb1a9c7
+      internalID: 1112655892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarioIdleReference_116
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 56
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d284a2e613e23fd49a3a3ac8a07ca9b6
+      internalID: 2062645495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarioIdleReference_117
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 56
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 646a7dd85baebd24aad405b7103ea16e
+      internalID: 1338571600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarioIdleReference_118
+      rect:
+        serializedVersion: 2
+        x: 1012
+        y: 56
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ab762e4007abeb4db5cb49a2f5945ef
+      internalID: -1513228451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarioIdleReference_119
+      rect:
+        serializedVersion: 2
+        x: 1058
+        y: 56
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9d46414c638deb4298b36e3bf3fcc62
+      internalID: -1418747812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarioIdleReference_120
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 56
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaf430b0a41db9a48821febf1a7bd4d5
+      internalID: 631001313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarioIdleReference_121
+      rect:
+        serializedVersion: 2
+        x: 1150
+        y: 56
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c9f5ae972db96c4ca92949aa1702664
+      internalID: 1543596473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarioIdleReference_122
+      rect:
+        serializedVersion: 2
+        x: 1196
+        y: 56
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a7ae9efbf2e284498c9e8927bd36f36
+      internalID: -651318590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarioIdleReference_123
+      rect:
+        serializedVersion: 2
+        x: 1242
+        y: 56
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 775008a60b7999e4c99a48829185efde
+      internalID: 216793118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarioIdleReference_124
+      rect:
+        serializedVersion: 2
+        x: 1288
+        y: 56
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e5b1bde9d162264b8712cfc628752ac
+      internalID: 1761520632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarioIdleReference_125
+      rect:
+        serializedVersion: 2
+        x: 1334
+        y: 56
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fa2377aac3844b4bb9d8af832a36163
+      internalID: 820228784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarioIdleReference_126
+      rect:
+        serializedVersion: 2
+        x: 1380
+        y: 56
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fd694013f33a8141a39b51796bf4c55
+      internalID: 1525459842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarioIdleReference_127
+      rect:
+        serializedVersion: 2
+        x: 1426
+        y: 56
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd6ea25567b6e39448960f2be05a2225
+      internalID: -36610219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarioIdleReference_128
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 44
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa3ffb3ebba1d5d4aa11a7ad55d05dda
+      internalID: 1458157174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarioIdleReference_129
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 0
+        width: 44
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9131143c886eb8b46959c62336c84ade
+      internalID: 681238032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarioIdleReference_130
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 0
+        width: 44
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd431dee38c920248b29eaeb3b32dc84
+      internalID: -1568219077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarioIdleReference_131
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 0
+        width: 44
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96293d519c411f943ab95c12bf7a5a90
+      internalID: -239370504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarioIdleReference_132
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 0
+        width: 44
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c327c23687a5ff040b5d4fc642c741d3
+      internalID: 420936544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarioIdleReference_133
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 0
+        width: 44
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ea1b2b73a5c5df4e88100c23cbbac06
+      internalID: 580444728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarioIdleReference_134
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 0
+        width: 44
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d86d091935f19542b49044d80656d5a
+      internalID: 1901882172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarioIdleReference_135
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 0
+        width: 44
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfc05e0fcfd94b04eaff7e232fd43416
+      internalID: -1321746508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarioIdleReference_136
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 0
+        width: 44
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9957aa2b6acc52d419c91c47ba120ad5
+      internalID: 1929340725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarioIdleReference_137
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 0
+        width: 44
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73602e725f9fc4e44ad64f985f5b444d
+      internalID: 894296559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarioIdleReference_138
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 0
+        width: 44
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f51b26827678ef84eb4c14ce98ccf295
+      internalID: -662202405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarioIdleReference_139
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 0
+        width: 44
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d3d7bfcdf23b55479786ba8925ca2ef
+      internalID: -348094500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarioIdleReference_140
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 0
+        width: 44
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82d7a4e4c81122645bf6f70265194c8a
+      internalID: 1465181147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarioIdleReference_141
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 0
+        width: 44
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e048fea7458dc024ca07f42c34439f1a
+      internalID: 792473245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarioIdleReference_142
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 0
+        width: 44
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85d4c12c8b6f7634397b3ecd74a843b6
+      internalID: 1852415472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarioIdleReference_143
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 0
+        width: 44
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2dd46d336935c947a30e4d4626b24a2
+      internalID: 1790622392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarioIdleReference_144
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 0
+        width: 44
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b10aec77510519640ad0e8381a83a6cd
+      internalID: 924061147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarioIdleReference_145
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 0
+        width: 44
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a72580e4fc60e4c469ad6b3e98560455
+      internalID: -305020534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarioIdleReference_146
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 0
+        width: 44
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 031840717e7021d4e8264f0338047c87
+      internalID: -1327630494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarioIdleReference_147
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 0
+        width: 44
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da548b352b0daa94eae5121e903f4325
+      internalID: -1867762732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarioIdleReference_148
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 0
+        width: 44
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dff575fede99f504981a69ac88ee0c28
+      internalID: 719352513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarioIdleReference_149
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 0
+        width: 44
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e410e67297d2a324c8ebd48fbaeb88bb
+      internalID: -214554840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarioIdleReference_150
+      rect:
+        serializedVersion: 2
+        x: 1012
+        y: 0
+        width: 44
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f80bf9b8b11984841b178c0e15ff0768
+      internalID: 449838948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarioIdleReference_151
+      rect:
+        serializedVersion: 2
+        x: 1058
+        y: 0
+        width: 44
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d22f910de51b0a54d93fbeca3f946b32
+      internalID: 511273165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarioIdleReference_152
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 0
+        width: 44
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b79e485aefc458347bec0ba7c3d6931a
+      internalID: -1540419826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarioIdleReference_153
+      rect:
+        serializedVersion: 2
+        x: 1150
+        y: 0
+        width: 44
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 750d39e97bc0f1348bd3f2f6a11668b6
+      internalID: -1287472866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: d59587f9f66cf9846a9900fbf4f20ec9
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      MarioIdleReference_0: 2032658503
+      MarioIdleReference_1: 1038580205
+      MarioIdleReference_10: -1867612801
+      MarioIdleReference_100: 2078236017
+      MarioIdleReference_101: -1913648802
+      MarioIdleReference_102: 575804166
+      MarioIdleReference_103: 1977423655
+      MarioIdleReference_104: -860224429
+      MarioIdleReference_105: -2064057911
+      MarioIdleReference_106: -1403931075
+      MarioIdleReference_107: -163623922
+      MarioIdleReference_108: -958594987
+      MarioIdleReference_109: -365376642
+      MarioIdleReference_11: 1139114541
+      MarioIdleReference_110: 1622312304
+      MarioIdleReference_111: -590936041
+      MarioIdleReference_112: -1452312200
+      MarioIdleReference_113: -115808342
+      MarioIdleReference_114: -1117600751
+      MarioIdleReference_115: 1112655892
+      MarioIdleReference_116: 2062645495
+      MarioIdleReference_117: 1338571600
+      MarioIdleReference_118: -1513228451
+      MarioIdleReference_119: -1418747812
+      MarioIdleReference_12: 1258468508
+      MarioIdleReference_120: 631001313
+      MarioIdleReference_121: 1543596473
+      MarioIdleReference_122: -651318590
+      MarioIdleReference_123: 216793118
+      MarioIdleReference_124: 1761520632
+      MarioIdleReference_125: 820228784
+      MarioIdleReference_126: 1525459842
+      MarioIdleReference_127: -36610219
+      MarioIdleReference_128: 1458157174
+      MarioIdleReference_129: 681238032
+      MarioIdleReference_13: 472093569
+      MarioIdleReference_130: -1568219077
+      MarioIdleReference_131: -239370504
+      MarioIdleReference_132: 420936544
+      MarioIdleReference_133: 580444728
+      MarioIdleReference_134: 1901882172
+      MarioIdleReference_135: -1321746508
+      MarioIdleReference_136: 1929340725
+      MarioIdleReference_137: 894296559
+      MarioIdleReference_138: -662202405
+      MarioIdleReference_139: -348094500
+      MarioIdleReference_14: 773871367
+      MarioIdleReference_140: 1465181147
+      MarioIdleReference_141: 792473245
+      MarioIdleReference_142: 1852415472
+      MarioIdleReference_143: 1790622392
+      MarioIdleReference_144: 924061147
+      MarioIdleReference_145: -305020534
+      MarioIdleReference_146: -1327630494
+      MarioIdleReference_147: -1867762732
+      MarioIdleReference_148: 719352513
+      MarioIdleReference_149: -214554840
+      MarioIdleReference_15: 779497042
+      MarioIdleReference_150: 449838948
+      MarioIdleReference_151: 511273165
+      MarioIdleReference_152: -1540419826
+      MarioIdleReference_153: -1287472866
+      MarioIdleReference_16: -1743838491
+      MarioIdleReference_17: 487842563
+      MarioIdleReference_18: -303128818
+      MarioIdleReference_19: 286550332
+      MarioIdleReference_2: 1144450440
+      MarioIdleReference_20: 1400279284
+      MarioIdleReference_21: 953082259
+      MarioIdleReference_22: 783624534
+      MarioIdleReference_23: 984753991
+      MarioIdleReference_24: 1766435627
+      MarioIdleReference_25: -1273763380
+      MarioIdleReference_26: -1011936921
+      MarioIdleReference_27: -750537955
+      MarioIdleReference_28: -1374956925
+      MarioIdleReference_29: -766888300
+      MarioIdleReference_3: 856246361
+      MarioIdleReference_30: -1829094313
+      MarioIdleReference_31: -210400372
+      MarioIdleReference_32: 1150941474
+      MarioIdleReference_33: 1206762801
+      MarioIdleReference_34: -802109962
+      MarioIdleReference_35: -376101198
+      MarioIdleReference_36: -1052043823
+      MarioIdleReference_37: 1168678221
+      MarioIdleReference_38: 1878378328
+      MarioIdleReference_39: 640077732
+      MarioIdleReference_4: -1926239204
+      MarioIdleReference_40: 876450428
+      MarioIdleReference_41: 144797137
+      MarioIdleReference_42: -653511467
+      MarioIdleReference_43: -1162818523
+      MarioIdleReference_44: 1390806717
+      MarioIdleReference_45: 229121123
+      MarioIdleReference_46: 1876658735
+      MarioIdleReference_47: -1742420058
+      MarioIdleReference_48: -653197249
+      MarioIdleReference_49: -858861212
+      MarioIdleReference_5: 421958091
+      MarioIdleReference_50: -2069274334
+      MarioIdleReference_51: -61864868
+      MarioIdleReference_52: 1594302477
+      MarioIdleReference_53: -1470177119
+      MarioIdleReference_54: -1313593318
+      MarioIdleReference_55: -1489443089
+      MarioIdleReference_56: 447505411
+      MarioIdleReference_57: -755753474
+      MarioIdleReference_58: -327517863
+      MarioIdleReference_59: 1919018541
+      MarioIdleReference_6: 1140900210
+      MarioIdleReference_60: -760632854
+      MarioIdleReference_61: -798623905
+      MarioIdleReference_62: 1209814374
+      MarioIdleReference_63: 1323691444
+      MarioIdleReference_64: 1003848257
+      MarioIdleReference_65: -1424945664
+      MarioIdleReference_66: 1009853020
+      MarioIdleReference_67: 211650967
+      MarioIdleReference_68: -1005178467
+      MarioIdleReference_69: -1456619941
+      MarioIdleReference_7: -1643565968
+      MarioIdleReference_70: -274922164
+      MarioIdleReference_71: 1693131984
+      MarioIdleReference_72: 1864215933
+      MarioIdleReference_73: -919088206
+      MarioIdleReference_74: -1792346180
+      MarioIdleReference_75: -548529636
+      MarioIdleReference_76: -1999799964
+      MarioIdleReference_77: 426694385
+      MarioIdleReference_78: -75479650
+      MarioIdleReference_79: 1928753260
+      MarioIdleReference_8: 35457865
+      MarioIdleReference_80: 1961818822
+      MarioIdleReference_81: -2008753636
+      MarioIdleReference_82: -1082350383
+      MarioIdleReference_83: 452756469
+      MarioIdleReference_84: -1064071203
+      MarioIdleReference_85: 415045560
+      MarioIdleReference_86: 1662031482
+      MarioIdleReference_87: 91657107
+      MarioIdleReference_88: 629077827
+      MarioIdleReference_89: 2135575725
+      MarioIdleReference_9: -1713870520
+      MarioIdleReference_90: 926112082
+      MarioIdleReference_91: 643522906
+      MarioIdleReference_92: -236957833
+      MarioIdleReference_93: 1279792385
+      MarioIdleReference_94: -721538449
+      MarioIdleReference_95: 71941996
+      MarioIdleReference_96: -2002980134
+      MarioIdleReference_97: -2023347749
+      MarioIdleReference_98: 1499721743
+      MarioIdleReference_99: 2006788687
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

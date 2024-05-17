@@ -1,0 +1,172 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c5cb47ab6b2ef4fbb050bdf98a8c53, type: 3}
+  m_Name: testEvent
+  m_EditorClassIdentifier: 
+  ev:
+    eventIdentifier: testEvent
+    eventName: Test Event
+    evIts:
+    - delay: 0
+      evType: 3
+      evIType: 13
+      targetActor: 
+      arguments: 0
+      async: 0
+      vectorArgument: {x: 0, y: 7}
+      vector2Argument: {x: 0, y: 0}
+      vector3Argument: {x: 0, y: 7, z: 0}
+      yArgument: 0
+      audioArgument: {fileID: 0}
+    - delay: 0
+      evType: 3
+      evIType: 13
+      targetActor: LUIGI
+      arguments: 90
+      async: 1
+      vectorArgument: {x: 0, y: 7}
+      vector2Argument: {x: 7, y: -1}
+      vector3Argument: {x: 32, y: 6, z: 0}
+      yArgument: 0
+      audioArgument: {fileID: 0}
+    - delay: 0
+      evType: 3
+      evIType: 14
+      targetActor: LUIGI
+      arguments: 90
+      async: 0
+      vectorArgument: {x: 0, y: 7}
+      vector2Argument: {x: 7, y: -1}
+      vector3Argument: {x: 7, y: 6, z: 0}
+      yArgument: 0
+      audioArgument: {fileID: 8300000, guid: 066a87fcbf70bc34784aacc9069abdfd, type: 3}
+    - delay: 0
+      evType: 0
+      evIType: 0
+      targetActor: MARIO
+      arguments: 90
+      async: 1
+      vectorArgument: {x: 32, y: 7}
+      vector2Argument: {x: 32, y: 0}
+      vector3Argument: {x: 0, y: 0, z: 0}
+      yArgument: 0
+      audioArgument: {fileID: 0}
+    - delay: 3
+      evType: 0
+      evIType: 0
+      targetActor: LUIGI
+      arguments: 90
+      async: 0
+      vectorArgument: {x: 32, y: 0}
+      vector2Argument: {x: 32, y: -7}
+      vector3Argument: {x: 0, y: 0, z: 0}
+      yArgument: 0
+      audioArgument: {fileID: 0}
+    - delay: 1
+      evType: 3
+      evIType: 12
+      targetActor: LUIGI
+      arguments: 90
+      async: 0
+      vectorArgument: {x: 0, y: 7}
+      vector2Argument: {x: 7, y: -1}
+      vector3Argument: {x: 7, y: 6, z: 0}
+      yArgument: 0
+      audioArgument: {fileID: 0}
+    - delay: 1
+      evType: 0
+      evIType: 5
+      targetActor: LUIGI
+      arguments: 180
+      async: 0
+      vectorArgument: {x: 0, y: 7}
+      vector2Argument: {x: 7, y: -1}
+      vector3Argument: {x: 7, y: 6, z: 0}
+      yArgument: 0
+      audioArgument: {fileID: 8300000, guid: 8b42d313902cc7746a58d622cdb27b79, type: 3}
+    - delay: 1
+      evType: 0
+      evIType: 5
+      targetActor: MARIO
+      arguments: 0
+      async: 0
+      vectorArgument: {x: 0, y: 7}
+      vector2Argument: {x: 7, y: -1}
+      vector3Argument: {x: 7, y: 6, z: 0}
+      yArgument: 0
+      audioArgument: {fileID: 8300000, guid: 224ae02fdd0e56a478af31ef0a74ab7d, type: 3}
+    - delay: 3
+      evType: 5
+      evIType: 5
+      targetActor: MARIO
+      arguments: 90
+      async: 0
+      vectorArgument: {x: 0, y: 7}
+      vector2Argument: {x: 7, y: -1}
+      vector3Argument: {x: 7, y: 6, z: 0}
+      yArgument: 0
+      audioArgument: {fileID: 0}
+    - delay: 0
+      evType: 0
+      evIType: 6
+      targetActor: MARIO
+      arguments: 270
+      async: 0
+      vectorArgument: {x: 0, y: 7}
+      vector2Argument: {x: 7, y: -1}
+      vector3Argument: {x: 7, y: 6, z: 0}
+      yArgument: 0
+      audioArgument: {fileID: 8300000, guid: 2b0b67d7b47405f4e8769b870da45171, type: 3}
+    - delay: 1
+      evType: 0
+      evIType: 6
+      targetActor: LUIGI
+      arguments: 180
+      async: 0
+      vectorArgument: {x: 1, y: 7}
+      vector2Argument: {x: 7, y: -1}
+      vector3Argument: {x: 7, y: 6, z: 0}
+      yArgument: 0
+      audioArgument: {fileID: 8300000, guid: 664ef95eff731334d9cda90d90d06ba1, type: 3}
+    - delay: 0
+      evType: 0
+      evIType: 2
+      targetActor: LUIGI
+      arguments: 180
+      async: 0
+      vectorArgument: {x: 0, y: 7}
+      vector2Argument: {x: 7, y: -1}
+      vector3Argument: {x: 7, y: 6, z: 0}
+      yArgument: 0
+      audioArgument: {fileID: 8300000, guid: e11a92c9b6a1a834199cfab5a173fc7d, type: 3}
+    - delay: 1
+      evType: 0
+      evIType: 7
+      targetActor: LUIGI
+      arguments: Idle_Split
+      async: 0
+      vectorArgument: {x: 0, y: 7}
+      vector2Argument: {x: 7, y: -1}
+      vector3Argument: {x: 7, y: 6, z: 0}
+      yArgument: 0
+      audioArgument: {fileID: 8300000, guid: 101d86d3d7d8ae74791628b25b9aa214, type: 3}
+    - delay: 0
+      evType: 3
+      evIType: 15
+      targetActor: LUIGI
+      arguments: 90
+      async: 0
+      vectorArgument: {x: 0, y: 7}
+      vector2Argument: {x: 7, y: -1}
+      vector3Argument: {x: 7, y: 6, z: 0}
+      yArgument: 0
+      audioArgument: {fileID: 8300000, guid: 35213b8c7c3407242b0aea90ec3d3d27, type: 3}

@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 256fde0f238232347bed691faf9bfb08, type: 3}
+  m_Name: KuriboBasic
+  m_EditorClassIdentifier: 
+  identifier: test
+  battleName: testingbattle
+  battleDescription: Testing battle
+  music: {fileID: 11400000, guid: bf5e5c1f8293f6a4ca1daa646dd71e5e, type: 2}
+  MarioDialogue: {fileID: 8300000, guid: 3a940a64c8c559740b52bfe1a006bb48, type: 3}
+  LuigiDialogue: {fileID: 8300000, guid: cec60c6329d06544c9c141b93a6f6cf9, type: 3}
+  enteringCase: 3
+  floorY: 0
+  enemies:
+  - id: kuribo
+    charaCount: 2
+    spawnInfo:
+      random: 1
+      min: {x: 24, y: -3}
+      max: {x: 34, y: 5}
+  allowedPlayers:
+  - mario
+  - luigi

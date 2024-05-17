@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a123ff390c33ef45ba3eee4adf1aa96, type: 3}
+  m_Name: LuigiOV
+  m_EditorClassIdentifier: 
+  speed: 14
+  jumpForce: 40
+  canUseHammer: 1
+  hammerUnlocked: 1
+  perks:
+  - perkName: Jump
+    animationName: 
+    duration: 0
+    audioClip: {fileID: 0}
+    audioClip2: {fileID: 0}
+    FX: {fileID: 0}
+    FXOffset: {x: 0, y: 0, z: 0}
+    selfClipWhenSelect: {fileID: 8300000, guid: 5ccaf243a77b67e46a2c03086ecf2809,
+      type: 3}
+    adjacentClipWhenSelect: {fileID: 0}
+    actionCollider: {fileID: 0}
+    actionColliderDistance: 0
+    actionColliderDelay: 0
+    actionColliderDuration: 0
+  - perkName: Hammer
+    animationName: Hammer
+    duration: 0.3
+    audioClip: {fileID: 8300000, guid: 48629a7b03a888845994924699e003dc, type: 3}
+    audioClip2: {fileID: 8300000, guid: 13296e8d999248940a3c61cfa6ca803f, type: 3}
+    FX: {fileID: 8567933649390963329, guid: 3dce7557f7948744a8a94a139ac67a77, type: 3}
+    FXOffset: {x: 0, y: 0, z: 0}
+    selfClipWhenSelect: {fileID: 8300000, guid: d34b99a7077e04c4d93c30552249f01b,
+      type: 3}
+    adjacentClipWhenSelect: {fileID: 8300000, guid: 3bd7d5b42faa46948ba65ca0c3bce251,
+      type: 3}
+    actionCollider: {fileID: 8187871715875280986, guid: 1fd313ab033e91d41bbe823ea4c0de3d,
+      type: 3}
+    actionColliderDistance: 2.5
+    actionColliderDelay: 0.15
+    actionColliderDuration: 0.1
+  ovCollider:
+    radious: 1
+    height: 3
+    offset: {x: 0, y: 1.4, z: 0}
+  jumpSFX: {fileID: 8300000, guid: 37f991f930d12f843a64d487af7f58ea, type: 3}
+  Visual: {fileID: 5543809145682085127, guid: 4432d8b7cc6886344bf507f9131386ac, type: 3}
+  visualOffset: {x: 0, y: 0, z: 0}
+  animController: {fileID: 9100000, guid: 9772fe5535916694ca502e9d8ba39cce, type: 2}
+  normalRadius: 1
+  normalHeight: 3
+  normalCenter: {x: 0, y: 1.46, z: 0}
+  squishRadius: 1
+  squishHeight: 1
+  squishCenter: {x: 0, y: 1, z: 0}

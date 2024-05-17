@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57c8396977328d44d8c736af3c42d771, type: 3}
+  m_Name: Luigi
+  m_EditorClassIdentifier: 
+  identifier: luigi
+  displayName: Luigi
+  displayDescription: 
+  characterIcon: {fileID: -1643565968, guid: c191cb0d19926bf40a948e0c2a4e42c5, type: 3}
+  charaType: 0
+  charaFlags:
+  - S
+  startingStats:
+    HEALTH:
+      startValue: 24
+      valueMultiplier: 1
+    ENERGY:
+      startValue: 0
+      valueMultiplier: 0
+    ATTACK:
+      startValue: 0
+      valueMultiplier: 0
+    DEFENSE:
+      startValue: 0
+      valueMultiplier: 0
+    MAGICATTACK:
+      startValue: 0
+      valueMultiplier: 0
+    MAGICDEFENSE:
+      startValue: 0
+      valueMultiplier: 0
+    SPEED:
+      startValue: 0
+      valueMultiplier: 0
+    LUCK:
+      startValue: 0
+      valueMultiplier: 0
+  selfBattle: {fileID: 11400000, guid: 1f0f2b60e66ca3e489e8ba499d71b920, type: 2}
+  selfIA:
+    speed: 15
+  floorYOffset: 0
+  mass: 1
+  size: 1.44
+  collider:
+    radious: 1
+    height: 3
+    offset: {x: 0, y: 10, z: 0}
+  OVActor: {fileID: 11400000, guid: d81a1591039103641821c41893d18668, type: 2}
+  phyMat: {fileID: 13400000, guid: 77b3aebb189459244a19906ca14d7faf, type: 2}
+  jumpForce: 55
+  selfEncounter: {fileID: 0}
+  ySquatch: {x: 0, y: 1}
+  xSquatch: {x: 0, y: 1}
+  effectSquatch: 1
+  effectSquatchY: 2
+  selfShadow: {fileID: 2908175051198882846, guid: f3f0c31ea043998419a23a76653c65ea,
+    type: 3}
+  selfShadowOffset: {x: 0, y: 0, z: 0}
+  IATrailPointPrefab: {fileID: 2104450361299720835, guid: f6db2a155deeeb749b4689796411cb96,
+    type: 3}
+  followDistance: 1.84
+  battleEntrance_VoiceClips:
+    Solo_BattlePrepareVoiceClip: {fileID: 8300000, guid: 591af977381d8184b8f3fe15c52bb5c6,
+      type: 3}
+    Company_BattlePrepareVoiceClip: {fileID: 8300000, guid: 5369499b97b795e42816399c722a261e,
+      type: 3}
+    Solo_BattlePrepareVoiceClip_Disadvantage: {fileID: 8300000, guid: f9e6d4e54902c7b41ad3d61d53399e41,
+      type: 3}
+    Company_BattlePrepareVoiceClip_Disadvantage: {fileID: 8300000, guid: 06ef7db9191cd0a4ca3a8a53b5e6e0a9,
+      type: 3}
+    Solo_BattlePrepareVoiceClip_Advantage: {fileID: 8300000, guid: 207cac8630c27174bb485e7bb11dd210,
+      type: 3}
+    Company_BattlePrepareVoiceClip_Advantage: {fileID: 8300000, guid: ae2eda145bea7c94cbec9ff4a84789c0,
+      type: 3}
+  selfLayer: Player
+  floorMask:
+    serializedVersion: 2
+    m_Bits: 8192
+  SpeechBubbleSFX: {fileID: 8300000, guid: cc6905254027ec4489fc81da71d6dadd, type: 3}
+  SpeechBubbleSkipSFX: {fileID: 8300000, guid: efe9964ebf65a7e4db8de0fd586c4788, type: 3}
+  StompSFX: {fileID: 8300000, guid: fad5ffd2cf2d8354e8cba24de78148b5, type: 3}
