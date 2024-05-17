@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Enemy
+  - NPC
+  - Warp
+  - Hammer
+  - Hammer_0
+  - TrailPoint
+  - SplitZone
+  - QuestionBlock
+  - Container
+  - Coin
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - OutlinedObjects
+  - Water
+  - UI
+  - OutlineM
+  - OutlineL
+  - Transitions
+  - Transitions2
+  - OutlineGalx
+  - OutlineGalx2
+  - Player
+  - Floor
+  - Minimap
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: TOP
+    uniqueID: 1481571799
+    locked: 0
