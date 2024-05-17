@@ -1,0 +1,1869 @@
+fileFormatVersion: 2
+guid: 460b2817df5942549bdb235cd531d27c
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Luigi Idle References - Overworld_0
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 557
+        width: 23
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3f5dcd59da77c146b34389efa18ef25
+      internalID: -714392623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi Idle References - Overworld_1
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 557
+        width: 23
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f88bd450b7b69e446a8928c091fffcdb
+      internalID: 1303230463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi Idle References - Overworld_2
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 557
+        width: 23
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 811770d72d353224a9011f60e6ba3f65
+      internalID: -129765770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi Idle References - Overworld_3
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 557
+        width: 23
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb391ea3ff2eeee48ae57c3ec9420ac5
+      internalID: -1179781163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi Idle References - Overworld_4
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 557
+        width: 23
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dd9bbb38c508074483aa3bf1d8ec9cf
+      internalID: 1827478711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi Idle References - Overworld_5
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 557
+        width: 23
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 895782733ee4f7b4aa65247044e2bd74
+      internalID: 456682485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi Idle References - Overworld_6
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 557
+        width: 23
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc5d069d18d099e45928a18848c783a4
+      internalID: 2043212035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi Idle References - Overworld_7
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 557
+        width: 23
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7014126b4b905aa4ca86165e06e6e6ae
+      internalID: -821640797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi Idle References - Overworld_8
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 557
+        width: 23
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4914ef2372d5d04fbd0378095290582
+      internalID: -1381808193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi Idle References - Overworld_9
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 557
+        width: 23
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f776340201ca98e4391ce5d1605a7d75
+      internalID: -1972246910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi Idle References - Overworld_10
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 557
+        width: 23
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db21c6995179ed14aa1b85cd0149d5a3
+      internalID: -1663531346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi Idle References - Overworld_11
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 557
+        width: 23
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ac65cc9fc2f41146b7f6a8d4fc4dfcb
+      internalID: 443298859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi Idle References - Overworld_12
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 493
+        width: 23
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84482c91fb67ce94c8fa7dd364b28888
+      internalID: 1992716349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi Idle References - Overworld_13
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 493
+        width: 23
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5058ec990ebe5b42aeefc664a621821
+      internalID: 1477806804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi Idle References - Overworld_14
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 493
+        width: 23
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bb4c127477640f44a2053f0061e6b59
+      internalID: -685022211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi Idle References - Overworld_15
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 494
+        width: 23
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efaea0b9a4aeffa408829067b181abe1
+      internalID: -704706537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi Idle References - Overworld_16
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 493
+        width: 23
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94a822d46e445614597bd119ce8dd784
+      internalID: -1716419370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi Idle References - Overworld_17
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 493
+        width: 23
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07c4cc0fd4034dc41a47dd4ed95e7185
+      internalID: 1403559941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi Idle References - Overworld_18
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 493
+        width: 23
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26e8fe91c4e005b4db4a2fd6fbfd7920
+      internalID: -1257376872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi Idle References - Overworld_19
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 494
+        width: 23
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fad222b1fd82b94995ad9d6097cb05c
+      internalID: 407290687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi Idle References - Overworld_20
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 493
+        width: 23
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9097ad3a1fad7f4797162a4c1e158d5
+      internalID: -699944062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi Idle References - Overworld_21
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 493
+        width: 23
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fa7bbb1373eea04c9297f6c3f1da295
+      internalID: 481568952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi Idle References - Overworld_22
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 493
+        width: 23
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 390dabcede75d474da6900c20b046ad2
+      internalID: 1242475971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi Idle References - Overworld_23
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 493
+        width: 23
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb78979eb32d2f841996551ddd9b7fb4
+      internalID: -1558476721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi Idle References - Overworld_24
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 429
+        width: 23
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ada156a43fc798047a469ebc37443f22
+      internalID: 241411761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi Idle References - Overworld_25
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 429
+        width: 23
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8686b3b554f875a4d927f75669cd54f2
+      internalID: -1813226574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi Idle References - Overworld_26
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 355
+        width: 18
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1306127b26a51a0469c09df288d16381
+      internalID: -1941854391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi Idle References - Overworld_27
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 355
+        width: 18
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d92565d8488f0b498e868fee914bca3
+      internalID: -261441221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi Idle References - Overworld_28
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 355
+        width: 18
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4fac7e1c28189447bb2cd933973a353
+      internalID: 689755080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi Idle References - Overworld_29
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 355
+        width: 18
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 637a9983906eefc479e6407a370b41eb
+      internalID: 1598932959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi Idle References - Overworld_30
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 355
+        width: 18
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6710087a8bba51946b4622e73e0c4b09
+      internalID: -884103621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi Idle References - Overworld_31
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 355
+        width: 18
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c42e298c42c90574d8f0161f84c46eb6
+      internalID: 506942681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi Idle References - Overworld_32
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 355
+        width: 18
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5aaa4b915f37a34c82c95a77ba456e2
+      internalID: -1138543400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi Idle References - Overworld_33
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 355
+        width: 18
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1f9816c732556549a6695442f565d5d
+      internalID: 912804385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi Idle References - Overworld_34
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 355
+        width: 18
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ddc4ba53e12e144ca1ab7d2a04e2cac
+      internalID: 1370079944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi Idle References - Overworld_35
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 355
+        width: 18
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acc7532058c7c3c4cb6e2cc8ac427779
+      internalID: 1339050929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi Idle References - Overworld_36
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 355
+        width: 18
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1da2ae83fa00e24894e4ebc33f04b4d
+      internalID: 919492967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi Idle References - Overworld_37
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 355
+        width: 18
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5028b451810563640b8bf37f0410a877
+      internalID: 485032561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi Idle References - Overworld_38
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 291
+        width: 18
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f55ce29b33baa8949a57b2242a1fe94c
+      internalID: -243823977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi Idle References - Overworld_39
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 291
+        width: 18
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ffeab786b1adf14f90866016ed3df6b
+      internalID: -371098543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi Idle References - Overworld_40
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 291
+        width: 18
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c1a45a25b6db0a4da1426c27bdc0cb9
+      internalID: -2112487614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi Idle References - Overworld_41
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 291
+        width: 18
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4779f87233956c945b2a6ca997337fab
+      internalID: -1138955969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi Idle References - Overworld_42
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 291
+        width: 18
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3afce23018dc4f14f9464dc3f39fdde3
+      internalID: -1992327838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi Idle References - Overworld_43
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 291
+        width: 18
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cac2f333844695342abe192c81db0362
+      internalID: 34978582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi Idle References - Overworld_44
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 291
+        width: 18
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5d5f1c3210f39742805653d87997472
+      internalID: 559568886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi Idle References - Overworld_45
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 291
+        width: 18
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aafa4a323b15103479a6d5d0de25f8d1
+      internalID: 380125871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi Idle References - Overworld_46
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 291
+        width: 18
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03248a140128a624497f6cd546c08f5f
+      internalID: -1280104320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi Idle References - Overworld_47
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 291
+        width: 18
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd4878414c0e5004bbe28b1da0d12aa7
+      internalID: -1068737040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi Idle References - Overworld_48
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 291
+        width: 18
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81487e17a63eea4448e50f2a9f265390
+      internalID: -471231953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi Idle References - Overworld_49
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 291
+        width: 18
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00f8cfa0e8429df4cb47cfc97927ff39
+      internalID: -1980354667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi Idle References - Overworld_50
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 227
+        width: 18
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbaaa08efad06d8429b281af57b10bd5
+      internalID: -1193762780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi Idle References - Overworld_51
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 227
+        width: 18
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48ee191f359f77c49ae0f1b5fe197c46
+      internalID: -956325755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi Idle References - Overworld_52
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 162
+        width: 23
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac43e6e2a2c96ce42824a41ee2850eff
+      internalID: -1998770836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi Idle References - Overworld_53
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 162
+        width: 23
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77ea9f487beaeab4f82b0308aa7e0138
+      internalID: -1587697267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi Idle References - Overworld_54
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 162
+        width: 23
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e8cf867e443c9b41b5d5a94982c4bfd
+      internalID: 1370235160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi Idle References - Overworld_55
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 162
+        width: 23
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4abf224ba5545ff448f0a849bbdab7f0
+      internalID: -1940280783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi Idle References - Overworld_56
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 162
+        width: 23
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d380950621c6e64d90419f1b9ad336c
+      internalID: 1767532297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi Idle References - Overworld_57
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 162
+        width: 23
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5300fe4141b394f4e96fd735ac14f8a8
+      internalID: 596992697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi Idle References - Overworld_58
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 162
+        width: 23
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32002886e7a66f941a575d23b05a80e9
+      internalID: -587281921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi Idle References - Overworld_59
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 162
+        width: 23
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5e37e8ac028bc948b31dada5c1331e9
+      internalID: 434046918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi Idle References - Overworld_60
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 162
+        width: 23
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faa8eba825404ea4a8449900b034ed41
+      internalID: 2137404288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi Idle References - Overworld_61
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 162
+        width: 23
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cacbfe84c5c51154fa55395049487943
+      internalID: -1034818153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi Idle References - Overworld_62
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 162
+        width: 23
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce03c2fab9167a14e981ce7bc8063324
+      internalID: 1801728237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi Idle References - Overworld_63
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 162
+        width: 23
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62b4c8fa941c1ee41b89addc36999c0a
+      internalID: 2081514913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi Idle References - Overworld_64
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 98
+        width: 23
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d10e59a5109ca84db7ae76644044d93
+      internalID: -739879456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi Idle References - Overworld_65
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 98
+        width: 23
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d68100540ba9199409b71d1ace42046d
+      internalID: 46925725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi Idle References - Overworld_66
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 98
+        width: 23
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 738a6e41681f0da4aac40962dcbef7aa
+      internalID: -1630899414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi Idle References - Overworld_67
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 98
+        width: 21
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d137425497d7917488e083f6a7b6eaa0
+      internalID: 1039281426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi Idle References - Overworld_68
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 98
+        width: 23
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13d5ddabbdebd274ab50972818860a81
+      internalID: -1035239483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi Idle References - Overworld_69
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 98
+        width: 23
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32071282ba36c734c8cf6e660e287b92
+      internalID: -1985391280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi Idle References - Overworld_70
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 98
+        width: 23
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd4eb01c47557ab43b03550bf6d6ec73
+      internalID: 1531160317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi Idle References - Overworld_71
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 98
+        width: 21
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e812270fe88fce542bcc7bd2d70202a5
+      internalID: -558978913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi Idle References - Overworld_72
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 98
+        width: 23
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40252e6ce55a100449cc351c9d85321f
+      internalID: 1641708199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi Idle References - Overworld_73
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 98
+        width: 23
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ba39cf5d74f20648a8fc3985e9f71e6
+      internalID: 801471099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi Idle References - Overworld_74
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 98
+        width: 23
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7395de73ae69c3d448ae451cbcf265d9
+      internalID: 928669022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi Idle References - Overworld_75
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 98
+        width: 23
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18dacd2488c395c4a95cabdb0348332b
+      internalID: -1402996305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi Idle References - Overworld_76
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 34
+        width: 23
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ae45a20ca751b8418c325248ec434d2
+      internalID: -1644605314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi Idle References - Overworld_77
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 34
+        width: 23
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a4fa9f52fa30a24b92aa772864e47ca
+      internalID: 293040586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 0bd7c35989ff2584cb841b083586cca8
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Luigi Idle References - Overworld_0: -714392623
+      Luigi Idle References - Overworld_1: 1303230463
+      Luigi Idle References - Overworld_10: -1663531346
+      Luigi Idle References - Overworld_11: 443298859
+      Luigi Idle References - Overworld_12: 1992716349
+      Luigi Idle References - Overworld_13: 1477806804
+      Luigi Idle References - Overworld_14: -685022211
+      Luigi Idle References - Overworld_15: -704706537
+      Luigi Idle References - Overworld_16: -1716419370
+      Luigi Idle References - Overworld_17: 1403559941
+      Luigi Idle References - Overworld_18: -1257376872
+      Luigi Idle References - Overworld_19: 407290687
+      Luigi Idle References - Overworld_2: -129765770
+      Luigi Idle References - Overworld_20: -699944062
+      Luigi Idle References - Overworld_21: 481568952
+      Luigi Idle References - Overworld_22: 1242475971
+      Luigi Idle References - Overworld_23: -1558476721
+      Luigi Idle References - Overworld_24: 241411761
+      Luigi Idle References - Overworld_25: -1813226574
+      Luigi Idle References - Overworld_26: -1941854391
+      Luigi Idle References - Overworld_27: -261441221
+      Luigi Idle References - Overworld_28: 689755080
+      Luigi Idle References - Overworld_29: 1598932959
+      Luigi Idle References - Overworld_3: -1179781163
+      Luigi Idle References - Overworld_30: -884103621
+      Luigi Idle References - Overworld_31: 506942681
+      Luigi Idle References - Overworld_32: -1138543400
+      Luigi Idle References - Overworld_33: 912804385
+      Luigi Idle References - Overworld_34: 1370079944
+      Luigi Idle References - Overworld_35: 1339050929
+      Luigi Idle References - Overworld_36: 919492967
+      Luigi Idle References - Overworld_37: 485032561
+      Luigi Idle References - Overworld_38: -243823977
+      Luigi Idle References - Overworld_39: -371098543
+      Luigi Idle References - Overworld_4: 1827478711
+      Luigi Idle References - Overworld_40: -2112487614
+      Luigi Idle References - Overworld_41: -1138955969
+      Luigi Idle References - Overworld_42: -1992327838
+      Luigi Idle References - Overworld_43: 34978582
+      Luigi Idle References - Overworld_44: 559568886
+      Luigi Idle References - Overworld_45: 380125871
+      Luigi Idle References - Overworld_46: -1280104320
+      Luigi Idle References - Overworld_47: -1068737040
+      Luigi Idle References - Overworld_48: -471231953
+      Luigi Idle References - Overworld_49: -1980354667
+      Luigi Idle References - Overworld_5: 456682485
+      Luigi Idle References - Overworld_50: -1193762780
+      Luigi Idle References - Overworld_51: -956325755
+      Luigi Idle References - Overworld_52: -1998770836
+      Luigi Idle References - Overworld_53: -1587697267
+      Luigi Idle References - Overworld_54: 1370235160
+      Luigi Idle References - Overworld_55: -1940280783
+      Luigi Idle References - Overworld_56: 1767532297
+      Luigi Idle References - Overworld_57: 596992697
+      Luigi Idle References - Overworld_58: -587281921
+      Luigi Idle References - Overworld_59: 434046918
+      Luigi Idle References - Overworld_6: 2043212035
+      Luigi Idle References - Overworld_60: 2137404288
+      Luigi Idle References - Overworld_61: -1034818153
+      Luigi Idle References - Overworld_62: 1801728237
+      Luigi Idle References - Overworld_63: 2081514913
+      Luigi Idle References - Overworld_64: -739879456
+      Luigi Idle References - Overworld_65: 46925725
+      Luigi Idle References - Overworld_66: -1630899414
+      Luigi Idle References - Overworld_67: 1039281426
+      Luigi Idle References - Overworld_68: -1035239483
+      Luigi Idle References - Overworld_69: -1985391280
+      Luigi Idle References - Overworld_7: -821640797
+      Luigi Idle References - Overworld_70: 1531160317
+      Luigi Idle References - Overworld_71: -558978913
+      Luigi Idle References - Overworld_72: 1641708199
+      Luigi Idle References - Overworld_73: 801471099
+      Luigi Idle References - Overworld_74: 928669022
+      Luigi Idle References - Overworld_75: -1402996305
+      Luigi Idle References - Overworld_76: -1644605314
+      Luigi Idle References - Overworld_77: 293040586
+      Luigi Idle References - Overworld_8: -1381808193
+      Luigi Idle References - Overworld_9: -1972246910
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
