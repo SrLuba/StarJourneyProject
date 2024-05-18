@@ -34,6 +34,8 @@ public class PlayerCameraOV : MonoBehaviour
     {
         Mlock = false;
         disableSmooth = false;
+        enableVectorOverride = false;
+        linear = false;
     }
     public void InstantUpdate() {
         goVec = target.position + offset;

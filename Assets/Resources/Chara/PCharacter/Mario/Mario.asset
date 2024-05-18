@@ -48,8 +48,8 @@ MonoBehaviour:
   selfIA:
     speed: 15
   floorYOffset: 0
-  mass: 5.4
-  size: 1.52
+  mass: 6
+  size: 1.6
   collider:
     radious: 1
     height: 3
@@ -64,10 +64,10 @@ MonoBehaviour:
   effectSquatchY: 1.5
   selfShadow: {fileID: 2908175051198882846, guid: f3f0c31ea043998419a23a76653c65ea,
     type: 3}
-  selfShadowOffset: {x: -0.12, y: 0, z: 0.12}
+  selfShadowOffset: {x: -0.18, y: 0.07, z: 0}
   IATrailPointPrefab: {fileID: 2104450361299720835, guid: f6db2a155deeeb749b4689796411cb96,
     type: 3}
-  followDistance: 1.4
+  followDistance: 2
   battleEntrance_VoiceClips:
     Solo_BattlePrepareVoiceClip: {fileID: 8300000, guid: 3a3c3efc55a1279499df6eb41de02e39,
       type: 3}

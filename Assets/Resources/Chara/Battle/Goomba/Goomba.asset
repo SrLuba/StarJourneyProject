@@ -54,6 +54,8 @@ MonoBehaviour:
     height: 1
     offset: {x: 0, y: 1, z: 0}
   OVActor: {fileID: 11400000, guid: f6f59e9b41567a5458f78c07a6458907, type: 2}
+  noticeDistance: 7
+  noticeSFX: {fileID: 8300000, guid: eba259fbe0492a94198698421cb77022, type: 3}
   phyMat: {fileID: 13400000, guid: 77b3aebb189459244a19906ca14d7faf, type: 2}
   jumpForce: 100
   selfEncounter: {fileID: 11400000, guid: e84bc5bb06fd2b6439bb203bcd8d7fcf, type: 2}

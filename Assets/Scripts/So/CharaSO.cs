@@ -135,7 +135,10 @@ public class CharaSO : ScriptableObject
 
     [Header("Character Overworld")] public OVActorSO OVActor;
 
-    
+
+    public float noticeDistance = 5f;
+
+    public AudioClip noticeSFX;
 
     public PhysicMaterial phyMat;
 

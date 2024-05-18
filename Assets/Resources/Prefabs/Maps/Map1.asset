@@ -22,7 +22,7 @@ MonoBehaviour:
     - identifier: DEFAULT
       inSection: m0
       outSection: m1
-      spawnPointPos: {x: 0, y: 6, z: 0}
+      spawnPointPos: {x: 27, y: 6, z: 0}
       outDirection: {x: 0, y: -1}
       inDirection: {x: 1, y: 0}
     - identifier: 0
@@ -32,14 +32,14 @@ MonoBehaviour:
       outDirection: {x: -1, y: 0}
       inDirection: {x: 1, y: 0}
   - identifier: m1
-    MapObject: {fileID: 2532543835592434539, guid: a01e0ca431824604d8cb473dfaaeb01f,
+    MapObject: {fileID: 2532543835592434539, guid: 791b38601e8c0cc449f8b61b3f5f1409,
       type: 3}
     minimapOffset: {x: -125, y: 160}
     warpInfo:
     - identifier: DEFAULT
       inSection: m1
       outSection: m0
-      spawnPointPos: {x: 0, y: 5, z: 0}
+      spawnPointPos: {x: 27, y: 5, z: 0}
       outDirection: {x: 0, y: -1}
       inDirection: {x: 0, y: 1}
     - identifier: 0

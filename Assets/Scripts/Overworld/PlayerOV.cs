@@ -47,8 +47,10 @@ public class PlayerOV : MonoBehaviour
 
     public bool joystick = false;
 
-    public LayerMask floorMask;
+    public Vector3 angle;
 
+    public LayerMask floorMask;
+    Transform child;
     public bool split;
     string attackProgress = "";
     public void PrepareForBattle(bool attacked) {
@@ -66,6 +68,7 @@ public class PlayerOV : MonoBehaviour
             this.AI = false;
         }
         this.split = false;
+        child = new GameObject("t").transform;
     }
     public void Initialize()
     {
@@ -123,8 +126,12 @@ public class PlayerOV : MonoBehaviour
 
         if (Physics.Raycast(this.transform.position + rayOffset, Vector3.down, out hit, Mathf.Infinity, floorMask)) {
             scriptSh.floorY = hit.point.y + 0.001f;
-        }
+            Vector3 ta = Quaternion.FromToRotation(Vector3.up, hit.normal).eulerAngles;
             
+            angle = new Vector3(ta.x * (float)((((Mathf.Abs(angle.y) >= 135f && Mathf.Abs(angle.y) < 270f)) ? -1f : 1f)), angle.y, ta.z * (((Mathf.Abs(angle.y) >= 89f && Mathf.Abs(angle.y) < 91f) || (Mathf.Abs(angle.y) >= 269f && Mathf.Abs(angle.y) < 281f)) ? 0f : ((Mathf.Abs(angle.y) >= 89f && Mathf.Abs(angle.y) <= 91f) || (Mathf.Abs(angle.y) >= 135f && Mathf.Abs(angle.y) < 270f)) ? -1f : 1f));
+
+        }
+
         if (Physics.Raycast(this.transform.position + rayOffset, Vector3.down, out hit, rayDistance, floorMask))
         {
             if (foot!=null)foot.floorType = hit.collider.gameObject.name.Split('|')[0];
@@ -206,7 +213,7 @@ public class PlayerOV : MonoBehaviour
             }
             
         }
-        if (animationOverride) return;
+       
         BattleEnteringCase eCase = BattleEnteringCase.Normal;
         if (other.CompareTag("Hammer_0") && this.selfChara.charaType == CharaType.Enemy)
         {
@@ -247,8 +254,8 @@ public class PlayerOV : MonoBehaviour
         }
 
 
-      
-   
+
+        if (animationOverride) return;
         if (other.CompareTag("Enemy") && this.selfChara.charaType == CharaType.Player)
         {
             if (StaticManager.instance.onBattle) return;
@@ -436,9 +443,9 @@ public class PlayerOV : MonoBehaviour
         if (animationOverride) return;
    
             Quaternion newRotation = Quaternion.LookRotation(new Vector3(animV.x, 0f, animV.y));
-            handleAngle.eulerAngles = new Vector3(0f, Mathf.LerpAngle(handleAngle.eulerAngles.y, (!split) ? (newRotation.eulerAngles.y + angleOffset) : 180f + angleOffset, 20f * Time.deltaTime), 0f);
-
-            if (canAnimate)
+           if (this.selfChara.charaType == CharaType.Player) angle = new Vector3(angle.x, (!split) ? (newRotation.eulerAngles.y + angleOffset) : 180f + angleOffset, angle.z);
+   
+         if (canAnimate)
         {
         
             anim.Play((Grounded) ? (moving) ? "Move" : (split) ? "Idle_Split" : "Idle" : (rb.velocity.y > 0f) ? "Jump" : "Fall");
@@ -452,13 +459,33 @@ public class PlayerOV : MonoBehaviour
             return;
         }
 
-        rb.velocity = new Vector3(selfChara.OVActor.speed * input.normalized.x, rb.velocity.y, selfChara.OVActor.speed * input.normalized.y);
+        rb.velocity = new Vector3(selfChara.OVActor.speed * input.normalized.x, Mathf.Clamp(rb.velocity.y, selfChara.OVActor.yVelClamp.x, selfChara.OVActor.yVelClamp.y), selfChara.OVActor.speed * input.normalized.y);
     }
     public void FixedUpdate()
     {
         UpdatePhysics();
         UpdateAnim();
     }
+    bool noticeInterrupt = false;
+    public IEnumerator Notice() {
+        noticed = false;
+        canAnimate = false;
+        canInput = false;
+        animationOverride = true;
+        noticeInterrupt = true;
+
+        SoundManager.instance.Play(selfChara.noticeSFX);
+        anim.Play("Notice");
+        yield return new WaitForSeconds(anim.GetCurrentAnimatorClipInfo(0)[0].clip.length);
+
+        noticed = true;
+        canAnimate = true;
+        canInput = true;
+        animationOverride = true;
+        noticeInterrupt = false;
+    }
+    bool noticed = false;
+
     public void EnemyUpdate()
     {
         if (EventManager.instance.onEvent) return;
@@ -472,12 +499,30 @@ public class PlayerOV : MonoBehaviour
         float ix = 0f;
         float iy = 0f;
 
-        if (Vector3.Distance(this.transform.position, targetPlayer.position) < 15f)
+
+        if (noticed)
         {
             ix = (this.transform.position.x > targetPlayer.position.x + 0.1f) ? -1f : (this.transform.position.x < targetPlayer.position.x - 0.1f) ? 1f : 0f;
             iy = (this.transform.position.z > targetPlayer.position.z + 0.1f) ? -1f : (this.transform.position.z < targetPlayer.position.z - 0.1f) ? 1f : 0f;
+            
+            float g = Quaternion.FromToRotation(this.transform.forward, OVManager.instance.mainPlayer.transform.position).eulerAngles.y;
+            angle = new Vector3(angle.x, g+180f, angle.z);
         }
-
+        else {
+            ix = 0f;
+            iy = 0f;
+            if (!noticeInterrupt)
+            {
+                if (Vector3.Distance(this.transform.position, targetPlayer.position) < selfChara.noticeDistance)
+                {
+                    StartCoroutine(Notice());
+                }
+            }
+            else {
+                ix = 0f;
+                iy = 0f;
+            }
+        }
 
         input = new Vector2(ix, iy);
         if (ix != 0f || iy != 0f) animV = new Vector2(ix, iy);
@@ -497,7 +542,7 @@ public class PlayerOV : MonoBehaviour
         UpdateGrounded();
         if (EventManager.instance.onEvent) return;
         if (selfChara.charaType == CharaType.Enemy) EnemyUpdate();
-         
+        handleAngle.transform.eulerAngles = new Vector3(Mathf.LerpAngle(handleAngle.transform.eulerAngles.x, angle.x,15f*Time.deltaTime), Mathf.LerpAngle(handleAngle.transform.eulerAngles.y, angle.y, 15f * Time.deltaTime), Mathf.LerpAngle(handleAngle.transform.eulerAngles.z, angle.z, 15f * Time.deltaTime));
     }
 
 }

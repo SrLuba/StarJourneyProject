@@ -67,7 +67,7 @@ MonoBehaviour:
   selfShadowOffset: {x: 0, y: 0, z: 0}
   IATrailPointPrefab: {fileID: 2104450361299720835, guid: f6db2a155deeeb749b4689796411cb96,
     type: 3}
-  followDistance: 1.84
+  followDistance: 2
   battleEntrance_VoiceClips:
     Solo_BattlePrepareVoiceClip: {fileID: 8300000, guid: 591af977381d8184b8f3fe15c52bb5c6,
       type: 3}

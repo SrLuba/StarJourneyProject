@@ -81,6 +81,15 @@ public class MapManager : MonoBehaviour
         currentSectionObject = currentMapSection.Load();
         OVManager.instance.warpInfo = currentMapSection.warpInfo;
         targetBGPos = new Vector3(currentMapSection.minimapOffset.x, 0f, currentMapSection.minimapOffset.y);
+
+        PlayerOV[] ovs = GameObject.FindObjectsByType<PlayerOV>(FindObjectsInactive.Include, FindObjectsSortMode.None);
+        for (int i = 0; i < ovs.Length; i++)
+        {
+            if (ovs[i].selfChara.charaType == CharaType.Enemy)
+            {
+                Destroy(ovs[i].gameObject);
+            }
+        }
     }
     public void LoadMapSafe(string goSection)
     {
@@ -94,6 +103,14 @@ public class MapManager : MonoBehaviour
         Destroy(currentSectionObject);
         currentSectionObject = currentMapSection.Load();
         targetBGPos = new Vector3(currentMapSection.minimapOffset.x, 0f, currentMapSection.minimapOffset.y);
+
+        PlayerOV[] ovs = GameObject.FindObjectsByType<PlayerOV>(FindObjectsInactive.Include, FindObjectsSortMode.None);
+       
+        for (int i = 0; i < ovs.Length; i++) {
+            if (ovs[i].selfChara.charaType == CharaType.Enemy) {
+                Destroy(ovs[i].gameObject);
+            }
+        }
 
 
     }

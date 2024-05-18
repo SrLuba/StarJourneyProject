@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.04607989, g: 0.08617874, b: 0.16754955, a: 1}
+  m_IndirectSpecularColor: {r: 0.04413113, g: 0.08446437, b: 0.1661227, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2177,13 +2177,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64907feb87e38a04cb2a6c3cc971f0bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
+  speed: 8
   linkedPlayer: {fileID: 0}
   offset: {x: 0, y: 4, z: -4}
   goVec: {x: 0, y: 0, z: 0}
   movOffset: {x: 0, y: 0, z: 0}
-  camYClamp: {x: -15, y: 15}
-  camXClamp: {x: -30, y: 30}
+  camYClamp: {x: -33, y: 33}
+  camXClamp: {x: -15, y: 15}
   cRotSpeed: 1
   cRotMultiplier: 15
   target: {fileID: 0}
@@ -3755,6 +3755,62 @@ RectTransform:
   m_AnchoredPosition: {x: 72.16029, y: -15.243882}
   m_SizeDelta: {x: 12.000004, y: 12.800003}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &704008110
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 704008112}
+  - component: {fileID: 704008111}
+  m_Layer: 0
+  m_Name: TriggerManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &704008111
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 704008110}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f4312a601f866041af923539e93200f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerEvents:
+  - identifier: T0
+    type: 0
+    triggerEventSound: {fileID: 8300000, guid: eba259fbe0492a94198698421cb77022, type: 3}
+    steps:
+    - type: 0
+      seekName: T0
+      fArg: 55
+      strArg: 
+      vec2Arg: {x: 0, y: 0}
+      vec3Arg: {x: 51, y: 64, z: 255}
+    cameraTargetPosition: {x: 25, y: 15, z: -5}
+--- !u!4 &704008112
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 704008110}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &706955059
 GameObject:
   m_ObjectHideFlags: 0
@@ -5834,8 +5890,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ed30e6fc6dd4b0449d02abf9efdce4b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 11400000, guid: 5d45e6c200d46224e97ccc4979c60764, type: 2}
-  player2: {fileID: 11400000, guid: fa6c67bea2df2d44dbe5e8b32b5257e4, type: 2}
+  player: {fileID: 11400000, guid: fa6c67bea2df2d44dbe5e8b32b5257e4, type: 2}
+  player2: {fileID: 11400000, guid: 5d45e6c200d46224e97ccc4979c60764, type: 2}
   playerType: 0
   mainCamera: {fileID: 359567860}
   mainPlayer: {fileID: 0}
@@ -19049,6 +19105,7 @@ SceneRoots:
   - {fileID: 1891888279}
   - {fileID: 458115977}
   - {fileID: 1160234427}
+  - {fileID: 704008112}
   - {fileID: 2109554153}
   - {fileID: 359567859}
   - {fileID: 258418341}

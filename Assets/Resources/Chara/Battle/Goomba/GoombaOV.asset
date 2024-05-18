@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4a123ff390c33ef45ba3eee4adf1aa96, type: 3}
   m_Name: GoombaOV
   m_EditorClassIdentifier: 
-  speed: 0
+  speed: 15
   jumpForce: 0
   canUseHammer: 0
   hammerUnlocked: 1
@@ -25,9 +25,10 @@ MonoBehaviour:
   Visual: {fileID: 2871281364766992670, guid: 09664485faf0888439685d596712b983, type: 3}
   visualOffset: {x: 0, y: 0, z: 0}
   animController: {fileID: 9100000, guid: 732eba650951e2243b71c9ceacd8334c, type: 2}
-  normalRadius: 0
-  normalHeight: 0
-  normalCenter: {x: 0, y: 0, z: 0}
-  squishRadius: 0
-  squishHeight: 0
+  normalRadius: 1
+  normalHeight: 1
+  normalCenter: {x: 0, y: 1, z: 0}
+  squishRadius: 1
+  squishHeight: 1
   squishCenter: {x: 0, y: 0, z: 0}
+  yVelClamp: {x: -50, y: 999}

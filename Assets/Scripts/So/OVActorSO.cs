@@ -21,6 +21,7 @@ public class OverworldPerk {
     public float actionColliderDelay;
     public float actionColliderDuration;
 
+
     public IEnumerator Trigger(PlayerOV player) {
         OVActionManager.instance.busyPerk = true;
 
@@ -70,4 +71,6 @@ public class OVActorSO : ScriptableObject
 
     public float squishRadius, squishHeight;
     public Vector3 squishCenter;
+
+    public Vector2 yVelClamp = new Vector2(-50f, 999f);
 }
