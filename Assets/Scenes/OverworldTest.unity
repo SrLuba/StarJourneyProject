@@ -2194,6 +2194,8 @@ MonoBehaviour:
   linear: 0
   Mlock: 0
   disableSmooth: 0
+  angleOffsetY: 0
+  ySpeed: 0
 --- !u!1 &381002173
 GameObject:
   m_ObjectHideFlags: 0
@@ -9944,6 +9946,7 @@ MonoBehaviour:
   startHold: 0
   selectHold: 0
   leftStick: {x: 0, y: 0}
+  rightStick: {x: 0, y: 0}
   JoystickClip: {fileID: 8300000, guid: 22cee0e5e63a1954cb2b8e88a1967c7b, type: 3}
   KeyboardClip: {fileID: 8300000, guid: 431811e3f0061c84898dc11490aa341a, type: 3}
   DefaultErrorClip: {fileID: 8300000, guid: e00eb9906ae1c9843a1c8a2e34cf65cc, type: 3}
@@ -19098,8 +19101,8 @@ SceneRoots:
   - {fileID: 1118543848}
   - {fileID: 1717002532}
   - {fileID: 1074293297}
-  - {fileID: 570987765}
   - {fileID: 1741051338}
+  - {fileID: 570987765}
   - {fileID: 2049466208}
   - {fileID: 1997620531}
   - {fileID: 1891888279}

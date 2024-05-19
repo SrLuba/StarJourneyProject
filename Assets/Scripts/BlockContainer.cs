@@ -3,14 +3,19 @@ using System.Collections.Generic;
 using UnityEngine;
 public enum BlockContainerType { 
     Coin,
-    Breakable
+    Breakable,
+    P1,
+    P2
 }
 public class BlockContainer : MonoBehaviour
 {
+    public BlockContainerType type;
     public string triggerIdentifier;
 
+    public int sPlayerID = 0;
+
     bool hit = false;
-    public BlockContainerType type;
+    
     public Animator selfAnim;
     public GameObject selfParticle;
     public Vector3 selfVectorOffset;
@@ -18,8 +23,13 @@ public class BlockContainer : MonoBehaviour
     public AudioClip hitClip;
     public AudioClip secondaryHitClip;
     bool hitting = false;
-    public void Hit() {
-        
+
+
+    public void Hit(int playerID) {
+
+        if (this.sPlayerID == 1 && playerID != 0) return;
+        if (this.sPlayerID == 2 && playerID != 1) return;
+
 
         if (selfAnim != null) { if (selfAnim.GetCurrentAnimatorStateInfo(0).IsName("Hit")){ return; } }
         SoundManager.instance.Play(hitClip);
@@ -28,12 +38,15 @@ public class BlockContainer : MonoBehaviour
 
         if (hit) return;
         if (hitting) return;
+        if (selfParticle != null) Instantiate(selfParticle, this.transform.position + selfVectorOffset, Quaternion.identity);
+        if (secondaryHitClip != null) SoundManager.instance.Play(secondaryHitClip);
+        
+      
 
         hitting = true;
 
 
-        if (selfParticle!=null) Instantiate(selfParticle, this.transform.position + selfVectorOffset, Quaternion.identity);
-        if (secondaryHitClip!=null) SoundManager.instance.Play(secondaryHitClip);
+       
         containerCount--;
 
         if (containerCount <= 0)

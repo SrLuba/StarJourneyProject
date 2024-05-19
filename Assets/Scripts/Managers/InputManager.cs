@@ -31,7 +31,7 @@ public class InputManager : MonoBehaviour
 
 
     public Vector2 leftStick = new Vector2(0f, 0f);
-
+    public Vector2 rightStick = new Vector2(0f, 0f);
 
     public AudioClip JoystickClip, KeyboardClip, DefaultErrorClip;
 
@@ -82,6 +82,12 @@ public class InputManager : MonoBehaviour
         float iY = ((Keyboard.current.upArrowKey.isPressed) ? 1f : 0f) - ((Keyboard.current.downArrowKey.isPressed) ? 1f : 0f);
 
         leftStick = new Vector2(iX, iY).normalized;
+
+        // Stick
+        float riX = ((Keyboard.current.lKey.isPressed) ? 1f : 0f) - ((Keyboard.current.jKey.isPressed) ? 1f : 0f);
+        float riY = ((Keyboard.current.iKey.isPressed) ? 1f : 0f) - ((Keyboard.current.kKey.isPressed) ? 1f : 0f);
+
+        rightStick = new Vector2(riX, riY).normalized;
     }
 
     public void UpdateJoystick() {
@@ -132,6 +138,11 @@ public class InputManager : MonoBehaviour
         float iY = Gamepad.all[joystickID].leftStick.ReadValue().y;
 
         leftStick = new Vector2(iX, iY).normalized;
+        // Stick
+        float riX = Gamepad.all[joystickID].rightStick.ReadValue().x;
+        float riY = Gamepad.all[joystickID].rightStick.ReadValue().y;
+
+        rightStick = new Vector2(riX, riY).normalized;
 
     }
 

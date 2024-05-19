@@ -3,7 +3,37 @@ guid: 27796b0db8bf8cf49ab5500265dcd310
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: m_S
+    second: {fileID: 2100000, guid: 53ab99055d61a08428743df4e67e5bbc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: m_block
+    second: {fileID: 2100000, guid: 08efb3132746cbf41b121c8ef166d0f6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: m_star
+    second: {fileID: 2100000, guid: af25cf1c69c323741834407b73c0a083, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pasted__m_S1
+    second: {fileID: 2100000, guid: c88a350594e9d8a4bbfed9f6db921f0f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pasted__m_S2
+    second: {fileID: 2100000, guid: b023cc98a1f7fd345b0c13771a234fb4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pasted__m_S3
+    second: {fileID: 2100000, guid: 8faa3d2120a17304291bdf62081be1d0, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

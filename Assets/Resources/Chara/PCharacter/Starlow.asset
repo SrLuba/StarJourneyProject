@@ -53,7 +53,9 @@ MonoBehaviour:
     radious: 0
     height: 0
     offset: {x: 0, y: 0, z: 0}
-  OVActor: {fileID: 0}
+  OVActor: {fileID: 11400000, guid: 231f30849db56aa4c98ec8dd77359245, type: 2}
+  noticeDistance: 5
+  noticeSFX: {fileID: 0}
   phyMat: {fileID: 0}
   jumpForce: 100
   selfEncounter: {fileID: 0}
@@ -61,13 +63,22 @@ MonoBehaviour:
   xSquatch: {x: 0, y: 0}
   effectSquatch: 0
   effectSquatchY: 0
-  selfShadow: {fileID: 0}
+  selfShadow: {fileID: 2908175051198882846, guid: f3f0c31ea043998419a23a76653c65ea,
+    type: 3}
   selfShadowOffset: {x: 0, y: 0, z: 0}
   IATrailPointPrefab: {fileID: 0}
-  followDistance: 0
+  followDistance: 1
+  battleEntrance_VoiceClips:
+    Solo_BattlePrepareVoiceClip: {fileID: 0}
+    Company_BattlePrepareVoiceClip: {fileID: 0}
+    Solo_BattlePrepareVoiceClip_Disadvantage: {fileID: 0}
+    Company_BattlePrepareVoiceClip_Disadvantage: {fileID: 0}
+    Solo_BattlePrepareVoiceClip_Advantage: {fileID: 0}
+    Company_BattlePrepareVoiceClip_Advantage: {fileID: 0}
   selfLayer: 
   floorMask:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 8192
   SpeechBubbleSFX: {fileID: 8300000, guid: 051f4a8b870db7344b99bcb3bfc27cc3, type: 3}
   SpeechBubbleSkipSFX: {fileID: 8300000, guid: 7d96173b594934e43af09e95b15852f1, type: 3}
+  StompSFX: {fileID: 0}

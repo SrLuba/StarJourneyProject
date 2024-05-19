@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4a123ff390c33ef45ba3eee4adf1aa96, type: 3}
   m_Name: LuigiOV
   m_EditorClassIdentifier: 
-  speed: 14
-  jumpForce: 40
+  speed: 19.2
+  jumpForce: 42
   canUseHammer: 1
   hammerUnlocked: 1
   perks:

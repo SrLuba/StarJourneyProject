@@ -53,12 +53,14 @@ public class PlayerOV : MonoBehaviour
     Transform child;
     public bool split;
     string attackProgress = "";
+
     public void PrepareForBattle(bool attacked) {
         canAnimate = false;
         if (attacked) anim.Play("AttackSuccess_" + attackProgress);
         canPhysics = false;
         canInput = false;
     }
+
     public void Start()
     {
         canPhysics = true;
@@ -70,17 +72,17 @@ public class PlayerOV : MonoBehaviour
         this.split = false;
         child = new GameObject("t").transform;
     }
+
     public void Initialize()
     {
         this.canInput = true;
         this.split = false;
-
     }
    
     public void StopMoving() {
         this.input = new Vector2(0f, 0f);
-        
     }
+
     public IEnumerator AnimationOverrideDisable() {
         yield return new WaitForSeconds(1f);
         while (this.anim.GetCurrentAnimatorStateInfo(0).IsName("SquishPerk_Squish") || this.anim.GetCurrentAnimatorStateInfo(0).IsName("SquishPerk_Unsquish"))
@@ -93,6 +95,7 @@ public class PlayerOV : MonoBehaviour
         animationOverride = false;
         canInput = true;
     }
+
     public bool squished = false;
     public CapsuleCollider mainCol;
     public void SquishToggle() {
@@ -192,7 +195,7 @@ public class PlayerOV : MonoBehaviour
     public void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Container") && this.selfChara.charaType == CharaType.Player && this.rb.velocity.y > 0f) {
-            other.GetComponent<BlockContainer>().Hit();
+            other.GetComponent<BlockContainer>().Hit((OVManager.instance.mainPlayer == this) ? 0 : 1);
             this.rb.velocity = new Vector3(0f, 0f, 0f);
         }
         if (other.CompareTag("Coin") && this.selfChara.charaType == CharaType.Player)
@@ -399,7 +402,6 @@ public class PlayerOV : MonoBehaviour
         if (ix != 0f || iy != 0f) animV = new Vector2(ix, iy);
     }
     public void UpdateInput() {
-
         if (EventManager.instance.onEvent) return;
         if (StaticManager.instance.onBattle)
         {
@@ -422,8 +424,6 @@ public class PlayerOV : MonoBehaviour
             if (InputManager.instance.aPress) DoAction();
         }
            
-            
-        
         if (AI)
         { canInput = false; return; }
         if (!canInput) return;
@@ -431,9 +431,7 @@ public class PlayerOV : MonoBehaviour
         float iY = InputManager.instance.leftStick.y;
         input = new Vector2(iX, iY);
 
-        if (iX != 0f || iY != 0f) animV = new Vector2(iX, iY);
-
-        
+        if (iX != 0f || iY != 0f) animV = new Vector2(iX, iY);        
     }
     
     public void UpdateAnim() {
@@ -458,8 +456,9 @@ public class PlayerOV : MonoBehaviour
             rb.velocity = new Vector3(0f, 0f, 0f);
             return;
         }
-
-        rb.velocity = new Vector3(selfChara.OVActor.speed * input.normalized.x, Mathf.Clamp(rb.velocity.y, selfChara.OVActor.yVelClamp.x, selfChara.OVActor.yVelClamp.y), selfChara.OVActor.speed * input.normalized.y);
+     
+         rb.velocity = new Vector3(selfChara.OVActor.speed * input.normalized.x, Mathf.Clamp(rb.velocity.y, selfChara.OVActor.yVelClamp.x, selfChara.OVActor.yVelClamp.y), selfChara.OVActor.speed * input.normalized.y);
+     
     }
     public void FixedUpdate()
     {
@@ -498,7 +497,6 @@ public class PlayerOV : MonoBehaviour
 
         float ix = 0f;
         float iy = 0f;
-
 
         if (noticed)
         {

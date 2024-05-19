@@ -25,10 +25,13 @@ public class PlayerCameraOV : MonoBehaviour
     public Vector3 vectorOverride = new Vector3(0f, 0f, 0f);
     public bool enableVectorOverride = false;
 
+
     public bool linear = false;
 
     public bool Mlock = false;
     public bool disableSmooth = false;
+    public float angleOffsetY = 0f;
+    public float ySpeed = 0f;
 
     public void ResetControl()
     {
@@ -59,9 +62,9 @@ public class PlayerCameraOV : MonoBehaviour
             movOffset = new Vector3(0f, 0f, 0f);
         }
 
-        
+        CameraRotate();
         this.transform.position = linear ? Vector3.MoveTowards(this.transform.position, goVec + movOffset, speed * Time.deltaTime) : Vector3.Lerp(this.transform.position, goVec + movOffset, speed * Time.deltaTime);
-        this.transform.eulerAngles = new Vector3(Mathf.LerpAngle(this.transform.eulerAngles.x, Mathf.Clamp(movOffset.z * cRotMultiplier, camXClamp.x, camXClamp.y), cRotSpeed * Time.deltaTime), Mathf.LerpAngle(this.transform.eulerAngles.y, Mathf.Clamp(movOffset.x* cRotMultiplier, camYClamp.x, camYClamp.y), cRotSpeed * Time.deltaTime), this.transform.eulerAngles.z);
+        this.transform.eulerAngles = new Vector3(Mathf.LerpAngle(this.transform.eulerAngles.x, Mathf.Clamp(movOffset.z * cRotMultiplier, camXClamp.x, camXClamp.y), cRotSpeed * Time.deltaTime), Mathf.LerpAngle(this.transform.eulerAngles.y, angleOffsetY + Mathf.Clamp(movOffset.x* cRotMultiplier, camYClamp.x, camYClamp.y), cRotSpeed * Time.deltaTime), this.transform.eulerAngles.z);
     }
     public void CameraTransitionateBTL() {
         camAnim.Play("Camera_A_BTLT");
@@ -70,6 +73,11 @@ public class PlayerCameraOV : MonoBehaviour
     void Update()
     {
         target = linkedPlayer.transform;
+  
+    }
+  
+    public void CameraRotate() {
+        angleOffsetY += InputManager.instance.rightStick.x * ySpeed;
     }
     void FixedUpdate()
     {
