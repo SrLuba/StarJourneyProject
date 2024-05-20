@@ -5893,7 +5893,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 11400000, guid: fa6c67bea2df2d44dbe5e8b32b5257e4, type: 2}
-  player2: {fileID: 11400000, guid: 5d45e6c200d46224e97ccc4979c60764, type: 2}
+  player2: {fileID: 0}
   playerType: 0
   mainCamera: {fileID: 359567860}
   mainPlayer: {fileID: 0}

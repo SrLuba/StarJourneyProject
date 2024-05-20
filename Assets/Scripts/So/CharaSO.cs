@@ -84,29 +84,29 @@ public class ColliderInformation {
 }
 [System.Serializable]
 public class BattleEntrance_VoiceClips {
-    public AudioClip Solo_BattlePrepareVoiceClip;
-    public AudioClip Company_BattlePrepareVoiceClip;
-    public AudioClip Solo_BattlePrepareVoiceClip_Disadvantage;
-    public AudioClip Company_BattlePrepareVoiceClip_Disadvantage;
-    public AudioClip Solo_BattlePrepareVoiceClip_Advantage;
-    public AudioClip Company_BattlePrepareVoiceClip_Advantage;
+    public List<AudioClip> Solo_BattlePrepareVoiceClips;
+    public List<AudioClip> Company_BattlePrepareVoiceClips;
+    public List<AudioClip> Solo_BattlePrepareVoiceClips_Disadvantage;
+    public List<AudioClip> Company_BattlePrepareVoiceClips_Disadvantage;
+    public List<AudioClip> Solo_BattlePrepareVoiceClips_Advantage;
+    public List<AudioClip> Company_BattlePrepareVoiceClips_Advantage;
 
-    public AudioClip getClip(BattleEnteringCase eCase) {
+    public List<AudioClip> getClip(BattleEnteringCase eCase) {
         bool company = false;
         if (OVManager.instance.playerType == 2) {
             if (!OVManager.instance.secondaryPlayer.split) company = true;
         }
 
         if (eCase == BattleEnteringCase.Advantage) {
-            return (company) ? Company_BattlePrepareVoiceClip_Advantage : Solo_BattlePrepareVoiceClip_Advantage;        
+            return (company) ? Company_BattlePrepareVoiceClips_Advantage : Solo_BattlePrepareVoiceClips_Advantage;        
         }
         else if (eCase == BattleEnteringCase.Disadvantage)
         {
-            return (company) ? Company_BattlePrepareVoiceClip_Disadvantage : Solo_BattlePrepareVoiceClip_Disadvantage;
+            return (company) ? Company_BattlePrepareVoiceClips_Disadvantage : Solo_BattlePrepareVoiceClips_Disadvantage;
         }
         else 
         {
-            return (company) ? Company_BattlePrepareVoiceClip : Solo_BattlePrepareVoiceClip;
+            return (company) ? Company_BattlePrepareVoiceClips : Solo_BattlePrepareVoiceClips;
         }
     } 
 }

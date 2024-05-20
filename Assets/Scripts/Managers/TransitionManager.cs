@@ -77,29 +77,35 @@ public class TransitionManager : MonoBehaviour
             if (!OVManager.instance.secondaryPlayer.split) { 
                 if (player1contact)
                 {
-                    SoundManager.instance.Play(OVManager.instance.player.battleEntrance_VoiceClips.getClip(enteringCase));
-                    yield return new WaitForSeconds(OVManager.instance.player.battleEntrance_VoiceClips.getClip(enteringCase).length - 0.5f);
-                    SoundManager.instance.Play(OVManager.instance.player2.battleEntrance_VoiceClips.getClip(enteringCase));
-                    yield return new WaitForSeconds(OVManager.instance.player2.battleEntrance_VoiceClips.getClip(enteringCase).length - 0.5f);
+                    int randR = Random.Range(0, 2);
+                    SoundManager.instance.Play(OVManager.instance.player.battleEntrance_VoiceClips.getClip(enteringCase)[randR]);
+                    yield return new WaitForSeconds(OVManager.instance.player.battleEntrance_VoiceClips.getClip(enteringCase)[randR].length - 0.5f);
+                    int randR2 = Random.Range(0, 2);
+                    SoundManager.instance.Play(OVManager.instance.player2.battleEntrance_VoiceClips.getClip(enteringCase)[randR2]);
+                    yield return new WaitForSeconds(OVManager.instance.player2.battleEntrance_VoiceClips.getClip(enteringCase)[randR2].length - 0.5f);
                 }
                 else
                 {
-                    SoundManager.instance.Play(OVManager.instance.player2.battleEntrance_VoiceClips.getClip(enteringCase));
-                    yield return new WaitForSeconds(OVManager.instance.player2.battleEntrance_VoiceClips.getClip(enteringCase).length - 0.5f);
-                    SoundManager.instance.Play(OVManager.instance.player.battleEntrance_VoiceClips.getClip(enteringCase));
-                    yield return new WaitForSeconds(OVManager.instance.player.battleEntrance_VoiceClips.getClip(enteringCase).length - 0.5f);
+                    int randR3 = Random.Range(0, 2);
+                    SoundManager.instance.Play(OVManager.instance.player.battleEntrance_VoiceClips.getClip(enteringCase)[randR3]);
+                    yield return new WaitForSeconds(OVManager.instance.player2.battleEntrance_VoiceClips.getClip(enteringCase)[randR3].length - 0.5f);
+                    int randR4 = Random.Range(0, 2);
+                    SoundManager.instance.Play(OVManager.instance.player2.battleEntrance_VoiceClips.getClip(enteringCase)[randR4]);
+                    yield return new WaitForSeconds(OVManager.instance.player.battleEntrance_VoiceClips.getClip(enteringCase)[randR4].length - 0.5f);
                 }
             }
             else
             {
-                SoundManager.instance.Play(OVManager.instance.player.battleEntrance_VoiceClips.getClip(enteringCase));
-                yield return new WaitForSeconds(OVManager.instance.player.battleEntrance_VoiceClips.getClip(enteringCase).length - 0.5f);
+                int randR5 = Random.Range(0, 2);
+                SoundManager.instance.Play(OVManager.instance.player.battleEntrance_VoiceClips.getClip(enteringCase)[randR5]);
+                yield return new WaitForSeconds(OVManager.instance.player.battleEntrance_VoiceClips.getClip(enteringCase)[randR5].length - 0.5f);
             }
         }
         else
         {
-            SoundManager.instance.Play(OVManager.instance.player.battleEntrance_VoiceClips.getClip(enteringCase));
-            yield return new WaitForSeconds(OVManager.instance.player.battleEntrance_VoiceClips.getClip(enteringCase).length - 0.5f);
+            int randR6 = Random.Range(0, 2);
+            SoundManager.instance.Play(OVManager.instance.player.battleEntrance_VoiceClips.getClip(enteringCase)[randR6]);
+            yield return new WaitForSeconds(OVManager.instance.player.battleEntrance_VoiceClips.getClip(enteringCase)[randR6].length - 0.5f);
         }
       
         yield return new WaitForSeconds(0.5f);

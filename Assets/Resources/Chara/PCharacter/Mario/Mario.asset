@@ -55,6 +55,8 @@ MonoBehaviour:
     height: 3
     offset: {x: 0, y: 10, z: 0}
   OVActor: {fileID: 11400000, guid: 1e9e46536eab6654ebc0e477999a4f68, type: 2}
+  noticeDistance: 5
+  noticeSFX: {fileID: 0}
   phyMat: {fileID: 13400000, guid: 77b3aebb189459244a19906ca14d7faf, type: 2}
   jumpForce: 44
   selfEncounter: {fileID: 0}
@@ -69,18 +71,30 @@ MonoBehaviour:
     type: 3}
   followDistance: 2
   battleEntrance_VoiceClips:
-    Solo_BattlePrepareVoiceClip: {fileID: 8300000, guid: 3a3c3efc55a1279499df6eb41de02e39,
-      type: 3}
-    Company_BattlePrepareVoiceClip: {fileID: 8300000, guid: 066a87fcbf70bc34784aacc9069abdfd,
-      type: 3}
-    Solo_BattlePrepareVoiceClip_Disadvantage: {fileID: 8300000, guid: 8d187d545e179cd46a8f6e187ed1ea87,
-      type: 3}
-    Company_BattlePrepareVoiceClip_Disadvantage: {fileID: 8300000, guid: cadcfb734a7f3534c914a8c07a50d523,
-      type: 3}
-    Solo_BattlePrepareVoiceClip_Advantage: {fileID: 8300000, guid: 637fbef0a4da235408f13fbbadaa9aed,
-      type: 3}
-    Company_BattlePrepareVoiceClip_Advantage: {fileID: 8300000, guid: eb126dab623f93e42a2509b91b652702,
-      type: 3}
+    Solo_BattlePrepareVoiceClips:
+    - {fileID: 8300000, guid: d57d31c7681c3624b9c9bfc4cd700a0a, type: 3}
+    - {fileID: 8300000, guid: b2a2bf9dcc11cd54985144d8e0621ee4, type: 3}
+    - {fileID: 8300000, guid: 5dcd565daba1e95448ce362d99c71c44, type: 3}
+    Company_BattlePrepareVoiceClips:
+    - {fileID: 8300000, guid: eb126dab623f93e42a2509b91b652702, type: 3}
+    - {fileID: 8300000, guid: 066a87fcbf70bc34784aacc9069abdfd, type: 3}
+    - {fileID: 8300000, guid: 3a3c3efc55a1279499df6eb41de02e39, type: 3}
+    Solo_BattlePrepareVoiceClips_Disadvantage:
+    - {fileID: 8300000, guid: 983b5149fef53c14b83c38f4ca58b2d9, type: 3}
+    - {fileID: 8300000, guid: 1a4639bfc62b6af4cbf369d626531e3f, type: 3}
+    - {fileID: 8300000, guid: aca9c22f2987ab14c8af360115c4451c, type: 3}
+    Company_BattlePrepareVoiceClips_Disadvantage:
+    - {fileID: 8300000, guid: b2ee743fee0661a4f8b6036b737d2290, type: 3}
+    - {fileID: 8300000, guid: a776fd3f94ebac64db1d1f804dcceff7, type: 3}
+    - {fileID: 8300000, guid: 4da5c6759ab02b4418c06d0860ea3267, type: 3}
+    Solo_BattlePrepareVoiceClips_Advantage:
+    - {fileID: 8300000, guid: 99558159c33025647bee75cfab96255b, type: 3}
+    - {fileID: 8300000, guid: c214b907ee24c7f43918e5932841d6e5, type: 3}
+    - {fileID: 8300000, guid: 250aaf3934ca82841b92f9f2c6dc54af, type: 3}
+    Company_BattlePrepareVoiceClips_Advantage:
+    - {fileID: 8300000, guid: 02c3289acea93b34184f79a7b1b56244, type: 3}
+    - {fileID: 8300000, guid: 02c3289acea93b34184f79a7b1b56244, type: 3}
+    - {fileID: 8300000, guid: 86bb1b29a958d384382b5c900e8587bd, type: 3}
   selfLayer: Player
   floorMask:
     serializedVersion: 2
