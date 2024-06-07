@@ -8,6 +8,13 @@ public class PlayerOV : MonoBehaviour
     public bool AI = false;
     public bool followTransform = true;
 
+
+    public bool water = false;
+    float waterY = 0f;
+    public bool underwaterControl = false;
+
+    // int, float, bool, List, Arrays
+
     public Transform followPoint;
     public Vector3 followVector;
 
@@ -18,7 +25,6 @@ public class PlayerOV : MonoBehaviour
     public Rigidbody rb;
     public Animator anim;
 
-
     public Transform handleAngle;
 
     public bool Grounded = true;
@@ -26,33 +32,36 @@ public class PlayerOV : MonoBehaviour
     public Vector3 rayOffset;
     public float rayDistance;
 
-    public FootController foot;
+    public Transform inputCue;
 
+    public FootController foot;
     public float angleOffset;
 
     public ShadowScript scriptSh;
 
     public Vector2 input = new Vector2(0f, 0f);
     public Vector2 animV = new Vector2(0f, 0f);
+
     public bool canPhysics = true;
     public bool p2 = false;
-
     public bool canInput = true;
-
     public bool canAnimate = true;
-
     public bool moving;
-
     public bool animationOverride = false;
-
     public bool joystick = false;
 
-    public Vector3 angle;
+    public int perkPackID = 0;
 
+    public Vector3 angle;
     public LayerMask floorMask;
+
     Transform child;
     public bool split;
     string attackProgress = "";
+
+    float currentRunningSpeed = 0f;
+    float currentGravity = 0f;
+    float zAngle = 0f;
 
     public void PrepareForBattle(bool attacked) {
         canAnimate = false;
@@ -71,12 +80,23 @@ public class PlayerOV : MonoBehaviour
         }
         this.split = false;
         child = new GameObject("t").transform;
+        if (selfChara.charaType == CharaType.Player) rb.useGravity = false;
+        Initialize();
     }
 
     public void Initialize()
     {
         this.canInput = true;
         this.split = false;
+        if (selfChara.charaType == CharaType.Player) rb.useGravity = false;
+        if (this == OVManager.instance.mainPlayer)
+        {
+            inputCue = Instantiate(selfChara.OVActor.inputCuePrefab, this.transform.position, Quaternion.identity).transform;
+            inputCue.position = scriptSh.transform.position;
+            inputCue.eulerAngles = scriptSh.transform.eulerAngles;
+            inputCue.transform.SetParent(scriptSh.transform);
+        }
+        this.selfChara.perkPackID = 0;
     }
    
     public void StopMoving() {
@@ -111,18 +131,21 @@ public class PlayerOV : MonoBehaviour
     public void DoPerk(int id) {
         if (OVActionManager.instance == null) return;
         if (OVActionManager.instance.busyPerk) return;
+        if (selfChara.OVActor.perks[OVManager.instance.player.perkPackID].perks[id].useRequeriment == OP_UseRequirement.Grounded && !Grounded) return;
+        if (selfChara.OVActor.perks[OVManager.instance.player.perkPackID].perks[id].useRequeriment == OP_UseRequirement.Air && Grounded) return;
 
-        StartCoroutine(selfChara.OVActor.perks[id].Trigger(this));
-        attackProgress = selfChara.OVActor.perks[id].perkName;
+        StartCoroutine(selfChara.OVActor.perks[OVManager.instance.player.perkPackID].perks[id].Trigger(this));
+        attackProgress = selfChara.OVActor.perks[OVManager.instance.player.perkPackID].perks[id].perkName;
 
-        if (StaticManager.instance.company && OVManager.instance.secondaryPlayer == this && id == 1) {
+
+       /* if (StaticManager.instance.company && OVManager.instance.secondaryPlayer == this && id == 1) {
             if (!OVManager.instance.secondaryPlayer.split) {
                 if (!EventManager.instance.onEvent) { OVManager.instance.mainPlayer.SquishToggle(); } else {
                     if (OVManager.instance.mainPlayer.squished) OVManager.instance.mainPlayer.SquishToggle();
                     OVManager.instance.mainPlayer.squished = false;
                 }
             }
-        }
+        }*/
     }
     public void UpdateGrounded() {
         RaycastHit hit;
@@ -132,9 +155,8 @@ public class PlayerOV : MonoBehaviour
             Vector3 ta = Quaternion.FromToRotation(Vector3.up, hit.normal).eulerAngles;
             
             angle = new Vector3(ta.x * (float)((((Mathf.Abs(angle.y) >= 135f && Mathf.Abs(angle.y) < 270f)) ? -1f : 1f)), angle.y, ta.z * (((Mathf.Abs(angle.y) >= 89f && Mathf.Abs(angle.y) < 91f) || (Mathf.Abs(angle.y) >= 269f && Mathf.Abs(angle.y) < 281f)) ? 0f : ((Mathf.Abs(angle.y) >= 89f && Mathf.Abs(angle.y) <= 91f) || (Mathf.Abs(angle.y) >= 135f && Mathf.Abs(angle.y) < 270f)) ? -1f : 1f));
-
         }
-
+        
         if (Physics.Raycast(this.transform.position + rayOffset, Vector3.down, out hit, rayDistance, floorMask))
         {
             if (foot!=null)foot.floorType = hit.collider.gameObject.name.Split('|')[0];
@@ -144,16 +166,26 @@ public class PlayerOV : MonoBehaviour
         {
             Grounded = false;
         }
+
+       
     }
     public void Jump() {
         if (!Grounded) return;
+
         attackProgress = "Jump";
         SoundManager.instance.Play(selfChara.OVActor.jumpSFX);
         rb.velocity = new Vector3(rb.velocity.x, selfChara.OVActor.jumpForce, rb.velocity.y);
     }
+    public void JumpForceOutWater()
+    {
 
+        attackProgress = "Jump";
+        SoundManager.instance.Play(selfChara.WaterExitSFX);
+        rb.velocity = new Vector3(rb.velocity.x, selfChara.OVActor.jumpForce*1.25f, rb.velocity.y);
+
+    }
     public void DoAction() {
-        if (!Grounded) return;
+        //if (!Grounded) return;
         if (EventManager.instance.onEvent) return;
 
         bool adjacent = OVManager.instance.secondaryPlayer == this;
@@ -191,13 +223,51 @@ public class PlayerOV : MonoBehaviour
                 OVManager.instance.secondaryPlayer.split = false;
             }
         }
+        if (other.CompareTag("FixedCameraZone") && this == OVManager.instance.mainPlayer)
+        {
+            OVManager.instance.mainCamera.ChangeMode(CameraMode.Default);
+        }
+
+        if (other.CompareTag("Water") && this.selfChara.charaType == CharaType.Player)
+        {
+            this.water = false;
+            this.waterY = 0f;
+            Instantiate(this.selfChara.OVActor.splashFX, new Vector3(this.transform.position.x, other.transform.position.y + other.GetComponent<WaterCol>().surfaceY, this.transform.position.z), Quaternion.identity);
+            selfChara.perkPackID = 0;
+        }
     }
+    public void OnTriggerStay(Collider other)
+    {
+        if (other.CompareTag("FixedCameraZone") && this == OVManager.instance.mainPlayer)
+        {
+            OVManager.instance.mainCamera.ChangeMode(CameraMode.Original);
+        }
+    }
+    public void UpdateWater() {
+        if (!water) return;
+        if (!underwaterControl) { 
+            this.transform.position = new Vector3(this.transform.position.x, Mathf.Lerp(this.transform.position.y, waterY - selfChara.OVActor.underWaterYOffset, 8f*Time.deltaTime), this.transform.position.z);
+            bool jumpKeyA = (this == OVManager.instance.mainPlayer) ? InputManager.instance.aPress : InputManager.instance.bPress;
+
+            if (jumpKeyA) { underwaterControl = false; JumpForceOutWater(); water = false; }
+        }
+        if (rb.velocity.y > 0 && this.transform.position.y > waterY-5f) { underwaterControl = false; JumpForceOutWater(); water = false; }
+    }   
     public void OnTriggerEnter(Collider other)
     {
+        if (other.CompareTag("Water") && this.selfChara.charaType == CharaType.Player && !water) {
+            this.water = true;
+            this.waterY = other.transform.position.y + other.GetComponent<WaterCol>().surfaceY;
+            Instantiate(this.selfChara.OVActor.splashFX, new Vector3(this.transform.position.x, other.transform.position.y + other.GetComponent<WaterCol>().surfaceY, this.transform.position.z), Quaternion.identity); ;
+            SoundManager.instance.Play(selfChara.WaterEnterSFX);
+            selfChara.perkPackID = 1;
+        }
+
         if (other.CompareTag("Container") && this.selfChara.charaType == CharaType.Player && this.rb.velocity.y > 0f) {
             other.GetComponent<BlockContainer>().Hit((OVManager.instance.mainPlayer == this) ? 0 : 1);
             this.rb.velocity = new Vector3(0f, 0f, 0f);
         }
+
         if (other.CompareTag("Coin") && this.selfChara.charaType == CharaType.Player)
         {
             other.GetComponent<CoinScript>().Grab();
@@ -228,7 +298,7 @@ public class PlayerOV : MonoBehaviour
             a.canAnimate = false;
             a.rb.velocity = new Vector3(0f, 0f, 0f);
             a.rb.isKinematic = true;
-            SoundManager.instance.Play(a.selfChara.OVActor.perks[1].audioClip2);
+            SoundManager.instance.Play(a.selfChara.OVActor.perks[OVManager.instance.player.perkPackID].perks[1].audioClip2);
 
             eCase = BattleEnteringCase.Advantage;
             
@@ -352,16 +422,16 @@ public class PlayerOV : MonoBehaviour
                 StartCoroutine(TransitionManager.instance.StartTransitionBattle(eCase, this == OVManager.instance.mainPlayer, so));
                 return;
             }
-
-       
-        
-
         }
 
         if (OVManager.instance.mainPlayer != this) return;
 
         if (other.CompareTag("Warp")) {
             OVManager.instance.Warp(other.name.Split('|')[0].ToUpper(), other.name.Split('|')[1].ToUpper());
+        }
+
+        if (other.CompareTag("FixedCameraZone") && this == OVManager.instance.mainPlayer) {
+            OVManager.instance.mainCamera.ChangeMode(CameraMode.Original);
         }
     }
     public void SetupInterrupt(bool ovInput, Vector2 direction) {
@@ -389,15 +459,21 @@ public class PlayerOV : MonoBehaviour
 
         Vector3 tPos = followTransform ? followPoint.position : followVector;
 
-        float ix = (this.transform.position.x > tPos.x + 0.4f) ? -1f : (this.transform.position.x < tPos.x - 0.4f) ? 1f : 0f;
-        float iy = (this.transform.position.z > tPos.z + 0.4f) ? -1f : (this.transform.position.z < tPos.z - 0.4f) ? 1f : 0f;
 
-        if (Vector3.Distance(this.transform.position, tPos) < 0.4f)
+
+        float ix = 0f;
+        float iy = 0f;
+
+        if (Vector3.Distance(this.transform.position, tPos) < selfChara.OVActor.AIFollowDistance)
         {
             ix = 0f;
             iy = 0f;
         }
-       
+        else {
+            ix = (this.transform.position.x > tPos.x + 0.4f) ? -1f : (this.transform.position.x < tPos.x - 0.4f) ? 1f : 0f;
+            iy = (this.transform.position.z > tPos.z + 0.4f) ? -1f : (this.transform.position.z < tPos.z - 0.4f) ? 1f : 0f;
+        }
+
         input = new Vector2(ix, iy);
         if (ix != 0f || iy != 0f) animV = new Vector2(ix, iy);
     }
@@ -408,6 +484,8 @@ public class PlayerOV : MonoBehaviour
             input = new Vector2(0f, 0f);
             return;
         }
+        bool jumpKeyA = (this == OVManager.instance.mainPlayer) ? InputManager.instance.aHold : InputManager.instance.bHold;
+        currentGravity = (jumpKeyA && rb.velocity.y > 0f) ? ((water) ? selfChara.OVActor.gravityJump_Water : selfChara.OVActor.gravityJump) : ((water) ? selfChara.OVActor.gravityNormal_Water : selfChara.OVActor.gravityNormal);
 
         if (OVManager.instance.playerType == 2)
         {
@@ -431,37 +509,109 @@ public class PlayerOV : MonoBehaviour
         float iY = InputManager.instance.leftStick.y;
         input = new Vector2(iX, iY);
 
-        if (iX != 0f || iY != 0f) animV = new Vector2(iX, iY);        
     }
-    
+
     public void UpdateAnim() {
         
-        moving = input.magnitude > 0.1f;
+        moving = Mathf.Abs(currentRunningSpeed) > 1f;
 
         if (animationOverride) return;
-   
-            Quaternion newRotation = Quaternion.LookRotation(new Vector3(animV.x, 0f, animV.y));
-           if (this.selfChara.charaType == CharaType.Player) angle = new Vector3(angle.x, (!split) ? (newRotation.eulerAngles.y + angleOffset) : 180f + angleOffset, angle.z);
-   
-         if (canAnimate)
+
+
+        if (canAnimate)
         {
-        
-            anim.Play((Grounded) ? (moving) ? "Move" : (split) ? "Idle_Split" : "Idle" : (rb.velocity.y > 0f) ? "Jump" : "Fall");
+            float requestedAnimSpeed = currentRunningSpeed * selfChara.OVActor.animationSpeedMultiplier;
+            anim.speed = Mathf.Clamp(((requestedAnimSpeed > 0f) ? requestedAnimSpeed : 1f), 0.25f, selfChara.OVActor.animationSpeedMax);
+            if (!water) { anim.Play((Grounded) ? (moving) ? "Move" : (split) ? "Idle_Split" : "Idle" : (rb.velocity.y > 0f) ? "Jump" : "Fall"); }
+            else { 
+                anim.Play((underwaterControl) ? (Grounded) ? (moving) ? "UnderwaterMove" : "UnderwaterIdle" : (rb.velocity.y > 0f) ? "UnderwaterJump" : "UnderwaterFall" : (moving) ? "UnderwaterSurfMove" : "UnderwaterSurfIdle");
+            }
+        }
+        else {
+            anim.speed = 1f;
         }
     }
-
+    bool startedWalking = false;
+    float targetYAngle = 0f;
     public void UpdatePhysics() {
         if (rb == null) return;
+        if (Mathf.Abs(currentRunningSpeed) < 2f) startedWalking = false;
+
         if (!canPhysics) {
             rb.velocity = new Vector3(0f, 0f, 0f);
             return;
         }
-     
-         rb.velocity = new Vector3(selfChara.OVActor.speed * input.normalized.x, Mathf.Clamp(rb.velocity.y, selfChara.OVActor.yVelClamp.x, selfChara.OVActor.yVelClamp.y), selfChara.OVActor.speed * input.normalized.y);
-     
+        Vector3 movementDirection = new Vector3(input.x, 0f, input.y);
+        Vector3 realDirection = OVManager.instance.mainCamera.transform.TransformDirection(movementDirection);
+       
+        if (AI) {
+            Vector3 tPos = followTransform ? new Vector3(followPoint.position.x, this.transform.position.y, followPoint.position.z) : new Vector3(followVector.x, this.transform.position.y, followVector.z);
+            Quaternion newRotation = Quaternion.LookRotation(OVManager.instance.mainPlayer.transform.TransformDirection(movementDirection), Vector3.up);
+      
+
+            if (Vector3.Distance(this.transform.position, tPos) > selfChara.OVActor.AIFollowDistance)
+            {
+                zAngle = Mathf.Clamp((visualHandler.localEulerAngles.y - inputAngle), -selfChara.OVActor.angleEffect, selfChara.OVActor.angleEffect);
+
+                inputAngle = newRotation.eulerAngles.y;
+
+                currentRunningSpeed = Mathf.MoveTowards(currentRunningSpeed, selfChara.OVActor.speed, selfChara.OVActor.acceleration * Time.deltaTime);
+                startedWalking = true;
+            }
+            else
+            {
+                currentRunningSpeed = Mathf.MoveTowards(currentRunningSpeed, 0f, selfChara.OVActor.deceleration * Time.deltaTime);
+                rb.velocity = new Vector3(0f, rb.velocity.y, 0f);
+                zAngle = 0f;
+                inputAngle = Quaternion.LookRotation(OVManager.instance.mainPlayer.transform.TransformDirection(movementDirection), Vector3.up).eulerAngles.y;
+            }
+
+            if (water)
+            {
+                rb.velocity = new Vector3(input.normalized.x * currentRunningSpeed, (!underwaterControl) ? 0f : Mathf.Clamp(rb.velocity.y, selfChara.OVActor.yVelClampWater.x, selfChara.OVActor.yVelClampWater.y), input.normalized.y * currentRunningSpeed);
+            }
+            else
+            {
+                rb.velocity = new Vector3(input.normalized.x * currentRunningSpeed, Mathf.Clamp(rb.velocity.y, selfChara.OVActor.yVelClamp.x, selfChara.OVActor.yVelClamp.y), input.normalized.y * currentRunningSpeed);
+            }
+        }
+        else {
+    
+            if (realDirection.magnitude > 0.1f)
+            {
+                zAngle = Mathf.Clamp((visualHandler.localEulerAngles.y - inputAngle), -selfChara.OVActor.angleEffect, selfChara.OVActor.angleEffect);
+                Quaternion newRotation = Quaternion.LookRotation(realDirection, Vector3.up);
+
+                inputAngle = newRotation.eulerAngles.y;
+              
+
+                currentRunningSpeed = Mathf.MoveTowards(currentRunningSpeed, selfChara.OVActor.speed, selfChara.OVActor.acceleration * Time.deltaTime);
+                startedWalking = true;
+            }
+            else
+            {
+                currentRunningSpeed = Mathf.MoveTowards(currentRunningSpeed, 0f, selfChara.OVActor.deceleration * Time.deltaTime);
+                rb.velocity = new Vector3(0f, rb.velocity.y, 0f);
+                zAngle = 0f;
+            }
+
+            if (water) 
+            {
+                rb.velocity = new Vector3((handleAngle.forward.normalized * currentRunningSpeed).x, (!underwaterControl) ? 0f : Mathf.Clamp(rb.velocity.y, selfChara.OVActor.yVelClampWater.x, selfChara.OVActor.yVelClampWater.y), (handleAngle.forward.normalized * currentRunningSpeed).z);
+            }
+            else 
+            {
+                rb.velocity = new Vector3((handleAngle.forward.normalized * currentRunningSpeed).x, Mathf.Clamp(rb.velocity.y, selfChara.OVActor.yVelClamp.x, selfChara.OVActor.yVelClamp.y), (handleAngle.forward.normalized * currentRunningSpeed).z);
+            }
+        }
+    }
+    public void UpdateJumpDrag()
+    {
+         rb.AddForce(Physics.gravity * currentGravity * Time.fixedDeltaTime, ForceMode.Acceleration);   
     }
     public void FixedUpdate()
     {
+        UpdateJumpDrag();
         UpdatePhysics();
         UpdateAnim();
     }
@@ -525,10 +675,11 @@ public class PlayerOV : MonoBehaviour
         input = new Vector2(ix, iy);
         if (ix != 0f || iy != 0f) animV = new Vector2(ix, iy);
     }
+    float inputAngle = 0f;
     public Transform visualHandler;
     public void Update()
     {
-
+       
         mainCol.height = (squished) ? selfChara.OVActor.squishHeight : selfChara.OVActor.normalHeight;
         mainCol.radius = (squished) ? selfChara.OVActor.squishRadius : selfChara.OVActor.normalRadius;
         mainCol.center = (squished) ? selfChara.OVActor.squishCenter : selfChara.OVActor.normalCenter;
@@ -537,10 +688,22 @@ public class PlayerOV : MonoBehaviour
 
         if (this.AI) UpdateAI();
         if (selfChara.charaType == CharaType.Player) UpdateInput();
-        UpdateGrounded();
+       
         if (EventManager.instance.onEvent) return;
         if (selfChara.charaType == CharaType.Enemy) EnemyUpdate();
-        handleAngle.transform.eulerAngles = new Vector3(Mathf.LerpAngle(handleAngle.transform.eulerAngles.x, angle.x,15f*Time.deltaTime), Mathf.LerpAngle(handleAngle.transform.eulerAngles.y, angle.y, 15f * Time.deltaTime), Mathf.LerpAngle(handleAngle.transform.eulerAngles.z, angle.z, 15f * Time.deltaTime));
+        handleAngle.transform.eulerAngles = new Vector3(0f, Mathf.LerpAngle(handleAngle.transform.eulerAngles.y, inputAngle, 15f * Time.deltaTime), Mathf.LerpAngle(handleAngle.transform.eulerAngles.z, zAngle,9f*Time.deltaTime));
+        if (inputCue != null)
+        {
+            inputCue.gameObject.SetActive(!Grounded);
+        }
+
+        UpdateGrounded();
+        UpdateWater();
+        if (selfChara.charaType == CharaType.Player) {
+            selfChara.phyMat.frictionCombine = (moving) ? PhysicMaterialCombine.Minimum : PhysicMaterialCombine.Maximum;
+            selfChara.phyMat.staticFriction = (moving) ? 0.01f : 1f;
+            selfChara.phyMat.dynamicFriction = (moving) ? 0.01f : 1f;
+        }
     }
 
 }

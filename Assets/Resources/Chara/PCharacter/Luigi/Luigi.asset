@@ -19,10 +19,10 @@ MonoBehaviour:
   charaType: 0
   charaFlags:
   - S
-  startingStats:
+  stats:
     HEALTH:
-      startValue: 24
-      valueMultiplier: 1
+      startValue: 0
+      valueMultiplier: 0
     ENERGY:
       startValue: 0
       valueMultiplier: 0
@@ -39,8 +39,8 @@ MonoBehaviour:
       startValue: 0
       valueMultiplier: 0
     SPEED:
-      startValue: 0
-      valueMultiplier: 0
+      startValue: 23
+      valueMultiplier: 15
     LUCK:
       startValue: 0
       valueMultiplier: 0
@@ -55,9 +55,11 @@ MonoBehaviour:
     height: 3
     offset: {x: 0, y: 10, z: 0}
   OVActor: {fileID: 11400000, guid: d81a1591039103641821c41893d18668, type: 2}
+  ownAction: 1
+  canWater: 1
   noticeDistance: 5
   noticeSFX: {fileID: 0}
-  phyMat: {fileID: 13400000, guid: 77b3aebb189459244a19906ca14d7faf, type: 2}
+  phyMat: {fileID: 13400000, guid: 5160564b3a4a4204d81cafc442c546f1, type: 2}
   jumpForce: 55
   selfEncounter: {fileID: 0}
   ySquatch: {x: 0, y: 1}
@@ -77,7 +79,7 @@ MonoBehaviour:
     - {fileID: 8300000, guid: 085b4315fdc41294d868a12e066995af, type: 3}
     Company_BattlePrepareVoiceClips:
     - {fileID: 8300000, guid: ae2eda145bea7c94cbec9ff4a84789c0, type: 3}
-    - {fileID: 8300000, guid: 6ecb9891e525a804194cc35932d8b219, type: 3}
+    - {fileID: 8300000, guid: 8f57f58eb0503454f9566def53fd11ee, type: 3}
     - {fileID: 8300000, guid: 5369499b97b795e42816399c722a261e, type: 3}
     Solo_BattlePrepareVoiceClips_Disadvantage:
     - {fileID: 8300000, guid: 6ecb9891e525a804194cc35932d8b219, type: 3}
@@ -102,3 +104,6 @@ MonoBehaviour:
   SpeechBubbleSFX: {fileID: 8300000, guid: cc6905254027ec4489fc81da71d6dadd, type: 3}
   SpeechBubbleSkipSFX: {fileID: 8300000, guid: efe9964ebf65a7e4db8de0fd586c4788, type: 3}
   StompSFX: {fileID: 8300000, guid: fad5ffd2cf2d8354e8cba24de78148b5, type: 3}
+  perkPackID: 0
+  WaterEnterSFX: {fileID: 8300000, guid: 22fb563ecc315e94894a4e8be124725a, type: 3}
+  WaterExitSFX: {fileID: 8300000, guid: 22fb563ecc315e94894a4e8be124725a, type: 3}

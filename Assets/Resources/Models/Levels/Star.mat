@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Star
-  m_Shader: {fileID: -6465566751694194690, guid: 04e28114344a4d948833b729fd4e92ad,
+  m_Shader: {fileID: -6465566751694194690, guid: fffcc17990dc47444bbf5b751b113ab0,
     type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -68,6 +68,10 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _Overlay:
+        m_Texture: {fileID: 2800000, guid: ce53f7b68f9e33941b86869f18717c5c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _ParallaxMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -77,6 +81,14 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SpecGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture2D:
+        m_Texture: {fileID: 2800000, guid: 197c55ff600f9a94a812b079953b0a33, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureOverlay:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -111,6 +123,9 @@ Material:
     - _DetailNormalMapScale: 1
     - _DstBlend: 10
     - _DstBlendAlpha: 10
+    - _EffectOverlay: 0.01
+    - _EffectScale: 155
+    - _EffectY: 5
     - _EnvironmentReflections: 1
     - _GlossMapScale: 1
     - _Glossiness: 0.5
@@ -122,6 +137,9 @@ Material:
     - _QueueControl: 0
     - _QueueOffset: 0
     - _ReceiveShadows: 1
+    - _RippleAmount: 7
+    - _RippleSpeed: 1
+    - _Slimness: 15
     - _Smoothness: 1
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
@@ -135,11 +153,13 @@ Material:
     - _UVSec: 0
     - _WorkflowMode: 1
     - _ZWrite: 0
+    - _alpha: 0.5
     m_Colors:
-    - _BaseColor: {r: 0.90146106, g: 0.9063985, b: 0, a: 0.5118111}
+    - _BaseColor: {r: 1, g: 0.85797274, b: 0, a: 0.5118111}
     - _Color: {r: 0.90146106, g: 0.9063985, b: 0, a: 0.5118111}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 0}
     - _OutlineColor: {r: 1, g: 0.78902745, b: 0, a: 0}
+    - _RippleColor: {r: 5.7911477, g: 0, b: 1.5264878, a: 0.6039216}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
 --- !u!114 &3138052524242888155

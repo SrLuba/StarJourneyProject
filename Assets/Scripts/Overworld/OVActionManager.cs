@@ -38,16 +38,18 @@ public class OVActionManager : MonoBehaviour
     {
         if (busyPerk) return;
 
-        MT.sizeDelta = new Vector2((Keyboard.current.aKey.isPressed) ? sizeA : sizeB, (Keyboard.current.aKey.isPressed) ? sizeA : sizeB);
-        LT.sizeDelta = new Vector2((Keyboard.current.sKey.isPressed) ? sizeA : sizeB, (Keyboard.current.sKey.isPressed) ? sizeA : sizeB);
+        MT.sizeDelta = new Vector2((InputManager.instance.aHold) ? sizeA : sizeB, (InputManager.instance.aHold) ? sizeA : sizeB);
+        LT.sizeDelta = new Vector2((InputManager.instance.bHold) ? sizeA : sizeB, (InputManager.instance.bHold) ? sizeA : sizeB);
         
         if (InputManager.instance.lPress)
         {
             actionID_Player++;
             if (actionID_Player > 1) actionID_Player = 0;
             SoundManager.instance.Play(changeClip);
-            if (OVManager.instance.player.OVActor.perks[actionID_Player].selfClipWhenSelect!=null) SoundManager.instance.Play(OVManager.instance.player.OVActor.perks[actionID_Player].selfClipWhenSelect);
-            if (OVManager.instance.player.OVActor.perks[actionID_Player].adjacentClipWhenSelect!=null) SoundManager.instance.Play(OVManager.instance.player.OVActor.perks[actionID_Player].adjacentClipWhenSelect);
+            if (OVManager.instance.player.OVActor.perks[OVManager.instance.player.perkPackID].perks[actionID_Player].selfClipWhenSelect!=null) 
+                SoundManager.instance.Play(OVManager.instance.player.OVActor.perks[OVManager.instance.player.perkPackID].perks[actionID_Player].selfClipWhenSelect);
+            if (OVManager.instance.player.OVActor.perks[OVManager.instance.player.perkPackID].perks[actionID_Player].adjacentClipWhenSelect !=null) 
+                SoundManager.instance.Play(OVManager.instance.player.OVActor.perks[OVManager.instance.player.perkPackID].perks[actionID_Player].adjacentClipWhenSelect);
         }
      
         if (OVManager.instance.playerType == 2 && !OVManager.instance.secondaryPlayer.split)
@@ -57,8 +59,10 @@ public class OVActionManager : MonoBehaviour
                 actionID_Adjacent++;
                 if (actionID_Adjacent > 1) actionID_Adjacent = 0;
                 SoundManager.instance.Play(changeClip);
-                if (OVManager.instance.player2.OVActor.perks[actionID_Adjacent].selfClipWhenSelect!=null) SoundManager.instance.Play(OVManager.instance.player2.OVActor.perks[actionID_Adjacent].selfClipWhenSelect);
-                if (OVManager.instance.player2.OVActor.perks[actionID_Adjacent].adjacentClipWhenSelect!=null) SoundManager.instance.Play(OVManager.instance.player2.OVActor.perks[actionID_Adjacent].adjacentClipWhenSelect);
+                if (OVManager.instance.player2.OVActor.perks[OVManager.instance.player.perkPackID].perks[actionID_Adjacent].selfClipWhenSelect!=null) 
+                    SoundManager.instance.Play(OVManager.instance.player2.OVActor.perks[OVManager.instance.player.perkPackID].perks[actionID_Adjacent].selfClipWhenSelect);
+                if (OVManager.instance.player2.OVActor.perks[OVManager.instance.player.perkPackID].perks[actionID_Adjacent].adjacentClipWhenSelect!=null) 
+                    SoundManager.instance.Play(OVManager.instance.player2.OVActor.perks[OVManager.instance.player.perkPackID].perks[actionID_Adjacent].adjacentClipWhenSelect);
             }
         }
         else {

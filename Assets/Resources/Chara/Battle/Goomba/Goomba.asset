@@ -18,10 +18,10 @@ MonoBehaviour:
   characterIcon: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
   charaType: 1
   charaFlags: []
-  startingStats:
+  stats:
     HEALTH:
-      startValue: 24
-      valueMultiplier: 1
+      startValue: 0
+      valueMultiplier: 0
     ENERGY:
       startValue: 0
       valueMultiplier: 0
@@ -38,7 +38,7 @@ MonoBehaviour:
       startValue: 0
       valueMultiplier: 0
     SPEED:
-      startValue: 0
+      startValue: 1
       valueMultiplier: 0
     LUCK:
       startValue: 0
@@ -54,6 +54,7 @@ MonoBehaviour:
     height: 1
     offset: {x: 0, y: 1, z: 0}
   OVActor: {fileID: 11400000, guid: f6f59e9b41567a5458f78c07a6458907, type: 2}
+  canWater: 1
   noticeDistance: 7
   noticeSFX: {fileID: 8300000, guid: eba259fbe0492a94198698421cb77022, type: 3}
   phyMat: {fileID: 13400000, guid: 77b3aebb189459244a19906ca14d7faf, type: 2}
@@ -70,12 +71,12 @@ MonoBehaviour:
     type: 3}
   followDistance: 1
   battleEntrance_VoiceClips:
-    Solo_BattlePrepareVoiceClip: {fileID: 0}
-    Company_BattlePrepareVoiceClip: {fileID: 0}
-    Solo_BattlePrepareVoiceClip_Disadvantage: {fileID: 0}
-    Company_BattlePrepareVoiceClip_Disadvantage: {fileID: 0}
-    Solo_BattlePrepareVoiceClip_Advantage: {fileID: 0}
-    Company_BattlePrepareVoiceClip_Advantage: {fileID: 0}
+    Solo_BattlePrepareVoiceClips: []
+    Company_BattlePrepareVoiceClips: []
+    Solo_BattlePrepareVoiceClips_Disadvantage: []
+    Company_BattlePrepareVoiceClips_Disadvantage: []
+    Solo_BattlePrepareVoiceClips_Advantage: []
+    Company_BattlePrepareVoiceClips_Advantage: []
   selfLayer: Enemy
   floorMask:
     serializedVersion: 2
@@ -83,3 +84,6 @@ MonoBehaviour:
   SpeechBubbleSFX: {fileID: 0}
   SpeechBubbleSkipSFX: {fileID: 0}
   StompSFX: {fileID: 0}
+  perkPackID: 0
+  WaterEnterSFX: {fileID: 0}
+  WaterExitSFX: {fileID: 0}

@@ -52,24 +52,24 @@ public class InputManager : MonoBehaviour
     public void UpdateKeyboard() {
         if (joystick) return;
         // A
-        aPress = Keyboard.current.zKey.wasPressedThisFrame;
-        aHold = Keyboard.current.zKey.isPressed;
+        aPress = Mouse.current.leftButton.wasPressedThisFrame;
+        aHold = Mouse.current.leftButton.isPressed;
         
         // B
-        bPress = Keyboard.current.xKey.wasPressedThisFrame;
-        bHold = Keyboard.current.xKey.isPressed;
+        bPress = Mouse.current.rightButton.wasPressedThisFrame;
+        bHold = Mouse.current.rightButton.isPressed;
         // X
         xPress = Keyboard.current.spaceKey.wasPressedThisFrame;
         xHold = Keyboard.current.spaceKey.isPressed;
         // Y
-        yPress = Keyboard.current.cKey.wasPressedThisFrame;
-        yHold = Keyboard.current.cKey.isPressed;
+        yPress = Keyboard.current.leftShiftKey.wasPressedThisFrame;
+        yHold = Keyboard.current.leftShiftKey.isPressed;
         // L
-        lPress = Keyboard.current.aKey.wasPressedThisFrame;
-        lHold = Keyboard.current.aKey.isPressed;
+        lPress = Keyboard.current.qKey.wasPressedThisFrame;
+        lHold = Keyboard.current.qKey.isPressed;
         // R
-        rPress = Keyboard.current.sKey.wasPressedThisFrame;
-        rHold = Keyboard.current.sKey.isPressed;
+        rPress = Keyboard.current.eKey.wasPressedThisFrame;
+        rHold = Keyboard.current.eKey.isPressed;
         // START
         startPress = Keyboard.current.enterKey.wasPressedThisFrame;
         startHold = Keyboard.current.enterKey.isPressed;
@@ -78,16 +78,20 @@ public class InputManager : MonoBehaviour
         selectPress = Keyboard.current.backspaceKey.wasPressedThisFrame;
         selectHold = Keyboard.current.backspaceKey.isPressed;
 
-        float iX = ((Keyboard.current.rightArrowKey.isPressed) ? 1f : 0f) - ((Keyboard.current.leftArrowKey.isPressed) ? 1f : 0f);
-        float iY = ((Keyboard.current.upArrowKey.isPressed) ? 1f : 0f) - ((Keyboard.current.downArrowKey.isPressed) ? 1f : 0f);
+        float iX = ((Keyboard.current.dKey.isPressed) ? 1f : 0f) - ((Keyboard.current.aKey.isPressed) ? 1f : 0f);
+        float iY = ((Keyboard.current.wKey.isPressed) ? 1f : 0f) - ((Keyboard.current.sKey.isPressed) ? 1f : 0f);
 
         leftStick = new Vector2(iX, iY).normalized;
+        
+        
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
 
         // Stick
-        float riX = ((Keyboard.current.lKey.isPressed) ? 1f : 0f) - ((Keyboard.current.jKey.isPressed) ? 1f : 0f);
-        float riY = ((Keyboard.current.iKey.isPressed) ? 1f : 0f) - ((Keyboard.current.kKey.isPressed) ? 1f : 0f);
+        float riX = Mouse.current.delta.ReadValue().x;
+        float riY = Mouse.current.delta.ReadValue().y;
 
-        rightStick = new Vector2(riX, riY).normalized;
+        rightStick = new Vector2(riX, riY);
     }
 
     public void UpdateJoystick() {
@@ -186,5 +190,7 @@ public class InputManager : MonoBehaviour
             UpdateKeyboard();
             JoystickLookUp();
         }
+
+        if (Keyboard.current.f5Key.wasPressedThisFrame) UnityEngine.SceneManagement.SceneManager.LoadScene("Overworld");
     }
 }

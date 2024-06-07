@@ -43,12 +43,17 @@ public class BattleSO : ScriptableObject
     [TextArea] public string battleDescription;
     public MusicSO music;
 
-    public AudioClip MarioDialogue, LuigiDialogue;
+ 
 
 
     public BattleEnteringCase enteringCase;
     public float floorY;
 
+    public List<Vector2> playersPositions = new List<Vector2>();
+    public List<Vector2> playersPositionsWithTurn = new List<Vector2>();
+
     [Header("Here goes the enemies")] public List<EnemyInformationB> enemies;
     [Header("Add here allowed players, if you want to make a mario only battle, just just put mario")] public List<string> allowedPlayers;
+
+   
 }

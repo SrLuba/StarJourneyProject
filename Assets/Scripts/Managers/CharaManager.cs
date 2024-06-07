@@ -9,6 +9,7 @@ public class CharaManager : MonoBehaviour
     public List<CharaSO> characters;
     public List<string> mainCharacters;
 
+    public List<string> mainPlayers;
     void Awake()
     {
         if (instance != null)

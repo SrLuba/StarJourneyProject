@@ -19,10 +19,10 @@ MonoBehaviour:
   charaType: 0
   charaFlags:
   - A
-  startingStats:
+  stats:
     HEALTH:
-      startValue: 24
-      valueMultiplier: 1
+      startValue: 0
+      valueMultiplier: 0
     ENERGY:
       startValue: 0
       valueMultiplier: 0
@@ -39,7 +39,7 @@ MonoBehaviour:
       startValue: 0
       valueMultiplier: 0
     SPEED:
-      startValue: 0
+      startValue: 1
       valueMultiplier: 0
     LUCK:
       startValue: 0
@@ -55,6 +55,8 @@ MonoBehaviour:
     height: 3
     offset: {x: 0, y: 10, z: 0}
   OVActor: {fileID: 11400000, guid: 1e9e46536eab6654ebc0e477999a4f68, type: 2}
+  ownAction: 0
+  canWater: 1
   noticeDistance: 5
   noticeSFX: {fileID: 0}
   phyMat: {fileID: 13400000, guid: 77b3aebb189459244a19906ca14d7faf, type: 2}
@@ -102,3 +104,6 @@ MonoBehaviour:
   SpeechBubbleSFX: {fileID: 8300000, guid: db2c21460d6cd364bb148c81ae9f0690, type: 3}
   SpeechBubbleSkipSFX: {fileID: 8300000, guid: 4b0a46ff42fe4d340a79bcefa4ac6eed, type: 3}
   StompSFX: {fileID: 8300000, guid: fad5ffd2cf2d8354e8cba24de78148b5, type: 3}
+  perkPackID: 0
+  WaterEnterSFX: {fileID: 8300000, guid: 22fb563ecc315e94894a4e8be124725a, type: 3}
+  WaterExitSFX: {fileID: 8300000, guid: 22fb563ecc315e94894a4e8be124725a, type: 3}

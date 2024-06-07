@@ -110,10 +110,16 @@ public class BattleEntrance_VoiceClips {
         }
     } 
 }
+public enum ActionOwner { 
+    A,
+    B,
+    Y,
+    X
+}
 [CreateAssetMenu]
 public class CharaSO : ScriptableObject
 {
-    [Header("Identifier (ToUpper)")] public string identifier;
+    [Header("Identifier (ToUpper)")] public string identifier = "mar";
     [Header("Name that is Displayed User")] public string displayName;
     [Header("Description that is displayed to User")] [TextArea] public string displayDescription;
     [Header("Character Icon")] public Sprite characterIcon;
@@ -121,7 +127,7 @@ public class CharaSO : ScriptableObject
     [Header("Character Type")] public CharaType charaType;
     [Header("Character Flags (Depends on Type)")] public List<string> charaFlags;
 
-    [Header("Main Status")] public GenericStats startingStats;
+    [Header("Main Status")] public GenericStats stats;
 
     [Header("Battle")] public BattleActorSO selfBattle;
     [Header("Self PathFinding IA Information")] public IAInfo selfIA;
@@ -135,6 +141,9 @@ public class CharaSO : ScriptableObject
 
     [Header("Character Overworld")] public OVActorSO OVActor;
 
+    public ActionOwner ownAction;
+
+    public bool canWater = true;
 
     public float noticeDistance = 5f;
 
@@ -165,6 +174,30 @@ public class CharaSO : ScriptableObject
     public AudioClip SpeechBubbleSFX;
     public AudioClip SpeechBubbleSkipSFX;
     public AudioClip StompSFX;
+    public int perkPackID = 0;
+
+    public AudioClip WaterEnterSFX;
+    public AudioClip WaterExitSFX;
+    public bool getActionPress() {
+        bool result = false;
+
+        if (ownAction == ActionOwner.A) result = InputManager.instance.aPress;
+        if (ownAction == ActionOwner.B) result = InputManager.instance.bPress;
+        if (ownAction == ActionOwner.Y) result = InputManager.instance.aPress;
+        if (ownAction == ActionOwner.X) result = InputManager.instance.aPress;
+
+        return result;
+    }
+    public bool getActionDown() {
+        bool result = false;
+
+        if (ownAction == ActionOwner.A) result = InputManager.instance.aHold;
+        if (ownAction == ActionOwner.B) result = InputManager.instance.bHold;
+        if (ownAction == ActionOwner.Y) result = InputManager.instance.aPress;
+        if (ownAction == ActionOwner.X) result = InputManager.instance.aPress;
+
+        return result;
+    }
     public Transform findSelf() {
         GameObject g = GameObject.Find("OVACTOR_" + identifier.ToUpper());
         return (g!=null) ? g.transform : null;

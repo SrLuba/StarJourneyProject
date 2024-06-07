@@ -49,7 +49,6 @@ public class ShadowScript : MonoBehaviour
         else {
             angle = new Vector3(0f, 0f, 0f);
         }
-        Debug.Log("angle is from Shadow Script =" + angle.x.ToString() + "|" + angle.y.ToString() + "|" + angle.z.ToString());
         this.transform.eulerAngles = angle;
         //this.transform.eulerAngles = new Vector3(Mathf.LerpAngle(this.transform.eulerAngles.x,angle.x,25f*Time.deltaTime), 0f, Mathf.LerpAngle(this.transform.eulerAngles.z, angle.z, 25f * Time.deltaTime));
     }

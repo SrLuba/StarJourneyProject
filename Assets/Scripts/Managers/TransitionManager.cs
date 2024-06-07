@@ -46,8 +46,12 @@ public class TransitionManager : MonoBehaviour
 
     public AudioClip NormalBTClip, DisadvantageBTClip;
 
+    public Sprite HammerTransitionBG;
+    public Sprite JumpTransitionBG;
+    public Sprite NormalTransitionBG;
+    public Sprite DisadvantageTransitionBG;
 
-
+    public SpriteRenderer transitionBG;
 
     public void Awake()
     {
@@ -65,7 +69,12 @@ public class TransitionManager : MonoBehaviour
         
         StaticManager.instance.goBattle = so;
 
+        Sprite actualBG = NormalTransitionBG;
 
+        if (enteringCase == BattleEnteringCase.Disadvantage) actualBG = DisadvantageTransitionBG;
+        if (enteringCase == BattleEnteringCase.Advantage) actualBG = (StaticManager.instance.battleAdvantageCase == 2) ? HammerTransitionBG : JumpTransitionBG;
+
+        transitionBG.sprite = actualBG;
 
         AudioClip a = (enteringCase == BattleEnteringCase.Disadvantage) ? DisadvantageBTClip : NormalBTClip;
         SoundManager.instance.Play(a);

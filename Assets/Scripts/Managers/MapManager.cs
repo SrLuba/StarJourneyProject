@@ -75,6 +75,7 @@ public class MapManager : MonoBehaviour
         this.LoadMap("m0");
         minimapBG = Instantiate(map.Minimap, new Vector3(0f, 0f, 0f), Quaternion.identity).transform;
     }
+
     public void LoadMap(string goSection)
     {
         currentMapSection = map.sections.Find(x => x.identifier.ToUpper() == goSection.ToUpper());
@@ -91,6 +92,7 @@ public class MapManager : MonoBehaviour
             }
         }
     }
+
     public void LoadMapSafe(string goSection)
     {
         if (goSection == "") return;

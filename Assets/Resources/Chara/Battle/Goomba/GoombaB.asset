@@ -24,3 +24,7 @@ MonoBehaviour:
     min: {x: 22, y: -2}
     max: {x: 30, y: 6}
   floorY: 8.4
+  moveSpeed: 50
+  battleIdlesAnimations:
+  - Idle
+  - Idle

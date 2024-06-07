@@ -16,6 +16,8 @@ public class StaticManager : MonoBehaviour
 
     public BattleSO goBattle;
 
+    public List<CharaSO> players = new List<CharaSO>();
+
     private void Awake()
     {
         if (instance != null)
@@ -31,12 +33,14 @@ public class StaticManager : MonoBehaviour
     }
     private void Update()
     {
-        if (OVManager.instance.playerType == 2)
-        {
-            company = !OVManager.instance.secondaryPlayer.split;
-        }
-        else {
-            company = false;
+        if (!onBattle) { 
+            if (OVManager.instance.playerType == 2)
+            {
+                company = !OVManager.instance.secondaryPlayer.split;
+            }
+            else {
+                company = false;
+            }
         }
     }
 }

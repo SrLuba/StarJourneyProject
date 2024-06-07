@@ -1,55 +1,48 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-public enum BlockContainerType { 
-    Coin,
-    Breakable,
-    P1,
-    P2
-}
 public class BlockContainer : MonoBehaviour
 {
-    public BlockContainerType type;
+
     public string triggerIdentifier;
 
     public int sPlayerID = 0;
 
+    public List<PickupSO> pickupList;
+    
     bool hit = false;
     
     public Animator selfAnim;
-    public GameObject selfParticle;
     public Vector3 selfVectorOffset;
-    public int containerCount;
-    public AudioClip hitClip;
-    public AudioClip secondaryHitClip;
+
+    public AudioClip HitBlockClip;
+ 
     bool hitting = false;
 
-
+    public void Start()
+    {
+        
+    }
     public void Hit(int playerID) {
 
         if (this.sPlayerID == 1 && playerID != 0) return;
         if (this.sPlayerID == 2 && playerID != 1) return;
 
-
+        SoundManager.instance.Play(HitBlockClip);
         if (selfAnim != null) { if (selfAnim.GetCurrentAnimatorStateInfo(0).IsName("Hit")){ return; } }
-        SoundManager.instance.Play(hitClip);
+        
 
         if (selfAnim != null) { if (selfAnim.GetCurrentAnimatorStateInfo(0).IsName("Hit_Last")) { return; } }
 
         if (hit) return;
         if (hitting) return;
-        if (selfParticle != null) Instantiate(selfParticle, this.transform.position + selfVectorOffset, Quaternion.identity);
-        if (secondaryHitClip != null) SoundManager.instance.Play(secondaryHitClip);
+       
         
       
 
         hitting = true;
 
-
-       
-        containerCount--;
-
-        if (containerCount <= 0)
+        if (pickupList.Count <= 1)
         {
             hit = true;
             if (selfAnim != null) { selfAnim.Play("Hit_Last"); }
@@ -63,11 +56,19 @@ public class BlockContainer : MonoBehaviour
             if (TriggerManager.instance.TriggerButton(triggerIdentifier.ToUpper())) return;
         }
 
-        if (type == BlockContainerType.Coin) {
-            Global.coin++;
-        }else if (type == BlockContainerType.Breakable)
-        {
-            Destroy(this.gameObject);
+        if (pickupList.Count > 0) {
+            PickupSO pickup = pickupList[0];
+            InventoryManager.instance.AddItem(pickup, 1);
+
+            Global.coin += pickup.moneyValue;
+            
+            if (pickup.selfParticle != null) Instantiate(pickup.selfParticle, this.transform.position + selfVectorOffset, Quaternion.identity);
+            SoundManager.instance.Play(pickup.hitClip);
+            if (pickup.secondaryHitClip != null) SoundManager.instance.Play(pickup.secondaryHitClip);
+            
+
+            pickupList.RemoveAt(0);
+
         }
         hitting = false;
     }
