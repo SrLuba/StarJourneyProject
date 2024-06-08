@@ -35,4 +35,3 @@ MonoBehaviour:
       max: {x: 34, y: 5}
   allowedPlayers:
   - mario
-  - luigi

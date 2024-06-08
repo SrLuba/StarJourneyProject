@@ -1,0 +1,3880 @@
+fileFormatVersion: 2
+guid: b8bda448ae3361743823dfa3b883ed9a
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_0
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 790
+        width: 28
+        height: 32
+      alignment: 9
+      pivot: {x: 0.25, y: 0.21875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97f4eea0346bed64bb67e1122d7b888d
+      internalID: 1107797315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_1
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 790
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35e762099d6090a4ba57f1b48ca6e468
+      internalID: 800734033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_2
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 790
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57dc18ee21874f740b00b62be304b673
+      internalID: 120467573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_3
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 790
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c44cdd9668d2e7f418433f986af0addc
+      internalID: -181410863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_4
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 790
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03d7fc9d4505d604b8a826184c449c60
+      internalID: -1263041641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_5
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 790
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d31ae4ab71844444f8caa5d2705b43c3
+      internalID: 197129442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_6
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 790
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80996b0d45d99ac4485ff987c4b80407
+      internalID: 988489124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_7
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 790
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edee35b4db867b143a8f5cc2abb59099
+      internalID: -2036466858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_8
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 790
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2b0e148db86fab46998e0f48115fc2f
+      internalID: 1358772039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_9
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 790
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a487ea3cc98f3fb41a309a1edee4ca17
+      internalID: 2143967574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_10
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 737
+        width: 38
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 812e3dbdccfff924ca4cd94a30426131
+      internalID: -1289676757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_11
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 737
+        width: 56
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 070ae408dc389824c8a7a44b7f089c3c
+      internalID: -1334973402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_12
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 737
+        width: 63
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b10d8634e0bebe48a9d6aa8d8d17a44
+      internalID: 1088796968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_13
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 737
+        width: 85
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4e0ca5d5c884bd4497607f2a1459963
+      internalID: -905572846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_14
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 733
+        width: 53
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee34ae3fe9e06b24e85e10be32625194
+      internalID: -1450850035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_15
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 703
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d375f58be5a294846b8626975abeb277
+      internalID: 1396021100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_16
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 703
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e13b90487c48fd14abb63130f38ed536
+      internalID: 1479582388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_17
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 703
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 190c9479e8ee7de4b9b2a88bc6d2a93a
+      internalID: -714780592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_18
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 703
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e6ecff34c553c34b8853daead8831e7
+      internalID: -218813071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_19
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 703
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3456dee25157c804a97d54a5b5a09e5d
+      internalID: -1684301877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_20
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 703
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 296b4243b0933164fb32c7f6b00cce62
+      internalID: 261266849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_21
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 676
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a97c0c0276b30d74fb8e98ac36b21b0b
+      internalID: -1860338475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_22
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 676
+        width: 25
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9a8a579c3a2d1e428224facd8aff85c
+      internalID: 5718368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_23
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 676
+        width: 28
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00636e5d866c0bd468c72a816381df26
+      internalID: -927016896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_24
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 676
+        width: 29
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31670b10f242dde46a17453a07f6a986
+      internalID: 682521910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_25
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 676
+        width: 28
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b8f2713798cb9d43bd0d44d3e8f5af5
+      internalID: 1544504083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_26
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 676
+        width: 25
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a552c517e205264986e029ccdec5fb6
+      internalID: 2141452285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_27
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 644
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47c2cfef09ac1ff4d82aa7a378c6732f
+      internalID: -1469805486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_28
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 643
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cea117303856f0d48bcbb64804a8517f
+      internalID: -1500161009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_29
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 642
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84fb276bf79273648b822deec224200a
+      internalID: 1309206811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_30
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 641
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca1e263af8f7067469e5ced7a3ef4b10
+      internalID: 844718903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_31
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 642
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73ef67e6e583d584b8e20ae20f9ddb03
+      internalID: -1947753310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_32
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 643
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dee0c8abae40444abd07653518d22aa
+      internalID: -1159357535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_33
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 603
+        width: 18
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 0.07692308}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 630911d41d2ad474ab325b553413c679
+      internalID: 709299718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_34
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 603
+        width: 18
+        height: 27
+      alignment: 9
+      pivot: {x: 0.5, y: 0.074074075}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b75682524f1f524192ce5b0e7a14554
+      internalID: 821924121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_35
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 603
+        width: 18
+        height: 28
+      alignment: 9
+      pivot: {x: 0.5, y: 0.071428575}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ac91a3a8d605444a8c4c6831dadf763
+      internalID: 479590223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_36
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 603
+        width: 18
+        height: 29
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06896552}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cec73e6854edbcc4aa6428a973bd8bb5
+      internalID: -2000628044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_37
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 603
+        width: 18
+        height: 28
+      alignment: 9
+      pivot: {x: 0.5, y: 0.071428575}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8c30d31d5d8aad4eb4d6451c7dde1c6
+      internalID: 263763189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_38
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 603
+        width: 18
+        height: 27
+      alignment: 9
+      pivot: {x: 0.5, y: 0.074074075}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6a20ba8c8d7b9c4185edd3d6fc4d59a
+      internalID: -1096133704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_39
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 564
+        width: 21
+        height: 29
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6db340639c0806340aa2150f23c9ff5b
+      internalID: -1729656771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_40
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 564
+        width: 19
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd4918effd3c011479dbd0eb49b51b03
+      internalID: 1840448767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_41
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 564
+        width: 24
+        height: 27
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc9cc7df8e58572448a8d302fef750bf
+      internalID: 515122202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_42
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 564
+        width: 28
+        height: 24
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dfbabb172a6a594f93e5ae817ca7227
+      internalID: 419088181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_43
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 564
+        width: 24
+        height: 27
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad288e521f60a4e4e83249bf4ba360e7
+      internalID: -87983167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_44
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 564
+        width: 19
+        height: 29
+      alignment: 9
+      pivot: {x: 0.5263158, y: 0.2413793}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10996f5823468b743b136544e1da77d4
+      internalID: -145862498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_45
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 533
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cad99d4b80324254fa84df9ecb05fd4d
+      internalID: -585655757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_46
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 533
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bccc84c791c99f4c9f899da734f485e
+      internalID: -1275854004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_47
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 533
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b25f71f1a8ce5104ab043d65bd7f9fcc
+      internalID: 154916932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_48
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 533
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3229fe49f1e7ee14b9087e0041b74566
+      internalID: 2144218387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_49
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 533
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 719b6e270b372bd48a8f44b1cbf00398
+      internalID: 1497007927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_50
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 533
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0947402a228d35349a967e01ecf9fc00
+      internalID: -988489655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_51
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 505
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3caa41cc909245428b4a66a75add304
+      internalID: 621924922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_52
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 505
+        width: 25
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd6f0eb61b5e2814aa49caa01c6251f2
+      internalID: -507289843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_53
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 505
+        width: 28
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b759b3b352e41fe40b08f62431584112
+      internalID: -155200535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_54
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 505
+        width: 29
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 655c2c5b46e6aa840bf6172b51ec0afc
+      internalID: -1744498097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_55
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 505
+        width: 28
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1167a4c82aa7224b89d99132f2dffd4
+      internalID: -2083291263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_56
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 505
+        width: 25
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b38c550a6524918468b58691de35f465
+      internalID: -1466049638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_57
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 474
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60721c95e35eabd49a568328455a61b0
+      internalID: -2139767663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_58
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 473
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 805dcd16d2ba68f4296d6ce0a72359d4
+      internalID: 1959044237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_59
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 472
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac78c7a2e078c5c469cee961470ad31d
+      internalID: -311897418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_60
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 471
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2a2d17afa0382d42b3cd601f9e25c25
+      internalID: 650817545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_61
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 431
+        width: 18
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 0.23076923}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26dc2d3b03ee5c54bb8d73cd750e645e
+      internalID: -951399054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_62
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 431
+        width: 18
+        height: 27
+      alignment: 9
+      pivot: {x: 0.5, y: 0.22222222}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bee47da7abd3f44a8ce714f00249847
+      internalID: -1674290050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_63
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 431
+        width: 18
+        height: 28
+      alignment: 9
+      pivot: {x: 0.5, y: 0.21428572}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a6fc85c18096ac4fbd2dc3ba399209f
+      internalID: 1838029690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_64
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 431
+        width: 18
+        height: 29
+      alignment: 9
+      pivot: {x: 0.5, y: 0.20689656}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea10b6fb9fcbc5a4596cdd128e778b76
+      internalID: 297898262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_65
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 431
+        width: 18
+        height: 28
+      alignment: 9
+      pivot: {x: 0.5, y: 0.21428572}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dc84007037d6034b819fdc2cca95195
+      internalID: 1665382837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_66
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 431
+        width: 18
+        height: 27
+      alignment: 9
+      pivot: {x: 0.5, y: 0.22222222}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1affeea1b150514fa8397586df6c1e1
+      internalID: 437118663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_67
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 390
+        width: 21
+        height: 29
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d460ef77df69644381b5c2eaf0a048a
+      internalID: 976615165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_68
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 390
+        width: 19
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98ff90455c89f944b80c908eb842c7be
+      internalID: 418390324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_69
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 390
+        width: 24
+        height: 27
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7160270354fe581478ec4f803f557336
+      internalID: 1527287854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_70
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 390
+        width: 28
+        height: 24
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 116f2707e7a2cbb4da1c6beec478cb13
+      internalID: 1700196526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_71
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 390
+        width: 24
+        height: 27
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a966766edd4866408df33f2b7354d4c
+      internalID: -1143289473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_72
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 390
+        width: 19
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9b144d6df91e90468c8bbf167979250
+      internalID: 1368220582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_73
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 360
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f6030781863a5943a18449435441332
+      internalID: 538807844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_74
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 360
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26ac5f66bf3ccd145931ddd434b86600
+      internalID: -1455100293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_75
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 360
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 584747e16504c704cad1da18318f7385
+      internalID: 1579958984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_76
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 360
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f75b43f62141cf9478822a91d120eb54
+      internalID: 718639999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_77
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 360
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a6e4538e8cd3be41b118d604b5a183a
+      internalID: 91057268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_78
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 360
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eef1a3b77b5b2574ea3a24162c4b2b2b
+      internalID: -1914674843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_79
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 333
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 884b911c3ab2b0c4183af6346046126e
+      internalID: 1208422768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_80
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 333
+        width: 25
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 725484f7b59841841a4fd6c459b3a537
+      internalID: 114726168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_81
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 333
+        width: 28
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8a8ca88bdff0f5469cdd8a45013d9d2
+      internalID: 1019284649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_82
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 333
+        width: 29
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 268312ffae42cbf42ba7ddefadccaf17
+      internalID: 2062572576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_83
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 333
+        width: 28
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00f7ed0c59b5a024790231a007f447f9
+      internalID: -605217346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_84
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 333
+        width: 25
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b86e9ee854a8c04ea30a2a88b214acd
+      internalID: -1979510418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_85
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 302
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef50b9de0cc1c914fb60de7d07d5e696
+      internalID: 558358253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_86
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 301
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a15ed1934fd86b429efad2b129d079a
+      internalID: 1119934819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_87
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 300
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b7e9e0018b113444a0fd8f327650ade
+      internalID: 1555687389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_88
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 299
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bff300754eb8b8440ace8fa3b4abed91
+      internalID: -299297288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_89
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 300
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 050aa3b737f5bb84ca34a3cf2c19b4f4
+      internalID: -139610003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_90
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 301
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62fdf968a06bf9a47aaec7c9772f7e6a
+      internalID: 257205088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_91
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 262
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c12c06eae7e4fb64cb768fa30960b51b
+      internalID: -625366834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_92
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 262
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a45752751669b844acd6b99057a9900
+      internalID: -824223142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_93
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 262
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75601b525083b8242b54d1ee6107b67f
+      internalID: 1844147778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_94
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 262
+        width: 25
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0587b49c03fd39e45a77493635cc9f54
+      internalID: 1657855634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_95
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 262
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a409231a4f32bd646845f2699870738e
+      internalID: 804281681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_96
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 262
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 634985b8545c9a24781878cfdcdf4d29
+      internalID: -1475031403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_97
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 224
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0def2bb8811ede94fa413f9dd7fca917
+      internalID: 120695398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_98
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 224
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aca868270d3a23440a49e20a893f3845
+      internalID: 1643650266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_99
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 224
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e87dd6d1cf23f344a2a8ebce1368c5a
+      internalID: -280288767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_100
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 224
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45d9d603e731236418be9e770d8e62c3
+      internalID: -694018937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_101
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 224
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 535dff4c0a4179c408c0f9d84138fa69
+      internalID: -417396691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_102
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 224
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c996f7ccfa43874aab004bc1452b30e
+      internalID: 1383838875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_103
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 201
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54f15225d487f484ab12b1ef5d1fc1dd
+      internalID: 1975511547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_104
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 200
+        width: 55
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea83cccef520cb9438b9c4068f1ee669
+      internalID: 16507014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_105
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 200
+        width: 55
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67e37ae5fc2d2e84da37639c67e9553e
+      internalID: 1540348006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_106
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 171
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1840ab5a3aa262846809ee39b459de1b
+      internalID: 392605275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_107
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 171
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74b008bdb2491574cb7bc4e67f6dd1d2
+      internalID: 117281451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_108
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 171
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a6e4e47cfa7dd0408685ce6be606b27
+      internalID: -467283201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_109
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 171
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e28c3ba84b622ae4b886917f65a1784d
+      internalID: -416960789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_110
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 171
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f5dc87734e2ec54584624d2922d74ac
+      internalID: -1793517394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_111
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 171
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0517033f352da5d479ee1ba2f8d7ea7d
+      internalID: -1601013697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_112
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 171
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bc8f6b15716302409acd13151cf0304
+      internalID: -1495846443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_113
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 142
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4c72da2c4158dd449961a381f378578
+      internalID: -2028676902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_114
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 142
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7b9f9ac2d16ae3448e2abd1cd570e00
+      internalID: -1319800237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_115
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 141
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22f3f52bad10438448fa53969bc2272e
+      internalID: 1668417709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_116
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 140
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d3a05f2a73241e41a5161714ca4a096
+      internalID: -158472669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_117
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 138
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99ca3407299484b47875259ce7a6b274
+      internalID: 391804290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_118
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 137
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15f93d6f6d3073848bce1359e3d3ca03
+      internalID: -856725707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_119
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 136
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b22e47aba102cb428daded276d843f6
+      internalID: 1551580446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_120
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 134
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10a15f4b672bfd243b57ed4e3504eef6
+      internalID: -1174670257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_121
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 132
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be26231ed93199d45b6d727e8a2fdb58
+      internalID: 706298843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_122
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 130
+        width: 16
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bb4f28d292814a488a5b935610e3d82
+      internalID: 848852914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_123
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 130
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a101b71376b762478bb09943ed6c0d6
+      internalID: 1077826596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_124
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 113
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6035ad12fbc6c9e4192ccd870b62ea75
+      internalID: 1230060940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_125
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 113
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d606571e69bf724a8e1c067f6457b8f
+      internalID: 1596330784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_126
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 113
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 102284d3929c66d45b22ec8a90e03405
+      internalID: 582365412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_127
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 82
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e04bc9241aee50047ac678898dcde834
+      internalID: 407130180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_128
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 82
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 982232dafd9208248847136963ffdc2d
+      internalID: 1231667220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_129
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 82
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50e2f66d8dce6c543a1467e3097a9f5f
+      internalID: 2068758462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_130
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 82
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1d22baa7088b7a4b962c70f05c499e6
+      internalID: -1004786226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_131
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 82
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d68e3162482a304b9a1eeffebfc1d66
+      internalID: 610763529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_132
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 82
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c909aa1fdced8ae46b2af54ecf884baf
+      internalID: 1694731427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_133
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 82
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8340b4a7a8fac8944baa0c01ec17e4cb
+      internalID: 1989658312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_134
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 82
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de7813438d1851742a1c051858a3bd6d
+      internalID: -517361610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_135
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 82
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 886255e57c32b0e43aec5dc8ab4b0e6c
+      internalID: 188663034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_136
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 82
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45cab19c7f3be6c4795d76919cd4d056
+      internalID: 1147183817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_137
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 53
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 568a018de047cdf45911d02acaaa47d0
+      internalID: -830563886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_138
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 53
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87470966448ef1a4d97eba8c6445c036
+      internalID: -567054661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_139
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 53
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84a0b5a59d70f8d40b300afe957c6fea
+      internalID: -1222510608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_140
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 53
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77dccd247232d5a4e8ea5c0c22588a35
+      internalID: 959924904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_141
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 53
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46ccf236b6a456f4aa2ab7f0d0be602c
+      internalID: -704145912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_142
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 53
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53cecef8559138a48a299cc3f57d45ff
+      internalID: -958009133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_143
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 53
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35a9e1ce5e95b8a4bb06ff3e95f12772
+      internalID: -1179915900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_144
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 53
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b88acecdf0e94f448811501c3eaecad8
+      internalID: -1885877109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_145
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 53
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f489ac674378d34cb31338593f4593f
+      internalID: 1925821623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_146
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 53
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56af4b67fc59e9f44a35e45da0058381
+      internalID: 1240256384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_147
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 28
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2b988dc91db92e4693a75b0aa2bd8c6
+      internalID: 644732706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_148
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 28
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e32dbffb8ad3b954dbcecd7c5077a189
+      internalID: 35770762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_149
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 28
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 386dd72d6c92ee548a0456fa431f7090
+      internalID: 2093917749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_150
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 28
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a09c9507fe8e0754d941bc315c1bcc08
+      internalID: -265743551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_151
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 28
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f516ce201da2644a8813f642cbe11e8
+      internalID: -2036871624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_152
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 28
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12e3afc9b436d9c448707b9d1df860f4
+      internalID: 1351335283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_153
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 28
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7284fc83f1abe2f44b0de37d4dd7e9d8
+      internalID: 2123172084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_154
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 28
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbbade226cdc1b5419a4a6986b7f82cd
+      internalID: -1901842734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_155
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 28
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41f70c9881ba4354da9236b8773b7949
+      internalID: -178576582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_156
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 28
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9af8b1c7c5efe784caf5c0a9c566ce75
+      internalID: -541289959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_157
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 28
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 973dbdfa5b47c2a4585d5eb5994436aa
+      internalID: 147906120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_158
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 5
+        width: 162
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca721e271a7c03e4a970a77ba76ada07
+      internalID: -1626406659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_159
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 8
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19b85b29869e4cf4691681c1c539dad9
+      internalID: -967637977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_160
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 8
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7566d238d80090a488f05543e6bc4c2e
+      internalID: -1995300608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_161
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 8
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77ce9b09a45a078439d6e316cebd8435
+      internalID: -531062102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_162
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 8
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0abd4e30c5c118140a7f5dd7d930292a
+      internalID: -609958303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_163
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 8
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abaf9cb96b1454a489f8b5fd5af6378b
+      internalID: 1897649113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_164
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 8
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa695d24b574e6448910bd1f1a0a93c5
+      internalID: -1660589855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_165
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 8
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6233c85fd8b26404cb02c78756716c9e
+      internalID: 483974426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_166
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 8
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54a67f2f1a86fc34fb29b35e76445594
+      internalID: 1463878132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_167
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 8
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9096260b3dabc141963f34f286680b7
+      internalID: -524271289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_168
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 8
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00aebfe4e94ce224fafd2b9de56eaa06
+      internalID: -291965877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_169
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 8
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d649f8904dfd2b748bfae1c08f097fee
+      internalID: -692333451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 7c35d3aca1bdb59438c9c7e44847fbcf
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_0: 1107797315
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_1: 800734033
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_10: -1289676757
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_100: -694018937
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_101: -417396691
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_102: 1383838875
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_103: 1975511547
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_104: 16507014
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_105: 1540348006
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_106: 392605275
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_107: 117281451
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_108: -467283201
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_109: -416960789
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_11: -1334973402
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_110: -1793517394
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_111: -1601013697
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_112: -1495846443
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_113: -2028676902
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_114: -1319800237
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_115: 1668417709
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_116: -158472669
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_117: 391804290
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_118: -856725707
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_119: 1551580446
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_12: 1088796968
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_120: -1174670257
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_121: 706298843
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_122: 848852914
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_123: 1077826596
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_124: 1230060940
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_125: 1596330784
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_126: 582365412
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_127: 407130180
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_128: 1231667220
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_129: 2068758462
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_13: -905572846
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_130: -1004786226
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_131: 610763529
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_132: 1694731427
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_133: 1989658312
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_134: -517361610
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_135: 188663034
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_136: 1147183817
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_137: -830563886
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_138: -567054661
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_139: -1222510608
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_14: -1450850035
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_140: 959924904
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_141: -704145912
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_142: -958009133
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_143: -1179915900
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_144: -1885877109
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_145: 1925821623
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_146: 1240256384
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_147: 644732706
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_148: 35770762
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_149: 2093917749
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_15: 1396021100
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_150: -265743551
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_151: -2036871624
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_152: 1351335283
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_153: 2123172084
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_154: -1901842734
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_155: -178576582
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_156: -541289959
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_157: 147906120
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_158: -1626406659
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_159: -967637977
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_16: 1479582388
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_160: -1995300608
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_161: -531062102
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_162: -609958303
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_163: 1897649113
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_164: -1660589855
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_165: 483974426
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_166: 1463878132
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_167: -524271289
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_168: -291965877
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_169: -692333451
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_17: -714780592
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_18: -218813071
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_19: -1684301877
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_2: 120467573
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_20: 261266849
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_21: -1860338475
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_22: 5718368
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_23: -927016896
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_24: 682521910
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_25: 1544504083
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_26: 2141452285
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_27: -1469805486
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_28: -1500161009
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_29: 1309206811
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_3: -181410863
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_30: 844718903
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_31: -1947753310
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_32: -1159357535
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_33: 709299718
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_34: 821924121
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_35: 479590223
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_36: -2000628044
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_37: 263763189
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_38: -1096133704
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_39: -1729656771
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_4: -1263041641
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_40: 1840448767
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_41: 515122202
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_42: 419088181
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_43: -87983167
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_44: -145862498
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_45: -585655757
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_46: -1275854004
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_47: 154916932
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_48: 2144218387
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_49: 1497007927
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_5: 197129442
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_50: -988489655
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_51: 621924922
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_52: -507289843
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_53: -155200535
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_54: -1744498097
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_55: -2083291263
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_56: -1466049638
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_57: -2139767663
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_58: 1959044237
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_59: -311897418
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_6: 988489124
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_60: 650817545
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_61: -951399054
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_62: -1674290050
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_63: 1838029690
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_64: 297898262
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_65: 1665382837
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_66: 437118663
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_67: 976615165
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_68: 418390324
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_69: 1527287854
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_7: -2036466858
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_70: 1700196526
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_71: -1143289473
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_72: 1368220582
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_73: 538807844
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_74: -1455100293
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_75: 1579958984
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_76: 718639999
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_77: 91057268
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_78: -1914674843
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_79: 1208422768
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_8: 1358772039
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_80: 114726168
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_81: 1019284649
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_82: 2062572576
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_83: -605217346
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_84: -1979510418
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_85: 558358253
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_86: 1119934819
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_87: 1555687389
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_88: -299297288
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_89: -139610003
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_9: 2143967574
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_90: 257205088
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_91: -625366834
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_92: -824223142
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_93: 1844147778
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_94: 1657855634
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_95: 804281681
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_96: -1475031403
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_97: 120695398
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_98: 1643650266
+      DS DSi - Mario & Luigi Bowsers Inside Story - Battle Effects_99: -280288767
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -16,6 +16,10 @@ public class BattleActorSO : ScriptableObject
     public float floorY;
     public float moveSpeed = 50f;
 
+    public float jumpForce = 50f;
+
+    public PhysicMaterial materialPhy;
+
     public List<string> battleIdlesAnimations;
     public string getIdleAnim() {
         return this.battleIdlesAnimations[Random.Range(0, this.battleIdlesAnimations.Count - 1)];
@@ -32,15 +36,13 @@ public class BattleActorSO : ScriptableObject
         
         GenericBActor bA = player.AddComponent<GenericBActor>();
         bA.self = character;
-        
 
         Vector2 position = Vector2.zero;
 
         if (character.charaType == CharaType.Player) { position = BattleManager.instance.getPlayerPos(0, character.identifier); }
         if (character.charaType != CharaType.Player) { position = spawnInfo.getResult(); }
 
-
-        player.transform.position = new Vector3(position.x, BattleManager.instance.assignedBattle.floorY + character.floorYOffset, position.y);
+        player.transform.position = new Vector3(position.x, BattleManager.instance.assignedBattle.floorY + character.selfBattle.floorY, position.y);
 
         GameObject visual = Instantiate(Visual, player.transform.position, Quaternion.identity);
         visual.transform.SetParent(player.transform);
@@ -60,10 +62,14 @@ public class BattleActorSO : ScriptableObject
 
         Rigidbody rb = player.AddComponent<Rigidbody>();
         rb.constraints = RigidbodyConstraints.FreezeRotation;
-
+        
         bA.rb = rb;
 
+
         character.collider.GetCollider(player);
+        player.GetComponent<CapsuleCollider>().material = this.materialPhy;
+
+        player.tag = "Player";
 
         return player;
     }

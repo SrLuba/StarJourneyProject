@@ -16,15 +16,17 @@ MonoBehaviour:
   selfShadow: {fileID: 2908175051198882846, guid: f3f0c31ea043998419a23a76653c65ea,
     type: 3}
   selfShadowOffset: {x: 0, y: 0.1, z: 0}
-  visualOffset: {x: 0, y: 8.4, z: 0}
+  visualOffset: {x: 0, y: 0, z: 0}
   eulerAngleOffset: {x: 0, y: 100, z: 0}
   VisualAnimator: {fileID: 9100000, guid: 3f527440e19f52841837ec163f53dae1, type: 2}
   spawnInfo:
     random: 0
     min: {x: 12, y: 4}
     max: {x: 0, y: 0}
-  floorY: 0
+  floorY: 8
   moveSpeed: 10
+  jumpForce: 35
+  materialPhy: {fileID: 13400000, guid: 18925be25a29eca44bc9161dd789dd7d, type: 2}
   battleIdlesAnimations:
   - Mario_BTL_Think_0
   - Mario_BTL_Think_0

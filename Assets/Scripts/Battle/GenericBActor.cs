@@ -19,11 +19,17 @@ public class GenericBActor : MonoBehaviour
     public bool myTurn = false;
     public bool IAMOVING = false;
     bool initialized = false;
+
+    public bool Grounded = false;
+
     void Start()
     {
         ogScale = animHandle.localScale;
 
-      
+        if (self.charaType == CharaType.Enemy) {
+            idleAnimation = "Idle"; animationState = "Idle";
+
+        }
     }
 
     public void SetOnFloor() {
@@ -43,14 +49,21 @@ public class GenericBActor : MonoBehaviour
         IAMOVING = false;
         animationState = endingAnimation;
     }
-
+    public void UpdateGrounded() {
+        Grounded = Physics.Raycast(this.transform.position, Vector3.down, 1.75f, self.floorMask);
+        rb.velocity = new Vector3(0f,rb.velocity.y, 0f);
+    }
     public void Update()
     {
+        UpdateGrounded();
+
         if (self.charaType == CharaType.Player) {
-            if (self.getActionPress()) {
-                rb.velocity = new Vector3(rb.velocity.x,self.jumpForce, rb.velocity.z);
+            if (self.getActionPress() && Grounded) {
+                rb.velocity = new Vector3(rb.velocity.x, self.selfBattle.jumpForce, rb.velocity.z);
+                SoundManager.instance.Play(self.OVActor.jumpSFX);
             }
         }
+
     }
 
     public void PrepareForTurn(CharaSO character) {
@@ -69,14 +82,20 @@ public class GenericBActor : MonoBehaviour
             }
             initialized = true;
         }
+
         idleAnimation = (this.self == character) ? self.selfBattle.getIdleAnim() : "Idle";
         StartCoroutine(IA_Goto_Walk((this.self != character) ? ((character.charaType != CharaType.Player) ? normalPosition : otherPlayerTurnPosition)  : turnPosition, idleAnimation));
-
     }
 
     void FixedUpdate()
+
     {
-        animator.Play(animationState);
+        if (!Grounded) {
+            animationState = (rb.velocity.y > 0f) ? "Jump" : "Fall";
+        }
+
+        if (!animator.GetCurrentAnimatorStateInfo(0).IsName(animationState)) animator.Play(animationState);
+
         if (IAMOVING) { animationState = "Walk"; } else {
             animationState = idleAnimation;
         }

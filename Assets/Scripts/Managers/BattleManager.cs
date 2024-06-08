@@ -36,7 +36,10 @@ public class BattleManager : MonoBehaviour
 
         characterTurnList = charactersList;
     }
-    public void InitializeTurnRound() {
+    public IEnumerator InitializeTurnRound() {
+        uiSelector.active = false;
+        yield return new WaitForSeconds(0.25f);
+      
         byte CYCLE = TurnRoundCycle();
 
         if (CYCLE == 0xFF) {
@@ -48,8 +51,11 @@ public class BattleManager : MonoBehaviour
         else if (CYCLE == 0x00)
         {
             InitializeTurnList();
-            InitializeTurnRound();
+            yield return InitializeTurnRound();
         }
+
+    
+        yield return new WaitForSeconds(0.01f);
     }
 
     public byte TurnRoundCycle()
@@ -68,14 +74,29 @@ public class BattleManager : MonoBehaviour
         else {
             uiSelector.active = false;
         }
+
+
+
         for (int i = 0; i < bActors.Count; i++)
         {
             bActors[i].selfBattle.getInstance().GetComponent<GenericBActor>().PrepareForTurn(turn);
         }
+
         currentTurn = turn;
-      
+
+        if (turn.charaType == CharaType.Enemy)
+        {
+            BattleUI_Commands.instance.Update_Player_UI(Random.Range(0, 1));
+        }
+        else
+        {
+            BattleUI_Commands.instance.Update_Player_UI(-1);
+        }
+
         characterTurnList.RemoveAt(0);
-        
+
+       
+
         return 0x01; // 1 = SUCCESS
     }
     public void StartBattle_SetupTransition() { 
@@ -89,8 +110,7 @@ public class BattleManager : MonoBehaviour
         return (id == 0) ? this.assignedBattle.playersPositions[playerID] : this.assignedBattle.playersPositionsWithTurn[playerID];
     }
     public void StartBattle_SetupMusic() {
-   
-
+        MusicManager.instance.PlayClip(this.assignedBattle.music.musicLoop, true);
     }
 
     public void StartBattle_SetupPlayers() {
@@ -136,7 +156,7 @@ public class BattleManager : MonoBehaviour
         InitializeTurnList();
 
         // Order Turn List
-        InitializeTurnRound();
+        StartCoroutine(InitializeTurnRound());
     }
     void Start()
     {
@@ -144,7 +164,7 @@ public class BattleManager : MonoBehaviour
     }
     private void Update()
     {
-        if (Keyboard.current.oKey.wasPressedThisFrame) { InitializeTurnRound(); Debug.Log("<color=red>Battle Manager</color> | DEBUG Turn Cycle"); }
+        if (Keyboard.current.oKey.wasPressedThisFrame) { StartCoroutine(InitializeTurnRound()); Debug.Log("<color=red>Battle Manager</color> | DEBUG Turn Cycle"); }
         if (battleCounter > 0f)
         {
             battleCounter -= Time.deltaTime;

@@ -53,7 +53,7 @@ MonoBehaviour:
   collider:
     radious: 1
     height: 3
-    offset: {x: 0, y: 10, z: 0}
+    offset: {x: 0, y: 0.2, z: 0}
   OVActor: {fileID: 11400000, guid: 1e9e46536eab6654ebc0e477999a4f68, type: 2}
   ownAction: 0
   canWater: 1

@@ -206,15 +206,12 @@ public class CharaSO : ScriptableObject
         GameObject player = new GameObject("OVACTOR_" + identifier.ToUpper());
         player.layer = LayerMask.NameToLayer(selfLayer);
 
-
         CapsuleCollider cap = player.AddComponent<CapsuleCollider>();
 
         cap.height = OVActor.normalHeight;
         cap.radius = OVActor.normalRadius;
         cap.isTrigger = false;
         cap.center = OVActor.normalCenter;
-
-        
 
 
         Rigidbody rb = player.AddComponent<Rigidbody>();

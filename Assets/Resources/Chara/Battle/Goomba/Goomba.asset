@@ -54,6 +54,7 @@ MonoBehaviour:
     height: 1
     offset: {x: 0, y: 1, z: 0}
   OVActor: {fileID: 11400000, guid: f6f59e9b41567a5458f78c07a6458907, type: 2}
+  ownAction: 0
   canWater: 1
   noticeDistance: 7
   noticeSFX: {fileID: 8300000, guid: eba259fbe0492a94198698421cb77022, type: 3}

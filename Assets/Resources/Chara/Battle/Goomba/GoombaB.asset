@@ -25,6 +25,7 @@ MonoBehaviour:
     max: {x: 30, y: 6}
   floorY: 8.4
   moveSpeed: 50
+  materialPhy: {fileID: 13400000, guid: 18925be25a29eca44bc9161dd789dd7d, type: 2}
   battleIdlesAnimations:
   - Idle
   - Idle
