@@ -58,6 +58,11 @@ public class BattleManager : MonoBehaviour
         yield return new WaitForSeconds(0.01f);
     }
 
+    public IEnumerator PlayerAction(string action) {
+        yield return new WaitForSeconds(0.01f);
+        yield return InitializeTurnRound();
+    }   
+
     public byte TurnRoundCycle()
     {
         if (characterTurnList.Count <= 0) return 0x00; // 0 = END OF CYCLE

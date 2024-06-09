@@ -64,8 +64,8 @@ MonoBehaviour:
   selfEncounter: {fileID: 0}
   ySquatch: {x: 0, y: 1}
   xSquatch: {x: 0, y: 1}
-  effectSquatch: 1
-  effectSquatchY: 2
+  effectSquatch: 0
+  effectSquatchY: 0
   selfShadow: {fileID: 2908175051198882846, guid: f3f0c31ea043998419a23a76653c65ea,
     type: 3}
   selfShadowOffset: {x: 0, y: 0, z: 0}
