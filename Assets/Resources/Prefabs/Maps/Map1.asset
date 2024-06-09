@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a6e9ff39963202b4e8168753132fe646, type: 3}
   m_Name: Map1
   m_EditorClassIdentifier: 
-  music: {fileID: 8300000, guid: 3c08876747571eb499646ccb56414fa5, type: 3}
+  music: {fileID: 11400000, guid: 98208f9150bdd29498db0c657c6819a5, type: 2}
   sections:
   - identifier: m0
     MapObject: {fileID: 2532543835592434539, guid: 8474b0e3affe1544f97acf4b1823750e,

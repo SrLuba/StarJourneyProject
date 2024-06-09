@@ -15,7 +15,7 @@ MonoBehaviour:
   identifier: test
   battleName: testingbattle
   battleDescription: Testing battle
-  music: {fileID: 11400000, guid: bf5e5c1f8293f6a4ca1daa646dd71e5e, type: 2}
+  music: {fileID: 11400000, guid: 6df4d75d662cd4c43a9447a7287331f5, type: 2}
   enteringCase: 3
   floorY: 0
   playersPositions:

@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4b2bfd8ee2d437843b4995b50334d91d, type: 3}
-  m_Name: Normal
+  m_Name: Level
   m_EditorClassIdentifier: 
-  musicLoop: {fileID: 8300000, guid: 0124a027b7301de4ab576aae71c68517, type: 3}
-  musicStart: {fileID: 8300000, guid: 2c973822aa746724e9578210ecc5bb38, type: 3}
-  musicOffset: 2.06
+  music: {fileID: 8300000, guid: 3c08876747571eb499646ccb56414fa5, type: 3}
+  musicOffset:
+  - {x: 0, y: 171}

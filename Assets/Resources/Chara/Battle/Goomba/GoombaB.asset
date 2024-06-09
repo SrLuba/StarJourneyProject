@@ -25,7 +25,16 @@ MonoBehaviour:
     max: {x: 30, y: 6}
   floorY: 8.4
   moveSpeed: 50
+  jumpForce: 50
+  MyLayer:
+    serializedVersion: 2
+    m_Bits: 32768
+  shadowLayer:
+    serializedVersion: 2
+    m_Bits: 131072
   materialPhy: {fileID: 13400000, guid: 18925be25a29eca44bc9161dd789dd7d, type: 2}
+  dieVoiceClip: {fileID: 0}
   battleIdlesAnimations:
   - Idle
   - Idle
+  dead: 0

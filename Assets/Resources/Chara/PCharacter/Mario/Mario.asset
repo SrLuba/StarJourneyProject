@@ -21,29 +21,54 @@ MonoBehaviour:
   - A
   stats:
     HEALTH:
-      startValue: 0
-      valueMultiplier: 0
+      startValue: 25
+      valueMultiplier: 1
+      addValue: 0
+      currentValue: 25
+      maxValue: 25
     ENERGY:
-      startValue: 0
-      valueMultiplier: 0
+      startValue: 12
+      valueMultiplier: 1
+      addValue: 0
+      currentValue: 12
+      maxValue: 12
     ATTACK:
-      startValue: 0
-      valueMultiplier: 0
+      startValue: 12
+      valueMultiplier: 1
+      addValue: 0
+      currentValue: 12
+      maxValue: 12
     DEFENSE:
-      startValue: 0
-      valueMultiplier: 0
+      startValue: 6
+      valueMultiplier: 1
+      addValue: 0
+      currentValue: 6
+      maxValue: 6
     MAGICATTACK:
       startValue: 0
-      valueMultiplier: 0
+      valueMultiplier: 1
+      addValue: 0
+      currentValue: 0
+      maxValue: 0
     MAGICDEFENSE:
       startValue: 0
-      valueMultiplier: 0
+      valueMultiplier: 1
+      addValue: 0
+      currentValue: 0
+      maxValue: 0
     SPEED:
       startValue: 1
-      valueMultiplier: 0
+      valueMultiplier: 1
+      addValue: 0
+      currentValue: 1
+      maxValue: 1
     LUCK:
       startValue: 0
-      valueMultiplier: 0
+      valueMultiplier: 1
+      addValue: 0
+      currentValue: 0
+      maxValue: 0
+  level: 1
   selfBattle: {fileID: 11400000, guid: 93ed3aa1c9c77764d9ef4fcf4ac3e020, type: 2}
   selfIA:
     speed: 15

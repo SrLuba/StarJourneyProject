@@ -13,17 +13,34 @@ public class BattleManager : MonoBehaviour
     public Animator transitionAnim;
 
     public Transform PlayerFolder, EnemyFolder, NPCFolder;
+
     public List<CharaSO> bActors;
     public List<CharaSO> characterTurnList;
 
+    public List<CharaSO> playerActors;
+    public List<CharaSO> enemyActors;
+
     public List<GameObject> enemiesG;
+    
+
+    public CharaSO target;
 
     public CharaSO currentTurn;
 
     public float battleCounter = 0f;
 
     public Battle_UISelector uiSelector;
-   
+
+    public NumberDisplayer p1HPDisplayer, p2HPDisplayer, p3HPDisplayer;
+    public NumberDisplayer p1TPDisplayer, p2TPDisplayer, p3TPDisplayer;
+
+    public List<Battle_UIBlock> blocksUI;
+
+    public bool inputOverride = false;
+
+
+    public AudioClip liftHammerSFX, releaseHammerSFX;
+
     void Awake()
     {
         instance = this;    
@@ -33,6 +50,10 @@ public class BattleManager : MonoBehaviour
 
         charactersList.Sort((x, y) => x.stats.SPEED.startValue.CompareTo(y.stats.SPEED.startValue));
         charactersList.Reverse();
+
+        for (int i = 0; i < charactersList.Count; i++) {
+            if (charactersList[i].selfBattle.dead) charactersList.Remove(charactersList[i]);
+        }
 
         characterTurnList = charactersList;
     }
@@ -58,22 +79,44 @@ public class BattleManager : MonoBehaviour
         yield return new WaitForSeconds(0.01f);
     }
 
-    public IEnumerator PlayerAction(string action) {
+    public IEnumerator PlayerAction(CharaSO cChara, BattleAttackSO attack, string action) {
+        BattleManagerNumbers.instance.constantUserValue = 0f;
+
+        uiSelector.active = false;
+        target = enemyActors[Random.Range(0, enemyActors.Count - 1)];
+        yield return new WaitForSeconds(0.01f);
+        yield return attack.Prepare(cChara);
+
+        BattleManagerNumbers.instance.Hurt(BattleUtils.DamageGet(cChara, target), target);
+
+        yield return InitializeTurnRound();
+    }
+    public IEnumerator EnemyAction(CharaSO cChara)
+    {
+        uiSelector.active = false;
+        BattleUI_Commands.instance.Update_Player_UI(cChara.selfBattle.getInstance().GetComponent<GenericBActor>().tempAttackID);
+
+
         yield return new WaitForSeconds(0.01f);
         yield return InitializeTurnRound();
-    }   
-
+    }
     public byte TurnRoundCycle()
     {
         if (characterTurnList.Count <= 0) return 0x00; // 0 = END OF CYCLE
 
         CharaSO turn = characterTurnList[0];
 
+        for (int i = 0; i < blocksUI.Count; i++)
+        {
+            blocksUI[i].hit = false;
+        }
+
         if (turn.charaType == CharaType.Player)
         {
             GameObject get = turn.selfBattle.getInstance();
             if (get == null) return 0xFF; // 255 IS ERROR
             uiSelector.target = get.transform;
+            
             uiSelector.active = true;
         }
         else {
@@ -91,13 +134,14 @@ public class BattleManager : MonoBehaviour
 
         if (turn.charaType == CharaType.Enemy)
         {
-            BattleUI_Commands.instance.Update_Player_UI(Random.Range(0, 1));
+            StartCoroutine(EnemyAction(turn));
+         
         }
         else
         {
             BattleUI_Commands.instance.Update_Player_UI(-1);
         }
-
+        BattleManager.instance.inputOverride = false;
         characterTurnList.RemoveAt(0);
 
        
@@ -115,7 +159,7 @@ public class BattleManager : MonoBehaviour
         return (id == 0) ? this.assignedBattle.playersPositions[playerID] : this.assignedBattle.playersPositionsWithTurn[playerID];
     }
     public void StartBattle_SetupMusic() {
-        MusicManager.instance.PlayClip(this.assignedBattle.music.musicLoop, true);
+     
     }
 
     public void StartBattle_SetupPlayers() {
@@ -126,9 +170,11 @@ public class BattleManager : MonoBehaviour
             CharaSO actorR = CharaManager.instance.characters.Find(x => x.identifier.ToUpper() == players[i].ToUpper());
             if (actorR!=null) {
                 actors.Add(actorR.selfBattle);
+                playerActors.Add(actorR);
                 actorR.selfBattle.Spawn(actorR).transform.SetParent(PlayerFolder);
                 bActors.Add(actorR);
             }
+            actorR.selfBattle.dead = false;
         }
 
     }
@@ -144,7 +190,9 @@ public class BattleManager : MonoBehaviour
                 g.transform.SetParent(EnemyFolder);
                 enemiesG.Add(g);
                 bActors.Add(re);
+                enemyActors.Add(re);
             }
+            re.selfBattle.dead = false;
         }
     }
 
@@ -166,6 +214,7 @@ public class BattleManager : MonoBehaviour
     void Start()
     {
         StartBattle();
+        
     }
     private void Update()
     {
@@ -178,5 +227,12 @@ public class BattleManager : MonoBehaviour
         {
             battleCounter = 0f;
         }
+        p1TPDisplayer.number = this.playerActors[0].stats.ENERGY.currentValue;
+        p2TPDisplayer.number = (this.playerActors.Count >= 2) ? this.playerActors[1].stats.ENERGY.currentValue : 0;
+        p3TPDisplayer.number = (this.playerActors.Count >= 3) ? this.playerActors[2].stats.ENERGY.currentValue : 0;
+
+        p1HPDisplayer.number = this.playerActors[0].stats.HEALTH.currentValue;
+        p2HPDisplayer.number = (this.playerActors.Count >= 2) ? this.playerActors[1].stats.HEALTH.currentValue : 0;
+        p3HPDisplayer.number = (this.playerActors.Count >= 3) ? this.playerActors[2].stats.HEALTH.currentValue : 0;
     }
 }

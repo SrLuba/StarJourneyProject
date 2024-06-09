@@ -6,6 +6,7 @@ public class MusicManager : MonoBehaviour
 {
     public static MusicManager instance;
 
+    MusicSO myMusic;
     public AudioSource mainSource;
 
 
@@ -20,23 +21,22 @@ public class MusicManager : MonoBehaviour
     {
         DontDestroyOnLoad(this.gameObject);
         DontDestroyOnLoad(mainSource.gameObject);
+
+        myMusic.CheckForLoop(mainSource, 0);
     }
     public void Start()
     {
-        
-       
-
-
         this.transform.SetParent(null);
         this.transform.localPosition = new Vector3(0f, 0f, 0f);
     }
    
-    public void PlayClip(AudioClip clip, bool loop) {
+    public void PlayClip(MusicSO mso, bool loop) {
         mainSource.Stop();
-        mainSource.clip = clip;
+        mainSource.clip = mso.music;
         mainSource.loop = loop;
         mainSource.volume = 1f;
         mainSource.Play();
+        myMusic = mso;
     }
     public void StopAll()
     {
@@ -50,13 +50,11 @@ public class MusicManager : MonoBehaviour
     public IEnumerator BattleMusicStart(BattleEnteringCase eCase, MusicSO mso) {
         if (eCase != BattleEnteringCase.NoTransition)
         {
-            this.PlayClip(mso.musicStart, false);
-            yield return new WaitForSeconds(mso.musicStart.length+mso.musicOffset);
-            BattleManager.instance.transitionAnim.Play("Transition_End");
-            this.PlayClip(mso.musicLoop, false);
-        }
-        else {
-            this.PlayClip(mso.musicLoop, false);
+            this.PlayClip(mso, false);
+
+            yield return new WaitForSeconds(0.01f);
+
+            BattleManager.instance.transitionAnim.Play("Transition_End");   
         }
     }
 }

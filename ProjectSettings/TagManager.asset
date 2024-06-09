@@ -32,9 +32,9 @@ TagManager:
   - Player
   - Floor
   - Minimap
-  - 
-  - 
-  - 
+  - Enemy
+  - Background
+  - Shadow
   - 
   - 
   - 

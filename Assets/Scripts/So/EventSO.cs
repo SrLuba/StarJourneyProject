@@ -129,10 +129,7 @@ public class EventItem
             GameObject g = GameObject.Find(targetActor);
             if (g != null) yield return g.GetComponent<OVGenericActor>().EVAction(this.evIType, this.vectorArgument, this.vector2Argument, this.arguments);
         }
-        else if (evType == EventItem_Type.Music)
-        {
-            MusicManager.instance.PlayClip(this.audioArgument, true);
-        }
+     
         if (audioArgument!=null) SoundManager.instance.Play(this.audioArgument);
         
     }

@@ -17,10 +17,15 @@ public class BattleActorSO : ScriptableObject
     public float moveSpeed = 50f;
 
     public float jumpForce = 50f;
-
+    public LayerMask MyLayer;
+    public LayerMask shadowLayer;
     public PhysicMaterial materialPhy;
 
+    public AudioClip dieVoiceClip;
+
     public List<string> battleIdlesAnimations;
+
+    public bool dead = false;   
     public string getIdleAnim() {
         return this.battleIdlesAnimations[Random.Range(0, this.battleIdlesAnimations.Count - 1)];
     }
@@ -60,6 +65,8 @@ public class BattleActorSO : ScriptableObject
         shadow.GetComponent<ShadowScript>().Offset = selfShadowOffset;
         shadow.GetComponent<ShadowScript>().floorY = visual.transform.position.y;
 
+        shadow.layer = shadowLayer;
+
         Rigidbody rb = player.AddComponent<Rigidbody>();
         rb.constraints = RigidbodyConstraints.FreezeRotation;
         
@@ -70,6 +77,7 @@ public class BattleActorSO : ScriptableObject
         player.GetComponent<CapsuleCollider>().material = this.materialPhy;
 
         player.tag = "Player";
+        player.layer = MyLayer;
 
         return player;
     }

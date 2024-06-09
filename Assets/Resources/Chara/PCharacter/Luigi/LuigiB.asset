@@ -15,7 +15,7 @@ MonoBehaviour:
   Visual: {fileID: 4958683333612449943, guid: 2b7ff8f01a6e76f49aaff84269b2ec33, type: 3}
   selfShadow: {fileID: 2908175051198882846, guid: f3f0c31ea043998419a23a76653c65ea,
     type: 3}
-  selfShadowOffset: {x: 0, y: 0.1, z: 0}
+  selfShadowOffset: {x: 0, y: 1, z: 0}
   visualOffset: {x: 0, y: 0, z: 0}
   eulerAngleOffset: {x: 0, y: 100, z: 0}
   VisualAnimator: {fileID: 9100000, guid: b6ea07960b07c8149a871fc8a1b14e45, type: 2}
@@ -24,9 +24,17 @@ MonoBehaviour:
     min: {x: 13, y: -2}
     max: {x: 0, y: 0}
   floorY: 8
-  moveSpeed: 10
+  moveSpeed: 15
   jumpForce: 38
+  MyLayer:
+    serializedVersion: 2
+    m_Bits: 4096
+  shadowLayer:
+    serializedVersion: 2
+    m_Bits: 131072
   materialPhy: {fileID: 13400000, guid: 18925be25a29eca44bc9161dd789dd7d, type: 2}
+  dieVoiceClip: {fileID: 8300000, guid: 06ef7db9191cd0a4ca3a8a53b5e6e0a9, type: 3}
   battleIdlesAnimations:
   - Think_0
   - Think_0
+  dead: 0

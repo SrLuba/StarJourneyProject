@@ -1,0 +1,5090 @@
+fileFormatVersion: 2
+guid: ec97871306d878a4b9ce3869f2cb9d42
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Battle UI Common_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 4445
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f459c161dc3db7e49add493f3f1e98d1
+      internalID: 250854816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_1
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 4425
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 137940701cc1d0c4bbd2ab76604982dc
+      internalID: 1018696141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_2
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 4405
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2b199611a06c174e87f53cb42f42863
+      internalID: -919154843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_3
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 4385
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7e3a4992a6e15846865b0245aeea5c4
+      internalID: -275241093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_4
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 4365
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 988cb11c435de054abbccb2b30663a4c
+      internalID: -64281464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_5
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 4345
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e0c84a92be5fc245b35160dbc95d882
+      internalID: 2100450149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_6
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 4325
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e58120b73da1aab4f9075bb5fb2f4019
+      internalID: 750871049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_7
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 4304
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f43dc510d367b84f8416be907433cc8
+      internalID: -1012406594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_8
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 4285
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99f2067c0c7a1934dafed7c0a8bd60d4
+      internalID: 9531510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_9
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 4265
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5259171021526d446abc39921b0b085c
+      internalID: 139479820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_10
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 4244
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42d2cd101510a624db1660342f279026
+      internalID: -915535298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_11
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 4225
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20cfb83e7bc228c48a253ddddb31e3f4
+      internalID: -1970849200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_12
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 4205
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 200e2781de7e9c0419a7942bf149bb71
+      internalID: 304265165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_13
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 4185
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23af4da9dc878be44b341c0e11dc36b8
+      internalID: -1501832078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_14
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 4165
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a4f7a01f91a3bc4786b4b18bd4ced50
+      internalID: -1927108865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_15
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 4145
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fdc708ac26f9f04a951b1871d4aa4ea
+      internalID: -2037188005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_16
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 4125
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b502bc53682b36409a54f14ee7c89b4
+      internalID: 283270733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_17
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 4105
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52ca46e6ac9b3034b9d2d3f8ef9014d1
+      internalID: -1138739494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_18
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 4085
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 946a98535dad84d44b5acc33462e4553
+      internalID: 2020855712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_19
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 4065
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39bafd0b85fc7ed4e9bd44938b61b0ab
+      internalID: -313726495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_20
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 4045
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edf34e2988187594a82e034e5b011698
+      internalID: -1158128263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_21
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 4025
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2938f7b2fbad7144ab18afbc573bb6e
+      internalID: -719226516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_22
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 4005
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4defaea1798fbe4c836960e64765ffc
+      internalID: -1431317863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_23
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 3985
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c31490406f2f6f844a049071be722e30
+      internalID: 1325303541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_24
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 3965
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2becfc82c333554c8bcc9372e78af04
+      internalID: -602462946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_25
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 3945
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57264426c5f89a34794ac4b8c7c790b3
+      internalID: -115203398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_26
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 3925
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b82e7c0a53bf8d14c9712d3e3765a5ca
+      internalID: -2143185819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_27
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 3904
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85bb0b0a5caa67c419d0fcf937fb5575
+      internalID: -1188796773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_28
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 3885
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0188b12ad1a01847b34c3d62a253309
+      internalID: 211789767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_29
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 3865
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8367c7d27a8df454593a789255d6264e
+      internalID: -1181685637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_30
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 3845
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 501a8ee67a0c8394bbab8edaa9339ba5
+      internalID: -152204149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_31
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 3825
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac2b3652a88908e48aff81c5b0fd91c7
+      internalID: 538982283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_32
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 3805
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 998698d24ba741841b9c30f197d7499c
+      internalID: 921531109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_33
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 3785
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a35c2ce1d954184f9cfad7ab3c82a08
+      internalID: -1344416889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_34
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 3765
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 087ed7dae5e45334e90ceb0f135a4ca8
+      internalID: 764512457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_35
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 3745
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0468c363c3870224ea26059aa03f3453
+      internalID: 1068989040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_36
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 3725
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6e84d7f60af40f40937b935dc78fe01
+      internalID: 1938223993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_37
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 3705
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e85e40e414e14bb47889e1d89e507a93
+      internalID: -1903785867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_38
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 3685
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 228b5a68fbec4944b80db912775ce5f9
+      internalID: 1133980341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_39
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 3665
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09581c326ee0aff48a8431f8be097dfc
+      internalID: 430919797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_40
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 3645
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0d59ead5d5d25a49bf5b7eb3232b5ac
+      internalID: -681131457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_41
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 3625
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fc3d4dd6ec73094ea541c06492abbcd
+      internalID: -2114005968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_42
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 3605
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d24cc9e53cc8b1541a6df953afdbb523
+      internalID: 331737533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_43
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 3585
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f790437d26bb90649b3400578d2806f9
+      internalID: 626590412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_44
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 3566
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b02373335e15a88438a8392463a67e34
+      internalID: -253628837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_45
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 3546
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16212b28a80f80f42a6d58e868686134
+      internalID: -2051265597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_46
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 3511
+        width: 204
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c60817f6655ba848a7b78dcccab749f
+      internalID: 1224536330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_47
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 3497
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d716692a8414ec04882fda2da2a2d731
+      internalID: -1086428421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_48
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 3463
+        width: 204
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 942b426b7db08cf4f8664d495f83bf96
+      internalID: -235209980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_49
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 3420
+        width: 69
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de29ed01422da2a438bf92b9b31e9443
+      internalID: -2065336199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_50
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 3377
+        width: 69
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bc129503f113fb40840b528207e73e7
+      internalID: 546553404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_51
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 3241
+        width: 242
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a19f9f4b56ea7fb43ad87c10d7a14bcb
+      internalID: -1985700171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_52
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 3222
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6a12c865eee8ff4189686b495d13872
+      internalID: 268775243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_53
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 3222
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3bfc3f7d4706d147b339ec2e6c49d3b
+      internalID: 1178797299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_54
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 3203
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e35e19244435594da703d3312d987c4
+      internalID: -917968764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_55
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 3203
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d2989913c9a7c446b8250461a5a4a81
+      internalID: 383984148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_56
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 3182
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ba10966611cb84428590fa027a753eb
+      internalID: -1092015978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_57
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 3163
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9042901b434cd3c458f993085cd8bb00
+      internalID: 1045373165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_58
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 3132
+        width: 31
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b032140b281b5746a13e78c16721d77
+      internalID: -110990076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_59
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 3104
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f332bc470139a3447b0ec0f6cd94f559
+      internalID: -1899543188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_60
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 3085
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63ab05965b401ef45a32fbf7c32758dd
+      internalID: -1857514850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_61
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 3065
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71038d86eceaf134db30e96c6433f36a
+      internalID: -711009750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_62
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 3045
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac6f1a76eb9689c4fa227b9be64a1e3f
+      internalID: 1600981993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_63
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 3025
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c15a4fb5f678ce45aae2d7d729b14dd
+      internalID: -443261621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_64
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 3005
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63a6aaf196202a044b2a92444fd94939
+      internalID: -28486105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_65
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 2985
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c08cbda5f4332e34b9541cbbd39aeae2
+      internalID: -1263204735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_66
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 2965
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cd314e121415b341871d56fe7a16dbf
+      internalID: 1084189210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_67
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 2945
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50df8fd0651b68d45953e31416885e5f
+      internalID: 1645361351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_68
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 2925
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d9a43aa5479c59438cb112719b878c2
+      internalID: 570615601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_69
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 2896
+        width: 31
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0088c6a38251cf34aa91198ecff475fa
+      internalID: 1624473286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_70
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 2859
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9107a67ddc8a6c14a9944c57b26d39a3
+      internalID: 2038112353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_71
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 2823
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3d43207bc9ee9d4eb438a54f2dac524
+      internalID: -2050216626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_72
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 2653
+        width: 226
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b70deef329f5db04eb2166806cd79a11
+      internalID: -1466903219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_73
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 2625
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35871cccd2fa78841bb59f54e407497d
+      internalID: 1743774665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_74
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 2581
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c4a5bff9826f7e40a801dfa21ee7ee2
+      internalID: -1699227347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_75
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 2548
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24ae7e404cfb72841bb52e885ba2094d
+      internalID: 1075908734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_76
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 2509
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 591e6a996f31f7748be88c7c56aee64d
+      internalID: 1646683202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_77
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 2478
+        width: 25
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8df6daf0a16f3c43a62f0cf06c39eba
+      internalID: -675131980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_78
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 2437
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44413b60a04a918478daae4a3d65f283
+      internalID: -1213727938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_79
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 2407
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e920ea05a12663c46b82479510feeeec
+      internalID: -1599647469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_80
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 2365
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6725e29e2edeb64d8dc13657f715ca4
+      internalID: 648888887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_81
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 2334
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9af7395f56b5db04f8ec106b2fc050bf
+      internalID: 1320286785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_82
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 2293
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dab1176d119ad2149bfd3cc2e018452b
+      internalID: -1046854333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_83
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 2260
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7afda32058297944782efa500c2cfabb
+      internalID: -2076726739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_84
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 2224
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29d425fd4ec8cdb48b67fd1faf77262a
+      internalID: 588521164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_85
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 2188
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d2c612ce7dc73641b438a2cae20d1b7
+      internalID: -886064615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_86
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 2152
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a097737037cada24eadcb3c6b8493ee0
+      internalID: 1237936636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_87
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 2116
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 315b71bfe6727374ea943c91f8d3ad2f
+      internalID: -2032266656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_88
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 2080
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28373617605c35f458bad14ce0e498f4
+      internalID: -1082471973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_89
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 2042
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d802a90c85abb8d4e8bf5f3b25a114ae
+      internalID: 1885331269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_90
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 1993
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86e1f2bcab60b4d4599da0663db79e01
+      internalID: -130856704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_91
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1954
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30e9e6f81b53cfc4a8fae73508301a52
+      internalID: 898176004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_92
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1918
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e01c047190f6b4049a2b54b804ebb13b
+      internalID: -1685369966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_93
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 1874
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1e04b4eef5a3504fa7d1eee03dca54e
+      internalID: 2125499102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_94
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 1869
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f31804677245b1f41be40c3b34d83053
+      internalID: -649520526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_95
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 1807
+        width: 50
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78a61bffba4967a4d8f87c90581568ad
+      internalID: 1738134684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_96
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 1797
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4adcdc85c0ddfe14895bc35bfd7c1220
+      internalID: -1228301889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_97
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 1745
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 267b7b34ce988b1499491b509f9c5f41
+      internalID: -1874109534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_98
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 1739
+        width: 50
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4a175215537a1c4db751a75c89c14fc
+      internalID: 1326993572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_99
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 1729
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca119aeffbae50748985bcac3e0ec0be
+      internalID: 942715472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_100
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 1730
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c092553ee8e2de54db260fb17c582b36
+      internalID: -1887283924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_101
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 1729
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b563731d030e5304da67b9aab6d91181
+      internalID: 979605661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_102
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 1730
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81c18d4b3519cd44f83778966f20041d
+      internalID: 2146463766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_103
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 1739
+        width: 50
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc1a15f7abf08f14285b6371eb753bf7
+      internalID: -515829243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_104
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1661
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13b55a1074d3a9e41b06c9494cead1ac
+      internalID: -716524637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_105
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 1662
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fa746aeefa902449900743bc627e5a5
+      internalID: 785269283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_106
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 1661
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28457fa0831f9f440a338cf6fe8c8d96
+      internalID: 2119539261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_107
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 1662
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e2fd1a2fd93f0944bb2de9ace327276
+      internalID: -794712137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_108
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 1671
+        width: 50
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d5eb759146101d43a01d5cc1d343970
+      internalID: -742311765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_109
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1626
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b7873dc4eca32b47921f5449d01aa26
+      internalID: -1366270056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_110
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 1577
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bef48ce1547fed4cbb269be9db6fbc3
+      internalID: 1172995673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_111
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1537
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15ae017e6af701e4d9f2ea6a8fd0632b
+      internalID: 1735798658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_112
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1501
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9f24f13053216345bd5ba5c99cce6af
+      internalID: 2104423993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_113
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 1458
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13ef151f57ca49142b12081ac6b3d1b7
+      internalID: 2091833086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_114
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 1453
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1bb7b7216bc31a4d9bf22b6f3678aba
+      internalID: 816295997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_115
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1381
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 574afc5c0f3f18f46803ee57c7f42e4e
+      internalID: 9885427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_116
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 1391
+        width: 50
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d68d3fd35ad7aea4aaf017d2b82830b0
+      internalID: 1522271637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_117
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 1330
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b26c7e394dddf84ead1d9b7d8b5eb5d
+      internalID: 1350214594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_118
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 1323
+        width: 50
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f006124424b141a4f9d3185981ab9162
+      internalID: 163930610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_119
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 1313
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e57101bda21cdd9488689028611ebb15
+      internalID: 1421153010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_120
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 1314
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74a66228c82749c4095340dc04e7a7ae
+      internalID: -110427969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_121
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 1313
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d7848378326e1f41aa20780a52d31c0
+      internalID: 360015136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_122
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 1314
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79391a54ccdc770488f4d9cc23cfbbfe
+      internalID: -524459355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_123
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 1323
+        width: 50
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c559fc75244c8d49a27dc5bde585e68
+      internalID: -1090131457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_124
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1245
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a93746bb915ea45438ae09ce6285be39
+      internalID: 997211642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_125
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 1246
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4e6403f5aafb264e86070210a0c0e2c
+      internalID: 1138250716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_126
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 1245
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82910bd94467ccd4fab7ffddd1ea5098
+      internalID: 489063754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_127
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 1246
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 824f0eb3fc9dc0b48995080d5eb7767b
+      internalID: -1117266622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_128
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 1255
+        width: 50
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e26fe89430c1cb240b16ed5d88b7c332
+      internalID: -279375643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_129
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 1189
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af3981870adc23a46b2ad56a77e99988
+      internalID: 78159067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_130
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 1189
+        width: 42
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34ed95afa0f4f29489bf30288d2ad35a
+      internalID: -536631675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_131
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 1189
+        width: 42
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5846d3a8bedfd774bada479e9c995121
+      internalID: 1225802044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_132
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 1189
+        width: 42
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86ef35226b4266b419b7c6ede28fd56c
+      internalID: -125198427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_133
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 1189
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a07698726de8aaa4fb08bc82cc2dae74
+      internalID: -1975102989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_134
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 1189
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f015c756e960e5649ab19e8d732e5d27
+      internalID: -570018329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_135
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 1177
+        width: 42
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 828117e30a5777d4bb6c5980853a9b88
+      internalID: 501873487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_136
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 1177
+        width: 42
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a29a6f5c7246bf4695e76684047d185
+      internalID: -1050912178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_137
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 1186
+        width: 42
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d41c352983ad67a4dbfbef30f7462f5f
+      internalID: -1602299425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_138
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 1189
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08e0b8b0caffe7b4fb7551e1b3df46a0
+      internalID: -432788964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_139
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 1121
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaa6304914cd5584da5bee9fc7b72b7b
+      internalID: 1112416478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_140
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 1121
+        width: 54
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77e570ef90dd772468a3ef2b6447c995
+      internalID: -2078754518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_141
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 1121
+        width: 54
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f24325042a6fd942ab22d3cfde77d21
+      internalID: -843632068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_142
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 1121
+        width: 47
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b63aa86525c27e94688fa8f8cf12882b
+      internalID: -761639313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_143
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 1121
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d4eab7b088fa4f449fcf62329b20b34
+      internalID: -639669362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_144
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 1121
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f4940011f3464442ba6641ea22106ef
+      internalID: 2093287210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_145
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 1121
+        width: 54
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 948df3f6fb70c7d49964c2a15b65a55f
+      internalID: 646005994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_146
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 1121
+        width: 55
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a4d6d2e28b395044a95e2d5e402d79c
+      internalID: -1227894443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_147
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 1121
+        width: 45
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39740047ec1583d44a1851f671e229e1
+      internalID: 14758746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_148
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 1121
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 106d560eed8130e4790669c77fa8c61d
+      internalID: -1495762345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_149
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 1053
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e037b19d6f7db245817d2b660b90abc
+      internalID: 1807852730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_150
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 1053
+        width: 42
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c67bc9559efb720478cd90558a8b1bb0
+      internalID: 1722432566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_151
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 1053
+        width: 42
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5a7f474e0c26c6418fda23a6f85e366
+      internalID: 1398955775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_152
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 1053
+        width: 42
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb7c679573959a144932d4c5c7b9731c
+      internalID: -565994256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_153
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 1053
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e57b3f53cab02641b3e37ecc5a1922d
+      internalID: 442874825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_154
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 1053
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f666cad9335477244bd5ea065aca07de
+      internalID: 1386984881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_155
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 1040
+        width: 42
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19d2220ca0c0fb04184ee05c8d4f3b16
+      internalID: 262101050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_156
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 1040
+        width: 42
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77a4ebd5d5b956545b3651ec69911892
+      internalID: 222420345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_157
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 1050
+        width: 42
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eeb3a52adcd2f2442a46750546caf646
+      internalID: 679742205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_158
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 1053
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 774f09308b8ef52488a1b05c173beecc
+      internalID: 2048309474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_159
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 1053
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96390b5f91ad1c749972f3dd8831d46a
+      internalID: 1539667465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_160
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 1053
+        width: 55
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d50ecd1cf6e66c64fa65c7a2d3020c0c
+      internalID: 591269504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_161
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 1053
+        width: 54
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67a1572c6c225e047b72cf044e926860
+      internalID: 406705863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_162
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 1053
+        width: 47
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f38a67a1fccc0f4396e99804e204bf3
+      internalID: -1605827737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_163
+      rect:
+        serializedVersion: 2
+        x: 937
+        y: 1053
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c542537171ec976499cf7b9f9f756121
+      internalID: -2034656041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_164
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 987
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0626e4d68d574849be5dcf295904e36
+      internalID: -541262864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_165
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 987
+        width: 54
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52571c90e9b513045844ed5cc1e59c78
+      internalID: 334317410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_166
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 987
+        width: 55
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b7ecd69cf28ee249800edc1c89315c3
+      internalID: 284988551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_167
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 987
+        width: 45
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa94405e8631f634489c7b1939425054
+      internalID: -680907748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_168
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 987
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d5f1091e8b30be4099c7b3a57115025
+      internalID: -875125102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_169
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 940
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c81c2a805e6f2241bbf77a85dc195a9
+      internalID: -1391603362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_170
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 940
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73e5c546c36c08b4082e81a1f9c91a1b
+      internalID: -458976112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_171
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 904
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7954e67226ea5f64fa2e03748eaa0148
+      internalID: 21206074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_172
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 904
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 120fdc3427f619e478a3a4de0513d83c
+      internalID: -854595436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_173
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 868
+        width: 44
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf13b683849593b41957dcc55bc1cdbd
+      internalID: 1553167572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_174
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 868
+        width: 51
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d4e3f2e35bcc3a4d88eaa4f4f146980
+      internalID: -1999397990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_175
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 816
+        width: 44
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48e29a0e4cbd076439e0ac5ddf28cdd8
+      internalID: -557915974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_176
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 816
+        width: 51
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ab4da9c26a1b044283f33d9b3259d17
+      internalID: -1141628791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_177
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 745
+        width: 33
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a51a12e1eaabff49ac5a419355f4379
+      internalID: 63649352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_178
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 740
+        width: 38
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5e84ee0513a93c4791ee7909e0c783a
+      internalID: 39755445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_179
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 685
+        width: 33
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0357dd9eda727d46a6ee3837c203b8d
+      internalID: 1150052107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_180
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 680
+        width: 38
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3efa0d7aface22c4ca6143f1a2a3f2e4
+      internalID: 617598718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_181
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 644
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89eebe6c518eb3c4e9925e0bf6062c3f
+      internalID: -1334340348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_182
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 644
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b23be7b11bd9cf4cb9512a65c45b81e
+      internalID: -1571181037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_183
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 591
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6014306b26c8da146b430b5cde419f9f
+      internalID: 1097680111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_184
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 591
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff9051f6ae9e51c4e9c73a6bf3a29846
+      internalID: 112972704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_185
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 545
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bf1118c91f3b324999e9bb972d816e9
+      internalID: 629572494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_186
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 544
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45bf6a1cb9f08ae4eb42ad9e233773a7
+      internalID: 1670998843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_187
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 508
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ed5cef5fafec2c4dae2dc8d56781853
+      internalID: -1656636944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_188
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 507
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e8750c3e84ec744b8db9b17137e879d
+      internalID: 110517172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_189
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 450
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a326349f1026d804688310b7e2879942
+      internalID: -326328653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_190
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 445
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2c34ec6acaf1d44cbf93b3b97210bd6
+      internalID: -1753780864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_191
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 443
+        width: 50
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57b6104d3e39ee441987b38e2e53d59d
+      internalID: -814455843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_192
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 433
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66548f7bd0992134bb760bebff8e3a8a
+      internalID: -56859341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_193
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 443
+        width: 50
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d68bffb1a8479914285eff69c96618b1
+      internalID: 1488970365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_194
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 433
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a0e99efa8a1ea04e838bb1cadb90b3d
+      internalID: 1673073340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_195
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 443
+        width: 50
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d764b9e0a84e974419b2e3b6b2961cc6
+      internalID: 155289541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_196
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 433
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f04a21a477b2914d89a3cf33e35ce3b
+      internalID: -401949536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_197
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 443
+        width: 51
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47ef8ab3360ef4143b9aa8ff0199b76b
+      internalID: 859153368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_198
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 433
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7bc96c866d2daf42b42ed9dafae199c
+      internalID: 1684694660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_199
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 450
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 975f44dc41680d4409b01c472d650d77
+      internalID: -914721701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_200
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 443
+        width: 50
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee83edaccdd0db24985976536ee6f199
+      internalID: -1305904087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_201
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 433
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a1e03af6222b1b41a8afa5f88ff1e69
+      internalID: -334123088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_202
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 434
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f300c82dc9080f45af7f3a1a28c8397
+      internalID: 1322526139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_203
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 433
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 984557001e56a1a4387a5a2de8287aa8
+      internalID: -178762411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_204
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 368
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f28f92c6eadfdcd48a4d86a71945c892
+      internalID: 283388892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_205
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 377
+        width: 50
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c22c9df5ba1b3eb48aefdba1c8d631d0
+      internalID: -1779101781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_206
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 316
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c8af77e65bae5149bd38704b5959c14
+      internalID: -194611320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_207
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 311
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 082bfb7c161c077429658d605d8bac6c
+      internalID: -1663836378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_208
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 299
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29b5d2e1241500742aa3e3588cbc4632
+      internalID: -1562566550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_209
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 309
+        width: 52
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aea049d7aa10bf24c99c84dc94ccf152
+      internalID: 1396802029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_210
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 299
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 092dc7640a752c0488a01e50e9ee16f9
+      internalID: -878976058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_211
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 309
+        width: 50
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21ae6907440fbc840a6b5f5fab9af9b0
+      internalID: -1784438972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_212
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 299
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fcf41acdb3d0ce44ba26cc02d5041aa
+      internalID: 406248858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_213
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 309
+        width: 50
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d867491c24aaf0c4abb0a43b2c2e083d
+      internalID: -448069229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_214
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 299
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcaf846233b06874c8964ef130e5311c
+      internalID: -140593853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_215
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 309
+        width: 50
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0194df5df0fd92b4e9054243db11bacd
+      internalID: -84836396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_216
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 316
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6d43f7fa56b2534d8d96fa3aaeb68a0
+      internalID: 1071274150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_217
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 309
+        width: 50
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10d4f71534b987143b9e005ad9d3dbb6
+      internalID: -1984102628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_218
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 299
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 618d7ad658b40174b8b8320bac48d006
+      internalID: 1428951566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_219
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 300
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c835fb8e1841cca42a2d70e75f4e6967
+      internalID: -5889942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_220
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 299
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4ddc2c419dec97468b71c6b19e7960e
+      internalID: -1583862478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_221
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 234
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18c022aba4f303348bb35c9bc8351ec7
+      internalID: 2072209739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_222
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 243
+        width: 50
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 393392e36eab53442945375d9fd7074d
+      internalID: 412977914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_223
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 197
+        width: 386
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4da1adc7028003428c16ce8f8e11933
+      internalID: 1675280188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle UI Common_224
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 1
+        width: 306
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f78b02e88c526d41b088b9207a6da52
+      internalID: -1324087523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 851f08a663bf1c94796349078a3e4710
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Battle UI Common_0: 250854816
+      Battle UI Common_1: 1018696141
+      Battle UI Common_10: -915535298
+      Battle UI Common_100: -1887283924
+      Battle UI Common_101: 979605661
+      Battle UI Common_102: 2146463766
+      Battle UI Common_103: -515829243
+      Battle UI Common_104: -716524637
+      Battle UI Common_105: 785269283
+      Battle UI Common_106: 2119539261
+      Battle UI Common_107: -794712137
+      Battle UI Common_108: -742311765
+      Battle UI Common_109: -1366270056
+      Battle UI Common_11: -1970849200
+      Battle UI Common_110: 1172995673
+      Battle UI Common_111: 1735798658
+      Battle UI Common_112: 2104423993
+      Battle UI Common_113: 2091833086
+      Battle UI Common_114: 816295997
+      Battle UI Common_115: 9885427
+      Battle UI Common_116: 1522271637
+      Battle UI Common_117: 1350214594
+      Battle UI Common_118: 163930610
+      Battle UI Common_119: 1421153010
+      Battle UI Common_12: 304265165
+      Battle UI Common_120: -110427969
+      Battle UI Common_121: 360015136
+      Battle UI Common_122: -524459355
+      Battle UI Common_123: -1090131457
+      Battle UI Common_124: 997211642
+      Battle UI Common_125: 1138250716
+      Battle UI Common_126: 489063754
+      Battle UI Common_127: -1117266622
+      Battle UI Common_128: -279375643
+      Battle UI Common_129: 78159067
+      Battle UI Common_13: -1501832078
+      Battle UI Common_130: -536631675
+      Battle UI Common_131: 1225802044
+      Battle UI Common_132: -125198427
+      Battle UI Common_133: -1975102989
+      Battle UI Common_134: -570018329
+      Battle UI Common_135: 501873487
+      Battle UI Common_136: -1050912178
+      Battle UI Common_137: -1602299425
+      Battle UI Common_138: -432788964
+      Battle UI Common_139: 1112416478
+      Battle UI Common_14: -1927108865
+      Battle UI Common_140: -2078754518
+      Battle UI Common_141: -843632068
+      Battle UI Common_142: -761639313
+      Battle UI Common_143: -639669362
+      Battle UI Common_144: 2093287210
+      Battle UI Common_145: 646005994
+      Battle UI Common_146: -1227894443
+      Battle UI Common_147: 14758746
+      Battle UI Common_148: -1495762345
+      Battle UI Common_149: 1807852730
+      Battle UI Common_15: -2037188005
+      Battle UI Common_150: 1722432566
+      Battle UI Common_151: 1398955775
+      Battle UI Common_152: -565994256
+      Battle UI Common_153: 442874825
+      Battle UI Common_154: 1386984881
+      Battle UI Common_155: 262101050
+      Battle UI Common_156: 222420345
+      Battle UI Common_157: 679742205
+      Battle UI Common_158: 2048309474
+      Battle UI Common_159: 1539667465
+      Battle UI Common_16: 283270733
+      Battle UI Common_160: 591269504
+      Battle UI Common_161: 406705863
+      Battle UI Common_162: -1605827737
+      Battle UI Common_163: -2034656041
+      Battle UI Common_164: -541262864
+      Battle UI Common_165: 334317410
+      Battle UI Common_166: 284988551
+      Battle UI Common_167: -680907748
+      Battle UI Common_168: -875125102
+      Battle UI Common_169: -1391603362
+      Battle UI Common_17: -1138739494
+      Battle UI Common_170: -458976112
+      Battle UI Common_171: 21206074
+      Battle UI Common_172: -854595436
+      Battle UI Common_173: 1553167572
+      Battle UI Common_174: -1999397990
+      Battle UI Common_175: -557915974
+      Battle UI Common_176: -1141628791
+      Battle UI Common_177: 63649352
+      Battle UI Common_178: 39755445
+      Battle UI Common_179: 1150052107
+      Battle UI Common_18: 2020855712
+      Battle UI Common_180: 617598718
+      Battle UI Common_181: -1334340348
+      Battle UI Common_182: -1571181037
+      Battle UI Common_183: 1097680111
+      Battle UI Common_184: 112972704
+      Battle UI Common_185: 629572494
+      Battle UI Common_186: 1670998843
+      Battle UI Common_187: -1656636944
+      Battle UI Common_188: 110517172
+      Battle UI Common_189: -326328653
+      Battle UI Common_19: -313726495
+      Battle UI Common_190: -1753780864
+      Battle UI Common_191: -814455843
+      Battle UI Common_192: -56859341
+      Battle UI Common_193: 1488970365
+      Battle UI Common_194: 1673073340
+      Battle UI Common_195: 155289541
+      Battle UI Common_196: -401949536
+      Battle UI Common_197: 859153368
+      Battle UI Common_198: 1684694660
+      Battle UI Common_199: -914721701
+      Battle UI Common_2: -919154843
+      Battle UI Common_20: -1158128263
+      Battle UI Common_200: -1305904087
+      Battle UI Common_201: -334123088
+      Battle UI Common_202: 1322526139
+      Battle UI Common_203: -178762411
+      Battle UI Common_204: 283388892
+      Battle UI Common_205: -1779101781
+      Battle UI Common_206: -194611320
+      Battle UI Common_207: -1663836378
+      Battle UI Common_208: -1562566550
+      Battle UI Common_209: 1396802029
+      Battle UI Common_21: -719226516
+      Battle UI Common_210: -878976058
+      Battle UI Common_211: -1784438972
+      Battle UI Common_212: 406248858
+      Battle UI Common_213: -448069229
+      Battle UI Common_214: -140593853
+      Battle UI Common_215: -84836396
+      Battle UI Common_216: 1071274150
+      Battle UI Common_217: -1984102628
+      Battle UI Common_218: 1428951566
+      Battle UI Common_219: -5889942
+      Battle UI Common_22: -1431317863
+      Battle UI Common_220: -1583862478
+      Battle UI Common_221: 2072209739
+      Battle UI Common_222: 412977914
+      Battle UI Common_223: 1675280188
+      Battle UI Common_224: -1324087523
+      Battle UI Common_23: 1325303541
+      Battle UI Common_24: -602462946
+      Battle UI Common_25: -115203398
+      Battle UI Common_26: -2143185819
+      Battle UI Common_27: -1188796773
+      Battle UI Common_28: 211789767
+      Battle UI Common_29: -1181685637
+      Battle UI Common_3: -275241093
+      Battle UI Common_30: -152204149
+      Battle UI Common_31: 538982283
+      Battle UI Common_32: 921531109
+      Battle UI Common_33: -1344416889
+      Battle UI Common_34: 764512457
+      Battle UI Common_35: 1068989040
+      Battle UI Common_36: 1938223993
+      Battle UI Common_37: -1903785867
+      Battle UI Common_38: 1133980341
+      Battle UI Common_39: 430919797
+      Battle UI Common_4: -64281464
+      Battle UI Common_40: -681131457
+      Battle UI Common_41: -2114005968
+      Battle UI Common_42: 331737533
+      Battle UI Common_43: 626590412
+      Battle UI Common_44: -253628837
+      Battle UI Common_45: -2051265597
+      Battle UI Common_46: 1224536330
+      Battle UI Common_47: -1086428421
+      Battle UI Common_48: -235209980
+      Battle UI Common_49: -2065336199
+      Battle UI Common_5: 2100450149
+      Battle UI Common_50: 546553404
+      Battle UI Common_51: -1985700171
+      Battle UI Common_52: 268775243
+      Battle UI Common_53: 1178797299
+      Battle UI Common_54: -917968764
+      Battle UI Common_55: 383984148
+      Battle UI Common_56: -1092015978
+      Battle UI Common_57: 1045373165
+      Battle UI Common_58: -110990076
+      Battle UI Common_59: -1899543188
+      Battle UI Common_6: 750871049
+      Battle UI Common_60: -1857514850
+      Battle UI Common_61: -711009750
+      Battle UI Common_62: 1600981993
+      Battle UI Common_63: -443261621
+      Battle UI Common_64: -28486105
+      Battle UI Common_65: -1263204735
+      Battle UI Common_66: 1084189210
+      Battle UI Common_67: 1645361351
+      Battle UI Common_68: 570615601
+      Battle UI Common_69: 1624473286
+      Battle UI Common_7: -1012406594
+      Battle UI Common_70: 2038112353
+      Battle UI Common_71: -2050216626
+      Battle UI Common_72: -1466903219
+      Battle UI Common_73: 1743774665
+      Battle UI Common_74: -1699227347
+      Battle UI Common_75: 1075908734
+      Battle UI Common_76: 1646683202
+      Battle UI Common_77: -675131980
+      Battle UI Common_78: -1213727938
+      Battle UI Common_79: -1599647469
+      Battle UI Common_8: 9531510
+      Battle UI Common_80: 648888887
+      Battle UI Common_81: 1320286785
+      Battle UI Common_82: -1046854333
+      Battle UI Common_83: -2076726739
+      Battle UI Common_84: 588521164
+      Battle UI Common_85: -886064615
+      Battle UI Common_86: 1237936636
+      Battle UI Common_87: -2032266656
+      Battle UI Common_88: -1082471973
+      Battle UI Common_89: 1885331269
+      Battle UI Common_9: 139479820
+      Battle UI Common_90: -130856704
+      Battle UI Common_91: 898176004
+      Battle UI Common_92: -1685369966
+      Battle UI Common_93: 2125499102
+      Battle UI Common_94: -649520526
+      Battle UI Common_95: 1738134684
+      Battle UI Common_96: -1228301889
+      Battle UI Common_97: -1874109534
+      Battle UI Common_98: 1326993572
+      Battle UI Common_99: 942715472
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

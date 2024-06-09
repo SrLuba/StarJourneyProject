@@ -4,7 +4,7 @@ using UnityEngine;
 
 [CreateAssetMenu]public class MapSO : ScriptableObject
 {
-    public AudioClip music;
+    public MusicSO music;
     public List<MapSection> sections;
     public GameObject Minimap;
 }

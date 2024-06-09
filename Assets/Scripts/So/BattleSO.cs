@@ -43,9 +43,6 @@ public class BattleSO : ScriptableObject
     [TextArea] public string battleDescription;
     public MusicSO music;
 
- 
-
-
     public BattleEnteringCase enteringCase;
     public float floorY;
 
@@ -54,6 +51,4 @@ public class BattleSO : ScriptableObject
 
     [Header("Here goes the enemies")] public List<EnemyInformationB> enemies;
     [Header("Add here allowed players, if you want to make a mario only battle, just just put mario")] public List<string> allowedPlayers;
-
-   
 }

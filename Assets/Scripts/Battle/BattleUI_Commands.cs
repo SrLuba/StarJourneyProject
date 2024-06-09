@@ -11,6 +11,8 @@ public class BattleUI_Commands : MonoBehaviour
 
     int pCount = 0;
 
+    public List<GameObject> statusMeters;
+
 
     public void Awake()
     {
@@ -20,7 +22,7 @@ public class BattleUI_Commands : MonoBehaviour
     public void Start()
     {
         Setup_Player_UI();
-
+       
     }
     public void Update_Player_UI(int type) {
         if (type == -1) {
@@ -44,15 +46,20 @@ public class BattleUI_Commands : MonoBehaviour
 
         pCount = StaticManager.instance.players.Count;
 
+        statusMeters[0].SetActive((StaticManager.instance.players.Count >= 1));
+        statusMeters[1].SetActive((StaticManager.instance.players.Count >= 2));
+        statusMeters[2].SetActive((StaticManager.instance.players.Count >= 3));
+
         if (StaticManager.instance.players.Count == 1) {
             p1 = p_types[0];
             p2 = null;
+            
         }
         else if(StaticManager.instance.players.Count == 2) {
             p1 = p_types[1];
             p2 = p_types[2];
         }
-        else if (StaticManager.instance.players.Count == 2)
+        else if (StaticManager.instance.players.Count == 3)
         {
             p1 = p_types[3];
             p2 = p_types[4];

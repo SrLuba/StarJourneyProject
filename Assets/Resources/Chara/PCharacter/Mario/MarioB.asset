@@ -15,7 +15,7 @@ MonoBehaviour:
   Visual: {fileID: 6933974840482090755, guid: d38b47d1c61a4bf49b9f23cfad2ada09, type: 3}
   selfShadow: {fileID: 2908175051198882846, guid: f3f0c31ea043998419a23a76653c65ea,
     type: 3}
-  selfShadowOffset: {x: 0, y: 0.1, z: 0}
+  selfShadowOffset: {x: 0, y: 1, z: 0}
   visualOffset: {x: 0, y: 0, z: 0}
   eulerAngleOffset: {x: 0, y: 100, z: 0}
   VisualAnimator: {fileID: 9100000, guid: 3f527440e19f52841837ec163f53dae1, type: 2}
@@ -24,9 +24,17 @@ MonoBehaviour:
     min: {x: 12, y: 4}
     max: {x: 0, y: 0}
   floorY: 8
-  moveSpeed: 10
+  moveSpeed: 15
   jumpForce: 35
+  MyLayer:
+    serializedVersion: 2
+    m_Bits: 4096
+  shadowLayer:
+    serializedVersion: 2
+    m_Bits: 131072
   materialPhy: {fileID: 13400000, guid: 18925be25a29eca44bc9161dd789dd7d, type: 2}
+  dieVoiceClip: {fileID: 8300000, guid: aca9c22f2987ab14c8af360115c4451c, type: 3}
   battleIdlesAnimations:
   - Mario_BTL_Think_0
   - Mario_BTL_Think_0
+  dead: 0

@@ -3959,6 +3959,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2465461584021480946}
   - component: {fileID: 4659937663300236823}
+  - component: {fileID: 4112514173972898196}
   m_Layer: 0
   m_Name: LuigiSuper
   m_TagString: Untagged
@@ -4049,6 +4050,29 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &4112514173972898196
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4958683333612449943}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 216554ded9ef0ee4996dd2e0d5928a07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  floorType: GRASS
+  stepTypes:
+  - identifier: 
+    clips: []
+  defaultStepType:
+    identifier: DEFAULT
+    clips:
+    - {fileID: 8300000, guid: 76179a8d6ddaf5e43a34cdb0e4ddefe1, type: 3}
+    - {fileID: 8300000, guid: 1e70d0a2b0725e54bbde93d0337bd27a, type: 3}
+    - {fileID: 8300000, guid: f4690ee2af6c9124e81b995f044abfc6, type: 3}
+    - {fileID: 8300000, guid: 8ab14509d5add0b47a0d4a3a7a27bde4, type: 3}
 --- !u!1 &5063846990556920930
 GameObject:
   m_ObjectHideFlags: 0

@@ -5,12 +5,27 @@ using System.IO;
 
 [System.Serializable]
 public class GenericStat {
-    [Header("Starting Value")]public float startValue;
-    [Header("Value Multiplier")] public float valueMultiplier;
+    [Header("Starting Value")]public int startValue;
+    [Header("Value Multiplier")] public int valueMultiplier;
+    [Header("Value Add")] public int addValue;
+    [Header("Current Value")] public int currentValue;
+    [Header("Max Value")] public int maxValue;
 
-    public GenericStat(float startValue, float valueMultiplier) {
+    public GenericStat(int startValue, int valueMultiplier, int addValue) {
         this.startValue = startValue;
         this.valueMultiplier = valueMultiplier;
+        this.addValue = addValue;
+        this.currentValue = startValue;
+    }
+
+    public void UpdateStat(int level) {
+        this.maxValue = startValue * (valueMultiplier*level) + addValue;
+    }
+    public void ResetStat(int level)
+    {
+        this.UpdateStat(level);
+        this.currentValue = this.maxValue;
+        this.valueMultiplier = 1;
     }
 }
 
@@ -128,6 +143,7 @@ public class CharaSO : ScriptableObject
     [Header("Character Flags (Depends on Type)")] public List<string> charaFlags;
 
     [Header("Main Status")] public GenericStats stats;
+    public int level = 1;
 
     [Header("Battle")] public BattleActorSO selfBattle;
     [Header("Self PathFinding IA Information")] public IAInfo selfIA;
@@ -178,6 +194,7 @@ public class CharaSO : ScriptableObject
 
     public AudioClip WaterEnterSFX;
     public AudioClip WaterExitSFX;
+
     public bool getActionPress() {
         bool result = false;
 
