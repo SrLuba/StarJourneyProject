@@ -28,7 +28,7 @@ MonoBehaviour:
   - {x: 12, y: -6}
   enemies:
   - id: kuribo
-    charaCount: 2
+    charaCount: 7
     spawnInfo:
       random: 1
       min: {x: 24, y: -3}

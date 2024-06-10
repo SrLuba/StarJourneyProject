@@ -24,5 +24,6 @@ public class MusicSO : ScriptableObject
     }
     public void PlayLoop(AudioSource source, int id) {
         source.time = musicOffset[id].x;
+        MusicManager.instance.ResetBPM();
     }
 }

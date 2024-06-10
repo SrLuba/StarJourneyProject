@@ -1367,7 +1367,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &48118590
 Transform:
   m_ObjectHideFlags: 0
@@ -13714,6 +13714,7 @@ GameObject:
   - component: {fileID: 839128402}
   - component: {fileID: 839128401}
   - component: {fileID: 839128400}
+  - component: {fileID: 839128403}
   m_Layer: 0
   m_Name: Camera
   m_TagString: Untagged
@@ -13729,8 +13730,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 839128398}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.030843573, y: -0.7064338, z: 0.030843573, w: 0.7064338}
-  m_LocalPosition: {x: -5, y: 5, z: 6.6}
+  m_LocalRotation: {x: 0.030843573, y: -0.70643383, z: 0.030843573, w: 0.70643383}
+  m_LocalPosition: {x: 15.6, y: 11.8, z: 3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -13825,7 +13826,7 @@ Camera:
     height: 1
   near clip plane: 0.01
   far clip plane: 9999
-  field of view: 50
+  field of view: 60
   orthographic: 0
   orthographic size: 5
   m_Depth: 0
@@ -13843,6 +13844,30 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
+--- !u!114 &839128403
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 839128398}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e42de19b77e76a43bbe0bfbb7162a58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainCamera: {fileID: 1637469338}
+  bgCamera: {fileID: 839128402}
+  currentMovementType: 1
+  vectorGoto: {x: 0, y: 0, z: 0}
+  target: {fileID: 11400000, guid: fa6c67bea2df2d44dbe5e8b32b5257e4, type: 2}
+  offset: {x: 4, y: 4, z: -12}
+  speed: 5
+  defaultPosition: {x: 18, y: 13, z: -14}
+  bpmEffectIntensity: 1
+  currentFOV: 60
+  defaultFOV: 60
+  FOVClamp: {x: 30, y: 120}
 --- !u!1 &839580178
 GameObject:
   m_ObjectHideFlags: 0
@@ -18348,7 +18373,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4a060ffbe10ced744a835be571a993d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  myMusic: {fileID: 11400000, guid: 6df4d75d662cd4c43a9447a7287331f5, type: 2}
   mainSource: {fileID: 1142668551}
+  debug: 1
+  debugBPM: 0
+  BPMTick: {fileID: 8300000, guid: a203137485a2a6f4a8bc3e046646091d, type: 3}
+  enableBPM: 1
+  timerBPM: 0
 --- !u!1 &1143802558
 GameObject:
   m_ObjectHideFlags: 0
@@ -28950,7 +28981,7 @@ Transform:
   m_GameObject: {fileID: 1826261482}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.6079998, z: 0.5}
+  m_LocalPosition: {x: 0, y: 15, z: 0.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -41887,9 +41918,9 @@ SceneRoots:
   - {fileID: 1867560272}
   - {fileID: 678319951}
   - {fileID: 296693870}
+  - {fileID: 48118590}
   - {fileID: 2043696243}
   - {fileID: 1342473462}
   - {fileID: 1479871069}
   - {fileID: 1723099343}
   - {fileID: 1381425112}
-  - {fileID: 48118590}

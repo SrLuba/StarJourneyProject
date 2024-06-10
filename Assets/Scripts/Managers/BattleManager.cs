@@ -8,7 +8,6 @@ public class BattleManager : MonoBehaviour
 
     public BattleSO assignedBattle;
 
-
     public GameObject transitionGB;
     public Animator transitionAnim;
 
@@ -22,7 +21,6 @@ public class BattleManager : MonoBehaviour
 
     public List<GameObject> enemiesG;
     
-
     public CharaSO target;
 
     public CharaSO currentTurn;
@@ -37,7 +35,6 @@ public class BattleManager : MonoBehaviour
     public List<Battle_UIBlock> blocksUI;
 
     public bool inputOverride = false;
-
 
     public AudioClip liftHammerSFX, releaseHammerSFX;
 
@@ -57,6 +54,7 @@ public class BattleManager : MonoBehaviour
 
         characterTurnList = charactersList;
     }
+
     public IEnumerator InitializeTurnRound() {
         uiSelector.active = false;
         yield return new WaitForSeconds(0.25f);
@@ -82,6 +80,8 @@ public class BattleManager : MonoBehaviour
     public IEnumerator PlayerAction(CharaSO cChara, BattleAttackSO attack, string action) {
         BattleManagerNumbers.instance.constantUserValue = 0.5f;
 
+        Battle_Camera.instance.target = null;
+
         uiSelector.active = false;
         target = enemyActors[Random.Range(0, enemyActors.Count - 1)];
         yield return new WaitForSeconds(0.01f);
@@ -95,7 +95,7 @@ public class BattleManager : MonoBehaviour
     {
         uiSelector.active = false;
         BattleUI_Commands.instance.Update_Player_UI(cChara.selfBattle.getInstance(0, cChara.identifier).GetComponent<GenericBActor>().tempAttackID);
-
+        Battle_Camera.instance.target = null;
 
         yield return new WaitForSeconds(3f);
         yield return InitializeTurnRound();
@@ -116,14 +116,13 @@ public class BattleManager : MonoBehaviour
             GameObject get = turn.selfBattle.getInstance(0, turn.identifier);
             if (get == null) return 0xFF; // 255 IS ERROR
             uiSelector.target = get.transform;
-            
+            Battle_Camera.instance.target = turn;
             uiSelector.active = true;
         }
         else {
+            Battle_Camera.instance.target = null;
             uiSelector.active = false;
         }
-
-
 
         for (int i = 0; i < bActors.Count; i++)
         {
@@ -143,8 +142,6 @@ public class BattleManager : MonoBehaviour
         }
         BattleManager.instance.inputOverride = false;
         characterTurnList.RemoveAt(0);
-
-       
 
         return 0x01; // 1 = SUCCESS
     }

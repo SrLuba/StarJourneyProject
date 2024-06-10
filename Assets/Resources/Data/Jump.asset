@@ -13,10 +13,11 @@ MonoBehaviour:
   m_Name: Jump
   m_EditorClassIdentifier: 
   goal: 0
-  currentSequenceID: 1
+  currentSequenceID: 255
   sequences:
   - sequenceID: 0
     parent: {fileID: 11400000}
+    inputOverride: 1
     items:
     - delay: 0
       inputEventDelay: 2
@@ -28,9 +29,21 @@ MonoBehaviour:
       targetLock: 1
       flag: Jump
       asyncMove: 0
-      pointValue: 1
+      pointValue: 25
+    - delay: 0
+      inputEventDelay: 2
+      inputEventDuration: 0.5
+      successID: 1
+      failID: 255
+      timeEvent: 1
+      PositionGo: {x: 0, y: -2.85}
+      targetLock: 1
+      flag: Jump
+      asyncMove: 0
+      pointValue: 55
   - sequenceID: 1
     parent: {fileID: 11400000}
+    inputOverride: 1
     items:
     - delay: 1
       inputEventDelay: 0
@@ -42,9 +55,10 @@ MonoBehaviour:
       targetLock: 0
       flag: 
       asyncMove: 0
-      pointValue: 0.1
+      pointValue: 1
   - sequenceID: 255
     parent: {fileID: 11400000}
+    inputOverride: 1
     items:
     - delay: 1
       inputEventDelay: 0

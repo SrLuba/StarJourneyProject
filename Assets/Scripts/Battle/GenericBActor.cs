@@ -164,7 +164,7 @@ public class GenericBActor : MonoBehaviour
             }
             initialized = true;
         }
-
+        animationInterrupt = false;
         currentPlayerDefense =  (character.charaType == CharaType.Enemy)  ? (DefenseType)(character.selfBattle.getInstance(0, character.identifier).GetComponent<GenericBActor>().tempAttackID+1) : 0;
 
         idleAnimation = (this.self == character) ? self.selfBattle.getIdleAnim() : "Idle";

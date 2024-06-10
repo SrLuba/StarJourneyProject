@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4b2bfd8ee2d437843b4995b50334d91d, type: 3}
   m_Name: BrosBattleMusic
   m_EditorClassIdentifier: 
-  music: {fileID: 8300000, guid: a591e7a2dd227844886679bf2538a93b, type: 3}
+  music: {fileID: 8300000, guid: d0c9f06fa5ca9ab4fb7bdc5d121d5030, type: 3}
   musicOffset:
   - {x: 3, y: 63}
+  bpm: 137
