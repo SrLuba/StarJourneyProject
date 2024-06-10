@@ -32,6 +32,8 @@ public class GenericBActor : MonoBehaviour
 
     public DefenseType currentPlayerDefense;
 
+    int index = 0;
+
     void Start()
     {
         ogScale = animHandle.localScale;
@@ -49,6 +51,7 @@ public class GenericBActor : MonoBehaviour
         self.stats.MAGICDEFENSE.ResetStat(self.level);
         self.stats.SPEED.ResetStat(self.level);
         self.stats.LUCK.ResetStat(self.level);
+
 
     }
     public IEnumerator Die()
@@ -162,7 +165,7 @@ public class GenericBActor : MonoBehaviour
             initialized = true;
         }
 
-        currentPlayerDefense =  (character.charaType == CharaType.Enemy)  ? (DefenseType)(character.selfBattle.getInstance().GetComponent<GenericBActor>().tempAttackID+1) : 0;
+        currentPlayerDefense =  (character.charaType == CharaType.Enemy)  ? (DefenseType)(character.selfBattle.getInstance(0, character.identifier).GetComponent<GenericBActor>().tempAttackID+1) : 0;
 
         idleAnimation = (this.self == character) ? self.selfBattle.getIdleAnim() : "Idle";
         StartCoroutine(IA_Goto_Walk((this.self != character) ? ((character.charaType != CharaType.Player) ? normalPosition : otherPlayerTurnPosition)  : turnPosition, idleAnimation));

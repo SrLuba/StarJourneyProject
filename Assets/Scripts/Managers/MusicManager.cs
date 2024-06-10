@@ -6,7 +6,7 @@ public class MusicManager : MonoBehaviour
 {
     public static MusicManager instance;
 
-    MusicSO myMusic;
+    public MusicSO myMusic;
     public AudioSource mainSource;
 
 
@@ -22,7 +22,7 @@ public class MusicManager : MonoBehaviour
         DontDestroyOnLoad(this.gameObject);
         DontDestroyOnLoad(mainSource.gameObject);
 
-        myMusic.CheckForLoop(mainSource, 0);
+        if (myMusic!=null) myMusic.CheckForLoop(mainSource, 0);
     }
     public void Start()
     {

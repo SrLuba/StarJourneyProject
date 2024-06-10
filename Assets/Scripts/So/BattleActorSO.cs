@@ -29,12 +29,16 @@ public class BattleActorSO : ScriptableObject
     public string getIdleAnim() {
         return this.battleIdlesAnimations[Random.Range(0, this.battleIdlesAnimations.Count - 1)];
     }
-    public GameObject getInstance() {
+    public GameObject getInstance(int offset, string id) {
         GenericBActor[] actores = GameObject.FindObjectsByType<GenericBActor>(FindObjectsInactive.Exclude, FindObjectsSortMode.InstanceID);
-        for (int i = 0; i < actores.Length; i++) {
-            if (actores[i].self.selfBattle == this) return actores[i].gameObject; 
+        List<GenericBActor> actorsPhase2 = new List<GenericBActor>();
+        for (int i = 0; i < actores.Length; i++)
+        {
+            if (actores[i].self.identifier == id) actorsPhase2.Add(actores[i]);
         }
-        return null;
+
+
+        return actorsPhase2[offset].gameObject;
     }
     public GameObject Spawn(CharaSO character) {
         GameObject player = new GameObject(character.name);

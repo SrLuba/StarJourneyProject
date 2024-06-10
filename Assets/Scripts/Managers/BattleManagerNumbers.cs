@@ -30,7 +30,7 @@ public class BattleManagerNumbers : MonoBehaviour
     }
 
     public void Hurt(int value, CharaSO character) {
-        GameObject characterGB = character.selfBattle.getInstance();
+        GameObject characterGB = character.selfBattle.getInstance(0, character.identifier);
         if (characterGB == null) return;
         if (character.selfBattle.dead) return;
 
@@ -54,7 +54,7 @@ public class BattleManagerNumbers : MonoBehaviour
     }
     public void Ranking(int value, CharaSO character)
     {
-        GameObject characterGB = character.selfBattle.getInstance();
+        GameObject characterGB = character.selfBattle.getInstance(0, character.identifier);
         if (characterGB == null) return;
         if (character.selfBattle.dead) return;
 

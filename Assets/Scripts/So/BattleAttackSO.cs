@@ -30,7 +30,7 @@ public class BattleAttackSequenceItem {
     public IEnumerator Execute(CharaSO actor, BattleAttackSequence sequence) { 
       
 
-        GenericBActor ractor = actor.selfBattle.getInstance().GetComponent<GenericBActor>();
+        GenericBActor ractor = actor.selfBattle.getInstance(0, actor.identifier).GetComponent<GenericBActor>();
 
         if (flag.ToUpper() == "JUMP") { ractor.Jump(); }
 
@@ -38,7 +38,7 @@ public class BattleAttackSequenceItem {
         yield return new WaitForSeconds(delay);
 
         if (targetLock) {
-            Vector3 a = BattleManager.instance.target.selfBattle.getInstance().transform.position;
+            Vector3 a = BattleManager.instance.target.selfBattle.getInstance(0, BattleManager.instance.target.identifier).transform.position;
             position = this.PositionGo + new Vector2(a.x, a.y); 
         }
 

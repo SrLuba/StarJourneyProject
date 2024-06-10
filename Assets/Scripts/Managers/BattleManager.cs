@@ -80,7 +80,7 @@ public class BattleManager : MonoBehaviour
     }
 
     public IEnumerator PlayerAction(CharaSO cChara, BattleAttackSO attack, string action) {
-        BattleManagerNumbers.instance.constantUserValue = 0f;
+        BattleManagerNumbers.instance.constantUserValue = 0.5f;
 
         uiSelector.active = false;
         target = enemyActors[Random.Range(0, enemyActors.Count - 1)];
@@ -94,10 +94,10 @@ public class BattleManager : MonoBehaviour
     public IEnumerator EnemyAction(CharaSO cChara)
     {
         uiSelector.active = false;
-        BattleUI_Commands.instance.Update_Player_UI(cChara.selfBattle.getInstance().GetComponent<GenericBActor>().tempAttackID);
+        BattleUI_Commands.instance.Update_Player_UI(cChara.selfBattle.getInstance(0, cChara.identifier).GetComponent<GenericBActor>().tempAttackID);
 
 
-        yield return new WaitForSeconds(0.01f);
+        yield return new WaitForSeconds(3f);
         yield return InitializeTurnRound();
     }
     public byte TurnRoundCycle()
@@ -113,7 +113,7 @@ public class BattleManager : MonoBehaviour
 
         if (turn.charaType == CharaType.Player)
         {
-            GameObject get = turn.selfBattle.getInstance();
+            GameObject get = turn.selfBattle.getInstance(0, turn.identifier);
             if (get == null) return 0xFF; // 255 IS ERROR
             uiSelector.target = get.transform;
             
@@ -127,7 +127,7 @@ public class BattleManager : MonoBehaviour
 
         for (int i = 0; i < bActors.Count; i++)
         {
-            bActors[i].selfBattle.getInstance().GetComponent<GenericBActor>().PrepareForTurn(turn);
+            bActors[i].selfBattle.getInstance(0, bActors[i].identifier).GetComponent<GenericBActor>().PrepareForTurn(turn);
         }
 
         currentTurn = turn;
@@ -169,10 +169,11 @@ public class BattleManager : MonoBehaviour
         for (int i = 0; i < players.Count; i++) {
             CharaSO actorR = CharaManager.instance.characters.Find(x => x.identifier.ToUpper() == players[i].ToUpper());
             if (actorR!=null) {
-                actors.Add(actorR.selfBattle);
-                playerActors.Add(actorR);
-                actorR.selfBattle.Spawn(actorR).transform.SetParent(PlayerFolder);
-                bActors.Add(actorR);
+                CharaSO c = Instantiate(actorR);
+                actors.Add(c.selfBattle);
+                playerActors.Add(c);
+                actorR.selfBattle.Spawn(c).transform.SetParent(PlayerFolder);
+                bActors.Add(c);
             }
             actorR.selfBattle.dead = false;
         }
@@ -185,14 +186,16 @@ public class BattleManager : MonoBehaviour
         for (int i = 0; i < enemies.Count; i++) {
             CharaSO re = enemies[i].getChara();
             for (int a = 0; a < enemies[i].charaCount; a++) {
-                Debug.Log("Creating enemy " + re.displayName);
-                GameObject g = re.selfBattle.Spawn(re);
+                CharaSO res = Instantiate(re);
+                Debug.Log("Creating enemy " + res.displayName);
+                GameObject g = res.selfBattle.Spawn(res);
                 g.transform.SetParent(EnemyFolder);
                 enemiesG.Add(g);
-                bActors.Add(re);
-                enemyActors.Add(re);
+                bActors.Add(res);
+                enemyActors.Add(res);
+                res.selfBattle.dead = false;
             }
-            re.selfBattle.dead = false;
+           
         }
     }
 
