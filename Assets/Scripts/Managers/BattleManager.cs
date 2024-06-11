@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.UI;
+
 public class BattleManager : MonoBehaviour
 {
     public static BattleManager instance;
@@ -13,17 +15,17 @@ public class BattleManager : MonoBehaviour
 
     public Transform PlayerFolder, EnemyFolder, NPCFolder;
 
-    public List<CharaSO> bActors;
-    public List<CharaSO> characterTurnList;
+    public List<BattleActorSO> bActors;
+    public List<BattleActorSO> characterTurnList;
 
-    public List<CharaSO> playerActors;
-    public List<CharaSO> enemyActors;
+    public List<BattleActorSO> playerActors;
+    public List<BattleActorSO> enemyActors;
 
     public List<GameObject> enemiesG;
     
-    public CharaSO target;
+    public GenericBActor target;
 
-    public CharaSO currentTurn;
+    public BattleActorSO currentTurn;
 
     public float battleCounter = 0f;
 
@@ -38,18 +40,68 @@ public class BattleManager : MonoBehaviour
 
     public AudioClip liftHammerSFX, releaseHammerSFX;
 
+    public Image bgImage;
+
+    public float bgAlpha;
+
+    public bool cameraBPM = true;
+
+    public bool canBPM = false;
+
+    public MusicSO victoryMusic;
+    public GameObject victoryObject;
+    public Vector3 victoryObjectOffset;
+
+    public bool victory = false;
+
     void Awake()
     {
         instance = this;    
     }
+    public bool CheckForDefeat()
+    {
+        int f = bActors.FindIndex(x => x.linkedChara.charaType == CharaType.Player);
+        return f < 0;
+    }
+    public bool CheckForVictory()
+    {
+        int f = bActors.FindIndex(x => x.linkedChara.charaType == CharaType.Enemy);
+        return f<0 && !CheckForDefeat();
+    }
+  
+    public IEnumerator Win() {
+        victory = true;
+        uiSelector.active = false;
+        MusicManager.instance.StopAll();
+        yield return new WaitForSeconds(1f);
+        MusicManager.instance.PlayClip(victoryMusic, true);
+        Instantiate(victoryObject, new Vector3(victoryObjectOffset.x, victoryObjectOffset.y, victoryObjectOffset.z), Quaternion.identity).transform.eulerAngles = new Vector3(0f, 90f, 0f);
+        Battle_Camera.instance.gameObject.SetActive(false);
+
+        this.gameObject.AddComponent<AudioListener>();
+
+        for (int i = 0; i < playerActors.Count; i++) {
+            Destroy(playerActors[i].getInstance());
+        }
+        this.enabled = false;
+    }
+    bool canWin = false;
+    public void UpdateVictory() {
+        if (!CheckForVictory()) return;
+        if (!canWin) return;
+
+
+        StartCoroutine(Win());
+        canWin = false;
+    }
     public void InitializeTurnList() {
-        List<CharaSO> charactersList = new List<CharaSO>(bActors);
+        List<BattleActorSO> charactersList = new List<BattleActorSO>(bActors);
 
         charactersList.Sort((x, y) => x.stats.SPEED.startValue.CompareTo(y.stats.SPEED.startValue));
         charactersList.Reverse();
 
         for (int i = 0; i < charactersList.Count; i++) {
-            if (charactersList[i].selfBattle.dead) charactersList.Remove(charactersList[i]);
+            if (charactersList[i].dead) charactersList.Remove(charactersList[i]);
         }
 
         characterTurnList = charactersList;
@@ -72,52 +124,61 @@ public class BattleManager : MonoBehaviour
             InitializeTurnList();
             yield return InitializeTurnRound();
         }
+        UpdateVictory();
 
-    
         yield return new WaitForSeconds(0.01f);
     }
 
-    public IEnumerator PlayerAction(CharaSO cChara, BattleAttackSO attack, string action) {
-        BattleManagerNumbers.instance.constantUserValue = 0.5f;
-
+    public IEnumerator PlayerAction(BattleActorSO cChara, BattleAttackSO attack, string action) {
+        canBPM = false;
         Battle_Camera.instance.target = null;
-
         uiSelector.active = false;
-        target = enemyActors[Random.Range(0, enemyActors.Count - 1)];
+
+        yield return new WaitForSeconds(.5f);
+        BattleManagerNumbers.instance.constantUserValue = 0.5f;
+       
+        int targetOffset = Random.Range(0, enemyActors.Count - 1);
+
+        target = enemyActors[targetOffset].getInstance().GetComponent<GenericBActor>();
+  
         yield return new WaitForSeconds(0.01f);
         yield return attack.Prepare(cChara);
 
-        BattleManagerNumbers.instance.Hurt(BattleUtils.DamageGet(cChara, target), target);
+        BattleManagerNumbers.instance.Hurt(BattleUtils.DamageGet(cChara, target.self), target.self);
 
         yield return InitializeTurnRound();
     }
-    public IEnumerator EnemyAction(CharaSO cChara)
+    public IEnumerator EnemyAction(BattleActorSO cChara)
     {
+        canBPM = false;
         uiSelector.active = false;
-        BattleUI_Commands.instance.Update_Player_UI(cChara.selfBattle.getInstance(0, cChara.identifier).GetComponent<GenericBActor>().tempAttackID);
+        BattleUI_Commands.instance.Update_Player_UI(cChara.getInstance().GetComponent<GenericBActor>().tempAttackID);
         Battle_Camera.instance.target = null;
 
-        yield return new WaitForSeconds(3f);
+        yield return new WaitForSeconds(2.1f);
         yield return InitializeTurnRound();
     }
     public byte TurnRoundCycle()
     {
         if (characterTurnList.Count <= 0) return 0x00; // 0 = END OF CYCLE
 
-        CharaSO turn = characterTurnList[0];
+        BattleActorSO turn = characterTurnList[0];
 
         for (int i = 0; i < blocksUI.Count; i++)
         {
             blocksUI[i].hit = false;
         }
 
-        if (turn.charaType == CharaType.Player)
+        UpdateVictory();
+
+        if (turn.linkedChara.charaType == CharaType.Player)
         {
-            GameObject get = turn.selfBattle.getInstance(0, turn.identifier);
+            GameObject get = turn.getInstance();
             if (get == null) return 0xFF; // 255 IS ERROR
             uiSelector.target = get.transform;
             Battle_Camera.instance.target = turn;
             uiSelector.active = true;
+            canBPM = true;
         }
         else {
             Battle_Camera.instance.target = null;
@@ -126,12 +187,13 @@ public class BattleManager : MonoBehaviour
 
         for (int i = 0; i < bActors.Count; i++)
         {
-            bActors[i].selfBattle.getInstance(0, bActors[i].identifier).GetComponent<GenericBActor>().PrepareForTurn(turn);
+            bActors[i].getInstance().GetComponent<GenericBActor>().PrepareForTurn(turn);
+            bActors[i].getInstance().GetComponent<GenericBActor>().ShuffleAnimations();
         }
 
         currentTurn = turn;
 
-        if (turn.charaType == CharaType.Enemy)
+        if (turn.linkedChara.charaType == CharaType.Enemy)
         {
             StartCoroutine(EnemyAction(turn));
          
@@ -166,11 +228,12 @@ public class BattleManager : MonoBehaviour
         for (int i = 0; i < players.Count; i++) {
             CharaSO actorR = CharaManager.instance.characters.Find(x => x.identifier.ToUpper() == players[i].ToUpper());
             if (actorR!=null) {
-                CharaSO c = Instantiate(actorR);
-                actors.Add(c.selfBattle);
+                BattleActorSO c = Instantiate(actorR.selfBattle);
+                actors.Add(c);
                 playerActors.Add(c);
-                actorR.selfBattle.Spawn(c).transform.SetParent(PlayerFolder);
+                c.Spawn(c).transform.SetParent(PlayerFolder);
                 bActors.Add(c);
+                c.name = c.linkedChara.displayName + "| Player_" + i.ToString();
             }
             actorR.selfBattle.dead = false;
         }
@@ -183,14 +246,16 @@ public class BattleManager : MonoBehaviour
         for (int i = 0; i < enemies.Count; i++) {
             CharaSO re = enemies[i].getChara();
             for (int a = 0; a < enemies[i].charaCount; a++) {
-                CharaSO res = Instantiate(re);
-                Debug.Log("Creating enemy " + res.displayName);
-                GameObject g = res.selfBattle.Spawn(res);
+                BattleActorSO res = Instantiate(re.selfBattle);
+                Debug.Log("Creating enemy " + res.linkedChara.displayName);
+                GameObject g = res.Spawn(res);
                 g.transform.SetParent(EnemyFolder);
                 enemiesG.Add(g);
                 bActors.Add(res);
                 enemyActors.Add(res);
-                res.selfBattle.dead = false;
+                res.dead = false;
+                res.name = "Enemy_"+res.linkedChara.displayName + "|" + a.ToString();
+                g.name = "Enemy_" + res.linkedChara.displayName + "|" + a.ToString();
             }
            
         }
@@ -210,6 +275,7 @@ public class BattleManager : MonoBehaviour
 
         // Order Turn List
         StartCoroutine(InitializeTurnRound());
+        canWin = true;
     }
     void Start()
     {
@@ -227,6 +293,13 @@ public class BattleManager : MonoBehaviour
         {
             battleCounter = 0f;
         }
+
+        if (currentTurn != null) { 
+            cameraBPM = (currentTurn.linkedChara.charaType == CharaType.Player && canBPM);
+            if (currentTurn.linkedChara.charaType == CharaType.Player && canBPM) { bgAlpha = 0.5f; }
+            else { bgAlpha = 0f; }
+        }
+
         p1TPDisplayer.number = this.playerActors[0].stats.ENERGY.currentValue;
         p2TPDisplayer.number = (this.playerActors.Count >= 2) ? this.playerActors[1].stats.ENERGY.currentValue : 0;
         p3TPDisplayer.number = (this.playerActors.Count >= 3) ? this.playerActors[2].stats.ENERGY.currentValue : 0;
@@ -234,5 +307,7 @@ public class BattleManager : MonoBehaviour
         p1HPDisplayer.number = this.playerActors[0].stats.HEALTH.currentValue;
         p2HPDisplayer.number = (this.playerActors.Count >= 2) ? this.playerActors[1].stats.HEALTH.currentValue : 0;
         p3HPDisplayer.number = (this.playerActors.Count >= 3) ? this.playerActors[2].stats.HEALTH.currentValue : 0;
+      
+        bgImage.color = new Color(bgImage.color.r, bgImage.color.g, bgImage.color.b, Mathf.MoveTowards(bgImage.color.a, bgAlpha, 1f*Time.deltaTime));
     }
 }

@@ -11,7 +11,14 @@ public class BattleActorSO : ScriptableObject
 
     [Header("Visual Offset")] public Vector3 visualOffset, eulerAngleOffset;
     [Header("Animator")] public RuntimeAnimatorController VisualAnimator;
+
+    public CharaSO linkedChara;
+    [Header("Main Status")] public GenericStats stats;
+
     
+    public float strength = 2f;
+
+    public int level = 1;
     public ActorSpawnLimitationInformation spawnInfo;
     public float floorY;
     public float moveSpeed = 50f;
@@ -23,35 +30,36 @@ public class BattleActorSO : ScriptableObject
 
     public AudioClip dieVoiceClip;
 
-    public List<string> battleIdlesAnimations;
 
-    public bool dead = false;   
-    public string getIdleAnim() {
-        return this.battleIdlesAnimations[Random.Range(0, this.battleIdlesAnimations.Count - 1)];
+    public bool dead = false;
+
+    public int myID = 0;
+
+    public GenericBActor selfInstance;
+
+    public float getHammerStrength() {
+        return strength;
     }
-    public GameObject getInstance(int offset, string id) {
-        GenericBActor[] actores = GameObject.FindObjectsByType<GenericBActor>(FindObjectsInactive.Exclude, FindObjectsSortMode.InstanceID);
-        List<GenericBActor> actorsPhase2 = new List<GenericBActor>();
-        for (int i = 0; i < actores.Length; i++)
-        {
-            if (actores[i].self.identifier == id) actorsPhase2.Add(actores[i]);
-        }
 
-
-        return actorsPhase2[offset].gameObject;
+    public GameObject getInstance() {
+        return selfInstance.gameObject;
     }
-    public GameObject Spawn(CharaSO character) {
-        GameObject player = new GameObject(character.name);
+    public GameObject Spawn(BattleActorSO clone) {
+        if (this.linkedChara.charaType == CharaType.Enemy) { clone.myID = BattleManager.instance.enemyActors.Count - 1; } else { clone.myID = 0; }
+        clone.linkedChara = this.linkedChara;
         
+        GameObject player = new GameObject(this.linkedChara.displayName);
+    
         GenericBActor bA = player.AddComponent<GenericBActor>();
-        bA.self = character;
+        bA.self = clone;
+        clone.selfInstance = bA;
 
         Vector2 position = Vector2.zero;
 
-        if (character.charaType == CharaType.Player) { position = BattleManager.instance.getPlayerPos(0, character.identifier); }
-        if (character.charaType != CharaType.Player) { position = spawnInfo.getResult(); }
+        if (linkedChara.charaType == CharaType.Player) { position = BattleManager.instance.getPlayerPos(0, linkedChara.identifier); }
+        if (linkedChara.charaType != CharaType.Player) { position = spawnInfo.getResult(); }
 
-        player.transform.position = new Vector3(position.x, BattleManager.instance.assignedBattle.floorY + character.selfBattle.floorY, position.y);
+        player.transform.position = new Vector3(position.x, BattleManager.instance.assignedBattle.floorY + floorY, position.y);
 
         GameObject visual = Instantiate(Visual, player.transform.position, Quaternion.identity);
         visual.transform.SetParent(player.transform);
@@ -65,7 +73,7 @@ public class BattleActorSO : ScriptableObject
 
         GameObject shadow = Instantiate(selfShadow, visual.transform.position + selfShadowOffset, Quaternion.identity);
         shadow.AddComponent<ShadowScript>().target = player.transform;
-        shadow.GetComponent<ShadowScript>().targetChara = character;
+        shadow.GetComponent<ShadowScript>().targetChara = this.linkedChara;
         shadow.GetComponent<ShadowScript>().Offset = selfShadowOffset;
         shadow.GetComponent<ShadowScript>().floorY = visual.transform.position.y;
 
@@ -75,13 +83,14 @@ public class BattleActorSO : ScriptableObject
         rb.constraints = RigidbodyConstraints.FreezeRotation;
         
         bA.rb = rb;
+    
 
-
-        character.collider.GetCollider(player);
+        this.linkedChara.collider.GetCollider(player);
         player.GetComponent<CapsuleCollider>().material = this.materialPhy;
 
         player.tag = "Player";
         player.layer = MyLayer;
+
 
         return player;
     }

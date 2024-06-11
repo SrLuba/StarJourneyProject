@@ -142,8 +142,6 @@ public class CharaSO : ScriptableObject
     [Header("Character Type")] public CharaType charaType;
     [Header("Character Flags (Depends on Type)")] public List<string> charaFlags;
 
-    [Header("Main Status")] public GenericStats stats;
-    public int level = 1;
 
     [Header("Battle")] public BattleActorSO selfBattle;
     [Header("Self PathFinding IA Information")] public IAInfo selfIA;

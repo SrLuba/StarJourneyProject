@@ -9995,7 +9995,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4a060ffbe10ced744a835be571a993d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  myMusic: {fileID: 0}
   mainSource: {fileID: 1717002533}
+  debug: 0
+  debugBPM: 0
+  BPMTick: {fileID: 8300000, guid: ff77bf6a84fa3ee40ae119fe75e889dd, type: 3}
+  enableBPM: 1
+  timerBPM: 0
 --- !u!1 &1741051336
 GameObject:
   m_ObjectHideFlags: 0

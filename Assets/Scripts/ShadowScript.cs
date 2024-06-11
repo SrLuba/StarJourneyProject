@@ -22,7 +22,7 @@ public class ShadowScript : MonoBehaviour
     {
         child = new GameObject("t").transform;
 
-        floorMask = target.GetComponent<PlayerOV>().floorMask;
+        floorMask = targetChara.floorMask;
     }
     public void Update() {
         if (target == null) return;

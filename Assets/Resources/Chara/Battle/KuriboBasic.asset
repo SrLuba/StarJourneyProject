@@ -16,6 +16,7 @@ MonoBehaviour:
   battleName: testingbattle
   battleDescription: Testing battle
   music: {fileID: 11400000, guid: 6df4d75d662cd4c43a9447a7287331f5, type: 2}
+  soloMusic: {fileID: 11400000, guid: bf5e5c1f8293f6a4ca1daa646dd71e5e, type: 2}
   enteringCase: 3
   floorY: 0
   playersPositions:
@@ -28,9 +29,9 @@ MonoBehaviour:
   - {x: 12, y: -6}
   enemies:
   - id: kuribo
-    charaCount: 7
+    charaCount: 3
     spawnInfo:
-      random: 1
+      random: 0
       min: {x: 24, y: -3}
       max: {x: 34, y: 5}
   allowedPlayers:

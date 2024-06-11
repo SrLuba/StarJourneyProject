@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4b2bfd8ee2d437843b4995b50334d91d, type: 3}
   m_Name: SoloBattleMusic
   m_EditorClassIdentifier: 
-  music: {fileID: 8300000, guid: 55ba4ed9d99c24c4ab1dcbc969079adf, type: 3}
+  music: {fileID: 8300000, guid: bf5b1428b05e9de4e839cdbacf222953, type: 3}
   musicOffset:
   - {x: 4, y: 42.25}
+  bpm: 120

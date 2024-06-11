@@ -17,7 +17,8 @@ public class Battle_UIBlock : MonoBehaviour
     public void OnTriggerEnter(Collider other)
     {
         if (other.tag != "Player") return;
-        if (BattleManager.instance.currentTurn != other.GetComponent<GenericBActor>().self) return;
+        if (BattleManager.instance.currentTurn == null) return;
+        if (BattleManager.instance.currentTurn.linkedChara.identifier != other.GetComponent<GenericBActor>().self.linkedChara.identifier) return;
         if (hit) return;
 
         anim.Play("Hit");

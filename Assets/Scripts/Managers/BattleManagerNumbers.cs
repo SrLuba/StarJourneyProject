@@ -29,10 +29,10 @@ public class BattleManagerNumbers : MonoBehaviour
         ranking = Resources.Load<RankingSO>("Data/MainRanking");
     }
 
-    public void Hurt(int value, CharaSO character) {
-        GameObject characterGB = character.selfBattle.getInstance(0, character.identifier);
+    public void Hurt(int value, BattleActorSO character) {
+        GameObject characterGB = character.getInstance();
         if (characterGB == null) return;
-        if (character.selfBattle.dead) return;
+        if (character.dead) return;
 
         characterGB.GetComponent<GenericBActor>().StartCoroutine(characterGB.GetComponent<GenericBActor>().Hurt());
         GameObject hurtGB = Instantiate(hurtKindPrefab, characterGB.transform.position, Quaternion.identity);
@@ -52,11 +52,11 @@ public class BattleManagerNumbers : MonoBehaviour
         character.stats.HEALTH.currentValue -= value;
         if (character.stats.HEALTH.currentValue < 0) character.stats.HEALTH.currentValue = 0;
     }
-    public void Ranking(int value, CharaSO character)
+    public void Ranking(int value, BattleActorSO character)
     {
-        GameObject characterGB = character.selfBattle.getInstance(0, character.identifier);
+        GameObject characterGB = character.getInstance();
         if (characterGB == null) return;
-        if (character.selfBattle.dead) return;
+        if (character.dead) return;
 
         characterGB.GetComponent<GenericBActor>().StartCoroutine(characterGB.GetComponent<GenericBActor>().Hurt());
         GameObject hurtGB = Instantiate(hurtKindPrefab, characterGB.transform.position, Quaternion.identity);
@@ -79,7 +79,8 @@ public class BattleManagerNumbers : MonoBehaviour
     public void Update()
     {
         if (Keyboard.current.hKey.wasPressedThisFrame) {
-            this.Hurt(Random.Range(1,25), BattleManager.instance.bActors[Random.Range(0, BattleManager.instance.bActors.Count-1)]);
+            BattleActorSO result = BattleManager.instance.enemyActors[Random.Range(0, BattleManager.instance.enemyActors.Count - 1)];
+            this.Hurt(Random.Range(1,25), result);
         }
     
     }

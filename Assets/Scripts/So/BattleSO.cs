@@ -42,6 +42,7 @@ public class BattleSO : ScriptableObject
     public string battleName;
     [TextArea] public string battleDescription;
     public MusicSO music;
+    public MusicSO soloMusic;
 
     public BattleEnteringCase enteringCase;
     public float floorY;

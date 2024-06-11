@@ -11,7 +11,7 @@ public class Battle_UISelector_Input : MonoBehaviour
     void Update()
     {
         if (BattleManager.instance == null) return;
-        if (BattleManager.instance.currentTurn.charaType != CharaType.Player) return;
+        if (BattleManager.instance.currentTurn != null) { if (BattleManager.instance.currentTurn.linkedChara.charaType != CharaType.Player) { return; } }
         if (InputManager.instance.rPress) {
             selector.ActionID++;
             SoundManager.instance.Play(moveClip);

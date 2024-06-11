@@ -27,10 +27,10 @@ public class BattleAttackSequenceItem {
 
     public float pointValue = 0.1f;
 
-    public IEnumerator Execute(CharaSO actor, BattleAttackSequence sequence) { 
+    public IEnumerator Execute(BattleActorSO actor, BattleAttackSequence sequence) { 
       
 
-        GenericBActor ractor = actor.selfBattle.getInstance(0, actor.identifier).GetComponent<GenericBActor>();
+        GenericBActor ractor = actor.getInstance().GetComponent<GenericBActor>();
 
         if (flag.ToUpper() == "JUMP") { ractor.Jump(); }
 
@@ -38,8 +38,8 @@ public class BattleAttackSequenceItem {
         yield return new WaitForSeconds(delay);
 
         if (targetLock) {
-            Vector3 a = BattleManager.instance.target.selfBattle.getInstance(0, BattleManager.instance.target.identifier).transform.position;
-            position = this.PositionGo + new Vector2(a.x, a.y); 
+            Vector3 a = BattleManager.instance.target.transform.position;
+            position = this.PositionGo + new Vector2(a.x, a.z); 
         }
 
         if (asyncMove)
@@ -54,7 +54,7 @@ public class BattleAttackSequenceItem {
         if (timeEvent)
         {
             yield return new WaitForSeconds(inputEventDelay);
-            if (actor.getActionDown())
+            if (actor.linkedChara.getActionDown())
             {
                 sequence.parent.currentSequenceID = successID;
                 Success();
@@ -94,7 +94,7 @@ public class BattleAttackSequence {
         this.parent = parent;
     }
 
-    public IEnumerator ExecuteSequence(CharaSO actor) {
+    public IEnumerator ExecuteSequence(BattleActorSO actor) {
         BattleManager.instance.inputOverride = this.inputOverride;
 
         for (int i = 0; i < items.Count; i++) {
@@ -111,7 +111,7 @@ public class BattleAttackSO : ScriptableObject
    [HideInInspector] public byte currentSequenceID = 0x00;
 
     public List<BattleAttackSequence> sequences;
-    public IEnumerator Prepare(CharaSO actor) {
+    public IEnumerator Prepare(BattleActorSO actor) {
         currentSequenceID = 0x00;
         for (int i = 0; i < sequences.Count; i++) sequences[i].Initialize(this);
         yield return sequences[currentSequenceID].ExecuteSequence(actor);

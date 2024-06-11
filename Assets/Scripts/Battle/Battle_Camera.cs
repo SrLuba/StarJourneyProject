@@ -14,7 +14,7 @@ public class Battle_Camera : MonoBehaviour
 
     public MovementTypeCamera currentMovementType;
     public Vector3 vectorGoto;
-    public CharaSO target;
+    public BattleActorSO target;
 
 
     public Vector3 offset;
@@ -32,6 +32,9 @@ public class Battle_Camera : MonoBehaviour
     public float defaultFOV = 60f;
 
     public Vector2 FOVClamp;
+
+    public Vector3 victoryPosition;
+
     public void Awake()
     {
         instance = this;
@@ -45,20 +48,20 @@ public class Battle_Camera : MonoBehaviour
     public void UpdateFOV() {
 
         float targetFOV = defaultFOV + bpmEffect;
-        currentFOV = Mathf.Clamp(Mathf.Lerp(currentFOV, targetFOV, 8f*Time.deltaTime),FOVClamp.x, FOVClamp.y);
+        currentFOV = Mathf.Clamp(Mathf.Lerp(currentFOV, targetFOV, 4f*Time.deltaTime),FOVClamp.x, FOVClamp.y);
 
         this.mainCamera.fieldOfView = currentFOV;
         this.bgCamera.fieldOfView = currentFOV;
         bpmEffect = Mathf.Lerp(bpmEffect, 0f, 15f * Time.deltaTime);
     }
     public void Beat() {
-        
-        bpmEffect = bpmEffectIntensity;
+        if (!BattleManager.instance.cameraBPM) return;
+        bpmEffect = bpmEffectIntensity; 
     }
     public void UpdateSmooth() {
         if (currentMovementType != MovementTypeCamera.Smooth) return;
 
-        Vector3 result = (target != null) ? target.selfBattle.getInstance(0, target.identifier).transform.position+vectorGoto + offset : defaultPosition;
+        Vector3 result = (target != null) ? new Vector3(target.getInstance().transform.position.x, 0f, target.getInstance().transform.position.z) +vectorGoto + offset : defaultPosition;
         currentPositionTarget = result;
 
         this.transform.position = Vector3.Lerp(this.transform.position, currentPositionTarget, speed * Time.deltaTime);
@@ -66,6 +69,11 @@ public class Battle_Camera : MonoBehaviour
     
     public void Update()
     {
+        if (BattleManager.instance.victory) {
+            this.mainCamera.fieldOfView = 60f;
+            this.transform.position = Vector3.Lerp(this.transform.position, victoryPosition, speed * Time.deltaTime);
+            return;
+        }
         UpdateSmooth();
         UpdateFOV();
     }

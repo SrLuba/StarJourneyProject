@@ -75,11 +75,11 @@ public class TransitionManager : MonoBehaviour
         if (enteringCase == BattleEnteringCase.Advantage) actualBG = (StaticManager.instance.battleAdvantageCase == 2) ? HammerTransitionBG : JumpTransitionBG;
 
         transitionBG.sprite = actualBG;
-
+        MusicSO music = (StaticManager.instance.company) ? so.music : so.soloMusic;
         AudioClip a = (enteringCase == BattleEnteringCase.Disadvantage) ? DisadvantageBTClip : NormalBTClip;
         SoundManager.instance.Play(a);
         yield return new WaitForSeconds(0.2f);
-        MusicManager.instance.PlayClip(so.music, false);
+        MusicManager.instance.PlayClip(music, true);
         OVManager.instance.mainCamera.CameraTransitionateBTL();
         if (OVManager.instance.playerType == 2)
         {
@@ -125,7 +125,7 @@ public class TransitionManager : MonoBehaviour
             else { BattleA.Play("Transition_On_Disadvantage_Solo_" + (StaticManager.instance.marioAhead ? "M" : "L")); }
         }
 
-        yield return new WaitForSeconds(so.music.musicOffset[0].x/2f);
+        yield return new WaitForSeconds(music.musicOffset[0].x/2f);
         UnityEngine.SceneManagement.SceneManager.LoadScene("Battle");
     }
     public void StartTransition(string identifier) {

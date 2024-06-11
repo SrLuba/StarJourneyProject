@@ -19,6 +19,58 @@ MonoBehaviour:
   visualOffset: {x: 0, y: 0, z: 0}
   eulerAngleOffset: {x: 0, y: 100, z: 0}
   VisualAnimator: {fileID: 9100000, guid: b6ea07960b07c8149a871fc8a1b14e45, type: 2}
+  linkedChara: {fileID: 11400000, guid: 5d45e6c200d46224e97ccc4979c60764, type: 2}
+  stats:
+    HEALTH:
+      startValue: 25
+      valueMultiplier: 1
+      addValue: 0
+      currentValue: 25
+      maxValue: 25
+    ENERGY:
+      startValue: 0
+      valueMultiplier: 0
+      addValue: 0
+      currentValue: 0
+      maxValue: 0
+    ATTACK:
+      startValue: 25
+      valueMultiplier: 1
+      addValue: 0
+      currentValue: 25
+      maxValue: 25
+    DEFENSE:
+      startValue: 7
+      valueMultiplier: 1
+      addValue: 0
+      currentValue: 7
+      maxValue: 7
+    MAGICATTACK:
+      startValue: 0
+      valueMultiplier: 0
+      addValue: 0
+      currentValue: 0
+      maxValue: 0
+    MAGICDEFENSE:
+      startValue: 0
+      valueMultiplier: 0
+      addValue: 0
+      currentValue: 0
+      maxValue: 0
+    SPEED:
+      startValue: 0
+      valueMultiplier: 0
+      addValue: 0
+      currentValue: 0
+      maxValue: 0
+    LUCK:
+      startValue: 0
+      valueMultiplier: 0
+      addValue: 0
+      currentValue: 0
+      maxValue: 0
+  strength: 2
+  level: 5
   spawnInfo:
     random: 0
     min: {x: 13, y: -2}
@@ -34,7 +86,6 @@ MonoBehaviour:
     m_Bits: 131072
   materialPhy: {fileID: 13400000, guid: 18925be25a29eca44bc9161dd789dd7d, type: 2}
   dieVoiceClip: {fileID: 8300000, guid: 06ef7db9191cd0a4ca3a8a53b5e6e0a9, type: 3}
-  battleIdlesAnimations:
-  - Think_0
-  - Think_0
   dead: 0
+  myID: 0
+  selfInstance: {fileID: 0}
