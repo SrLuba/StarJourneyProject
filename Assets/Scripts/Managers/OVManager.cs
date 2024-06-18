@@ -83,9 +83,10 @@ public class OVManager : MonoBehaviour
         }
         instance = this;
     }
+    public IEnumerator spawnPlayers() {
+        yield return new WaitForSeconds(0.002f);
 
-    void Start()
-    {
+
         if (player != null) mainPlayer = player.SpawnOnOverworld(warpInfo.Find(x => x.identifier.ToUpper() == "DEFAULT").spawnPointPos, mainCamera);
         if (player2 != null) secondaryPlayer = player2.SpawnOnOverworld(warpInfo.Find(x => x.identifier.ToUpper() == "DEFAULT").spawnPointPos, mainCamera);
         playerType = (mainPlayer != null && secondaryPlayer != null) ? 2 : 1;
@@ -93,6 +94,10 @@ public class OVManager : MonoBehaviour
 
         StaticManager.instance.company = (playerType == 2);
         StaticManager.instance.marioAhead = (mainPlayer.selfChara.identifier.ToUpper() == "MARIO");
+    }
+    void Start()
+    {
+        StartCoroutine(spawnPlayers());
 
     }
     private void Update()

@@ -26,12 +26,13 @@ public class MusicManager : MonoBehaviour
     this is called every beat (calculated via BPM)
  */
     public void Beat() {
+       
         if (!enableBPM) return;
         if (debugBPM) { SoundManager.instance.Play(this.BPMTick); } // We play the usual tempo tick sound to test bpm the right way
         ResetBPM();
 
 
-        Battle_Camera.instance.Beat(); // we call the beat function from the battle camera
+        if (Battle_Camera.instance!=null) Battle_Camera.instance.Beat(); // we call the beat function from the battle camera
     }
     public void UpdateBeat() {
         if (!enableBPM) {

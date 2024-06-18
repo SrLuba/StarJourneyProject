@@ -142,7 +142,6 @@ public class CharaSO : ScriptableObject
     [Header("Character Type")] public CharaType charaType;
     [Header("Character Flags (Depends on Type)")] public List<string> charaFlags;
 
-
     [Header("Battle")] public BattleActorSO selfBattle;
     [Header("Self PathFinding IA Information")] public IAInfo selfIA;
 
@@ -193,6 +192,21 @@ public class CharaSO : ScriptableObject
     public AudioClip WaterEnterSFX;
     public AudioClip WaterExitSFX;
 
+    public Vector3 jumpFXOffset;
+    public GameObject jumpFX;
+
+    public List<Material> characterMaterials;
+
+    public GameObject fxWaterDrop;
+
+    public void UpdateMaterials(float smoothness) {
+        for (int i = 0; i < this.characterMaterials.Count; i++) {
+            this.characterMaterials[i].SetFloat("_Smoothness", smoothness);
+        }
+    }
+
+
+
     public bool getActionPress() {
         bool result = false;
 
@@ -236,6 +250,7 @@ public class CharaSO : ScriptableObject
         GameObject Handle = new GameObject("OVACTORHANDLE_" + identifier.ToUpper());
         Handle.transform.position = player.transform.position;
         Handle.transform.SetParent(player.transform);
+
 
         GameObject visual = Instantiate(OVActor.Visual, player.transform.position, Quaternion.identity);
         Animator anim = visual.GetComponent<Animator>();

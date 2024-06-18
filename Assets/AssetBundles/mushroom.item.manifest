@@ -1,0 +1,33 @@
+ManifestFileVersion: 0
+CRC: 2842535275
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: e25bd909e0da2e772e546113bad217e8
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 6a4ce0e3cbc8ac952f459b81a3cf7a72
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: e25bd909e0da2e772e546113bad217e8
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 4ed640f0afb676840b180bfc90130d56, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resources/Models/3DS - Super Mario 3D Land - Mushrooms/Object_xx01_KinokoSuper_dif.png
+- Assets/Resources/Data/Items/Mushroom.asset
+- Assets/Resources/Sprites/phItemsIcons.png
+Dependencies:
+- F:/StarJourneyProject/Assets/AssetBundles/mushroom.mariova

@@ -1,0 +1,18 @@
+ManifestFileVersion: 0
+CRC: 1542751973
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: mariova.mariova
+      Dependencies: {}
+    Info_1:
+      Name: mushroom.item
+      Dependencies:
+        Dependency_0: mushroom.mariova
+    Info_2:
+      Name: mushroom.mariova
+      Dependencies:
+        Dependency_0: mushroom.item
+    Info_3:
+      Name: mario.actor
+      Dependencies: {}

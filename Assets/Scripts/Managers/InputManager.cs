@@ -29,6 +29,20 @@ public class InputManager : MonoBehaviour
     public bool startHold = false;
     public bool selectHold = false;
 
+    public bool dpadDownPress = false;
+    public bool dpadUpPress = false;
+    public bool dpadRightPress = false;
+    public bool dpadLeftPress = false;
+
+
+    public string aBinding = "MOUSE_L";
+    public string bBinding = "MOUSE_R";
+    public string yBinding = "KEY_SPACE";
+    public string xBinding = "KEY_LEFT_SHIFT";
+
+
+    public bool swapLR = false;
+
 
     public Vector2 leftStick = new Vector2(0f, 0f);
     public Vector2 rightStick = new Vector2(0f, 0f);
@@ -51,19 +65,20 @@ public class InputManager : MonoBehaviour
     }
     public void UpdateKeyboard() {
         if (joystick) return;
+
         // A
-        aPress = Mouse.current.leftButton.wasPressedThisFrame;
-        aHold = Mouse.current.leftButton.isPressed;
-        
+        aPress = this.getBinding(aBinding).wasPressedThisFrame;
+        aHold = this.getBinding(aBinding).isPressed;
         // B
-        bPress = Mouse.current.rightButton.wasPressedThisFrame;
-        bHold = Mouse.current.rightButton.isPressed;
+        bPress = this.getBinding(bBinding).wasPressedThisFrame;
+        bHold = this.getBinding(bBinding).isPressed;
         // X
-        xPress = Keyboard.current.spaceKey.wasPressedThisFrame;
-        xHold = Keyboard.current.spaceKey.isPressed;
+        xPress = this.getBinding(xBinding).wasPressedThisFrame;
+        xHold = this.getBinding(xBinding).isPressed;
         // Y
-        yPress = Keyboard.current.leftShiftKey.wasPressedThisFrame;
-        yHold = Keyboard.current.leftShiftKey.isPressed;
+        yPress = this.getBinding(yBinding).wasPressedThisFrame;
+        yHold = this.getBinding(yBinding).isPressed;
+
         // L
         lPress = Keyboard.current.qKey.wasPressedThisFrame;
         lHold = Keyboard.current.qKey.isPressed;
@@ -77,6 +92,12 @@ public class InputManager : MonoBehaviour
         // SELECT
         selectPress = Keyboard.current.backspaceKey.wasPressedThisFrame;
         selectHold = Keyboard.current.backspaceKey.isPressed;
+
+
+        dpadDownPress = Keyboard.current.downArrowKey.wasPressedThisFrame;
+        dpadLeftPress = Keyboard.current.leftArrowKey.wasPressedThisFrame;
+        dpadRightPress = Keyboard.current.rightArrowKey.wasPressedThisFrame;
+        dpadUpPress = Keyboard.current.upArrowKey.wasPressedThisFrame;
 
         float iX = ((Keyboard.current.dKey.isPressed) ? 1f : 0f) - ((Keyboard.current.aKey.isPressed) ? 1f : 0f);
         float iY = ((Keyboard.current.wKey.isPressed) ? 1f : 0f) - ((Keyboard.current.sKey.isPressed) ? 1f : 0f);
@@ -94,6 +115,82 @@ public class InputManager : MonoBehaviour
         rightStick = new Vector2(riX, riY);
     }
 
+    public UnityEngine.InputSystem.Controls.ButtonControl getBinding(string id) {
+
+        UnityEngine.InputSystem.Controls.ButtonControl result = Keyboard.current.aKey;
+        if (joystick)
+        {
+
+            switch (id.ToUpper())
+            {
+                case "BTN_A":
+                    result = Gamepad.all[joystickID].aButton;
+                    break;
+                case "BTN_X":
+                    result = Gamepad.all[joystickID].xButton;
+                    break;
+                case "BTN_Y":
+                    result = Gamepad.all[joystickID].yButton;
+                    break;
+                case "BTN_B":
+                    result = Gamepad.all[joystickID].bButton;
+                    break;
+            }
+
+            }
+        else {
+            switch (id.ToUpper())
+            {
+                case "KEY_Q":
+                    result = Keyboard.current.qKey;
+                    break;
+                case "KEY_W":
+                    result = Keyboard.current.wKey;
+                    break;
+                case "KEY_E":
+                    result = Keyboard.current.eKey;
+                    break;
+                case "KEY_R":
+                    result = Keyboard.current.rKey;
+                    break;
+                case "KEY_T":
+                    result = Keyboard.current.tKey;
+                    break;
+                case "KEY_Y":
+                    result = Keyboard.current.yKey;
+                    break;
+                case "KEY_U":
+                    result = Keyboard.current.uKey;
+                    break;
+                case "KEY_I":
+                    result = Keyboard.current.iKey;
+                    break;
+                case "KEY_O":
+                    result = Keyboard.current.oKey;
+                    break;
+                case "KEY_p":
+                    result = Keyboard.current.pKey;
+                    break;
+                case "KEY_A":
+                    result = Keyboard.current.aKey;
+                    break;
+                case "KEY_SPACE":
+                    result = Keyboard.current.spaceKey;
+                    break;
+                case "KEY_LEFT_SHIFT":
+                    result = Keyboard.current.leftShiftKey;
+                    break;
+                case "MOUSE_L":
+                    result = Mouse.current.leftButton;
+                    break;
+                case "MOUSE_R":
+                    result = Mouse.current.rightButton;
+                    break;
+            }
+        }
+        return result;
+    }
+
     public void UpdateJoystick() {
         if (!joystick) return;
 
@@ -105,21 +202,18 @@ public class InputManager : MonoBehaviour
             if (animInputShower != null) animInputShower.Play("JoystickError");
             return;
         }
-
         // A
-        aPress = Gamepad.all[joystickID].buttonSouth.wasPressedThisFrame;
-        aHold = Gamepad.all[joystickID].buttonSouth.isPressed;
-
-        // X
-        xPress = Gamepad.all[joystickID].buttonNorth.wasPressedThisFrame;
-        xHold = Gamepad.all[joystickID].buttonNorth.isPressed;
-        // Y
-        yPress = Gamepad.all[joystickID].buttonWest.wasPressedThisFrame;
-        yHold = Gamepad.all[joystickID].buttonWest.isPressed;
-
+        aPress = this.getBinding(aBinding).wasPressedThisFrame;
+        aHold = this.getBinding(aBinding).isPressed;
         // B
-        bPress = Gamepad.all[joystickID].buttonEast.wasPressedThisFrame;
-        bHold = Gamepad.all[joystickID].buttonEast.isPressed;
+        bPress = this.getBinding(bBinding).wasPressedThisFrame;
+        bHold = this.getBinding(bBinding).isPressed;
+        // X
+        xPress = this.getBinding(xBinding).wasPressedThisFrame;
+        xHold = this.getBinding(xBinding).isPressed;
+        // Y
+        yPress = this.getBinding(yBinding).wasPressedThisFrame;
+        yHold = this.getBinding(yBinding).isPressed;
 
         // L
         lPress = Gamepad.all[joystickID].rightShoulder.wasPressedThisFrame;
@@ -136,6 +230,12 @@ public class InputManager : MonoBehaviour
         // SELECT
         selectPress = Gamepad.all[joystickID].selectButton.wasPressedThisFrame;
         selectHold = Gamepad.all[joystickID].selectButton.isPressed;
+
+        // DPAD
+        dpadDownPress = Gamepad.all[joystickID].dpad.down.wasPressedThisFrame;
+        dpadLeftPress = Gamepad.all[joystickID].dpad.left.wasPressedThisFrame;
+        dpadRightPress = Gamepad.all[joystickID].dpad.right.wasPressedThisFrame;
+        dpadUpPress = Gamepad.all[joystickID].dpad.up.wasPressedThisFrame;
 
         // Stick
         float iX = Gamepad.all[joystickID].leftStick.ReadValue().x;
@@ -191,6 +291,6 @@ public class InputManager : MonoBehaviour
             JoystickLookUp();
         }
 
-        if (Keyboard.current.f5Key.wasPressedThisFrame) UnityEngine.SceneManagement.SceneManager.LoadScene("Overworld");
+        if (Keyboard.current.f5Key.wasPressedThisFrame) UnityEngine.SceneManagement.SceneManager.LoadScene("TesterMenu");
     }
 }

@@ -29376,7 +29376,7 @@ MonoBehaviour:
   - {fileID: 423458166}
   inputOverride: 0
   liftHammerSFX: {fileID: 8300000, guid: 48629a7b03a888845994924699e003dc, type: 3}
-  releaseHammerSFX: {fileID: 8300000, guid: 13296e8d999248940a3c61cfa6ca803f, type: 3}
+  releaseHammerSFX: {fileID: 8300000, guid: 2a102f9c6b9709a40b7b62a9aa99ee3e, type: 3}
   bgImage: {fileID: 750174403}
   bgAlpha: 0
   cameraBPM: 1

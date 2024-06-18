@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 16
   jumpForce: 42
-  underWaterYOffset: 2.62
-  acceleration: 44
+  underWaterYOffset: 3.37
+  acceleration: 25
   deceleration: 75
   angleEffect: 25
   gravityJump: 45

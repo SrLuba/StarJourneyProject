@@ -3,7 +3,7 @@ guid: d3985a53f69d86547b3315ba66816b96
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
-  serializedVersion: 12
+  serializedVersion: 13
   mipmaps:
     mipMapMode: 0
     enableMipMap: 1
@@ -149,5 +149,5 @@ TextureImporter:
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
-  assetBundleName: 
-  assetBundleVariant: 
+  assetBundleName: mario
+  assetBundleVariant: actor

@@ -79,7 +79,7 @@ public class BattleManagerNumbers : MonoBehaviour
     public void Update()
     {
         if (Keyboard.current.hKey.wasPressedThisFrame) {
-            BattleActorSO result = BattleManager.instance.enemyActors[Random.Range(0, BattleManager.instance.enemyActors.Count - 1)];
+            BattleActorSO result = BattleManager.instance.playerActors[Random.Range(0, BattleManager.instance.playerActors.Count-1)];
             this.Hurt(Random.Range(1,25), result);
         }
     

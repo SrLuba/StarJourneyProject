@@ -1,0 +1,106 @@
+ManifestFileVersion: 0
+CRC: 1674207054
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 48de4b73cb7faa3ef7c8d360b33027e5
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2d47251ca038263cef0f9d480cf4afac
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 48de4b73cb7faa3ef7c8d360b33027e5
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 08b59c1c72467ec479b8a14f74bc0608, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 216554ded9ef0ee4996dd2e0d5928a07, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+- Class: 212
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers:
+- AssemblyName: Assembly-CSharp
+  ClassName: StepType
+Assets:
+- Assets/Resources/Models/Characters/Playable/Mario/suprplayermario/PlayerMarioSuper/MarioSuperHeadMat_Nrm.png
+- Assets/Resources/Models/Characters/Playable/Mario/suprplayermario/PlayerMarioSuper/MarioSuperHeadMat
+  1.mat
+- Assets/Resources/Models/Characters/Playable/Mario/suprplayermario/PlayerMarioSuper/_g3d_MarioSuper_MarioSuperDrillMat__mix0.png
+- Assets/Resources/Models/Characters/Playable/Mario/suprplayermario/PlayerMarioSuper/MarioSuperBodyMat_Alb.1.png
+- Assets/Resources/Models/Characters/Playable/Mario/suprplayermario/PlayerMarioSuper/MarioSuperMoustacheMat.mat
+- Assets/Resources/Models/Characters/Playable/Mario/suprplayermario/PlayerMarioSuper/MarioSuperCapMat.mat
+- Assets/Resources/Models/Characters/Playable/Mario/suprplayermario/PlayerMarioSuper/MarioSuperDrillMat_Nrm.png
+- Assets/Resources/Models/Characters/Playable/Mario/suprplayermario/PlayerMarioSuper/MarioSuperEyebrowMat.mat
+- Assets/Resources/Models/Characters/Playable/Mario/suprplayermario/PlayerMarioSuper/EyeMat.mat
+- Assets/Resources/Models/Characters/Playable/Mario/suprplayermario/PlayerMarioSuper/EyeRMat.mat
+- Assets/Resources/Models/Characters/Playable/Mario/suprplayermario/PlayerMarioSuper/MarioSuperParachuteMat.mat
+- Assets/Resources/Models/Characters/Playable/Mario/suprplayermario/PlayerMarioSuper/MarioSuperBodyMat_Alb.3.png
+- Assets/Resources/Models/Characters/Playable/Mario/suprplayermario/PlayerMarioSuper/_g3d_MarioSuper_MarioSuperHeadMat__mix0.png
+- Assets/Resources/Prefabs/Battle/Battle.prefab
+- Assets/Resources/Models/Characters/Playable/Mario/suprplayermario/PlayerMarioSuper/MarioSuperBodyMat_Nrm.png
+- Assets/Resources/Models/Characters/Playable/Mario/suprplayermario/PlayerMarioSuper/MarioSuperDrillMat_Alb.png
+- Assets/Resources/Models/Characters/Playable/Mario/suprplayermario/PlayerMarioSuper/_g3d_MarioSuper_MarioSuperParachuteMat__mix0.png
+- Assets/Resources/Models/Characters/Playable/Mario/suprplayermario/PlayerMarioSuper/alt_tuer0.png
+- Assets/Resources/Models/Characters/Playable/Mario/suprplayermario/PlayerMarioSuper/MarioSuperBodyMat_Alb.2.png
+- Assets/Resources/Prefabs/MarioSuperOV.prefab
+- Assets/Resources/Models/Characters/Playable/Mario/suprplayermario/PlayerMarioSuper/_g3d_MarioSuper_EyeLMat__mix0.png
+- Assets/Resources/Models/Characters/Playable/Mario/suprplayermario/PlayerMarioSuper/MarioSuperCapMat_Alb.1.png
+- Assets/Resources/Models/Characters/Playable/Mario/suprplayermario/PlayerMarioSuper/MarioSuperDrillMat.mat
+- Assets/Resources/Models/Characters/Playable/Mario/suprplayermario/PlayerMarioSuper/tier3.png
+- Assets/Resources/Models/Characters/Playable/Mario/suprplayermario/PlayerMarioSuper/MarioSuperEyeMat_Nrm.png
+- Assets/Resources/Models/Characters/Playable/Mario/suprplayermario/PlayerMarioSuper/MarioSuperEyeMat_Alb.png
+- Assets/Resources/Models/Characters/Playable/Mario/suprplayermario/PlayerMarioSuper/MarioSuperBodyMat_Alb.0.png
+- Assets/Resources/Models/Characters/Playable/Mario/suprplayermario/PlayerMarioSuper/MarioSuper.dae
+- Assets/Resources/Models/Characters/Playable/Mario/suprplayermario/PlayerMarioSuper/tier2_alt.png
+- Assets/Resources/Models/Characters/Playable/Mario/suprplayermario/PlayerMarioSuper/_g3d_MarioSuper_MarioSuperMoustacheMat__mix0.png
+- Assets/Resources/Models/Characters/Playable/Mario/suprplayermario/PlayerMarioSuper/MarioSuperBodyMat.mat
+- Assets/Resources/Models/Characters/Playable/Mario/suprplayermario/PlayerMarioSuper/alt_tier3.png
+- Assets/Resources/Models/Characters/Playable/Mario/suprplayermario/PlayerMarioSuper/_g3d_MarioSuper_EyeRMat__mix0.png
+- Assets/Resources/Models/Characters/Playable/Mario/suprplayermario/PlayerMarioSuper/MarioSuperHeadMat_Alb.0.png
+- Assets/Resources/Models/Characters/Playable/Mario/suprplayermario/PlayerMarioSuper/MarioSuperCapMat_Alb.png
+- Assets/Resources/Models/Characters/Playable/Mario/suprplayermario/PlayerMarioSuper/MarioSuperHeadMat.mat
+- Assets/Resources/Models/Characters/Playable/Mario/suprplayermario/PlayerMarioSuper/_g3d_MarioSuper_MarioSuperEyebrowMat__mix0.png
+- Assets/Resources/Models/Characters/Playable/Mario/suprplayermario/PlayerMarioSuper/tier2.png
+- Assets/Resources/Models/Characters/Playable/Mario/suprplayermario/PlayerMarioSuper/MarioSuperHeadMat_Alb.1.png
+- Assets/Resources/Models/Characters/Playable/Mario/suprplayermario/PlayerMarioSuper/MarioSuperCapMat_Nrm.png
+- Assets/Resources/Models/Characters/Playable/Mario/suprplayermario/PlayerMarioSuper/MarioSuperEyeMat_Ocl.png
+- Assets/Resources/Models/Characters/Playable/Mario/suprplayermario/PlayerMarioSuper/MarioSuperCapMat_Ex.png
+- Assets/Resources/Models/Characters/Playable/Mario/suprplayermario/PlayerMarioSuper/_g3d_MarioSuper_MarioSuperMouthMat__mix0.png
+- Assets/Resources/Models/Characters/Playable/Mario/suprplayermario/PlayerMarioSuper/MarioSuperMouthMat.mat
+- Assets/Resources/Models/Characters/Playable/Mario/suprplayermario/PlayerMarioSuper/_g3d_MarioSuper_MarioSuperBodyMat__mix0.png
+- Assets/Resources/Models/Characters/Playable/Mario/suprplayermario/PlayerMarioSuper/_g3d_MarioSuper_MarioSuperCapMat__mix0.png
+- Assets/Resources/Models/Characters/Playable/Mario/suprplayermario/PlayerMarioSuper/MarioSuperCapMat_Alb.0.png
+- Assets/Resources/Models/Characters/Playable/Mario/suprplayermario/PlayerMarioSuper/MarioSuperCapMat_Alb.2.png
+Dependencies: []

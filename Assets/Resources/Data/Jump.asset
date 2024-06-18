@@ -20,7 +20,7 @@ MonoBehaviour:
     inputOverride: 1
     items:
     - delay: 0
-      inputEventDelay: 2
+      inputEventDelay: 0
       inputEventDuration: 0.5
       successID: 1
       failID: 255
@@ -34,7 +34,7 @@ MonoBehaviour:
     parent: {fileID: 11400000}
     inputOverride: 1
     items:
-    - delay: 1
+    - delay: 0
       inputEventDelay: 0
       inputEventDuration: 0
       successID: 0

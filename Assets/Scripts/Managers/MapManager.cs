@@ -32,8 +32,6 @@ public class MapManager : MonoBehaviour
     public GameObject minimapParent;
     
 
-    
-
     public void Awake()
     {
         if (instance != null)
@@ -46,6 +44,9 @@ public class MapManager : MonoBehaviour
     public void Start()
     {
         if (MusicManager.instance!=null) MusicManager.instance.PlayClip(map.music, true);
+
+        this.map = StaticManager.instance.selectedMap;
+
         InitializeMap();
     }
     Transform player, player2;

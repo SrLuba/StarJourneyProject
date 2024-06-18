@@ -1,7 +1,5 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.InputSystem;
 
 public class PlayerOV : MonoBehaviour
 {
@@ -62,6 +60,7 @@ public class PlayerOV : MonoBehaviour
     float currentRunningSpeed = 0f;
     float currentGravity = 0f;
     float zAngle = 0f;
+    public float wetness = 0f;
 
     public void PrepareForBattle(bool attacked) {
         canAnimate = false;
@@ -175,6 +174,7 @@ public class PlayerOV : MonoBehaviour
         attackProgress = "Jump";
         SoundManager.instance.Play(selfChara.OVActor.jumpSFX);
         rb.velocity = new Vector3(rb.velocity.x, selfChara.OVActor.jumpForce, rb.velocity.y);
+        if (selfChara.jumpFX!=null)Instantiate(selfChara.jumpFX, this.transform.position+selfChara.jumpFXOffset, Quaternion.identity);
     }
     public void JumpForceOutWater()
     {
@@ -677,6 +677,41 @@ public class PlayerOV : MonoBehaviour
     }
     float inputAngle = 0f;
     public Transform visualHandler;
+
+    float timerWet = 0f;
+    float timerFXWetDrop = 0f;
+    
+    public void UpdateWetness()
+    {
+        this.selfChara.UpdateMaterials(wetness);
+        foot.wet = wetness >= 0.1f;
+        if (water)
+        {
+            wetness = Mathf.Lerp(wetness, 1f, 5f * Time.deltaTime);
+            timerWet = 0f;
+        }
+        else {
+            timerWet += Time.deltaTime;
+            if (timerWet >= 2f) {
+                timerFXWetDrop += Time.deltaTime;
+                if (timerFXWetDrop >= 0.1f) {
+                    if (this.selfChara.fxWaterDrop!=null) Instantiate(this.selfChara.fxWaterDrop, this.transform.position, Quaternion.identity);
+                    timerFXWetDrop = 0f;
+                }
+                if (wetness >= 0.01f)
+                {
+                    wetness -= Time.deltaTime;
+                }
+                else {
+      
+                    timerWet = 0f;
+                    wetness = Mathf.Lerp(wetness, 0f, 15f * Time.deltaTime);
+                   
+                }
+            }
+
+        }
+    }
     public void Update()
     {
        
@@ -704,6 +739,7 @@ public class PlayerOV : MonoBehaviour
             selfChara.phyMat.staticFriction = (moving) ? 0.01f : 1f;
             selfChara.phyMat.dynamicFriction = (moving) ? 0.01f : 1f;
         }
+        UpdateWetness();
     }
 
 }

@@ -1,0 +1,55 @@
+ManifestFileVersion: 0
+CRC: 1544170547
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 6fb578f4dea23a59d02d5d21a3b89055
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9a2ca7bdbd1871f7131daf57de908e0c
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 6fb578f4dea23a59d02d5d21a3b89055
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resources/Sounds/VA/M_SWIM.wav
+- Assets/Resources/Sounds/VA/M_YEOUCH.wav
+- Assets/Resources/Sounds/VA/M_HOLD_ON.wav
+- Assets/Resources/Sounds/VA/M_Alone.wav
+- Assets/Resources/Sounds/VA/M_MARIO_NUMBER_ONE.wav
+- Assets/Resources/Sounds/VA/M_HURT_SPIKE.wav
+- Assets/Resources/Sounds/VA/M_Advantage.wav
+- Assets/Resources/Sounds/VA/M_LETSA_GO.wav
+- Assets/Resources/Sounds/VA/M_YAH.wav
+- Assets/Resources/Sounds/VA/M_VICTORY.wav
+- Assets/Resources/Sounds/VA/M_ADVANTAGE_2.wav
+- Assets/Resources/Sounds/VA/M_OHOHO.wav
+- Assets/Resources/Sounds/VA/M_DYING.wav
+- Assets/Resources/Sounds/VA/M_LETSAGO_MOOD.wav
+- Assets/Resources/Sounds/VA/M_MarioJump.wav
+- Assets/Resources/Sounds/VA/M_SuperJump.wav
+- Assets/Resources/Sounds/VA/MarioHammer.wav
+- Assets/Resources/Sounds/VA/M_MAMA_MIA.wav
+- Assets/Resources/Sounds/VA/M_YAHOO.wav
+- Assets/Resources/Sounds/VA/M_MARIO_TIME.wav
+- Assets/Resources/Sounds/VA/M_AAAAH.wav
+- Assets/Resources/Sounds/VA/M_MAMA_MIAAAA.wav
+- Assets/Resources/Sounds/VA/M_WATER_YAH.wav
+- Assets/Resources/Sounds/VA/M_HURT.wav
+- Assets/Resources/Sounds/VA/M_Disadvantage_alone.wav
+- Assets/Resources/Sounds/VA/M_LUIGIIII.wav
+- Assets/Resources/Sounds/VA/M_OH_NO_MAMA_MIA.wav
+- Assets/Resources/Sounds/VA/M_GOTCHA_THIS_TIME.wav
+- Assets/Resources/Sounds/VA/M_GOTCHA_ADVANTAGE.wav
+- Assets/Resources/Sounds/VA/M_LETSADOTHIS.wav
+- Assets/Resources/Sounds/VA/M_DIVE.wav
+- Assets/Resources/Sounds/VA/mario_vl_advantage_company.wav
+- Assets/Resources/Sounds/VA/M_SIGH.wav
+- Assets/Resources/Sounds/VA/M_BRING_IT_ON.wav
+- Assets/Resources/Sounds/VA/M_Company.wav
+- Assets/Resources/Sounds/VA/M_MAMMAMIA.wav
+Dependencies: []
