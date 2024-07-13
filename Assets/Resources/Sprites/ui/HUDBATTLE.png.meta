@@ -1,0 +1,2263 @@
+fileFormatVersion: 2
+guid: 585dd270374e388479ded3dccee8415a
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: HUDBATTLE_0
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 937
+        width: 202
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 874d164728f4fd54a92ed053c0106d29
+      internalID: -2103679580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HUDBATTLE_48
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 531
+        width: 230
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e98583fa19b69d438a506f79ba16ba3
+      internalID: -1641734773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HUDBATTLE_49
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 531
+        width: 57
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a087766a544f6e94fb6c9554aa9518ba
+      internalID: 196860286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HUDBATTLE_51
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 453
+        width: 214
+        height: 213
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb5e6e85108221f4980bea09763a2fdc
+      internalID: -1217501116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HUDBATTLE_52
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 453
+        width: 52
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84eae0dd63c5fd44583c5451b8b1b3b7
+      internalID: 1603824556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HUDBATTLE_53
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 457
+        width: 44
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8216e2a84d2bbe45b618401e31d739d
+      internalID: -1396934013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HUDBATTLE_54
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 455
+        width: 47
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e79a4bddc505dbc49837735e854aac78
+      internalID: -2117473049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HUDBATTLE_55
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 454
+        width: 26
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62863290d6d64194d9fc6b53c7a0f61c
+      internalID: 1627440910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HUDBATTLE_56
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 455
+        width: 40
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6458b11bf90881e439498373bc63ce39
+      internalID: 1103363261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HUDBATTLE_58
+      rect:
+        serializedVersion: 2
+        x: 1372
+        y: 456
+        width: 29
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7be1b9af01ae0f42b58338727b6eaf6
+      internalID: 1569787944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HUDBATTLE_59
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 303
+        width: 126
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0d99610820d9ba4e87b458f9c1b86f4
+      internalID: -406266379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HUDBATTLE_60
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 303
+        width: 159
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab63c1d338b7c8944ad4851ad1573afe
+      internalID: -1681362728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HUDBATTLE_61
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 303
+        width: 137
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e3b9fbcfe335ab428415910f102d2e3
+      internalID: 1402590685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HUDBATTLE_62
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 302
+        width: 135
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65fcb7819c8851243af11030c6e9caa2
+      internalID: -1755292284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HUDBATTLE_63
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 303
+        width: 134
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc0c5ae0c811b354495fdace7cb41dfe
+      internalID: -1211035402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HUDBATTLE_64
+      rect:
+        serializedVersion: 2
+        x: 1371
+        y: 410
+        width: 26
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1923a2ba272fe6a4682968e4a7bd1073
+      internalID: -1427574949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HUDBATTLE_65
+      rect:
+        serializedVersion: 2
+        x: 1372
+        y: 364
+        width: 30
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41e91d3ee9b18a246b9ad533cfabd716
+      internalID: -1624895768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HUDBATTLE_66
+      rect:
+        serializedVersion: 2
+        x: 1373
+        y: 315
+        width: 29
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3524be079ad2854db5b947e11ed6e29
+      internalID: -2021507459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HUDBATTLE_67
+      rect:
+        serializedVersion: 2
+        x: 987
+        y: 260
+        width: 30
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7766057c0d7a34047b7dffb6b1758d3b
+      internalID: -1411319149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HUDBATTLE_68
+      rect:
+        serializedVersion: 2
+        x: 1019
+        y: 260
+        width: 23
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04f1e8191bf17a343818ef150607df52
+      internalID: 293822278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HUDBATTLE_69
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 260
+        width: 30
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e489bbe24819644491f87b0b756ffe7
+      internalID: 1847427852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HUDBATTLE_70
+      rect:
+        serializedVersion: 2
+        x: 1081
+        y: 259
+        width: 29
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86518b4e47d35c34784c67591040efac
+      internalID: 672329614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HUDBATTLE_71
+      rect:
+        serializedVersion: 2
+        x: 1114
+        y: 259
+        width: 30
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e4a2d39623e9d740aa4ac18df02ff4f
+      internalID: 771768747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HUDBATTLE_72
+      rect:
+        serializedVersion: 2
+        x: 1148
+        y: 260
+        width: 29
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8436b809d90c6d439f717e819ef7eaf
+      internalID: 1628221398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HUDBATTLE_73
+      rect:
+        serializedVersion: 2
+        x: 1182
+        y: 259
+        width: 29
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec9efaf9cbd10924587e96cc58cff281
+      internalID: -1308453602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HUDBATTLE_74
+      rect:
+        serializedVersion: 2
+        x: 1215
+        y: 260
+        width: 30
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b15658f7972e31d46aea9fb77dcaa509
+      internalID: -2034590209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HUDBATTLE_75
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 260
+        width: 36
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09cdd8cd1e5eb694ba3c9ecbea1fc4f7
+      internalID: 1858882416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HUDBATTLE_76
+      rect:
+        serializedVersion: 2
+        x: 1288
+        y: 260
+        width: 30
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f46f87ea28a52446a6505901a6acfdf
+      internalID: 677623492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HUDBATTLE_77
+      rect:
+        serializedVersion: 2
+        x: 1324
+        y: 260
+        width: 29
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67f342a17cbccf84eab4b27acdf6c7ed
+      internalID: 1679020051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HUDBATTLE_78
+      rect:
+        serializedVersion: 2
+        x: 1373
+        y: 264
+        width: 30
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 871f791816c4aaa47ae2c078417c323a
+      internalID: 687456270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HUDBATTLE_79
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 109
+        width: 342
+        height: 135
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7bbc216536f42448a4e542275be1b48
+      internalID: -1609056267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HUDBATTLE_80
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 109
+        width: 391
+        height: 135
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4148a762901f2c44d8378041896ef7f3
+      internalID: 1269952972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HUDBATTLE_81
+      rect:
+        serializedVersion: 2
+        x: 986
+        y: 211
+        width: 30
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1017076c2faa63b4888f923de697abc1
+      internalID: -1597909039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HUDBATTLE_82
+      rect:
+        serializedVersion: 2
+        x: 1018
+        y: 211
+        width: 23
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6625e252c150ea9468bfe16eee12f26a
+      internalID: -2056529294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HUDBATTLE_83
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 211
+        width: 30
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84e5cfde362bac041b820ee5dae93792
+      internalID: -1978645813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HUDBATTLE_84
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 210
+        width: 29
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43ea0d07c2ee1974abc193209015d30e
+      internalID: 1788378147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HUDBATTLE_85
+      rect:
+        serializedVersion: 2
+        x: 1113
+        y: 210
+        width: 30
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f344b1684fcc3f418297a1581f88a67
+      internalID: -1319688611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HUDBATTLE_86
+      rect:
+        serializedVersion: 2
+        x: 1147
+        y: 211
+        width: 29
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 403c3081cf60bcd42be0506419d270e0
+      internalID: -1924353981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HUDBATTLE_87
+      rect:
+        serializedVersion: 2
+        x: 1181
+        y: 210
+        width: 29
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f18ddfd36e77c3a4dbac143192b9c190
+      internalID: 706163445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HUDBATTLE_88
+      rect:
+        serializedVersion: 2
+        x: 1214
+        y: 211
+        width: 30
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d2294da6e3e00445a8f3259e9623ac2
+      internalID: -841642554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HUDBATTLE_89
+      rect:
+        serializedVersion: 2
+        x: 1247
+        y: 211
+        width: 36
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb843bc4be5962a48b6b53c4aa256aad
+      internalID: -1460705011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HUDBATTLE_90
+      rect:
+        serializedVersion: 2
+        x: 1287
+        y: 211
+        width: 30
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb7929b74daac43439dd2614ebf82532
+      internalID: -1681413710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HUDBATTLE_91
+      rect:
+        serializedVersion: 2
+        x: 1323
+        y: 211
+        width: 29
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd390f40091d8f541a755404b6a7c9b4
+      internalID: -757272303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HUDBATTLE_92
+      rect:
+        serializedVersion: 2
+        x: 1374
+        y: 218
+        width: 29
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0b453a5f224cb94a9d619dba0f5fe5f
+      internalID: -1536107100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HUDBATTLE_93
+      rect:
+        serializedVersion: 2
+        x: 986
+        y: 164
+        width: 30
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a808bb07e5ec00449a87f5d3a35c3816
+      internalID: -1648170757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HUDBATTLE_94
+      rect:
+        serializedVersion: 2
+        x: 1018
+        y: 164
+        width: 23
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dc7c8158a0b00740ae05be268409dc4
+      internalID: 227557440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HUDBATTLE_95
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 164
+        width: 30
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca32e06414dd7744086b7e78a79588cb
+      internalID: 31745023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HUDBATTLE_96
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 163
+        width: 29
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4d4f02e15b2d73488b14fe1624252ed
+      internalID: 1547666998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HUDBATTLE_97
+      rect:
+        serializedVersion: 2
+        x: 1113
+        y: 163
+        width: 30
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94bc6ca0df62b8b4e8cb75403ebaa625
+      internalID: -1328590195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HUDBATTLE_98
+      rect:
+        serializedVersion: 2
+        x: 1147
+        y: 164
+        width: 29
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef8877c147e18954d802847b117bafde
+      internalID: -675254230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HUDBATTLE_99
+      rect:
+        serializedVersion: 2
+        x: 1181
+        y: 163
+        width: 29
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a83f58ef7650f643837282f68465e95
+      internalID: -1080539114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HUDBATTLE_100
+      rect:
+        serializedVersion: 2
+        x: 1214
+        y: 164
+        width: 30
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dabd46fd0aa887469a08f793b74058f
+      internalID: 522197236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HUDBATTLE_101
+      rect:
+        serializedVersion: 2
+        x: 1247
+        y: 164
+        width: 36
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aea67acaafa7b3f479c8c7dae4d201d0
+      internalID: 673488685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HUDBATTLE_102
+      rect:
+        serializedVersion: 2
+        x: 1287
+        y: 164
+        width: 30
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d50b9ff9a36a04c4980c94d0ca201f3f
+      internalID: -797191174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HUDBATTLE_103
+      rect:
+        serializedVersion: 2
+        x: 1323
+        y: 164
+        width: 29
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40cde312de9cad44380f44a0c3f76050
+      internalID: 21594994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HUDBATTLE_104
+      rect:
+        serializedVersion: 2
+        x: 1374
+        y: 169
+        width: 29
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3687e528d4243d9429a13ebc48618d52
+      internalID: 677564948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HUDBATTLE_105
+      rect:
+        serializedVersion: 2
+        x: 986
+        y: 115
+        width: 30
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ab4bc75744dbd24b8f272f4876eed20
+      internalID: -2045402798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HUDBATTLE_106
+      rect:
+        serializedVersion: 2
+        x: 1018
+        y: 115
+        width: 23
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8909190413cce394a8290f865bdbe7ae
+      internalID: 1000884678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HUDBATTLE_107
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 115
+        width: 30
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be532a7590fec194e8a6212f9937fabd
+      internalID: -195075655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HUDBATTLE_108
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 114
+        width: 29
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6966a1fc23115f242ba42b15e36e0c10
+      internalID: -596074872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HUDBATTLE_109
+      rect:
+        serializedVersion: 2
+        x: 1113
+        y: 114
+        width: 30
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d00378bca4d375040a04f8e3925d94a0
+      internalID: 424130386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HUDBATTLE_110
+      rect:
+        serializedVersion: 2
+        x: 1147
+        y: 115
+        width: 29
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03c156a3f4876364fb1319745edd9056
+      internalID: 1615666553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HUDBATTLE_111
+      rect:
+        serializedVersion: 2
+        x: 1181
+        y: 114
+        width: 29
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b32228cd5a39455418212db32fe85e8e
+      internalID: -1741823227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HUDBATTLE_112
+      rect:
+        serializedVersion: 2
+        x: 1214
+        y: 115
+        width: 30
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44a0176d2a3f24846a5fe91016488f6c
+      internalID: 1424571513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HUDBATTLE_113
+      rect:
+        serializedVersion: 2
+        x: 1247
+        y: 115
+        width: 36
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c662d5c7dac479c41bd9cddd95931f11
+      internalID: 1489401829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HUDBATTLE_114
+      rect:
+        serializedVersion: 2
+        x: 1287
+        y: 115
+        width: 30
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01484173ea4b0ce42abf7720074f30dc
+      internalID: -427279484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HUDBATTLE_115
+      rect:
+        serializedVersion: 2
+        x: 1323
+        y: 115
+        width: 29
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dabb7a7fe2763e7439991fa00bff8b5f
+      internalID: 104933304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HUDBATTLE_116
+      rect:
+        serializedVersion: 2
+        x: 1373
+        y: 121
+        width: 30
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 904567789cfad8245a476cd404e2257b
+      internalID: 1251311445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HUDBATTLE_117
+      rect:
+        serializedVersion: 2
+        x: 986
+        y: 67
+        width: 30
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52111b3920c2e7f45abd6ddda49fbccf
+      internalID: -1498858000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HUDBATTLE_118
+      rect:
+        serializedVersion: 2
+        x: 1018
+        y: 67
+        width: 23
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d8df3c8be8b9cc4fb0743e431787649
+      internalID: 1237739142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HUDBATTLE_119
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 67
+        width: 30
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7d58df428828784ab1318be01432ab7
+      internalID: 1286369612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HUDBATTLE_120
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 66
+        width: 29
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ba0129e1666f5a46a6f51790edd61b9
+      internalID: -1421379816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HUDBATTLE_121
+      rect:
+        serializedVersion: 2
+        x: 1113
+        y: 66
+        width: 30
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff48f6785be332d458003aa191eebd75
+      internalID: 1186363798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HUDBATTLE_122
+      rect:
+        serializedVersion: 2
+        x: 1147
+        y: 67
+        width: 29
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c389a6e27c09731499eccec8b74d26c8
+      internalID: -1431051739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HUDBATTLE_123
+      rect:
+        serializedVersion: 2
+        x: 1181
+        y: 66
+        width: 29
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3f9396c232da4d418bdbc7d3a0b0602
+      internalID: 1393295192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HUDBATTLE_124
+      rect:
+        serializedVersion: 2
+        x: 1214
+        y: 67
+        width: 30
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f68a4e6ac9776f428e1caebef680e51
+      internalID: 1468358567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HUDBATTLE_125
+      rect:
+        serializedVersion: 2
+        x: 1247
+        y: 67
+        width: 36
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c04a8658cf84841429416f99f7ee3755
+      internalID: -1511360331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HUDBATTLE_126
+      rect:
+        serializedVersion: 2
+        x: 1287
+        y: 67
+        width: 30
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2745dcb9db95014ca34198e54477282
+      internalID: -630542327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HUDBATTLE_127
+      rect:
+        serializedVersion: 2
+        x: 1323
+        y: 67
+        width: 29
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17db650d8f3a54641a59c2625e358133
+      internalID: -1136283323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HUDBATTLE_128
+      rect:
+        serializedVersion: 2
+        x: 1369
+        y: 73
+        width: 36
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 610aa16bd68952f4bb6602ab695523b5
+      internalID: -1660947862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HUDBATTLE_129
+      rect:
+        serializedVersion: 2
+        x: 986
+        y: 21
+        width: 30
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a114c48a755e1d42bcaf94bd8da8476
+      internalID: -1295050317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HUDBATTLE_130
+      rect:
+        serializedVersion: 2
+        x: 1018
+        y: 21
+        width: 23
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b869d580d0041a4eb9be414bfbf86ba
+      internalID: 380502512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HUDBATTLE_131
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 21
+        width: 30
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d95c3a11841c4ba4c928d336e6a1aa63
+      internalID: -437918205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HUDBATTLE_132
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 20
+        width: 29
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa629df448f197b4dbc33a6d68895d38
+      internalID: -1639619768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HUDBATTLE_133
+      rect:
+        serializedVersion: 2
+        x: 1113
+        y: 20
+        width: 30
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5d2dae8dc38c224aa3e3170cc02291a
+      internalID: -1842330950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HUDBATTLE_134
+      rect:
+        serializedVersion: 2
+        x: 1147
+        y: 21
+        width: 29
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 967906cb45a3d2f43a1ae425e989c1cc
+      internalID: 302600008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HUDBATTLE_135
+      rect:
+        serializedVersion: 2
+        x: 1181
+        y: 20
+        width: 29
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cc2cd406bf8371419da610727741f94
+      internalID: 126764654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HUDBATTLE_136
+      rect:
+        serializedVersion: 2
+        x: 1214
+        y: 21
+        width: 30
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80cc2d01d1c297e4c892eed9bd6c7128
+      internalID: 1987006082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HUDBATTLE_137
+      rect:
+        serializedVersion: 2
+        x: 1247
+        y: 21
+        width: 36
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c2da8b4e23161c40ab245559f256243
+      internalID: -1756686861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HUDBATTLE_138
+      rect:
+        serializedVersion: 2
+        x: 1287
+        y: 21
+        width: 30
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 512d3db1608421f4399a1e06028900f1
+      internalID: -1605140872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HUDBATTLE_139
+      rect:
+        serializedVersion: 2
+        x: 1323
+        y: 21
+        width: 29
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4d78bfa13d08f0489fe3e42ca51dc90
+      internalID: 1530155531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HUDBATTLE_140
+      rect:
+        serializedVersion: 2
+        x: 1371
+        y: 25
+        width: 30
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 912267e7f3a9c6745bc19ca8b21164a3
+      internalID: 1948847856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HUDBATTLE_2
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 851
+        width: 606
+        height: 115
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 538ee82ee77557a42a3eb439dc9a3f09
+      internalID: 448436960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HUDBATTLE_1
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 731
+        width: 453
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 932eb895944871b4d9b8e9624e534c97
+      internalID: 1133624137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HUDBATTLE_3
+      rect:
+        serializedVersion: 2
+        x: 1362
+        y: 18
+        width: 52
+        height: 481
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d384356c2d61c04694da1d82f5459dd
+      internalID: 1843923062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 38af51be8cbc89f4e984a9d575e99113
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      HUDBATTLE_0: -2103679580
+      HUDBATTLE_1: 1133624137
+      HUDBATTLE_10: 396080191
+      HUDBATTLE_100: 522197236
+      HUDBATTLE_101: 673488685
+      HUDBATTLE_102: -797191174
+      HUDBATTLE_103: 21594994
+      HUDBATTLE_104: 677564948
+      HUDBATTLE_105: -2045402798
+      HUDBATTLE_106: 1000884678
+      HUDBATTLE_107: -195075655
+      HUDBATTLE_108: -596074872
+      HUDBATTLE_109: 424130386
+      HUDBATTLE_11: -2045803527
+      HUDBATTLE_110: 1615666553
+      HUDBATTLE_111: -1741823227
+      HUDBATTLE_112: 1424571513
+      HUDBATTLE_113: 1489401829
+      HUDBATTLE_114: -427279484
+      HUDBATTLE_115: 104933304
+      HUDBATTLE_116: 1251311445
+      HUDBATTLE_117: -1498858000
+      HUDBATTLE_118: 1237739142
+      HUDBATTLE_119: 1286369612
+      HUDBATTLE_12: 1635138301
+      HUDBATTLE_120: -1421379816
+      HUDBATTLE_121: 1186363798
+      HUDBATTLE_122: -1431051739
+      HUDBATTLE_123: 1393295192
+      HUDBATTLE_124: 1468358567
+      HUDBATTLE_125: -1511360331
+      HUDBATTLE_126: -630542327
+      HUDBATTLE_127: -1136283323
+      HUDBATTLE_128: -1660947862
+      HUDBATTLE_129: -1295050317
+      HUDBATTLE_13: 1308465646
+      HUDBATTLE_130: 380502512
+      HUDBATTLE_131: -437918205
+      HUDBATTLE_132: -1639619768
+      HUDBATTLE_133: -1842330950
+      HUDBATTLE_134: 302600008
+      HUDBATTLE_135: 126764654
+      HUDBATTLE_136: 1987006082
+      HUDBATTLE_137: -1756686861
+      HUDBATTLE_138: -1605140872
+      HUDBATTLE_139: 1530155531
+      HUDBATTLE_14: 1195610115
+      HUDBATTLE_140: 1948847856
+      HUDBATTLE_15: 371904802
+      HUDBATTLE_16: -1093116298
+      HUDBATTLE_17: -1429475532
+      HUDBATTLE_18: -673127280
+      HUDBATTLE_19: 1683445148
+      HUDBATTLE_2: 448436960
+      HUDBATTLE_20: -1484448555
+      HUDBATTLE_21: 1617005792
+      HUDBATTLE_22: 1859690577
+      HUDBATTLE_23: -2038543004
+      HUDBATTLE_24: -1789022761
+      HUDBATTLE_25: 967023373
+      HUDBATTLE_26: -980169402
+      HUDBATTLE_27: 1308724906
+      HUDBATTLE_28: 376885104
+      HUDBATTLE_29: 1694713705
+      HUDBATTLE_3: 1843923062
+      HUDBATTLE_30: 1853601443
+      HUDBATTLE_31: 859198307
+      HUDBATTLE_32: -650766081
+      HUDBATTLE_33: 590588351
+      HUDBATTLE_34: 842981208
+      HUDBATTLE_35: 987149369
+      HUDBATTLE_36: 379581344
+      HUDBATTLE_37: 1776156386
+      HUDBATTLE_38: 1348506782
+      HUDBATTLE_39: 648396192
+      HUDBATTLE_4: 798095852
+      HUDBATTLE_40: -1253686334
+      HUDBATTLE_41: -1828968026
+      HUDBATTLE_42: -1591848736
+      HUDBATTLE_43: -1680579560
+      HUDBATTLE_44: -2059778677
+      HUDBATTLE_45: 827998480
+      HUDBATTLE_46: -1452102742
+      HUDBATTLE_47: -1935896504
+      HUDBATTLE_48: -1641734773
+      HUDBATTLE_49: 196860286
+      HUDBATTLE_5: -1690075735
+      HUDBATTLE_50: 1744252048
+      HUDBATTLE_51: -1217501116
+      HUDBATTLE_52: 1603824556
+      HUDBATTLE_53: -1396934013
+      HUDBATTLE_54: -2117473049
+      HUDBATTLE_55: 1627440910
+      HUDBATTLE_56: 1103363261
+      HUDBATTLE_57: 660129622
+      HUDBATTLE_58: 1569787944
+      HUDBATTLE_59: -406266379
+      HUDBATTLE_6: -1264274618
+      HUDBATTLE_60: -1681362728
+      HUDBATTLE_61: 1402590685
+      HUDBATTLE_62: -1755292284
+      HUDBATTLE_63: -1211035402
+      HUDBATTLE_64: -1427574949
+      HUDBATTLE_65: -1624895768
+      HUDBATTLE_66: -2021507459
+      HUDBATTLE_67: -1411319149
+      HUDBATTLE_68: 293822278
+      HUDBATTLE_69: 1847427852
+      HUDBATTLE_7: 1286959692
+      HUDBATTLE_70: 672329614
+      HUDBATTLE_71: 771768747
+      HUDBATTLE_72: 1628221398
+      HUDBATTLE_73: -1308453602
+      HUDBATTLE_74: -2034590209
+      HUDBATTLE_75: 1858882416
+      HUDBATTLE_76: 677623492
+      HUDBATTLE_77: 1679020051
+      HUDBATTLE_78: 687456270
+      HUDBATTLE_79: -1609056267
+      HUDBATTLE_8: -454274311
+      HUDBATTLE_80: 1269952972
+      HUDBATTLE_81: -1597909039
+      HUDBATTLE_82: -2056529294
+      HUDBATTLE_83: -1978645813
+      HUDBATTLE_84: 1788378147
+      HUDBATTLE_85: -1319688611
+      HUDBATTLE_86: -1924353981
+      HUDBATTLE_87: 706163445
+      HUDBATTLE_88: -841642554
+      HUDBATTLE_89: -1460705011
+      HUDBATTLE_9: -1971702570
+      HUDBATTLE_90: -1681413710
+      HUDBATTLE_91: -757272303
+      HUDBATTLE_92: -1536107100
+      HUDBATTLE_93: -1648170757
+      HUDBATTLE_94: 227557440
+      HUDBATTLE_95: 31745023
+      HUDBATTLE_96: 1547666998
+      HUDBATTLE_97: -1328590195
+      HUDBATTLE_98: -675254230
+      HUDBATTLE_99: -1080539114
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

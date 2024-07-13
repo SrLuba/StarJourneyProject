@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5ca504941755fa4bb439d603884fc6a, type: 3}
+  m_Name: GoombaAttack_0
+  m_EditorClassIdentifier: 
+  attacks:
+  - linkedActor: kuribo
+    offset: {x: 0, y: 9, z: 0}
+    positionOffset: {x: 5, y: 0}
+    attack: {fileID: 1130515007692139115, guid: c9998881190d75d459a2b37b83799313,
+      type: 3}

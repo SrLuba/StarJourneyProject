@@ -5,7 +5,7 @@ using UnityEngine;
 public class ShadowScript : MonoBehaviour
 {
     public Transform target;
-    public CharaSO targetChara;
+    public ActorSO targetChara;
 
     public Vector3 Offset;
 

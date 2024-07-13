@@ -6,7 +6,7 @@ using System.Text;
 
 [System.Serializable]
 public class Actor {
-    public CharaSO mainSO;
+    public ActorSO mainSO;
     public OVActorSO mainOV;
     public BattleActorSO mainBO;
 
@@ -36,7 +36,7 @@ public class ActorParser {
     public Actor get(byte[] bytes) {
         Debug.Log("<color=green>ACTOR PARSER | LOADING CHAR</color>");
 
-        CharaSO mainSO = ScriptableObject.CreateInstance<CharaSO>();
+        ActorSO mainSO = ScriptableObject.CreateInstance<ActorSO>();
         OVActorSO mainOV = ScriptableObject.CreateInstance<OVActorSO>();
         BattleActorSO mainBO = ScriptableObject.CreateInstance<BattleActorSO>();
 

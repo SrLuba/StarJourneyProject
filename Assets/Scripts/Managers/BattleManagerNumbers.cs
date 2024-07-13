@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.InputSystem;
 
 public class BattleManagerNumbers : MonoBehaviour
@@ -34,7 +35,7 @@ public class BattleManagerNumbers : MonoBehaviour
         if (characterGB == null) return;
         if (character.dead) return;
 
-        characterGB.GetComponent<GenericBActor>().StartCoroutine(characterGB.GetComponent<GenericBActor>().Hurt());
+        characterGB.GetComponent<GenericBActor>().StartCoroutine(characterGB.GetComponent<GenericBActor>().Hurt(25f));
         GameObject hurtGB = Instantiate(hurtKindPrefab, characterGB.transform.position, Quaternion.identity);
         UIHurtMeter uiHM = hurtGB.GetComponent<UIHurtMeter>();
 
@@ -52,29 +53,18 @@ public class BattleManagerNumbers : MonoBehaviour
         character.stats.HEALTH.currentValue -= value;
         if (character.stats.HEALTH.currentValue < 0) character.stats.HEALTH.currentValue = 0;
     }
-    public void Ranking(int value, BattleActorSO character)
+    public void ShowRanking(int rankingN)
     {
-        GameObject characterGB = character.getInstance();
-        if (characterGB == null) return;
-        if (character.dead) return;
+        GameObject g = Instantiate(ranking.rankings[rankingN].Prefab, new Vector3(0f, 0f, 0f), Quaternion.identity);
+        g.transform.SetParent(mainCanvas);
+        g.transform.localPosition = Vector3.zero + ranking.rankings[rankingN].offset;
+        g.transform.eulerAngles = Vector3.zero;
+        g.transform.localEulerAngles = Vector3.zero;
+        g.transform.localScale = new Vector3(1f, 1f, 1f);
+        g.transform.GetChild(0).GetComponent<Image>().sprite = ranking.rankings[rankingN].assignedSprite;
+        g.transform.GetChild(0).GetComponent<Image>().SetNativeSize();
 
-        characterGB.GetComponent<GenericBActor>().StartCoroutine(characterGB.GetComponent<GenericBActor>().Hurt());
-        GameObject hurtGB = Instantiate(hurtKindPrefab, characterGB.transform.position, Quaternion.identity);
-        UIHurtMeter uiHM = hurtGB.GetComponent<UIHurtMeter>();
-
-        uiHM.Init(mainCanvas, value);
-        hurtGB.transform.localScale = new Vector3(0.5f, 0.5f, 1f);
-        hurtGB.transform.position = mainCanvas.transform.position;
-
-        Vector2 ViewportPosition = mainCam.WorldToViewportPoint(characterGB.transform.position);
-
-        Vector2 WorldObject_ScreenPosition = hurtUIOffset + new Vector2(
-        ((ViewportPosition.x * mainCanvas.sizeDelta.x) - (mainCanvas.sizeDelta.x * 0.5f)),
-        ((ViewportPosition.y * mainCanvas.sizeDelta.y) - (mainCanvas.sizeDelta.y * 0.5f)));
-        hurtGB.GetComponent<RectTransform>().anchoredPosition = WorldObject_ScreenPosition;
-
-        character.stats.HEALTH.currentValue -= value;
-        if (character.stats.HEALTH.currentValue < 0) character.stats.HEALTH.currentValue = 0;
+        SoundManager.instance.Play(ranking.rankings[rankingN].sound);
     }
     public void Update()
     {

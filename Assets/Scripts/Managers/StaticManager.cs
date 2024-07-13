@@ -1,6 +1,10 @@
+using JetBrains.Annotations;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Discord;
+using System;
+using static UnityEditor.Recorder.OutputPath;
 public enum PlayerTestType { 
     Mario,
     Luigi,
@@ -23,13 +27,17 @@ public class StaticManager : MonoBehaviour
 
     public BattleSO goBattle;
 
-    public List<CharaSO> players = new List<CharaSO>();
+    public GameSO game;
 
-    public MapSO selectedMap;
+    public int PlayerCount = 2;
 
+    public List<string> bindingsPerPlayerID = new List<string>();
 
-
-    public PlayerTestType playerTestType = PlayerTestType.MarioAndLuigi;
+    //public MapSO selectedMap;
+    public Discord.Discord discord;
+    public Discord.OverlayManager overlayManager;
+    public Discord.ActivityManager activityManager;
+    public Discord.RelationshipManager relationshipManager;
 
     private void Awake()
     {
@@ -38,55 +46,55 @@ public class StaticManager : MonoBehaviour
             Destroy(instance.gameObject);
         }
         instance = this;
-       
+
+        // Discord Rich Presence
+        discord = new Discord.Discord(1256060167468879903, (UInt64)Discord.CreateFlags.Default);
+        this.overlayManager = discord.GetOverlayManager();
+        this.activityManager = discord.GetActivityManager();
+        this.relationshipManager = discord.GetRelationshipManager();
+
+
+        // Game
+        if (this.game==null) this.game = Resources.Load<GameSO>("Resources/Data/Game");
+
+        this.game.Initialize();
+
+        this.PlayerCount = this.game.currentPlayers.Count;
+    
+    }
+    public void OnApplicationQuit()
+    {
+        discord.Dispose(); // Discord Rich Presence
     }
     void Start()
     {
-        DontDestroyOnLoad(this.gameObject);
-      
+        
+        DontDestroyOnLoad(this.gameObject); // Make object persistent
+     
+    }
+    public string getInputByPlayerID(int playerID)
+    {
+        return this.bindingsPerPlayerID[playerID]; 
     }
     private void Update()
     {
-        if (!onBattle) {
-            if (OVManager.instance == null) return;
-            if (OVManager.instance.playerType == 2)
-            {
-                company = !OVManager.instance.secondaryPlayer.split;
-            }
-            else {
-                company = false;
-            }
-        }
-        if (OVManager.instance != null)
-        {
-            CharaSO player1 = Resources.Load<CharaSO>("Data/Players/Player_1");
-            CharaSO player2 = Resources.Load<CharaSO>("Data/Players/Player_2");
+        discord.RunCallbacks();
+
+        Activity activity = new Activity();
+
+        activity.Details = "Testing";
+        activity.Party = new() { Size = new() { CurrentSize = 1, MaxSize = 1 }, Id = "" };
+        activity.State = (string)(UnityEngine.SceneManagement.SceneManager.GetActiveScene().name);
+        ActivityAssets assets = new();
+        assets.LargeImage = "default";
+  
+        activity.Assets = assets;
 
 
-            switch (playerTestType)
-            {
-                case PlayerTestType.Mario:
-                    OVManager.instance.player = player1;
-                    OVManager.instance.player2 = null;
-                    break;
-                case PlayerTestType.Luigi:
-                    OVManager.instance.player = player2;
-                    OVManager.instance.player2 = null;
-                    break;
-                case PlayerTestType.MarioAndLuigi:
-                    OVManager.instance.player = player1;
-                    OVManager.instance.player2 = player2;
-                    break;
-                case PlayerTestType.LuigiAndMario:
-                    OVManager.instance.player = player2;
-                    OVManager.instance.player2 = player1;
-                    break;
-                case PlayerTestType.GoombaFRFR:
-                    OVManager.instance.player = Resources.Load<CharaSO>("Data/Players/Goomba");
-                    OVManager.instance.player2 = Resources.Load<CharaSO>("Data/Players/Goomba");
-                    break;
-            }
+        activityManager.UpdateActivity(activity, (res) => {
+            //head empty.
+            Debug.Log($"[DISCORD] Rich Presence Update: {res}");
+        });
 
-        }
     }
 }

@@ -34,12 +34,8 @@ public class MenuAction {
         }
         else if (type == MenuActionType.LoadLevel)
         {
-            StaticManager.instance.selectedMap = Resources.Load<MapSO>("Maps/" + action);
+           // StaticManager.instance.selectedMap = Resources.Load<MapSO>("Maps/" + action);
             UnityEngine.SceneManagement.SceneManager.LoadScene("Overworld");
-        }
-        else if (type == MenuActionType.PlayerTypeToggle) {
-            StaticManager.instance.playerTestType++;
-            if ((int)StaticManager.instance.playerTestType > (int)PlayerTestType.GoombaFRFR) StaticManager.instance.playerTestType = (PlayerTestType)0;
         }
     }
 }
@@ -59,9 +55,7 @@ public class MenuItemController : MonoBehaviour
 
     public void Update()
     {
-        if (action.type == MenuActionType.PlayerTypeToggle) {
-            text.text = this.targetText + " - " + StaticManager.instance.playerTestType.ToString();
-        }
+      
     }
 
     public void Click(MenuController controller) {

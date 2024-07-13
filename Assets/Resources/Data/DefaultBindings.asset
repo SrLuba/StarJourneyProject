@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfa2f6f00c4f8824a9a8503643e228cb, type: 3}
+  m_Name: DefaultBindings
+  m_EditorClassIdentifier: 
+  bindings:
+  - identifier: MOVE
+    controlType: 0
+    type: 1
+    keyboardBinding: 48
+    gamepadBinding: 0
+  - identifier: CAMERA
+    controlType: 0
+    type: 1
+    keyboardBinding: 49
+    gamepadBinding: 1
+  - identifier: UP
+    controlType: 0
+    type: 0
+    keyboardBinding: 3
+    gamepadBinding: 6
+  - identifier: DOWN
+    controlType: 0
+    type: 0
+    keyboardBinding: 6
+    gamepadBinding: 7
+  - identifier: LEFT
+    controlType: 0
+    type: 0
+    keyboardBinding: 5
+    gamepadBinding: 8
+  - identifier: RIGHT
+    controlType: 0
+    type: 0
+    keyboardBinding: 7
+    gamepadBinding: 9
+  - identifier: A
+    controlType: 0
+    type: 0
+    keyboardBinding: 50
+    gamepadBinding: 2
+  - identifier: B
+    controlType: 0
+    type: 0
+    keyboardBinding: 51
+    gamepadBinding: 4
+  - identifier: X
+    controlType: 0
+    type: 0
+    keyboardBinding: 29
+    gamepadBinding: 5
+  - identifier: Y
+    controlType: 0
+    type: 0
+    keyboardBinding: 28
+    gamepadBinding: 3
+  - identifier: L
+    controlType: 0
+    type: 0
+    keyboardBinding: 8
+    gamepadBinding: 11
+  - identifier: R
+    controlType: 0
+    type: 0
+    keyboardBinding: 9
+    gamepadBinding: 10
+  - identifier: START
+    controlType: 0
+    type: 0
+    keyboardBinding: 16
+    gamepadBinding: 14
+  - identifier: SELECT
+    controlType: 0
+    type: 0
+    keyboardBinding: 15
+    gamepadBinding: 15

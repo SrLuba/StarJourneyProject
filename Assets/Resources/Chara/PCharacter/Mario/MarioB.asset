@@ -12,14 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4c1e40198d333b1448b613d3a5253590, type: 3}
   m_Name: MarioB
   m_EditorClassIdentifier: 
-  Visual: {fileID: 6933974840482090755, guid: d38b47d1c61a4bf49b9f23cfad2ada09, type: 3}
+  Visual: {fileID: 2765907120191084782, guid: c83b60b6171b48646b0fec01eec219f3, type: 3}
   selfShadow: {fileID: 2908175051198882846, guid: f3f0c31ea043998419a23a76653c65ea,
     type: 3}
   selfShadowOffset: {x: 0, y: 1, z: 0}
-  visualOffset: {x: 0, y: 0, z: 0}
+  visualOffset: {x: 0, y: -1.5, z: 0}
   eulerAngleOffset: {x: 0, y: 100, z: 0}
   VisualAnimator: {fileID: 9100000, guid: 3f527440e19f52841837ec163f53dae1, type: 2}
-  linkedChara: {fileID: 11400000, guid: fa6c67bea2df2d44dbe5e8b32b5257e4, type: 2}
+  linkedActor: {fileID: 11400000, guid: fa6c67bea2df2d44dbe5e8b32b5257e4, type: 2}
   stats:
     HEALTH:
       startValue: 25
@@ -69,8 +69,12 @@ MonoBehaviour:
       addValue: 0
       currentValue: 0
       maxValue: 0
+  linkedPointOffset: {x: 0, y: 0, z: 0}
+  linkedAngleOffset: {x: 0, y: -90, z: 0}
   strength: 1
-  level: 1
+  attackList:
+  - {fileID: 11400000, guid: 422bc44ae23b37d40af6e180c4901f99, type: 2}
+  level: 2
   spawnInfo:
     random: 0
     min: {x: 12, y: 4}
@@ -89,3 +93,6 @@ MonoBehaviour:
   dead: 0
   myID: 0
   selfInstance: {fileID: 0}
+  bgUI: {fileID: -1120870726, guid: b749202226dc848428cb961414bc0858, type: 3}
+  myBattleUI: {fileID: 5587008585394986802, guid: b1a994d79fc77284fb7e53eefd949e8d,
+    type: 3}

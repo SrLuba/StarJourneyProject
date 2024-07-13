@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5ca504941755fa4bb439d603884fc6a, type: 3}
+  m_Name: JumpAttack
+  m_EditorClassIdentifier: 
+  attacks:
+  - linkedActor: mario
+    offset: {x: -6.5, y: 8.5, z: 0}
+    positionOffset: {x: -6.5, y: 0}
+    attack: {fileID: 4701789039018225966, guid: e087782556c34dd43b6b7bc5ede725ba,
+      type: 3}
+  - linkedActor: luigi
+    offset: {x: -6.5, y: 8.5, z: 0}
+    positionOffset: {x: -6.5, y: 0}
+    attack: {fileID: 4701789039018225966, guid: 91132f8a1615c2a45a904b2b1e0d2818,
+      type: 3}

@@ -16,10 +16,10 @@ MonoBehaviour:
   selfShadow: {fileID: 2908175051198882846, guid: f3f0c31ea043998419a23a76653c65ea,
     type: 3}
   selfShadowOffset: {x: 0, y: 1, z: 0}
-  visualOffset: {x: 0, y: 0, z: 0}
+  visualOffset: {x: 0, y: -1.4, z: 0}
   eulerAngleOffset: {x: 0, y: 100, z: 0}
   VisualAnimator: {fileID: 9100000, guid: b6ea07960b07c8149a871fc8a1b14e45, type: 2}
-  linkedChara: {fileID: 11400000, guid: 5d45e6c200d46224e97ccc4979c60764, type: 2}
+  linkedActor: {fileID: 11400000, guid: 5d45e6c200d46224e97ccc4979c60764, type: 2}
   stats:
     HEALTH:
       startValue: 25
@@ -69,8 +69,12 @@ MonoBehaviour:
       addValue: 0
       currentValue: 0
       maxValue: 0
-  strength: 2
-  level: 5
+  linkedPointOffset: {x: 0, y: 0, z: 0}
+  linkedAngleOffset: {x: 0, y: -90, z: 0}
+  strength: 1
+  attackList:
+  - {fileID: 11400000, guid: 422bc44ae23b37d40af6e180c4901f99, type: 2}
+  level: 2
   spawnInfo:
     random: 0
     min: {x: 13, y: -2}
@@ -89,3 +93,7 @@ MonoBehaviour:
   dead: 0
   myID: 0
   selfInstance: {fileID: 0}
+  bgUI: {fileID: -491959637, guid: b749202226dc848428cb961414bc0858, type: 3}
+  myBattleUI: {fileID: 6583538241406972167, guid: 3c3150fa2d8fe3646a3fe76bd179216d,
+    type: 3}
+  stunForce: 100

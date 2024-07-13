@@ -16,6 +16,7 @@ TagManager:
   - Coin
   - FixedCameraZone
   - Water
+  - CameraChangeZone
   layers:
   - Default
   - TransparentFX
@@ -35,7 +36,7 @@ TagManager:
   - Enemy
   - Background
   - Shadow
-  - 
+  - TopScreen
   - 
   - 
   - 

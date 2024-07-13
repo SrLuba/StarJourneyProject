@@ -14,7 +14,8 @@ public static class BattleUtils {
     }
 
     public static float AttackConstantGet() {
-        float result = Mathf.Clamp(BattleManagerNumbers.instance.constantUserValue, 0.5f, 2.2f);
+        Debug.Log("<color=red>" + ((Global.rankingID + 1) * 0.5f).ToString() + "</color>");
+        float result = (Global.rankingID+1) * 0.5f;
         return result;
     }
 }

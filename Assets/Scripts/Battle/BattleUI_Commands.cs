@@ -5,14 +5,18 @@ using UnityEngine;
 public class BattleUI_Commands : MonoBehaviour
 {
     public static BattleUI_Commands instance;
-    public Animator p1, p2;
-    public List<Animator> p_types;
-    public List<GameObject> types;
+    public List<Battle_UI_Command> commands;
+
+    public GameObject commandPrefab;
 
     int pCount = 0;
 
     public List<GameObject> statusMeters;
 
+    public List<Vector2> statusMetersPosition;
+    public List<Vector2> commandPositions;
+
+    public Transform canvas;
 
     public void Awake()
     {
@@ -22,47 +26,66 @@ public class BattleUI_Commands : MonoBehaviour
     public void Start()
     {
         Setup_Player_UI();
-       
     }
     public void Update_Player_UI(int type) {
         if (type == -1) {
-            if (p1 != null) p1.Play("Idle");
-            if (p2 != null) p2.Play("Idle");
+            foreach (Battle_UI_Command command in commands) {
+                command.active = false;
+            }
             return;
         }
 
-        if (p1 != null) {
-            p1.Play("P1_" + ((type == 0) ? "JUMP" : "HAMMER"));
-        }
-
-        if (p2 != null) {
-            p2.Play("P2_" + ((type == 0) ? "JUMP" : "HAMMER"));
+        foreach (Battle_UI_Command command in commands)
+        {
+            command.state = (type == 0) ? "JUMP" : "HAMMER";
+            command.active = true;
         }
     }
     public void Setup_Player_UI() {
-        types[0].SetActive((StaticManager.instance.players.Count==1));
-        types[1].SetActive((StaticManager.instance.players.Count==2));
-        types[2].SetActive((StaticManager.instance.players.Count>=3));
 
-        pCount = StaticManager.instance.players.Count;
+        pCount = StaticManager.instance.PlayerCount;
+        statusMeters.Clear();
+        commands.Clear();
+        
 
-        statusMeters[0].SetActive((StaticManager.instance.players.Count >= 1));
-        statusMeters[1].SetActive((StaticManager.instance.players.Count >= 2));
-        statusMeters[2].SetActive((StaticManager.instance.players.Count >= 3));
+        for (int i = 0; i < pCount; i++) {
 
-        if (StaticManager.instance.players.Count == 1) {
-            p1 = p_types[0];
-            p2 = null;
+            BattleActorSO B = Global.FindActorByID(StaticManager.instance.game.currentPlayers[i]).selfBattle;
+            GameObject statusMeter = Instantiate(B.myBattleUI, canvas);
+     
+            statusMeter.transform.SetParent(canvas);
+
+            statusMeter.transform.localPosition = Vector3.zero;
+            statusMeter.transform.localPosition = statusMetersPosition[i];
+            statusMeter.transform.localScale = new Vector3(0.75f, 0.75f, 0.75f);
+          
+
+            GameObject commandObject = Instantiate(this.commandPrefab, canvas);
             
-        }
-        else if(StaticManager.instance.players.Count == 2) {
-            p1 = p_types[1];
-            p2 = p_types[2];
-        }
-        else if (StaticManager.instance.players.Count == 3)
-        {
-            p1 = p_types[3];
-            p2 = p_types[4];
+            commandObject.transform.SetParent(canvas);
+
+ 
+            commandObject.transform.localPosition = Vector3.zero;
+            commandObject.transform.localPosition = commandPositions[i];
+            commandObject.transform.localScale = new Vector3(5f, 5f, 5f);
+
+            commandObject.GetComponent<Battle_UI_Command>().playerID = StaticManager.instance.game.currentPlayers[i].ToUpper();
+
+
+            NumberDisplayer hp = statusMeter.transform.GetChild(1).GetComponent<NumberDisplayer>();
+            NumberDisplayer tp = statusMeter.transform.GetChild(2).GetComponent<NumberDisplayer>();
+            BattleManager.instance.playersBattleActors.Add(new PlayerBattleActor(hp, tp));
+
+            commands.Add(commandObject.GetComponent<Battle_UI_Command>());
+
+            List<Vector2> pos = new List<Vector2>();
+            pos.Add(commandPositions[i]);
+            pos.Add(commandPositions[i]);
+
+            commandObject.GetComponent<Battle_UI_Command>().position = new List<Vector2>(pos);
+            statusMeters.Add(statusMeter);
+
         }
     }
+    
 }

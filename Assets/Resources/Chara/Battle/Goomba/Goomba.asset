@@ -9,107 +9,25 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 57c8396977328d44d8c736af3c42d771, type: 3}
+  m_Script: {fileID: 11500000, guid: cf1eaf63e98040e4b99171c0cd7477f8, type: 3}
   m_Name: Goomba
   m_EditorClassIdentifier: 
   identifier: kuribo
-  displayName: Goomba
-  displayDescription: 
-  characterIcon: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
-  charaType: 1
-  charaFlags: []
-  stats:
-    HEALTH:
-      startValue: 1555
-      valueMultiplier: 1
-      addValue: 0
-      currentValue: 1356
-      maxValue: 25
-    ENERGY:
-      startValue: 25
-      valueMultiplier: 1
-      addValue: 2
-      currentValue: 27
-      maxValue: 27
-    ATTACK:
-      startValue: 9
-      valueMultiplier: 1
-      addValue: 1
-      currentValue: 10
-      maxValue: 10
-    DEFENSE:
-      startValue: 1
-      valueMultiplier: 1
-      addValue: 0
-      currentValue: 1
-      maxValue: 1
-    MAGICATTACK:
-      startValue: 0
-      valueMultiplier: 0
-      addValue: 0
-      currentValue: 0
-      maxValue: 0
-    MAGICDEFENSE:
-      startValue: 0
-      valueMultiplier: 0
-      addValue: 0
-      currentValue: 0
-      maxValue: 0
-    SPEED:
-      startValue: 1
-      valueMultiplier: 0
-      addValue: 0
-      currentValue: 0
-      maxValue: 0
-    LUCK:
-      startValue: 0
-      valueMultiplier: 0
-      addValue: 0
-      currentValue: 0
-      maxValue: 0
-  level: 1
-  selfBattle: {fileID: 11400000, guid: efe69d6d1747dc048a6ab00a500b106d, type: 2}
-  selfIA:
-    speed: 6
-  floorYOffset: 8.4
-  mass: 1
-  size: 1.5
+  displayName: '?'
+  size: 1
+  selfShadowOffset: {x: 0, y: 0, z: 0}
+  myType: 3
+  playerID: 0
+  currentPlayerID: 0
+  perks:
+  - {fileID: 0}
+  floorYOffset: -1
   collider:
     radious: 1
     height: 1
-    offset: {x: 0, y: 1, z: 0}
-  OVActor: {fileID: 11400000, guid: f6f59e9b41567a5458f78c07a6458907, type: 2}
-  ownAction: 0
-  canWater: 1
-  noticeDistance: 7
-  noticeSFX: {fileID: 8300000, guid: eba259fbe0492a94198698421cb77022, type: 3}
-  phyMat: {fileID: 13400000, guid: 77b3aebb189459244a19906ca14d7faf, type: 2}
-  jumpForce: 100
-  selfEncounter: {fileID: 11400000, guid: e84bc5bb06fd2b6439bb203bcd8d7fcf, type: 2}
-  ySquatch: {x: 0, y: 0}
-  xSquatch: {x: 0, y: 0}
-  effectSquatch: 0
-  effectSquatchY: 0
-  selfShadow: {fileID: 2908175051198882846, guid: f3f0c31ea043998419a23a76653c65ea,
-    type: 3}
-  selfShadowOffset: {x: 0, y: 0, z: 0}
-  IATrailPointPrefab: {fileID: 2104450361299720835, guid: f6db2a155deeeb749b4689796411cb96,
-    type: 3}
-  followDistance: 1
-  battleEntrance_VoiceClips:
-    Solo_BattlePrepareVoiceClips: []
-    Company_BattlePrepareVoiceClips: []
-    Solo_BattlePrepareVoiceClips_Disadvantage: []
-    Company_BattlePrepareVoiceClips_Disadvantage: []
-    Solo_BattlePrepareVoiceClips_Advantage: []
-    Company_BattlePrepareVoiceClips_Advantage: []
-  selfLayer: Enemy
+    offset: {x: 0, y: 0, z: 0}
   floorMask:
     serializedVersion: 2
     m_Bits: 8192
-  SpeechBubbleSFX: {fileID: 0}
-  SpeechBubbleSkipSFX: {fileID: 0}
-  StompSFX: {fileID: 0}
-  perkPackID: 0
-  WaterEnterSFX: {fileID: 0}
-  WaterExitSFX: {fileID: 0}
+  OVActor: {fileID: 11400000, guid: f6f59e9b41567a5458f78c07a6458907, type: 2}
+  selfBattle: {fileID: 11400000, guid: efe69d6d1747dc048a6ab00a500b106d, type: 2}

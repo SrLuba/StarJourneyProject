@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 public enum MovementTypeCamera { 
     Instant,
@@ -33,7 +34,13 @@ public class Battle_Camera : MonoBehaviour
 
     public Vector2 FOVClamp;
 
-    public Vector3 victoryPosition;
+    public bool camOverride = false;
+    public Vector3 camOverridePosition, camOverrideAngle;
+    public Vector3 camOverrideOffset;
+    
+    public float camOverrideFOV;
+    public Transform dummy;
+    public bool active = true;
 
     public void Awake()
     {
@@ -59,22 +66,47 @@ public class Battle_Camera : MonoBehaviour
         bpmEffect = bpmEffectIntensity; 
     }
     public void UpdateSmooth() {
+        if (!active || camOverride) return;
         if (currentMovementType != MovementTypeCamera.Smooth) return;
 
         Vector3 result = (target != null) ? new Vector3(target.getInstance().transform.position.x, 0f, target.getInstance().transform.position.z) +vectorGoto + offset : defaultPosition;
-        currentPositionTarget = result;
+        
+        if (!camOverride) {
+            currentPositionTarget = result;
+        }
 
         this.transform.position = Vector3.Lerp(this.transform.position, currentPositionTarget, speed * Time.deltaTime);
+        this.transform.eulerAngles = new Vector3(
+     Mathf.LerpAngle(this.transform.eulerAngles.x, 0f, speed * Time.deltaTime),
+     Mathf.LerpAngle(this.transform.eulerAngles.y, 0f, speed * Time.deltaTime),
+     Mathf.LerpAngle(this.transform.eulerAngles.z, 0f, speed * Time.deltaTime));
+    }
+
+    public void UpdateOverride() {
+        if (!camOverride) return;
+
+        this.transform.position = Vector3.Lerp(this.transform.position, camOverridePosition+ camOverrideOffset, speed * Time.deltaTime);
+        this.transform.eulerAngles = new Vector3(
+            Mathf.LerpAngle(this.transform.eulerAngles.x, this.dummy.eulerAngles.x, speed * Time.deltaTime),
+            Mathf.LerpAngle(this.transform.eulerAngles.y, this.dummy.eulerAngles.y, speed * Time.deltaTime),
+            Mathf.LerpAngle(this.transform.eulerAngles.z, this.dummy.eulerAngles.z, speed * Time.deltaTime));
+        this.mainCamera.fieldOfView = Mathf.Lerp(this.mainCamera.fieldOfView, camOverrideFOV, speed * Time.deltaTime);
+        this.bgCamera.fieldOfView = Mathf.Lerp(this.bgCamera.fieldOfView, camOverrideFOV, speed * Time.deltaTime);
     }
     
     public void Update()
     {
         if (BattleManager.instance.victory) {
-            this.mainCamera.fieldOfView = 60f;
-            this.transform.position = Vector3.Lerp(this.transform.position, victoryPosition, speed * Time.deltaTime);
+            this.mainCamera.fieldOfView = Mathf.Lerp(this.mainCamera.fieldOfView, 60f, speed * Time.deltaTime);
+            this.bgCamera.fieldOfView = Mathf.Lerp(this.bgCamera.fieldOfView, 60f, speed * Time.deltaTime);
             return;
         }
+
+        dummy.transform.position = this.transform.position;
+        if (target!=null) dummy.LookAt(target.getInstance().transform);
+
         UpdateSmooth();
         UpdateFOV();
+        UpdateOverride();
     }
 }

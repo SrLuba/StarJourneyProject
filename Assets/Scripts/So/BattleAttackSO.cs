@@ -54,7 +54,7 @@ public class BattleAttackSequenceItem {
         if (timeEvent)
         {
             yield return new WaitForSeconds(inputEventDelay);
-            if (actor.linkedChara.getActionDown())
+            if (actor.linkedActor.getKey(KeyEventType.Pressed))
             {
                 sequence.parent.currentSequenceID = successID;
                 Success();

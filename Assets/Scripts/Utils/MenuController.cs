@@ -78,10 +78,10 @@ public class MenuController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (InputManager.instance.aPress) ClickAction();
-
-        if (InputManager.instance.dpadRightPress || InputManager.instance.dpadDownPress) CursorMove(new Vector2(1f, 0f));
-        if (InputManager.instance.dpadLeftPress || InputManager.instance.dpadUpPress) CursorMove(new Vector2(-1f, 0f));
+        if (InputManager.instance.engine.getPressed("A")) ClickAction();    
+            
+        if (InputManager.instance.engine.getPressed("RIGHT") || InputManager.instance.engine.getPressed("DOWN")) CursorMove(new Vector2(1f, 0f));
+        if (InputManager.instance.engine.getPressed("LEFT") || InputManager.instance.engine.getPressed("UP")) CursorMove(new Vector2(-1f, 0f));
     }
 
     private void FixedUpdate()

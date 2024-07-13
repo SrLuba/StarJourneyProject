@@ -6,7 +6,7 @@ public enum OP_UseRequirement {
     Grounded,
     Air
 }
-[System.Serializable]
+/*[System.Serializable]
 public class OverworldPerk {
     public string perkName;
     public string animationName;
@@ -76,10 +76,10 @@ public class OverworldPerk {
         if (!StaticManager.instance.onBattle)
         { player.anim.Play("Idle"); player.canAnimate = true; Debug.Log("<color=red>Setting Can Animate To True</color>"); }
     }
-}
+}*/
 [System.Serializable]
 public class PerksPack {
-    public List<OverworldPerk> perks;
+    public List<PerkSO> perks;
 }
 [CreateAssetMenu]
 public class OVActorSO : ScriptableObject

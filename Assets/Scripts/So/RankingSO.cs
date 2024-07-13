@@ -8,6 +8,8 @@ public class Ranking {
     public AudioClip sound;
     public GameObject Prefab;
     public GameObject PrefabBG;
+    public Sprite assignedSprite;
+    public Vector3 offset;
 }
 [CreateAssetMenu]
 public class RankingSO : ScriptableObject

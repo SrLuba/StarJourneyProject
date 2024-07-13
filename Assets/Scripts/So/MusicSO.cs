@@ -4,6 +4,9 @@ using UnityEngine;
 [CreateAssetMenu]
 public class MusicSO : ScriptableObject
 {
+
+    public string identifier = "MusicIDK";
+
     [Header("Music Loop")] public AudioClip music;
 
     public List<Vector2> musicOffset;

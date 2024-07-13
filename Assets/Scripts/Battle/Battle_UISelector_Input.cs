@@ -11,13 +11,15 @@ public class Battle_UISelector_Input : MonoBehaviour
     void Update()
     {
         if (BattleManager.instance == null) return;
-        if (BattleManager.instance.currentTurn != null) { if (BattleManager.instance.currentTurn.linkedChara.charaType != CharaType.Player) { return; } }
-        if (InputManager.instance.rPress) {
+        if (BattleManager.instance.currentTurn != null) { if (BattleManager.instance.currentTurn.linkedActor.myType != ActorType.Player) { return; } }
+        if (!selector.active) return;
+
+        if (InputManager.instance.engine.getPressed("RIGHT")) {
             selector.ActionID++;
             SoundManager.instance.Play(moveClip);
             if (selector.ActionID > selector.options.Count - 1) selector.ActionID = 0;
         }
-        else if (InputManager.instance.lPress)
+        else if (InputManager.instance.engine.getPressed("LEFT"))
         {
             selector.ActionID--;
             SoundManager.instance.Play(moveClip);

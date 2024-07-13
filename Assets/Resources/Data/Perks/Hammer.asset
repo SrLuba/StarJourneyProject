@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7f112ab04ee9fc4abfb77d38f8f2c25, type: 3}
+  m_Name: Hammer
+  m_EditorClassIdentifier: 
+  perkIcon: {fileID: -1137362212, guid: 9a0a598ccce94fa4f94fd6f1bd476a10, type: 3}
+  offset: {x: 0, y: 0, z: 0}
+  perkIncludeCharacters:
+  - identifier: mario
+    childID: 0
+    outOffset: {x: 0, y: 0, z: 0}
+    selectionSpecificClip: {fileID: 8300000, guid: 546278572be28454f872edf5ecee4e80,
+      type: 3}
+  - identifier: luigi
+    childID: 1
+    outOffset: {x: 0, y: 0, z: 0}
+    selectionSpecificClip: {fileID: 8300000, guid: d34b99a7077e04c4d93c30552249f01b,
+      type: 3}
+  perkPrefab: {fileID: 0}
+  selectionClip: {fileID: 0}

@@ -1,3 +1,4 @@
+using JetBrains.Annotations;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -19,9 +20,9 @@ public class EnemyInformationB {
 
     public ActorSpawnLimitationInformation spawnInfo;
 
-    public CharaSO getChara() {
-        CharaSO item = CharaManager.instance.characters.Find(x => x.identifier.ToUpper() == this.id.ToUpper());
-        if (item == null) Debug.LogError("Couldn't find CharaSO (" + this.id + ")");
+    public ActorSO getChara() {
+        ActorSO item = StaticManager.instance.game.actors.Find(x => x.identifier.ToUpper() == this.id.ToUpper());
+        if (item == null) Debug.LogError("Couldn't find ActorSO (" + this.id + ")");
         return item;
     }
 }
@@ -35,6 +36,12 @@ public enum BattleEnteringCase {
     DemoAdvantage,
     DemoDisadvantage
 }
+
+[System.Serializable]
+public class PlayerBattlePositionArrangement {
+    public int playerCount;
+    public List<Vector2> positions;
+}
 [CreateAssetMenu]
 public class BattleSO : ScriptableObject
 {
@@ -47,8 +54,6 @@ public class BattleSO : ScriptableObject
     public BattleEnteringCase enteringCase;
     public float floorY;
 
-    public List<Vector2> playersPositions = new List<Vector2>();
-    public List<Vector2> playersPositionsWithTurn = new List<Vector2>();
 
     [Header("Here goes the enemies")] public List<EnemyInformationB> enemies;
     [Header("Add here allowed players, if you want to make a mario only battle, just just put mario")] public List<string> allowedPlayers;

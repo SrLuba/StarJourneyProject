@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7f112ab04ee9fc4abfb77d38f8f2c25, type: 3}
+  m_Name: Jump
+  m_EditorClassIdentifier: 
+  useRequeriment: 1
+  type: 1
+  perkIcon: {fileID: -1137362212, guid: 9a0a598ccce94fa4f94fd6f1bd476a10, type: 3}
+  offset: {x: 0, y: 0, z: 0}
+  perkIncludeCharacters:
+  - identifier: mario
+    childID: 0
+    outOffset: {x: 0, y: 0, z: 0}
+    selectionSpecificClip: {fileID: 8300000, guid: 8d5019b420628b547802c6142ee525dd,
+      type: 3}
+  - identifier: luigi
+    childID: 1
+    outOffset: {x: 0, y: 0, z: 0}
+    selectionSpecificClip: {fileID: 8300000, guid: 5ccaf243a77b67e46a2c03086ecf2809,
+      type: 3}
+  perkPrefab: {fileID: 0}
+  selectionClip: {fileID: 0}

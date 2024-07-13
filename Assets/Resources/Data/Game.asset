@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e00f35efdb4049b4a85e1c0e2d822046, type: 3}
+  m_Name: Game
+  m_EditorClassIdentifier: 
+  actors:
+  - {fileID: 11400000, guid: 2b86132de92ca2549af4ba1bc9165465, type: 2}
+  - {fileID: 11400000, guid: fa6c67bea2df2d44dbe5e8b32b5257e4, type: 2}
+  - {fileID: 11400000, guid: 5d45e6c200d46224e97ccc4979c60764, type: 2}
+  pickups:
+  - {fileID: 11400000, guid: 06243b090b8feb9428ec2b735197f0f4, type: 2}
+  rankings:
+  - {fileID: 11400000, guid: 4907fea3e64924d459ecb57e9c7c4dfa, type: 2}
+  perks:
+  - {fileID: 11400000, guid: 61b1481d96dece540a2693f816b54f26, type: 2}
+  - {fileID: 11400000, guid: b30faa2e054895f4d8243b768a6e4fc7, type: 2}
+  music:
+  - {fileID: 11400000, guid: 6df4d75d662cd4c43a9447a7287331f5, type: 2}
+  - {fileID: 11400000, guid: 5d2b51ba45c459c48bcaa93a2ff6d283, type: 2}
+  - {fileID: 11400000, guid: 8bdee4fbbccb6e545b04551a69d77ac9, type: 2}
+  - {fileID: 11400000, guid: bf5e5c1f8293f6a4ca1daa646dd71e5e, type: 2}
+  players:
+  - {fileID: 11400000, guid: fa6c67bea2df2d44dbe5e8b32b5257e4, type: 2}
+  - {fileID: 11400000, guid: 5d45e6c200d46224e97ccc4979c60764, type: 2}
+  currentPlayers:
+  - MARIO
+  - LUIGI
+  battleEntranceList:
+    info:
+    - characters:
+      - MARIO
+      musicSO: {fileID: 11400000, guid: 8bdee4fbbccb6e545b04551a69d77ac9, type: 2}
+    - characters:
+      - LUIGI
+      musicSO: {fileID: 11400000, guid: bf5e5c1f8293f6a4ca1daa646dd71e5e, type: 2}
+    - characters:
+      - MARIO
+      - LUIGI
+      musicSO: {fileID: 11400000, guid: 6df4d75d662cd4c43a9447a7287331f5, type: 2}
+    test:
+    - LUIGI
+    - MARIO
+  playerArrangements:
+  - playerCount: 1
+    positions:
+    - {x: 10, y: 2}
+    - {x: 10, y: 0}
+  - playerCount: 2
+    positions:
+    - {x: 10, y: 4}
+    - {x: 10, y: 0}

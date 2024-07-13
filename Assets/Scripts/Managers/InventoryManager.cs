@@ -31,7 +31,16 @@ public class InventoryManager : MonoBehaviour
     public Animator bagAnimator;
     public Image bagItemSprite;
 
+    public int gay() {
+        return 1;
+    }
 
+    public void noc() {
+        int i = gay();  
+
+
+        Debug.Log("gay is " + i.ToString()); 
+    }
     public void AddItem(PickupSO type, int count) {
         int item = bag.items.FindIndex(x => x.pickup == type);
 

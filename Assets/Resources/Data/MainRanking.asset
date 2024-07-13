@@ -14,22 +14,46 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rankings:
   - name: OK
-    sound: {fileID: 8300000, guid: 9c0e8b5527872e141a3aaa740f5f8246, type: 3}
-    Prefab: {fileID: 0}
+    sound: {fileID: 8300000, guid: 224403ce15740a44580d9547506a92d8, type: 3}
+    Prefab: {fileID: 7025683317487536634, guid: 9778576e8bdb89d4db2985c7d4cecc1c,
+      type: 3}
     PrefabBG: {fileID: 0}
+    assignedSprite: {fileID: 1282897363, guid: 83776d08141f3ab4d97e6a9c4af2f2c3, type: 3}
+    offset: {x: 128, y: 160, z: 0}
   - name: GOOD
-    sound: {fileID: 8300000, guid: 3ad4c5b6343f3654cb48c60a16c26570, type: 3}
-    Prefab: {fileID: 0}
+    sound: {fileID: 8300000, guid: b271c3d5975557b4ca841d4564b8d86a, type: 3}
+    Prefab: {fileID: 7025683317487536634, guid: 9778576e8bdb89d4db2985c7d4cecc1c,
+      type: 3}
     PrefabBG: {fileID: 0}
+    assignedSprite: {fileID: -1993641919, guid: 83776d08141f3ab4d97e6a9c4af2f2c3,
+      type: 3}
+    offset: {x: 152, y: 192, z: 0}
   - name: GREAT
-    sound: {fileID: 8300000, guid: 5e67bae98186d0f4eac45ee3e175e16e, type: 3}
-    Prefab: {fileID: 0}
+    sound: {fileID: 8300000, guid: bda7a047ed314f04d8044dac840e99d4, type: 3}
+    Prefab: {fileID: 7025683317487536634, guid: 9778576e8bdb89d4db2985c7d4cecc1c,
+      type: 3}
     PrefabBG: {fileID: 0}
+    assignedSprite: {fileID: -1141872331, guid: 83776d08141f3ab4d97e6a9c4af2f2c3,
+      type: 3}
+    offset: {x: 172, y: 224, z: 0}
   - name: EXCELLENT
-    sound: {fileID: 8300000, guid: e479bd3515895eb42b4ebfbc1e5bbc45, type: 3}
-    Prefab: {fileID: 0}
+    sound: {fileID: 8300000, guid: a6e4ff84cc3bf9149bd9ff586616302c, type: 3}
+    Prefab: {fileID: 7025683317487536634, guid: 9778576e8bdb89d4db2985c7d4cecc1c,
+      type: 3}
     PrefabBG: {fileID: 0}
+    assignedSprite: {fileID: -30364917, guid: 83776d08141f3ab4d97e6a9c4af2f2c3, type: 3}
+    offset: {x: 180, y: 240, z: 0}
   - name: PERFECT
-    sound: {fileID: 8300000, guid: e479bd3515895eb42b4ebfbc1e5bbc45, type: 3}
-    Prefab: {fileID: 0}
+    sound: {fileID: 8300000, guid: a6e4ff84cc3bf9149bd9ff586616302c, type: 3}
+    Prefab: {fileID: 7025683317487536634, guid: 9778576e8bdb89d4db2985c7d4cecc1c,
+      type: 3}
     PrefabBG: {fileID: 0}
+    assignedSprite: {fileID: -30364917, guid: 83776d08141f3ab4d97e6a9c4af2f2c3, type: 3}
+    offset: {x: 24, y: 24, z: 0}
+  - name: PERFECT
+    sound: {fileID: 8300000, guid: a6e4ff84cc3bf9149bd9ff586616302c, type: 3}
+    Prefab: {fileID: 7025683317487536634, guid: 9778576e8bdb89d4db2985c7d4cecc1c,
+      type: 3}
+    PrefabBG: {fileID: 0}
+    assignedSprite: {fileID: -30364917, guid: 83776d08141f3ab4d97e6a9c4af2f2c3, type: 3}
+    offset: {x: 24, y: 24, z: 0}

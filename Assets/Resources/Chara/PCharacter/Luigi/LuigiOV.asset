@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: LuigiOV
   m_EditorClassIdentifier: 
   speed: 18
-  jumpForce: 45
+  jumpForce: 42.5
   underWaterYOffset: 3.85
-  acceleration: 25
-  deceleration: 75
+  acceleration: 75
+  deceleration: 100
   angleEffect: 0
   gravityJump: 45
   gravityNormal: 75
@@ -37,83 +37,17 @@ MonoBehaviour:
   hammerUnlocked: 1
   perks:
   - perks:
-    - perkName: Jump
-      animationName: Jump
-      duration: 1
-      icon: {fileID: -210644907, guid: 9a0a598ccce94fa4f94fd6f1bd476a10, type: 3}
-      audioClip: {fileID: 0}
-      audioClip2: {fileID: 0}
-      FX: {fileID: 0}
-      FXOffset: {x: 0, y: 0, z: 0}
-      selfClipWhenSelect: {fileID: 0}
-      adjacentClipWhenSelect: {fileID: 0}
-      actionCollider: {fileID: 0}
-      actionColliderDistance: 0
-      actionColliderDelay: 0
-      actionColliderDuration: 0
-      argument: 
-      useRequeriment: 1
-    - perkName: Hammer
-      animationName: Hammer
-      duration: 0.1
-      icon: {fileID: -1137362212, guid: 9a0a598ccce94fa4f94fd6f1bd476a10, type: 3}
-      audioClip: {fileID: 8300000, guid: 48629a7b03a888845994924699e003dc, type: 3}
-      audioClip2: {fileID: 8300000, guid: 13296e8d999248940a3c61cfa6ca803f, type: 3}
-      FX: {fileID: 8567933649390963329, guid: 3dce7557f7948744a8a94a139ac67a77, type: 3}
-      FXOffset: {x: 0, y: 0, z: 0}
-      selfClipWhenSelect: {fileID: 8300000, guid: ac78f596cb197a14f9539e0738f51118,
-        type: 3}
-      adjacentClipWhenSelect: {fileID: 0}
-      actionCollider: {fileID: 8187871715875280986, guid: 1fd313ab033e91d41bbe823ea4c0de3d,
-        type: 3}
-      actionColliderDistance: 1
-      actionColliderDelay: 0.2
-      actionColliderDuration: 0.2
-      argument: 
-      useRequeriment: 1
+    - {fileID: 0}
+    - {fileID: 0}
   - perks:
-    - perkName: Come Out
-      animationName: Jump
-      duration: 1
-      icon: {fileID: 114523297, guid: d2b43b2104fe3a943842b9e76db82e93, type: 3}
-      audioClip: {fileID: 8300000, guid: 366f911c49526d8478b2c5a40afa9b1d, type: 3}
-      audioClip2: {fileID: 8300000, guid: 923e2e8059970314ca5ca7351985b131, type: 3}
-      FX: {fileID: 8567933649390963329, guid: 3dce7557f7948744a8a94a139ac67a77, type: 3}
-      FXOffset: {x: 0, y: 0, z: 0}
-      selfClipWhenSelect: {fileID: 8300000, guid: aa8db0bf86f42b44ea46fac3831ccdd0,
-        type: 3}
-      adjacentClipWhenSelect: {fileID: 0}
-      actionCollider: {fileID: 8187871715875280986, guid: 1fd313ab033e91d41bbe823ea4c0de3d,
-        type: 3}
-      actionColliderDistance: 0
-      actionColliderDelay: 0
-      actionColliderDuration: 0
-      argument: WATEROUT
-      useRequeriment: 1
-    - perkName: Underwater
-      animationName: Underwater
-      duration: 0
-      icon: {fileID: 562482685, guid: d2b43b2104fe3a943842b9e76db82e93, type: 3}
-      audioClip: {fileID: 8300000, guid: 48629a7b03a888845994924699e003dc, type: 3}
-      audioClip2: {fileID: 8300000, guid: 13296e8d999248940a3c61cfa6ca803f, type: 3}
-      FX: {fileID: 8567933649390963329, guid: 3dce7557f7948744a8a94a139ac67a77, type: 3}
-      FXOffset: {x: 0, y: 0, z: 0}
-      selfClipWhenSelect: {fileID: 8300000, guid: 49ef170d358ed704ca968c82e54c30b7,
-        type: 3}
-      adjacentClipWhenSelect: {fileID: 0}
-      actionCollider: {fileID: 8187871715875280986, guid: 1fd313ab033e91d41bbe823ea4c0de3d,
-        type: 3}
-      actionColliderDistance: 1
-      actionColliderDelay: 1.2
-      actionColliderDuration: 1
-      argument: WATERIN
-      useRequeriment: 1
+    - {fileID: 0}
+    - {fileID: 0}
   ovCollider:
     radious: 1
     height: 3
     offset: {x: 0, y: 1.4, z: 0}
   jumpSFX: {fileID: 8300000, guid: 37f991f930d12f843a64d487af7f58ea, type: 3}
-  Visual: {fileID: 5543809145682085127, guid: 4432d8b7cc6886344bf507f9131386ac, type: 3}
+  Visual: {fileID: 8914495139522828158, guid: 648ba4fb13f977944996300da2872f04, type: 3}
   visualOffset: {x: 0, y: 0, z: 0}
   animController: {fileID: 9100000, guid: 9772fe5535916694ca502e9d8ba39cce, type: 2}
   normalRadius: 1

@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 [CreateAssetMenu]
 public class BattleActorSO : ScriptableObject
@@ -12,11 +13,15 @@ public class BattleActorSO : ScriptableObject
     [Header("Visual Offset")] public Vector3 visualOffset, eulerAngleOffset;
     [Header("Animator")] public RuntimeAnimatorController VisualAnimator;
 
-    public CharaSO linkedChara;
+    public ActorSO linkedActor;
     [Header("Main Status")] public GenericStats stats;
 
-    
+    public Vector3 linkedPointOffset;
+    public Vector3 linkedAngleOffset;
+
     public float strength = 2f;
+
+    public List<AttackSO> attackList;
 
     public int level = 1;
     public ActorSpawnLimitationInformation spawnInfo;
@@ -37,6 +42,14 @@ public class BattleActorSO : ScriptableObject
 
     public GenericBActor selfInstance;
 
+
+    public Sprite bgUI;
+
+
+    public GameObject myBattleUI;
+
+    public float stunForce = 100f;
+
     public float getHammerStrength() {
         return strength;
     }
@@ -45,10 +58,10 @@ public class BattleActorSO : ScriptableObject
         return selfInstance.gameObject;
     }
     public GameObject Spawn(BattleActorSO clone) {
-        if (this.linkedChara.charaType == CharaType.Enemy) { clone.myID = BattleManager.instance.enemyActors.Count - 1; } else { clone.myID = 0; }
-        clone.linkedChara = this.linkedChara;
+        if (this.linkedActor.myType == ActorType.Enemy) { clone.myID = BattleManager.instance.enemyActors.Count - 1; } else { clone.myID = 0; }
+        clone.linkedActor = this.linkedActor;
         
-        GameObject player = new GameObject(this.linkedChara.displayName);
+        GameObject player = new GameObject(this.linkedActor.displayName);
     
         GenericBActor bA = player.AddComponent<GenericBActor>();
         bA.self = clone;
@@ -56,8 +69,8 @@ public class BattleActorSO : ScriptableObject
 
         Vector2 position = Vector2.zero;
 
-        if (linkedChara.charaType == CharaType.Player) { position = BattleManager.instance.getPlayerPos(0, linkedChara.identifier); }
-        if (linkedChara.charaType != CharaType.Player) { position = spawnInfo.getResult(); }
+        if (linkedActor.myType == ActorType.Player) { position = BattleManager.instance.getPlayerPos(0, linkedActor.identifier); }
+        if (linkedActor.myType != ActorType.Player) { position = spawnInfo.getResult(); }
 
         player.transform.position = new Vector3(position.x, BattleManager.instance.assignedBattle.floorY + floorY, position.y);
 
@@ -73,7 +86,7 @@ public class BattleActorSO : ScriptableObject
 
         GameObject shadow = Instantiate(selfShadow, visual.transform.position + selfShadowOffset, Quaternion.identity);
         shadow.AddComponent<ShadowScript>().target = player.transform;
-        shadow.GetComponent<ShadowScript>().targetChara = this.linkedChara;
+        shadow.GetComponent<ShadowScript>().targetChara = this.linkedActor;
         shadow.GetComponent<ShadowScript>().Offset = selfShadowOffset;
         shadow.GetComponent<ShadowScript>().floorY = visual.transform.position.y;
 
@@ -85,7 +98,7 @@ public class BattleActorSO : ScriptableObject
         bA.rb = rb;
     
 
-        this.linkedChara.collider.GetCollider(player);
+        this.linkedActor.collider.GetCollider(player);
         player.GetComponent<CapsuleCollider>().material = this.materialPhy;
 
         player.tag = "Player";
