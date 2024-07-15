@@ -86,10 +86,21 @@ public class Battle_Camera : MonoBehaviour
         if (!camOverride) return;
 
         this.transform.position = Vector3.Lerp(this.transform.position, camOverridePosition+ camOverrideOffset, speed * Time.deltaTime);
-        this.transform.eulerAngles = new Vector3(
-            Mathf.LerpAngle(this.transform.eulerAngles.x, this.dummy.eulerAngles.x, speed * Time.deltaTime),
-            Mathf.LerpAngle(this.transform.eulerAngles.y, this.dummy.eulerAngles.y, speed * Time.deltaTime),
-            Mathf.LerpAngle(this.transform.eulerAngles.z, this.dummy.eulerAngles.z, speed * Time.deltaTime));
+
+        if (target == null)
+        {
+            this.transform.eulerAngles = new Vector3(
+           Mathf.LerpAngle(this.transform.eulerAngles.x, this.camOverrideAngle.x, speed * Time.deltaTime),
+           Mathf.LerpAngle(this.transform.eulerAngles.y, this.camOverrideAngle.y, speed * Time.deltaTime),
+           Mathf.LerpAngle(this.transform.eulerAngles.z, this.camOverrideAngle.z, speed * Time.deltaTime));
+        }
+        else {
+            this.transform.eulerAngles = new Vector3(
+               Mathf.LerpAngle(this.transform.eulerAngles.x, this.dummy.eulerAngles.x, speed * Time.deltaTime),
+               Mathf.LerpAngle(this.transform.eulerAngles.y, this.dummy.eulerAngles.y, speed * Time.deltaTime),
+               Mathf.LerpAngle(this.transform.eulerAngles.z, this.dummy.eulerAngles.z, speed * Time.deltaTime));
+        }
+       
         this.mainCamera.fieldOfView = Mathf.Lerp(this.mainCamera.fieldOfView, camOverrideFOV, speed * Time.deltaTime);
         this.bgCamera.fieldOfView = Mathf.Lerp(this.bgCamera.fieldOfView, camOverrideFOV, speed * Time.deltaTime);
     }

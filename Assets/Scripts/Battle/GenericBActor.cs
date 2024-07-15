@@ -4,6 +4,7 @@ using UnityEditor;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.Rendering.UI;
+using UnityEngine.UIElements;
 public enum DefenseType { 
     None,
     Jump,
@@ -172,7 +173,6 @@ public class GenericBActor : MonoBehaviour
         Grounded = Physics.Raycast(this.transform.position, Vector3.down, 1.75f, self.linkedActor.floorMask);
         rb.velocity = new Vector3(0f,rb.velocity.y, 0f);
 
-        if (self.stats.HEALTH.currentValue <= 0 && !this.self.dead) StartCoroutine(Die());
     }
 
     public IEnumerator Stun(float verticalForce) {
@@ -377,13 +377,15 @@ public class GenericBActor : MonoBehaviour
 
             initialized = true;
         }
+        rb.velocity = new Vector3(rb.velocity.x, Mathf.Clamp(rb.velocity.y, this.self.maxVerticalSpeed.x, this.self.maxVerticalSpeed.y), rb.velocity.z);
 
+        if (self.stats.HEALTH.currentValue <= 0 && !this.self.dead) { this.self.dead = true; StartCoroutine(Die()); }
     }
 
     public void OnTriggerEnter(Collider other)
     {
         if (other.tag == "Enemy" && (self.linkedActor.myType == ActorType.Player)) {
-            BattleManagerNumbers.instance.Hurt(2, this.self);
+            BattleManagerNumbers.instance.Hurt(2, other.GetComponent<Battle_Enemy_Attack>().self,  this.self);
         }
     }
     void FixedUpdate()

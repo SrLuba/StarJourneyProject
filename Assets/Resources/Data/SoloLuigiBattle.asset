@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: SoloLuigiBattle
   m_EditorClassIdentifier: 
   identifier: LuigiBattle
-  music: {fileID: 8300000, guid: c74ebeb389d6db6459c14fe3ee071aeb, type: 3}
+  music: {fileID: 8300000, guid: 3429b553189074b4faacfa1906e4eb09, type: 3}
   musicOffset:
   - {x: 0, y: 9999}
   bpm: 120

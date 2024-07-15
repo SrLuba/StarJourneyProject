@@ -15,7 +15,7 @@ public static class BattleUtils {
 
     public static float AttackConstantGet() {
         Debug.Log("<color=red>" + ((Global.rankingID + 1) * 0.5f).ToString() + "</color>");
-        float result = (Global.rankingID+1) * 0.5f;
+        float result = (Global.rankingID+1) * 1f;
         return result;
     }
 }

@@ -32,7 +32,6 @@ MonoBehaviour:
   - {fileID: 11400000, guid: fa6c67bea2df2d44dbe5e8b32b5257e4, type: 2}
   - {fileID: 11400000, guid: 5d45e6c200d46224e97ccc4979c60764, type: 2}
   currentPlayers:
-  - MARIO
   - LUIGI
   battleEntranceList:
     info:
@@ -48,7 +47,6 @@ MonoBehaviour:
       musicSO: {fileID: 11400000, guid: 6df4d75d662cd4c43a9447a7287331f5, type: 2}
     test:
     - LUIGI
-    - MARIO
   playerArrangements:
   - playerCount: 1
     positions:

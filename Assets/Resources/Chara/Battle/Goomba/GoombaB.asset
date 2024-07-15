@@ -22,11 +22,11 @@ MonoBehaviour:
   linkedActor: {fileID: 11400000, guid: 2b86132de92ca2549af4ba1bc9165465, type: 2}
   stats:
     HEALTH:
-      startValue: 25
+      startValue: 33
       valueMultiplier: 1
       addValue: 0
-      currentValue: 25
-      maxValue: 25
+      currentValue: 33
+      maxValue: 33
     ENERGY:
       startValue: 0
       valueMultiplier: 0
@@ -90,9 +90,11 @@ MonoBehaviour:
     m_Bits: 131072
   materialPhy: {fileID: 13400000, guid: 18925be25a29eca44bc9161dd789dd7d, type: 2}
   dieVoiceClip: {fileID: 8300000, guid: b863aa44cf0d41740bcc04c5ff534d9f, type: 3}
+  maxVerticalSpeed: {x: 0, y: 0}
   dead: 0
   myID: 0
   selfInstance: {fileID: 0}
   bgUI: {fileID: 0}
+  targetIconUI: {fileID: 0}
   myBattleUI: {fileID: 0}
-  stunForce: 100
+  stunForce: 25

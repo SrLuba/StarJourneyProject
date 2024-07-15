@@ -27,6 +27,8 @@ public class BattleManager : MonoBehaviour
     public bool TESTING = false;
 
     public RectTransform targetIcon;
+    public Image targetIconImage;
+
     public BattleSO assignedBattle;
 
     public GameObject transitionGB;
@@ -206,59 +208,74 @@ public class BattleManager : MonoBehaviour
         yield return InitializeTurnRound();
     }
     public IEnumerator Targetting(BattleActorSO cChara, AttackSO attack, string action) {
-        targetIcon.gameObject.SetActive(true);
-        this.target = enemyActors[0].getInstance().GetComponent<GenericBActor>();
+
+        // Player Enemy Target
+
+        // Setup target image to Actor target image
+        targetIcon.gameObject.SetActive(true); // set it visible
+        this.targetIconImage.sprite = cChara.targetIconUI;
+        this.targetIconImage.SetNativeSize(); // set native size to avoid aspect ratio issues.
+
+
+        // current selection
         int select = 0;
-        bool selecting = true;
-        CinematicManager.instance.blackLines = true;
-        uiSelector.active = false;
+
+        this.target = enemyActors[0].getInstance().GetComponent<GenericBActor>();
+        
+        bool selecting = true; // loop condition.
+
+        CinematicManager.instance.blackLines = true; // we set cinematic black lines (it shows the black lines)
+        uiSelector.active = false; // we show the Player UI off
+
+
         while (selecting) {
-            Battle_Camera.instance.camOverride = true;
-            Battle_Camera.instance.target = this.target.self;
-            Battle_Camera.instance.camOverridePosition = turn.getInstance().transform.position;
+            Battle_Camera.instance.camOverride = true; // we override default camera behaviour
+            Battle_Camera.instance.target = this.target.self; // we set the target to the first enemy.
+            Battle_Camera.instance.camOverridePosition = turn.getInstance().transform.position; // we set the override position vector 3 to Player's position.
+            Battle_Camera.instance.camOverrideOffset = new Vector3(-5f, 2.2f, -3f);
 
-            cChara.getInstance().GetComponent<GenericBActor>().canJump = false;
-            cChara.getInstance().GetComponent<GenericBActor>().animationInterrupt = true;
-            cChara.getInstance().GetComponent<GenericBActor>().animator.Play("Aim");
+            cChara.getInstance().GetComponent<GenericBActor>().canJump = false; // we disable player from jumping
+            cChara.getInstance().GetComponent<GenericBActor>().animationInterrupt = true; // we stop animation behaviour from the player to allow manual animations.
+            cChara.getInstance().GetComponent<GenericBActor>().animator.Play("Aim"); // we set the aim animation.
 
-            if (InputManager.instance.engine.getPressed("RIGHT")) 
+            if (InputManager.instance.engine.getPressed("RIGHT")) // we check if the player has pressed the right button.
             {
-                select++;
-                targetIcon.GetComponent<Animator>().Play("Select", 0, 0f);
-                SoundManager.instance.Play(uiMoveSFX);
+                select++;// Needs work, but just adds the current selection by one
+                targetIcon.GetComponent<Animator>().Play("Select", 0, 0f); // We play the select animation on the target icon/indicator.
+                SoundManager.instance.Play(uiMoveSFX); // playing the sound
             }
-            if (InputManager.instance.engine.getPressed("LEFT"))
+            if (InputManager.instance.engine.getPressed("LEFT")) // we check if the player has pressed the left button.
             {
-                select--;
-                targetIcon.GetComponent<Animator>().Play("Select", 0, 0f);
-                SoundManager.instance.Play(uiMoveSFX);
+                select--; // Needs work, but just substracts the current selection
+                targetIcon.GetComponent<Animator>().Play("Select", 0, 0f); // We play the select animation on the target icon/indicator.
+                SoundManager.instance.Play(uiMoveSFX);// playing the sound
             }
 
             if (select >= enemyActors.Count)
             {
                 select = 0;
             }
-            else if (select < 0) { select = enemyActors.Count -1; }
+            else if (select < 0) { select = enemyActors.Count -1; } // we clamp the value to avoid getting out of the array bounds.
 
-            this.target = enemyActors[select].getInstance().GetComponent<GenericBActor>();
+            this.target = enemyActors[select].getInstance().GetComponent<GenericBActor>(); //  we set tge target to the current selection.
 
             if (currentPlayerTurn.linkedActor.getKey(KeyEventType.Pressed))
             {
         
-                cChara.getInstance().GetComponent<GenericBActor>().canJump = true;
-                cChara.getInstance().GetComponent<GenericBActor>().animationInterrupt = false;
-                cChara.getInstance().GetComponent<GenericBActor>().animator.Play("Prepare");
+                cChara.getInstance().GetComponent<GenericBActor>().canJump = true; // we allow the player to jump again
+                cChara.getInstance().GetComponent<GenericBActor>().animationInterrupt = false; // disabling animation interrupt
+                cChara.getInstance().GetComponent<GenericBActor>().animator.Play("Prepare"); // this can be erased, has no purpose. was meant to be a prepare animation before starting to walk towards the enemy
 
-                SoundManager.instance.Play(uiAcceptSFX);
-                CinematicManager.instance.blackLines = false;
-                yield return PlayerAction(cChara, attack, action);
+                SoundManager.instance.Play(uiAcceptSFX); // Accept SFX
+                CinematicManager.instance.blackLines = false; // Disables cinematic black lines
+                yield return PlayerAction(cChara, attack, action); // we wait until the action is perform.
                 yield break;
             }
 
 
             yield return new WaitForSeconds(.001f);
         }
-        Battle_Camera.instance.camOverride = false;
+        Battle_Camera.instance.camOverride = false; // this part of the code should be unreachable, but to avoid soft locks, i will leave this here.
         Battle_Camera.instance.target =  null;
         Battle_Camera.instance.camOverridePosition = Vector3.zero;
         CinematicManager.instance.blackLines = false;
@@ -305,19 +322,26 @@ public class BattleManager : MonoBehaviour
             blocksUI[i].hit = false;
         }
 
-        yield return new WaitForSeconds(2.1f);
+
         yield return InitializeTurnRound();
     }
+
+    public Vector3 ThinkCameraOffset, ThinkCameraAngle;
     public IEnumerator WaitForPlayerTurn(BattleActorSO turn) {
         GameObject get = turn.getInstance();
         while (!get.GetComponent<GenericBActor>().Grounded) {
             yield return new WaitForSeconds(0.001f);
         }
         uiSelector.target = get.transform;
-        Battle_Camera.instance.target = turn;
         uiSelector.active = true;
         canBPM = true;
         currentPlayerTurn = turn;
+        Battle_Camera.instance.camOverride = true; // we override default camera behaviour
+        Battle_Camera.instance.target = null; // we set the target to the first enemy.
+        Battle_Camera.instance.camOverridePosition = turn.getInstance().transform.position; // we set the override position vector 3 to Player's position.
+        Battle_Camera.instance.camOverrideOffset = ThinkCameraOffset;
+        Battle_Camera.instance.camOverrideAngle = ThinkCameraAngle;
+        CinematicManager.instance.blackLines = true;
     }
     BattleActorSO turn;
     public byte TurnRoundCycle()

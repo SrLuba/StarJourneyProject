@@ -310,7 +310,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4581633368344075972}
   - component: {fileID: 3286349669719935526}
-  - component: {fileID: 5312089801587437002}
   m_Layer: 7
   m_Name: LuigiOV
   m_TagString: Untagged
@@ -366,74 +365,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &5312089801587437002
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1671719454328732395}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 216554ded9ef0ee4996dd2e0d5928a07, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  floorType: GRASS
-  smoke: {fileID: 0}
-  stepTypes:
-  - identifier: CONCRETE
-    clips:
-    - {fileID: 8300000, guid: 76179a8d6ddaf5e43a34cdb0e4ddefe1, type: 3}
-    - {fileID: 8300000, guid: 1e70d0a2b0725e54bbde93d0337bd27a, type: 3}
-    - {fileID: 8300000, guid: f4690ee2af6c9124e81b995f044abfc6, type: 3}
-    - {fileID: 8300000, guid: 8ab14509d5add0b47a0d4a3a7a27bde4, type: 3}
-  - identifier: GRASS
-    clips:
-    - {fileID: 8300000, guid: 9c4cd797c4fdc664ab0f802bafa982e1, type: 3}
-    - {fileID: 8300000, guid: fa835242c1c7c7a478b2bed5abab62fa, type: 3}
-    - {fileID: 8300000, guid: f3e706018665d6c408a9a48e4bc16501, type: 3}
-    - {fileID: 8300000, guid: 20728bcbe63208e4092c8a578e2730aa, type: 3}
-  - identifier: LOAN
-    clips:
-    - {fileID: 8300000, guid: 6f22739448100034cb3522f10fd3ad63, type: 3}
-    - {fileID: 8300000, guid: ba2b264b069b9894ead17674012c8009, type: 3}
-    - {fileID: 8300000, guid: 8485e7882d8d03d42b5accfc3f1c301c, type: 3}
-    - {fileID: 8300000, guid: 5447bb2b0ce6f6349aa79bcfad91e101, type: 3}
-  - identifier: METAL
-    clips:
-    - {fileID: 8300000, guid: 6281d773126a7d046aa722f405ece6d4, type: 3}
-    - {fileID: 8300000, guid: 6712329da8272eb43ac4775e2d1f9d8e, type: 3}
-    - {fileID: 8300000, guid: dd13d8a50a7c8d94bb62c580af993890, type: 3}
-    - {fileID: 8300000, guid: 900a8dc17063dc04583a462d2369910b, type: 3}
-  - identifier: SNOW
-    clips:
-    - {fileID: 8300000, guid: 3214bad044fc8df4fb6d1685ff0139db, type: 3}
-    - {fileID: 8300000, guid: c3a35bb1774075f46bb5493476e28d78, type: 3}
-    - {fileID: 8300000, guid: b2467f1e80c6b9e488f3f96d9190f493, type: 3}
-    - {fileID: 8300000, guid: 4861e8c38b295594c9679b3fa7a459ea, type: 3}
-  - identifier: WET
-    clips:
-    - {fileID: 8300000, guid: ef76957338250174f9dd8da2e90a3059, type: 3}
-    - {fileID: 8300000, guid: 67d3d792c6521744cb2524beabf3d73d, type: 3}
-    - {fileID: 8300000, guid: ecf74ffd6d2d5e34e8815545a90acdad, type: 3}
-    - {fileID: 8300000, guid: 0033d51b10ceeda48bcc234a731395cd, type: 3}
-  - identifier: WOOD
-    clips:
-    - {fileID: 8300000, guid: 20acbbbbec9a7e44884334b7e1a1f413, type: 3}
-    - {fileID: 8300000, guid: c0847c23b053c944a82b033153f5dfc9, type: 3}
-    - {fileID: 8300000, guid: dd82f91b28afebb499bbbad0e4611aa7, type: 3}
-    - {fileID: 8300000, guid: a7ca55c72aa0d9246bd96fad5065c064, type: 3}
-  defaultStepType:
-    identifier: DEFAULT
-    clips:
-    - {fileID: 8300000, guid: 76179a8d6ddaf5e43a34cdb0e4ddefe1, type: 3}
-    - {fileID: 8300000, guid: 1e70d0a2b0725e54bbde93d0337bd27a, type: 3}
-    - {fileID: 8300000, guid: f4690ee2af6c9124e81b995f044abfc6, type: 3}
-    - {fileID: 8300000, guid: 8ab14509d5add0b47a0d4a3a7a27bde4, type: 3}
-  wet: 0
-  wetFootObject: {fileID: 1820337202408110165, guid: de8aa379993416f449dbbd7d0ff6cb2e,
-    type: 3}
-  wetFootoffset: {x: 0.118, y: 0, z: 0}
 --- !u!1 &1677135534803380177
 GameObject:
   m_ObjectHideFlags: 0
@@ -1143,10 +1074,16 @@ MonoBehaviour:
   anim: {fileID: 8686707382921700521}
   currentTrack: 0
   numberOfTracks: 2
+  accuracy: 0
   damage: 1
   canTime: 0
+  timedCorrectly: 0
   player: {fileID: 0}
   target: {fileID: 0}
+  timestampID: 0
+  successTimes:
+  - 0.3
+  - 1.22
 --- !u!1 &4734422143380729650
 GameObject:
   m_ObjectHideFlags: 0
@@ -1863,7 +1800,7 @@ Transform:
   m_GameObject: {fileID: 8347548609633414489}
   serializedVersion: 2
   m_LocalRotation: {x: 0.0000000142361, y: 0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: 2.210654, z: -0.134665}
+  m_LocalPosition: {x: 0, y: 2.210654, z: -0.134665}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:

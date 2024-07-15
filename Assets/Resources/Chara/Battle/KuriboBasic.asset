@@ -19,17 +19,9 @@ MonoBehaviour:
   soloMusic: {fileID: 11400000, guid: bf5e5c1f8293f6a4ca1daa646dd71e5e, type: 2}
   enteringCase: 3
   floorY: 0
-  playersPositions:
-  - {x: 11, y: 6}
-  - {x: 11, y: 0}
-  - {x: 11, y: -6}
-  playersPositionsWithTurn:
-  - {x: 12, y: 6}
-  - {x: 12, y: 0}
-  - {x: 12, y: -6}
   enemies:
   - id: kuribo
-    charaCount: 3
+    charaCount: 2
     spawnInfo:
       random: 0
       min: {x: 24, y: -3}

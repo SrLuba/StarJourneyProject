@@ -34,11 +34,11 @@ MonoBehaviour:
       currentValue: 0
       maxValue: 0
     ATTACK:
-      startValue: 25
+      startValue: 7
       valueMultiplier: 1
       addValue: 0
-      currentValue: 25
-      maxValue: 25
+      currentValue: 7
+      maxValue: 7
     DEFENSE:
       startValue: 7
       valueMultiplier: 1
@@ -74,7 +74,7 @@ MonoBehaviour:
   strength: 1
   attackList:
   - {fileID: 11400000, guid: 422bc44ae23b37d40af6e180c4901f99, type: 2}
-  level: 2
+  level: 1
   spawnInfo:
     random: 0
     min: {x: 13, y: -2}
@@ -90,10 +90,12 @@ MonoBehaviour:
     m_Bits: 131072
   materialPhy: {fileID: 13400000, guid: 18925be25a29eca44bc9161dd789dd7d, type: 2}
   dieVoiceClip: {fileID: 8300000, guid: 06ef7db9191cd0a4ca3a8a53b5e6e0a9, type: 3}
+  maxVerticalSpeed: {x: -55, y: 55}
   dead: 0
   myID: 0
   selfInstance: {fileID: 0}
   bgUI: {fileID: -491959637, guid: b749202226dc848428cb961414bc0858, type: 3}
+  targetIconUI: {fileID: 1346259382, guid: 410187b01d74f6d4798e54f3c5306e8c, type: 3}
   myBattleUI: {fileID: 6583538241406972167, guid: 3c3150fa2d8fe3646a3fe76bd179216d,
     type: 3}
   stunForce: 100

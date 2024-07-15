@@ -36,6 +36,9 @@ public class BattleActorSO : ScriptableObject
     public AudioClip dieVoiceClip;
 
 
+    public Vector2 maxVerticalSpeed;
+
+
     public bool dead = false;
 
     public int myID = 0;
@@ -44,6 +47,7 @@ public class BattleActorSO : ScriptableObject
 
 
     public Sprite bgUI;
+    public Sprite targetIconUI;
 
 
     public GameObject myBattleUI;

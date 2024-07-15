@@ -442,6 +442,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15c58aedc1b6b244eb8fa15d028e12f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  self: {fileID: 11400000, guid: efe69d6d1747dc048a6ab00a500b106d, type: 2}
 --- !u!1 &1208045958324982405
 GameObject:
   m_ObjectHideFlags: 0
@@ -2712,6 +2713,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2523734874629522884}
   - component: {fileID: 6773860517780112823}
+  - component: {fileID: 1751084007808787927}
   m_Layer: 0
   m_Name: KuriboModel
   m_TagString: Enemy
@@ -2776,6 +2778,19 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1.2, z: 1}
   m_Center: {x: 0, y: 0.6, z: 0}
+--- !u!114 &1751084007808787927
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7489380055953980563}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15c58aedc1b6b244eb8fa15d028e12f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  self: {fileID: 11400000, guid: efe69d6d1747dc048a6ab00a500b106d, type: 2}
 --- !u!1 &7652996647660642803
 GameObject:
   m_ObjectHideFlags: 0
@@ -3088,7 +3103,7 @@ Transform:
   m_GameObject: {fileID: 8295057813022878819}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:

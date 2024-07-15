@@ -29,8 +29,8 @@ public class BattleManagerNumbers : MonoBehaviour
     {
         ranking = Resources.Load<RankingSO>("Data/MainRanking");
     }
-
-    public void Hurt(int value, BattleActorSO character) {
+    public void Hurt(int value, BattleActorSO character)
+    {
         GameObject characterGB = character.getInstance();
         if (characterGB == null) return;
         if (character.dead) return;
@@ -53,8 +53,32 @@ public class BattleManagerNumbers : MonoBehaviour
         character.stats.HEALTH.currentValue -= value;
         if (character.stats.HEALTH.currentValue < 0) character.stats.HEALTH.currentValue = 0;
     }
-    public void ShowRanking(int rankingN)
+    public void Hurt(int value, BattleActorSO source, BattleActorSO character) {
+        GameObject characterGB = character.getInstance();
+        if (characterGB == null) return;
+        if (character.dead) return;
+
+        characterGB.GetComponent<GenericBActor>().StartCoroutine(characterGB.GetComponent<GenericBActor>().Hurt(source.stunForce));
+        GameObject hurtGB = Instantiate(hurtKindPrefab, characterGB.transform.position, Quaternion.identity);
+        UIHurtMeter uiHM = hurtGB.GetComponent<UIHurtMeter>();
+
+        uiHM.Init(mainCanvas, value);
+        hurtGB.transform.localScale = new Vector3(0.5f, 0.5f, 1f);
+        hurtGB.transform.position = mainCanvas.transform.position;
+
+        Vector2 ViewportPosition = mainCam.WorldToViewportPoint(characterGB.transform.position);
+
+        Vector2 WorldObject_ScreenPosition = hurtUIOffset + new Vector2(
+        ((ViewportPosition.x * mainCanvas.sizeDelta.x) - (mainCanvas.sizeDelta.x * 0.5f)),
+        ((ViewportPosition.y * mainCanvas.sizeDelta.y) - (mainCanvas.sizeDelta.y * 0.5f)));
+        hurtGB.GetComponent<RectTransform>().anchoredPosition = WorldObject_ScreenPosition;
+
+        character.stats.HEALTH.currentValue -= value;
+        if (character.stats.HEALTH.currentValue < 0) character.stats.HEALTH.currentValue = 0;
+    }
+    public void ShowRanking(int R)
     {
+        int rankingN = Mathf.Clamp(R, 0, ranking.rankings.Count - 1);
         GameObject g = Instantiate(ranking.rankings[rankingN].Prefab, new Vector3(0f, 0f, 0f), Quaternion.identity);
         g.transform.SetParent(mainCanvas);
         g.transform.localPosition = Vector3.zero + ranking.rankings[rankingN].offset;
@@ -65,6 +89,14 @@ public class BattleManagerNumbers : MonoBehaviour
         g.transform.GetChild(0).GetComponent<Image>().SetNativeSize();
 
         SoundManager.instance.Play(ranking.rankings[rankingN].sound);
+        if (rankingN >= 3) StartCoroutine(ExcellentRanking(0.6f));
+
+    }
+
+    public IEnumerator ExcellentRanking(float time) {
+        CinematicManager.instance.excellent = true;
+        yield return new WaitForSeconds(time);
+        CinematicManager.instance.excellent = false;
     }
     public void Update()
     {
