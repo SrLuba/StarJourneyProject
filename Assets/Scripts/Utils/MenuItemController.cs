@@ -59,7 +59,7 @@ public class MenuItemController : MonoBehaviour
     }
 
     public void Click(MenuController controller) {
-        if (actionSound!=null) SoundManager.instance.Play(actionSound);
+        if (actionSound!=null) SoundManager.instance.Play("System|Click", false);
         action.DoAction(controller);
 
     }

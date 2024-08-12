@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e95ea7e7e263a9c4782360bd596d52ea, type: 3}
+  m_Name: UI_BATTLE_GENERAL
+  m_EditorClassIdentifier: 
+  packages:
+  - identifier: PLAYER_SELECTION_ACCEPT
+    clipList:
+    - {fileID: 8300000, guid: 64f2663861b4b6e4c8718c9583c786eb, type: 3}
+  - identifier: PLAYER_SELECTION_MOVE
+    clipList:
+    - {fileID: 8300000, guid: dbf5a9346ea420247b8ea75b7c4bfead, type: 3}
+  defaultClip: {fileID: 8300000, guid: 02efae347376d8344b25462d302d3e12, type: 3}

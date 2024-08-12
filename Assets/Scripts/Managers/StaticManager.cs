@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using Discord;
 using System;
-using static UnityEditor.Recorder.OutputPath;
+
 public enum PlayerTestType { 
     Mario,
     Luigi,
@@ -53,7 +53,6 @@ public class StaticManager : MonoBehaviour
         this.activityManager = discord.GetActivityManager();
         this.relationshipManager = discord.GetRelationshipManager();
 
-
         // Game
         if (this.game==null) this.game = Resources.Load<GameSO>("Resources/Data/Game");
 
@@ -93,7 +92,7 @@ public class StaticManager : MonoBehaviour
 
         activityManager.UpdateActivity(activity, (res) => {
             //head empty.
-            Debug.Log($"[DISCORD] Rich Presence Update: {res}");
+            //Debug.Log($"[DISCORD] Rich Presence Update: {res}");
         });
 
     }

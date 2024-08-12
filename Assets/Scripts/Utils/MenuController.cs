@@ -41,18 +41,18 @@ public class MenuController : MonoBehaviour
         if (itemID >= pages[this.pageID].items.Count ) itemID = 0;
         if (itemID < 0) itemID = pages[this.pageID].items.Count - 1;
 
-        SoundManager.instance.Play(moveSFX);
+        SoundManager.instance.Play("system|cursor_move_0", false);
     }
 
     public void ClickAction() {
         MenuItemController co = this.pages[this.pageID].items[this.itemID];
         if (!co.canClick) {
-            SoundManager.instance.Play(denySFX);
+            SoundManager.instance.Play("system|cursor_deny_0", false);
             return;
         }
 
         co.Click(this);
-        SoundManager.instance.Play(acceptSFX);
+        SoundManager.instance.Play("system|cursor_accept_0", false);
     }
 
     public void ChangePageByID(byte ID) {

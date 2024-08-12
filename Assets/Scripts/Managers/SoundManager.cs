@@ -7,6 +7,9 @@ public class SoundManager : MonoBehaviour
 
     public static SoundManager instance;
 
+    public List<SoundPKG> soundPackages;
+    public AudioClip defaultAudioClip;
+
     public void Awake()
     {
         if (instance != null)
@@ -18,37 +21,48 @@ public class SoundManager : MonoBehaviour
     public void Start()
     {
         DontDestroyOnLoad(this.gameObject);
+
+
+        soundPackages = new List<SoundPKG>(Resources.LoadAll<SoundPKG>("Data/SoundData/"));
+
     }
-    public void Play(AudioClip clip) {
-        GameObject g = new GameObject("Sound_" + clip.name);
+
+    public AudioClip getClipFromLibrary(string expression) {
+
+        string groupID = expression.Split('|')[0].ToUpper();
+        string foleyID = expression.Split('|')[1].ToUpper();
+
+        SoundPKG mySoundPackage = this.soundPackages.Find(x => x.name.ToUpper() == groupID.ToUpper());
+
+        if (mySoundPackage == null)
+        {
+            Debug.Log("Couldn't get Clip! (" + expression + ")");
+            return this.defaultAudioClip;
+        }
+        return mySoundPackage.getClip(foleyID.ToUpper());
+    }
+    public void Play(string ID, bool loop) {
+        AudioClip myClip = this.getClipFromLibrary(ID.ToUpper());
+
+
+        GameObject g = new GameObject("Sound_" + myClip.name);
         AudioSource src = g.AddComponent<AudioSource>();
-        src.clip = clip;
-        src.loop = false;
+        src.clip = myClip;
+        src.loop = loop;
         src.Play();
         g.AddComponent<SoundController>();
         g.transform.SetParent(this.transform);
     }
-    public void Stop(AudioClip clip, string pTag) {
-        GameObject G = GameObject.Find("Sound_" + clip.name + "_" + pTag);
-        if (G == null) return;
-        Destroy(G);
-    }
-    public void Play(AudioClip clip, bool loop, string pTag)
+    public void PlayVoiceLine(string characterID, string soundID)
     {
-        GameObject g = new GameObject("Sound_" + clip.name + "_" + pTag);
+
+        string expressionID = ("character_" + characterID + "_voicelines|" + soundID).ToUpper();
+        AudioClip myClip = this.getClipFromLibrary(expressionID);
+
+
+        GameObject g = new GameObject("Sound_" + myClip.name);
         AudioSource src = g.AddComponent<AudioSource>();
-        src.clip = clip;
-        src.loop = loop;
-        src.Play();
-        g.transform.SetParent(this.transform);
-    }
-    public void PlayFoley(List<AudioClip> clips, float minPitch, float maxPitch)
-    {
-        AudioClip clip = clips[Random.Range(0, clips.Count - 1)];
-        GameObject g = new GameObject("Foley_" + clip.name);
-        AudioSource src = g.AddComponent<AudioSource>();
-        src.clip = clip;
-        src.pitch = Random.Range(minPitch, maxPitch);
+        src.clip = myClip;
         src.loop = false;
         src.Play();
         g.AddComponent<SoundController>();

@@ -81,6 +81,7 @@ public class BattleUI_Commands : MonoBehaviour
             List<Vector2> pos = new List<Vector2>();
             pos.Add(commandPositions[i]);
             pos.Add(commandPositions[i]);
+            pos.Add(commandPositions[i]);
 
             commandObject.GetComponent<Battle_UI_Command>().position = new List<Vector2>(pos);
             statusMeters.Add(statusMeter);

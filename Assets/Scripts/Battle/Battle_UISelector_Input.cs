@@ -16,13 +16,13 @@ public class Battle_UISelector_Input : MonoBehaviour
 
         if (InputManager.instance.engine.getPressed("RIGHT")) {
             selector.ActionID++;
-            SoundManager.instance.Play(moveClip);
+            SoundManager.instance.Play("ui_battle_general|player_selection_move", false);
             if (selector.ActionID > selector.options.Count - 1) selector.ActionID = 0;
         }
         else if (InputManager.instance.engine.getPressed("LEFT"))
         {
             selector.ActionID--;
-            SoundManager.instance.Play(moveClip);
+            SoundManager.instance.Play("ui_battle_general|player_selection_move", false);
             if (selector.ActionID < 0) selector.ActionID = selector.options.Count - 1;
         }
         

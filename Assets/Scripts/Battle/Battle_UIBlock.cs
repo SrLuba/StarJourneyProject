@@ -23,7 +23,7 @@ public class Battle_UIBlock : MonoBehaviour
         if (hit) return;
 
         anim.Play("Hit");
-        SoundManager.instance.Play(bump);
+        SoundManager.instance.Play("block|bump", false);
         hit = true;
 
         if (targetting) { BattleManager.instance.StartCoroutine(BattleManager.instance.Targetting(other.GetComponent<GenericBActor>().self, attack, action)); } else { BattleManager.instance.StartCoroutine(BattleManager.instance.PlayerAction(other.GetComponent<GenericBActor>().self, attack, action)); }

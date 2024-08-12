@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e95ea7e7e263a9c4782360bd596d52ea, type: 3}
+  m_Name: CHARACTER_LUIGI_VOICELINES
+  m_EditorClassIdentifier: 
+  packages:
+  - identifier: HURT
+    clipList:
+    - {fileID: 8300000, guid: 634de14befd87104194fee560572896d, type: 3}
+    - {fileID: 8300000, guid: 851a32cd7f57e2948b875bf3ff98e268, type: 3}
+    - {fileID: 8300000, guid: e30ac27aa57e5d2478033544168e257c, type: 3}
+    - {fileID: 8300000, guid: f1a295379fa908847bb90406077baec1, type: 3}
+    - {fileID: 8300000, guid: acb578958d2060e4cbb79c5afc04da71, type: 3}
+    - {fileID: 8300000, guid: 49eeaf152791b6f40982ea396411f6eb, type: 3}
+  - identifier: DIE
+    clipList:
+    - {fileID: 8300000, guid: 150687427649b514eba184920047ed50, type: 3}
+    - {fileID: 8300000, guid: b551d82203fc23c42bcf6c66cda5e863, type: 3}
+    - {fileID: 8300000, guid: 1b031fc3b8e88dd49b5b82c2321a10a9, type: 3}
+    - {fileID: 8300000, guid: 8375a57059288b3409a5a670fc691af9, type: 3}
+  - identifier: WIN
+    clipList:
+    - {fileID: 8300000, guid: 7424eb0993c79a0429ea4258d29124f5, type: 3}
+  defaultClip: {fileID: 8300000, guid: 8debea9a83a4fef42b17b652c5d32699, type: 3}

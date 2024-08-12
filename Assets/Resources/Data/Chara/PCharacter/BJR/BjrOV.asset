@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a123ff390c33ef45ba3eee4adf1aa96, type: 3}
+  m_Name: BjrOV
+  m_EditorClassIdentifier: 
+  speed: 16
+  jumpForce: 42
+  underWaterYOffset: 3.37
+  acceleration: 75
+  deceleration: 100
+  angleEffect: 25
+  gravityJump: 45
+  gravityNormal: 75
+  gravityJump_Water: 15
+  gravityNormal_Water: 55
+  acceleration_Water: 15
+  deceleration_Water: 25
+  jumpForce_Water: 42
+  speed_Water: 10
+  animationSpeedMax: 1.1
+  AIFollowDistance: 1
+  inputCuePrefab: {fileID: 8520921750291070198, guid: 4ba52228b9de40842a3e88e494690e5f,
+    type: 3}
+  splashFX: {fileID: 8747362883532015593, guid: d304347ecdceef34dab4c398e334a66d,
+    type: 3}
+  animationSpeedMultiplier: 0.1
+  canUseHammer: 1
+  hammerUnlocked: 1
+  perks: []
+  ovCollider:
+    radious: 1
+    height: 3
+    offset: {x: 0, y: 1.4, z: 0}
+  jumpSFX: {fileID: 8300000, guid: 37f991f930d12f843a64d487af7f58ea, type: 3}
+  Visual: {fileID: 5099029972495492838, guid: 53edf00a96ea17a469893537b1203162, type: 3}
+  visualOffset: {x: 0, y: 0, z: 0}
+  animController: {fileID: 9100000, guid: 01eb0da5f51e21f428d1c5978391fa42, type: 2}
+  normalRadius: 1
+  normalHeight: 3
+  normalCenter: {x: 0, y: 1.38, z: 0}
+  squishRadius: 1
+  squishHeight: 1
+  squishCenter: {x: 0, y: 1, z: 0}
+  yVelClamp: {x: -40, y: 999}
+  yVelClampWater: {x: -22, y: 999}

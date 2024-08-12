@@ -88,7 +88,7 @@ public class BattleManagerNumbers : MonoBehaviour
         g.transform.GetChild(0).GetComponent<Image>().sprite = ranking.rankings[rankingN].assignedSprite;
         g.transform.GetChild(0).GetComponent<Image>().SetNativeSize();
 
-        SoundManager.instance.Play(ranking.rankings[rankingN].sound);
+        SoundManager.instance.Play(ranking.rankings[rankingN].soundExpression, false);
         if (rankingN >= 3) StartCoroutine(ExcellentRanking(0.6f));
 
     }

@@ -53,12 +53,25 @@ public class BattleActorSO : ScriptableObject
     public GameObject myBattleUI;
 
     public float stunForce = 100f;
+    public string getString() {
 
+        if (dead)
+        {
+            return "D";
+        }
+        else {
+            char myidentifier = this.linkedActor.identifier.ToUpper().ToCharArray()[0];
+            return myidentifier.ToString();
+
+        }
+    }
     public float getHammerStrength() {
         return strength;
     }
 
     public GameObject getInstance() {
+        if (selfInstance == null) Debug.LogError("my is null for some reason idk im struglin" + this.name);
+
         return selfInstance.gameObject;
     }
     public GameObject Spawn(BattleActorSO clone) {

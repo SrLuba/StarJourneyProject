@@ -11,7 +11,7 @@ public class UIHurtMeter : MonoBehaviour
     
 
     public void Init(Transform canvas, int value) {
-        SoundManager.instance.Play(this.hurtSFX);
+        SoundManager.instance.Play("battle_general|hurt", false);
         displayer.number = value;
         this.transform.SetParent(canvas);
         anim.Play("PopIn");

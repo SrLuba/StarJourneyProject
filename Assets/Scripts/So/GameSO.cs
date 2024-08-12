@@ -25,7 +25,7 @@ public class GameSO : ScriptableObject
      */
     public List<Vector2> Battle_GetPosition_Arragement_Player(BattleSO battle) {
         int playerCount = StaticManager.instance.PlayerCount;
-
+        Debug.Log("Player Count + " + playerCount.ToString());
         PlayerBattlePositionArrangement arrangement = this.playerArrangements.Find(x => x.playerCount == playerCount);
 
         if (arrangement != null) return arrangement.positions;

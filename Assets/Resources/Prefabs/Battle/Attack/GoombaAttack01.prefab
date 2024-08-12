@@ -384,7 +384,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3986488305029218898}
   - component: {fileID: 8508323684891353172}
-  - component: {fileID: 6251368362460142719}
+  - component: {fileID: 2971251635520168073}
   m_Layer: 0
   m_Name: GoombaAttack01
   m_TagString: Enemy
@@ -430,7 +430,7 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &6251368362460142719
+--- !u!114 &2971251635520168073
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -442,7 +442,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15c58aedc1b6b244eb8fa15d028e12f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  self: {fileID: 11400000, guid: efe69d6d1747dc048a6ab00a500b106d, type: 2}
+  self: {fileID: 0}
+  selfAnimator: {fileID: 8508323684891353172}
+  counterAttackAnimationName: Counter
+  counterAttack: 0
 --- !u!1 &1208045958324982405
 GameObject:
   m_ObjectHideFlags: 0
@@ -919,13 +922,14 @@ GameObject:
   m_Component:
   - component: {fileID: 2476406135922566543}
   - component: {fileID: 1498285705567249714}
+  - component: {fileID: 4014888639563439859}
   m_Layer: 0
   m_Name: CounterAttackTrigger
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2476406135922566543
 Transform:
   m_ObjectHideFlags: 0
@@ -938,7 +942,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1343494532945776425}
   m_Father: {fileID: 2523734874629522884}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1498285705567249714
@@ -960,8 +965,22 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 0.09, z: 1}
-  m_Center: {x: 0, y: 1.3, z: 0}
+  m_Size: {x: 1.2, y: 0.28623596, z: 1.3399999}
+  m_Center: {x: 0, y: 1.1531183, z: 0}
+--- !u!114 &4014888639563439859
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2797908880283887108}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28558773e35fd104ea13ac9b9b84a6b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CounterAttackType: 0
+  enemyAttackSelf: {fileID: 0}
 --- !u!1 &2933094871831755688
 GameObject:
   m_ObjectHideFlags: 0
@@ -1168,6 +1187,89 @@ SkinnedMeshRenderer:
     m_Center: {x: -0.48098207, y: 0.27860397, z: 0.000000074505806}
     m_Extent: {x: 0.075775936, y: 0.048023544, z: 0.23520002}
   m_DirtyAABB: 0
+--- !u!1 &3381391390101005281
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1343494532945776425}
+  - component: {fileID: 2283009365704412947}
+  - component: {fileID: 3406142715073683142}
+  m_Layer: 0
+  m_Name: 5
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1343494532945776425
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3381391390101005281}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1.163, z: 0}
+  m_LocalScale: {x: 1.2348925, y: 0.27626005, z: 1.2605453}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2476406135922566543}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &2283009365704412947
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3381391390101005281}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &3406142715073683142
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3381391390101005281}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &3413015411859256046
 GameObject:
   m_ObjectHideFlags: 0
@@ -2790,7 +2892,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15c58aedc1b6b244eb8fa15d028e12f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  self: {fileID: 11400000, guid: efe69d6d1747dc048a6ab00a500b106d, type: 2}
+  self: {fileID: 0}
+  selfAnimator: {fileID: 8508323684891353172}
+  counterAttackAnimationName: Counter
+  counterAttack: 0
 --- !u!1 &7652996647660642803
 GameObject:
   m_ObjectHideFlags: 0

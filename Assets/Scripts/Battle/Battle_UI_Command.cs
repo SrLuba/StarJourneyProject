@@ -7,7 +7,7 @@ public class Battle_UI_Command : MonoBehaviour
 {
     public string playerID;
 
-     ActorSO actor;
+    ActorSO actor;
     public Image i_bg, i_key;
 
     public Animator animator;

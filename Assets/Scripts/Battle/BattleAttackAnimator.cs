@@ -6,6 +6,7 @@ public class BattleAttackAnimator : MonoBehaviour
 {
 
     public Animator anim;
+    public string animationtarget;
 
     public int currentTrack = 0;
     public int numberOfTracks = 2;
@@ -21,7 +22,7 @@ public class BattleAttackAnimator : MonoBehaviour
 
     public int timestampID;
 
-
+    public float successTime = 0f;
 
     public void AccuracySet(int ammount) { 
        this.accuracy = ammount; 
@@ -31,13 +32,15 @@ public class BattleAttackAnimator : MonoBehaviour
         this.canTime = true;
         this.timedCorrectly = false;
     }
-
+    public void SetTimingSuccess(float time) {
+        successTime = time;
+    }
     public void TimestampStop(int id) {
         Debug.Log("RANKINGID | " + Global.rankingID.ToString());
         if (this.timedCorrectly)
         {
             if (this.player == null && this.target == null) return;
-            
+           
 
         }
         else {
@@ -87,10 +90,11 @@ public class BattleAttackAnimator : MonoBehaviour
             currentTrack++;
 
             this.timedCorrectly = true;
+           
 
             if (currentTrack >= numberOfTracks)
             {
-             
+                
             }
             else {
                 if (this.target.stats.HEALTH.currentValue - BattleUtils.DamageGet(this.player, this.target) <= 0)
@@ -98,8 +102,8 @@ public class BattleAttackAnimator : MonoBehaviour
                     BattleManagerNumbers.instance.Hurt(BattleUtils.DamageGet(this.player, this.target), this.target);
                     anim.Play("DeadSuccess", 0, 0f);
                 }
-                
-               
+                anim.Play(animationtarget, 0, successTime);
+
             }
         
             Global.rankingID += accuracy;

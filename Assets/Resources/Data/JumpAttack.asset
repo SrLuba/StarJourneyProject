@@ -23,3 +23,8 @@ MonoBehaviour:
     positionOffset: {x: -6.5, y: 0}
     attack: {fileID: 4701789039018225966, guid: 91132f8a1615c2a45a904b2b1e0d2818,
       type: 3}
+  - linkedActor: bjr
+    offset: {x: -6.5, y: 8.5, z: 0}
+    positionOffset: {x: -6.5, y: 0}
+    attack: {fileID: 4701789039018225966, guid: 91132f8a1615c2a45a904b2b1e0d2818,
+      type: 3}

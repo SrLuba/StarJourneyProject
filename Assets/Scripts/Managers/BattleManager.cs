@@ -1,9 +1,11 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
-using Unity.VisualScripting;
+
+using System.Runtime.InteropServices;
+
 using UnityEngine;
 using UnityEngine.InputSystem;
-using UnityEngine.TextCore.Text;
+
 using UnityEngine.UI;
 [System.Serializable]public class PlayerBattleActor {
     public NumberDisplayer hp, tp;
@@ -78,12 +80,77 @@ public class BattleManager : MonoBehaviour
     public Camera mainCam;
 
     public bool victory = false;
+    public bool testing = true;
+    public ActorSpawnLimitationInformation defaultEnemySpawnInformation;
 
+    public string getTeamString() {
+        string tString = "";
+
+        foreach (BattleActorSO actor in playerActors)
+        {
+            tString+=actor.getString().ToUpper();
+        }
+        Debug.Log("Attempt to get team string : " + tString);
+        return tString;
+    }
+    public string getBattleExt() {
+        OpenFileName ofn = new OpenFileName();
+        ofn.structSize = Marshal.SizeOf(ofn);
+        ofn.filter = "All Files\0*.*\0\0";
+        ofn.file = new string(new char[256]);
+        ofn.maxFile = ofn.file.Length;
+        ofn.fileTitle = new string(new char[64]);
+        ofn.maxFileTitle = ofn.fileTitle.Length;
+        ofn.initialDir = UnityEngine.Application.dataPath;//默认路径
+        ofn.title = "Open Battle (.ini)";
+        ofn.defExt = "INI";//显示文件的类型
+                           //注意 一下项目不一定要全选 但是0x00000008项不要缺少
+        ofn.flags = 0x00080000 | 0x00001000 | 0x00000800 | 0x00000200 | 0x00000008;//OFN_EXPLORER|OFN_FILEMUSTEXIST|OFN_PATHMUSTEXIST| OFN_ALLOWMULTISELECT|OFN_NOCHANGEDIR
+        if (DllTest.GetOpenFileName(ofn))
+        {
+            return ofn.file;
+        }
+        return Application.dataPath + "/../Data/defaultBattle.ini";
+    }
+
+    public void LoadBattleAndParse() {
+
+
+        string[] fileLines = System.IO.File.ReadAllLines(getBattleExt());
+
+        if (fileLines == null) return;
+
+
+        StaticManager.instance.game.currentPlayers.Clear();
+
+        string[] players = fileLines[1].Split('|');
+
+        for (int i = 0; i < players.Length; i++) {
+            ActorSO p = StaticManager.instance.game.players.Find(x => x.identifier.ToUpper() == players[i].ToUpper());
+            StaticManager.instance.game.currentPlayers.Add(players[i]);
+        }
+
+
+        BattleSO b = Instantiate(assignedBattle);
+        b.enemies.Clear();
+
+        for (int i = 3; i < fileLines.Length; i++) {
+            EnemyInformationB info = new EnemyInformationB();
+
+            info.id = fileLines[i].Split('|')[0]; Debug.Log("enemy id : " + info.id);
+            info.charaCount = int.Parse(fileLines[i].Split('|')[1]); Debug.Log("enemy count : " + info.charaCount.ToString());
+            info.spawnInfo = this.defaultEnemySpawnInformation;
+            b.enemies.Add(info);
+        }
+
+        this.assignedBattle = b;
+    }
     
 
     void Awake()
     {
-        instance = this;    
+        instance = this; 
+        LoadBattleAndParse();
     }
     public bool CheckForDefeat()
     {
@@ -98,18 +165,18 @@ public class BattleManager : MonoBehaviour
   
     public IEnumerator Win() {
         victory = true;
-        uiSelector.active = false;
-        MusicManager.instance.StopAll();
-        yield return new WaitForSeconds(1f);
-        MusicManager.instance.PlayClip(victoryMusic, true);
-        Instantiate(victoryObject, new Vector3(victoryObjectOffset.x, victoryObjectOffset.y, victoryObjectOffset.z), Quaternion.identity).transform.eulerAngles = new Vector3(0f, 90f, 0f);
-        Battle_Camera.instance.gameObject.SetActive(false);
+        CinematicManager.instance.blackLines = false;
 
-        this.gameObject.AddComponent<AudioListener>();
+        yield return MusicManager.instance.FadePlay(victoryMusic, 6f, 1f);
 
         for (int i = 0; i < playerActors.Count; i++) {
-            Destroy(playerActors[i].getInstance());
+            if (playerActors[i].dead) continue;
+            yield return playerActors[i].getInstance().GetComponent<GenericBActor>().WinCelebration();
         }
+
+        uiSelector.active = false;
+        CinematicManager.instance.blackLines = true;
+        bgAlpha = .75f;
         this.enabled = false;
     }
     bool canWin = false;
@@ -127,7 +194,8 @@ public class BattleManager : MonoBehaviour
         charactersList.Sort((x, y) => x.stats.SPEED.startValue.CompareTo(y.stats.SPEED.startValue));
         charactersList.Reverse();
 
-        for (int i = 0; i < charactersList.Count; i++) {
+        for (int i = 0; i < charactersList.Count; i++)
+        {
             if (charactersList[i].dead) charactersList.Remove(charactersList[i]);
         }
 
@@ -242,13 +310,13 @@ public class BattleManager : MonoBehaviour
             {
                 select++;// Needs work, but just adds the current selection by one
                 targetIcon.GetComponent<Animator>().Play("Select", 0, 0f); // We play the select animation on the target icon/indicator.
-                SoundManager.instance.Play(uiMoveSFX); // playing the sound
+                SoundManager.instance.Play("ui_battle_general|player_selection_move", false); // playing the sound
             }
             if (InputManager.instance.engine.getPressed("LEFT")) // we check if the player has pressed the left button.
             {
                 select--; // Needs work, but just substracts the current selection
                 targetIcon.GetComponent<Animator>().Play("Select", 0, 0f); // We play the select animation on the target icon/indicator.
-                SoundManager.instance.Play(uiMoveSFX);// playing the sound
+                SoundManager.instance.Play("ui_battle_general|player_selection_move", false); // playing the sound
             }
 
             if (select >= enemyActors.Count)
@@ -266,7 +334,7 @@ public class BattleManager : MonoBehaviour
                 cChara.getInstance().GetComponent<GenericBActor>().animationInterrupt = false; // disabling animation interrupt
                 cChara.getInstance().GetComponent<GenericBActor>().animator.Play("Prepare"); // this can be erased, has no purpose. was meant to be a prepare animation before starting to walk towards the enemy
 
-                SoundManager.instance.Play(uiAcceptSFX); // Accept SFX
+                SoundManager.instance.Play("ui_battle_general|player_selection_accept", false); // playing the sound
                 CinematicManager.instance.blackLines = false; // Disables cinematic black lines
                 yield return PlayerAction(cChara, attack, action); // we wait until the action is perform.
                 yield break;
@@ -285,8 +353,21 @@ public class BattleManager : MonoBehaviour
         targetIcon.gameObject.SetActive(false);
         canBPM = false;
         uiSelector.active = false;
-        this.target = playerActors[Random.Range(0, playerActors.Count - 1)].getInstance().GetComponent<GenericBActor>();
 
+        List<BattleActorSO> playerListT = new List<BattleActorSO>(playerActors);
+        
+        // update on AI Targetting, removing dead players!
+        for (int i = 0; i < playerListT.Count; i++) {
+            if (playerListT[i].dead) playerListT.RemoveAt(i);
+        }
+        int RNG = Random.Range(0, playerListT.Count);
+        Debug.Log("<color=yellow> ENEMY TARGETTING | RNG WAS - " + RNG.ToString() + " - AND PLAYER COUNT IS : " + playerListT.Count.ToString() + "</color>");
+        if (RNG > playerListT.Count - 1) RNG = playerListT.Count-1;
+        this.target = playerListT[RNG].getInstance().GetComponent<GenericBActor>();
+        Debug.Log("<color=yellow> ENEMY TARGETTING | RNG WAS - "+ RNG.ToString() + " - AND PLAYER COUNT IS : "+playerListT.Count.ToString()+"</color>");
+
+
+       
         Battle_Camera.instance.target = null;
         BattleUI_Commands.instance.Update_Player_UI(cChara.getInstance().GetComponent<GenericBActor>().tempAttackID);
 
@@ -302,6 +383,8 @@ public class BattleManager : MonoBehaviour
 
         target.attendingAttack = true;
         target.linkedAttendingAttackPoint = g.transform.GetChild(1).transform;
+
+        g.transform.GetChild(0).GetComponent<Battle_Enemy_Attack>().self = cChara;
    
 
         while (g != null)
@@ -350,8 +433,10 @@ public class BattleManager : MonoBehaviour
 
         turn = characterTurnList[0];
 
+        if (turn.dead) return 0x00; // 0 = END OF CYCLE IF DEAD
 
-     
+
+
         UpdateVictory();
 
         if (turn.linkedActor.myType == ActorType.Player)
@@ -391,7 +476,7 @@ public class BattleManager : MonoBehaviour
        transitionAnim.Play("Transition_Off_"+ assignedBattle.enteringCase.ToString() + "_" + (StaticManager.instance.company ? "Company" : "Solo" ) + "_"+StaticManager.instance.battleAdvantageCase.ToString() + "_" + (StaticManager.instance.marioAhead ? "M" : "L"));
     }
     public Vector2 getPlayerPos(int id, string identifier) {
-        int playerID = StaticManager.instance.game.players.FindIndex(x => x.identifier == identifier);
+        int playerID = StaticManager.instance.game.players.FindIndex(x => x.identifier.ToUpper() == identifier.ToUpper());
         if (playerID < 0) return Vector2.zero;
 
         return StaticManager.instance.game.Battle_GetPosition_Arragement_Player(this.assignedBattle)[playerID];
@@ -478,7 +563,8 @@ public class BattleManager : MonoBehaviour
     }
     private void Update()
     {
-        if (Keyboard.current.oKey.wasPressedThisFrame) { StartCoroutine(InitializeTurnRound()); Debug.Log("<color=red>Battle Manager</color> | DEBUG Turn Cycle"); }
+
+        //if (Keyboard.current.oKey.wasPressedThisFrame) { StartCoroutine(InitializeTurnRound()); Debug.Log("<color=red>Battle Manager</color> | DEBUG Turn Cycle"); }
         if (battleCounter > 0f)
         {
             battleCounter -= Time.deltaTime;

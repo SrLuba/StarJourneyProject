@@ -5,7 +5,7 @@ using UnityEngine;
 [System.Serializable]
 public class Ranking {
     public string name = "OK";
-    public AudioClip sound;
+    public string soundExpression;
     public GameObject Prefab;
     public GameObject PrefabBG;
     public Sprite assignedSprite;

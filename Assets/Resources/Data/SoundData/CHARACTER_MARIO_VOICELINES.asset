@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e95ea7e7e263a9c4782360bd596d52ea, type: 3}
+  m_Name: CHARACTER_MARIO_VOICELINES
+  m_EditorClassIdentifier: 
+  packages:
+  - identifier: HURT
+    clipList:
+    - {fileID: 8300000, guid: 03b0fd20d01009b489ea07426565b4f2, type: 3}
+    - {fileID: 8300000, guid: d3fcb2e42dfe26d4b8811fa85ea65a46, type: 3}
+    - {fileID: 8300000, guid: 86540953a13caa24daaf431e58917d11, type: 3}
+    - {fileID: 8300000, guid: 06fc885d84cfe3849bebaaa6e2a20673, type: 3}
+    - {fileID: 8300000, guid: 3ff88345d2dfafd44bf162a272676e94, type: 3}
+    - {fileID: 8300000, guid: 7c9152120d0964f428a7e3e3fedb0f91, type: 3}
+  - identifier: DIE
+    clipList:
+    - {fileID: 8300000, guid: 00922b5cdbd950444a874c7dd3668253, type: 3}
+    - {fileID: 8300000, guid: e643fc175068d7845a327e78d23bbeda, type: 3}
+    - {fileID: 8300000, guid: 2a42130ea2dea98459d5809bf40a3036, type: 3}
+    - {fileID: 8300000, guid: e267fd0392d6ddf40af8d8b8d4208471, type: 3}
+  - identifier: WIN
+    clipList:
+    - {fileID: 8300000, guid: 2e96aae832c2c2d4db6b4b5aba9c431a, type: 3}
+  defaultClip: {fileID: 8300000, guid: 8debea9a83a4fef42b17b652c5d32699, type: 3}

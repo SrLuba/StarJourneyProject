@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e95ea7e7e263a9c4782360bd596d52ea, type: 3}
+  m_Name: RANKING
+  m_EditorClassIdentifier: 
+  packages:
+  - identifier: OK
+    clipList:
+    - {fileID: 8300000, guid: 3271208c390c8ee4395a0ce07dbf6a4d, type: 3}
+  - identifier: GOOD
+    clipList:
+    - {fileID: 8300000, guid: 48a38f5ea74d45349a066d2001d019e0, type: 3}
+  - identifier: GREAT
+    clipList:
+    - {fileID: 8300000, guid: cbde3a48917c1ad438aa11736a005c38, type: 3}
+  - identifier: EXCELLENT
+    clipList:
+    - {fileID: 8300000, guid: 8c7b3a33f7eb505448bd55425753519a, type: 3}
+  defaultClip: {fileID: 8300000, guid: f34b056d64683914eb1d9b84aaf35417, type: 3}

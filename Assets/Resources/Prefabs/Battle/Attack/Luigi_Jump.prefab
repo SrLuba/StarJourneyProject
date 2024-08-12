@@ -1072,6 +1072,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   anim: {fileID: 8686707382921700521}
+  animationtarget: Attack
   currentTrack: 0
   numberOfTracks: 2
   accuracy: 0
@@ -1081,9 +1082,7 @@ MonoBehaviour:
   player: {fileID: 0}
   target: {fileID: 0}
   timestampID: 0
-  successTimes:
-  - 0.3
-  - 1.22
+  successTime: 0
 --- !u!1 &4734422143380729650
 GameObject:
   m_ObjectHideFlags: 0

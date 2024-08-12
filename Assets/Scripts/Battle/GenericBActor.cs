@@ -47,7 +47,7 @@ public class GenericBActor : MonoBehaviour
     public bool animationInterrupt = false;
 
     public bool canJump = true;
-
+    public bool stunned = false;
     public int tempAttackID = 0;
 
     public DefenseType currentPlayerDefense;
@@ -55,12 +55,23 @@ public class GenericBActor : MonoBehaviour
     public Emotion currentEmotion;
     public StatusBattleActor status = StatusBattleActor.Idle;
 
+    public bool win;
     public bool attendingAttack = false;
     public Transform linkedAttendingAttackPoint;
 
     int randomizedNumber = 0;
 
     int index = 0;
+
+    public IEnumerator WinCelebration() {
+        win = true;
+        SoundManager.instance.PlayVoiceLine(this.self.linkedActor.identifier, "Win");
+        yield return new WaitForSeconds(.5f);
+    }
+    public IEnumerator StartTurn()
+    {
+        yield return new WaitForSeconds(1f);
+    }
     public void ShuffleAnimations() { randomizedNumber = Random.Range(0, 2); animator.SetFloat("Random", (float)randomizedNumber); }
     void Start()
     {
@@ -125,25 +136,32 @@ public class GenericBActor : MonoBehaviour
         yield return new WaitForSeconds(0.1f);
         animationInterrupt = true;
         this.PlayAnim(false, "Die");
-        SoundManager.instance.Play(this.self.dieVoiceClip);
+        SoundManager.instance.PlayVoiceLine(this.self.linkedActor.identifier, "DIE");
 
         BattleManager.instance.bActors.Remove(self);
-        if (this.self.linkedActor.myType == ActorType.Enemy) {
+
+        if (this.self.linkedActor.myType == ActorType.Enemy)
+        {
             BattleManager.instance.enemyActors.Remove(self);
         }
 
-
         yield return new WaitForSeconds(animator.GetCurrentAnimatorClipInfo(0)[0].clip.length);
-        this.enabled = false;
+  
     }
     public IEnumerator Hurt(float force) {
         if (!this.self.dead) { 
             animationInterrupt = true;
             this.PlayAnimForce(false, "Hurt");
 
-            yield return Stun(force);
+            if (this.self.linkedActor.myType == ActorType.Player) SoundManager.instance.PlayVoiceLine(this.self.linkedActor.identifier, "hurt");
 
+            yield return Stun(force);
             animationInterrupt = false;
+            if (self.stats.HEALTH.currentValue <= 0 && !this.self.dead) { 
+                this.self.dead = true;
+                yield return Die(); 
+            }
+            
         }
     }
     public void SetOnFloor() {
@@ -176,7 +194,7 @@ public class GenericBActor : MonoBehaviour
     }
 
     public IEnumerator Stun(float verticalForce) {
-       
+        this.stunned = true;
         int bounces = 5;
 
         float force = verticalForce;
@@ -196,12 +214,12 @@ public class GenericBActor : MonoBehaviour
             yield return new WaitForSeconds(0.01f);
         }
         animationInterrupt = true;
-
+        this.stunned = false;
     }
     public void Jump() {
         if (!canJump) return;
         rb.velocity = new Vector3(rb.velocity.x, self.jumpForce, rb.velocity.z);
-        SoundManager.instance.Play(self.linkedActor.OVActor.jumpSFX);
+        SoundManager.instance.Play("general|jump", false);
     }
     public bool sidePlayInterrupt = false;
 
@@ -243,7 +261,7 @@ public class GenericBActor : MonoBehaviour
         hammerlift = true;
         animationInterrupt = true;
         this.PlayAnim(false, "HammerLift");
-        SoundManager.instance.Play(BattleManager.instance.liftHammerSFX);
+        SoundManager.instance.Play("ui_battle_general|player_hammer_lift", false); // playing the sound
         yield return new WaitForSeconds(0.1f);
 
         strengthTimer = this.self.getHammerStrength();
@@ -256,7 +274,7 @@ public class GenericBActor : MonoBehaviour
 
         yield return new WaitForSeconds(0.1f);
         this.PlayAnim(false, "HammerReleas" + (string)((strengthLoose) ? "LOSE" : "e"));
-        SoundManager.instance.Play(BattleManager.instance.releaseHammerSFX);
+        SoundManager.instance.Play("ui_battle_general|player_hammer_release", false); // playing the sound
         hammerlift = false;
         yield return new WaitForSeconds(0.5f);
         animationInterrupt = false;
@@ -277,7 +295,19 @@ public class GenericBActor : MonoBehaviour
     public void UpdateAnimation()
     {
         if (this.self.linkedActor.myType == ActorType.Enemy) return;
-            if (this.self.dead || animationInterrupt) return;
+            if (win || animationInterrupt) return;
+
+        if (this.self.dead) {
+            if (!Grounded)
+            {
+                this.PlayAnim(false, "Dead_Air");
+            }
+            else
+            {
+                this.PlayAnim(false, "Dead_Floor");
+            }
+            return;
+        }
 
         if (status == StatusBattleActor.Idle || (status == StatusBattleActor.None))
         {
@@ -342,8 +372,16 @@ public class GenericBActor : MonoBehaviour
         this.transform.position = ogPos;
         this.transform.eulerAngles = new Vector3(0f, 0f, 0f);
     }
+
     public void Update()
     {
+        if (this.self.dead) return;
+
+        if (this.self.linkedActor.myType == ActorType.Player && this.win) {
+            this.animator.Play("Win_"+BattleManager.instance.getTeamString());
+            return;
+        }
+
         AttendAttackUpdate();
         UpdateGrounded();
 
@@ -379,13 +417,23 @@ public class GenericBActor : MonoBehaviour
         }
         rb.velocity = new Vector3(rb.velocity.x, Mathf.Clamp(rb.velocity.y, this.self.maxVerticalSpeed.x, this.self.maxVerticalSpeed.y), rb.velocity.z);
 
-        if (self.stats.HEALTH.currentValue <= 0 && !this.self.dead) { this.self.dead = true; StartCoroutine(Die()); }
+     
     }
 
     public void OnTriggerEnter(Collider other)
     {
         if (other.tag == "Enemy" && (self.linkedActor.myType == ActorType.Player)) {
-            BattleManagerNumbers.instance.Hurt(2, other.GetComponent<Battle_Enemy_Attack>().self,  this.self);
+            Battle_Enemy_Attack atk = other.GetComponent<Battle_Enemy_Attack>();
+            if (rb.velocity.y >= 0f)
+            {
+                if (!atk.counterAttack)
+                {
+                    BattleManagerNumbers.instance.Hurt(2, atk.self, this.self);
+                }
+            }
+            else {
+                atk.CounterAttack(this);
+            }
         }
     }
     void FixedUpdate()

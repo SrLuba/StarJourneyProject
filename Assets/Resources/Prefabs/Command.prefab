@@ -87,6 +87,7 @@ MonoBehaviour:
   position:
   - {x: -618, y: -35}
   - {x: -530, y: 67}
+  - {x: -482, y: 0}
 --- !u!1 &3406228422853152523
 GameObject:
   m_ObjectHideFlags: 0

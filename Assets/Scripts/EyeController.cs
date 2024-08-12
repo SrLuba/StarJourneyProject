@@ -15,9 +15,11 @@ public class EyeController : MonoBehaviour
     public bool sizeOverride;
     public float sizeFactor;
     public float sizeSpeed;
+
+    public float boundingBoxSize;
     public void Update()
     {
-        handle.localPosition = new Vector3(Mathf.Clamp(handle.localPosition.x, -1f, 1f), Mathf.Clamp(handle.localPosition.y, -1f, 1f), Mathf.Clamp(handle.localPosition.z, -1f, 1f));
+        handle.localPosition = new Vector3(Mathf.Clamp(handle.localPosition.x, -1f,1f), Mathf.Clamp(handle.localPosition.y, -1f, 1f), Mathf.Clamp(handle.localPosition.z, -1f, 1f));
 
         
         float randX = Random.Range(-1f, 1f);
@@ -29,7 +31,7 @@ public class EyeController : MonoBehaviour
         if (!randomize) {
             offset = new Vector2(0f, 0f);
         }
-        mat.SetTextureOffset("_BaseMap", new Vector2((handle.localPosition.x * 0.2f) + offset.x, (handle.localPosition.y * -0.2f) + offset.y));
+        mat.SetTextureOffset("_BaseMap", new Vector2(handle.localPosition.x*boundingBoxSize, handle.localPosition.y * boundingBoxSize));
 
         if (sizeOverride)
         {

@@ -16,10 +16,26 @@ public class MusicManager : MonoBehaviour
     public bool enableBPM = true;
 
     public float timerBPM;
-
+    public float currentVolume = 1f;
 
     public void ResetBPM() {
         timerBPM = 0f;
+    }
+
+    public IEnumerator FadePlay(MusicSO mso, float speed, float wait) {
+        while (currentVolume > 0f)
+        {
+            currentVolume = Mathf.MoveTowards(currentVolume, 0f, speed * Time.deltaTime);
+            yield return new WaitForSeconds(0f);
+        }
+        currentVolume = 0f;
+        yield return new WaitForSeconds(wait);
+        this.PlayClip(mso, true);
+        while (currentVolume < 1f)
+        {
+            currentVolume = Mathf.MoveTowards(currentVolume, 1f, speed * Time.deltaTime);
+            yield return new WaitForSeconds(0f);
+        }
     }
     /*
     Void BEAT()
@@ -28,7 +44,7 @@ public class MusicManager : MonoBehaviour
     public void Beat() {
        
         if (!enableBPM) return;
-        if (debugBPM) { SoundManager.instance.Play(this.BPMTick); } // We play the usual tempo tick sound to test bpm the right way
+        if (debugBPM) { SoundManager.instance.Play("debug|tick", false); } // We play the usual tempo tick sound to test bpm the right way
         ResetBPM();
 
 
@@ -69,6 +85,8 @@ public class MusicManager : MonoBehaviour
             this.UpdateBeat();
             myMusic.CheckForLoop(mainSource, 0); 
         }
+
+        this.mainSource.volume = currentVolume;
     }
     public void Start()
     {

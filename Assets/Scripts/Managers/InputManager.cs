@@ -57,6 +57,9 @@ public class InputManager : MonoBehaviour
         }
         engine.Update(); // Engine Update
 
+
+      
+
         leftStick = engine.getAxis(engine.getInputBinding("MOVE"));
         rightStick = engine.getAxis(engine.getInputBinding("CAMERA"));
 
